@@ -2,12 +2,14 @@
   "programs": [
     {
       "name": "Uber",
+      "url": "https://hackerone.com/uber",
       "domains": [
         "uber.com"
       ]
     },
     {
       "name": "Roblox",
+      "url": "https://hackerone.com/roblox",
       "domains": [
         "roblox.com",
         "rbx.com"
@@ -15,6 +17,7 @@
     },
     {
       "name": "Verizonmedia",
+      "url": "https://hackerone.com/verizonmedia",
       "domains": [
         "yahoo.com",
         "rivals.com",
@@ -60,14 +63,15 @@
     },
     {
       "name": "Zomato",
+      "url": "https://hackerone.com/zomato",
       "domains": [
         "zomato.com",
         "zdev.net"
       ]
     },
-
     {
       "name": "Ford",
+      "url": "https://hackerone.com/ford",
       "domains": [
         "ford.com",
         "lincoln.com",
@@ -76,19 +80,18 @@
         "omnicraftautoparts.com"
       ]
     },
-
     {
       "name": "Google",
+      "url": "https://www.google.com/about/appsecurity/reward-program/",
       "domains": [
         "google.com",
         "youtube.com",
         "blogger.com"
       ]
     },
-
-
     {
       "name": "Airbnb",
+      "url": "https://hackerone.com/airbnb",
       "domains": [
         "airbnb.com",
         "airbnbcitizen.com",
@@ -100,10 +103,9 @@
         "luxuryretreats.com"
       ]
     },
-
-
     {
       "name": "Twitter",
+      "url": "https://hackerone.com/twitter",
       "domains": [
         "twitter.com",
         "vine.co",
@@ -117,9 +119,9 @@
         "niche.co"
       ]
     },
-
     {
       "name": "PayPal",
+      "url": "https://hackerone.com/paypal",
       "domains": [
         "paypal.com",
         "xoom.com",
@@ -129,12 +131,11 @@
         "braintreepayments.com",
         "braintree-api.com",
         "braintree.tools"
-
       ]
     },
-
     {
       "name": "Facebook",
+      "url": "https://www.facebook.com/whitehat",
       "domains": [
         "facebook.com",
         "fb.com",
@@ -148,8 +149,6 @@
         "oculus.com",
         "whatsapp.com",
         "whatsapp.net"
-
-
       ]
     }
   ]
