@@ -66,6 +66,16 @@
       ]
     },
 
+    {
+      "name": "Ford",
+      "domains": [
+        "ford.com",
+        "lincoln.com",
+        "quicklane.com",
+        "motorcraft.com",
+        "omnicraftautoparts.com"
+      ]
+    },
 
     {
       "name": "Google",
