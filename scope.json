@@ -1,0 +1,146 @@
+{
+  "programs": [
+    {
+      "name": "Uber",
+      "domains": [
+        "uber.com"
+      ]
+    },
+    {
+      "name": "Roblox",
+      "domains": [
+        "roblox.com",
+        "rbx.com"
+      ]
+    },
+    {
+      "name": "Verizonmedia",
+      "domains": [
+        "yahoo.com",
+        "rivals.com",
+        "protrade.com",
+        "techcrunch.com",
+        "engadget.com",
+        "buildseries.com",
+        "makers.com",
+        "huffingtonpost.com",
+        "huffpost.com",
+        "huffpost.net",
+        "huffingtonpost.co.uk",
+        "huffingtonpost.ca",
+        "huffingtonpost.es",
+        "huffingtonpost.fr",
+        "huffingtonpost.gr",
+        "huffingtonpost.in",
+        "huffingtonpost.it",
+        "huffingtonpost.jp",
+        "huffingtonpost.kr",
+        "huffingtonpost.com.au",
+        "huffingtonpost.co.za",
+        "huffpostbrasil.com",
+        "huffpostmaghreb.com",
+        "huffpost.co.uk",
+        "huffpost.ca",
+        "huffpost.es",
+        "huffpost.fr",
+        "huffpost.gr",
+        "huffpost.in",
+        "huffpost.it",
+        "huffpost.jp",
+        "huffpost.kr",
+        "huffpost.com.au",
+        "huffpost.co.za",
+        "huffingtonpost.de",
+        "huffingtonpost.com.mx",
+        "huffpost.de",
+        "huffpost.com.mx",
+        "huffpostarabi.com",
+        "huffpo.net"
+      ]
+    },
+    {
+      "name": "Zomato",
+      "domains": [
+        "zomato.com",
+        "zdev.net"
+      ]
+    },
+
+
+    {
+      "name": "Google",
+      "domains": [
+        "google.com",
+        "youtube.com",
+        "blogger.com"
+      ]
+    },
+
+
+    {
+      "name": "Airbnb",
+      "domains": [
+        "airbnb.com",
+        "airbnbcitizen.com",
+        "withairbnb.com",
+        "byairbnb.com",
+        "muscache.com",
+        "airbnb-aws.com",
+        "hoteltonight-test.com",
+        "luxuryretreats.com"
+      ]
+    },
+
+
+    {
+      "name": "Twitter",
+      "domains": [
+        "twitter.com",
+        "vine.co",
+        "periscope.tv",
+        "pscp.tv",
+        "twimg.com",
+        "gnip.com",
+        "mopub.com",
+        "snappytv.com",
+        "twitterflightschool.com",
+        "niche.co"
+      ]
+    },
+
+    {
+      "name": "PayPal",
+      "domains": [
+        "paypal.com",
+        "xoom.com",
+        "braintreegateway.com",
+        "paydiant.com",
+        "venmo.com",
+        "braintreepayments.com",
+        "braintree-api.com",
+        "braintree.tools"
+
+      ]
+    },
+
+    {
+      "name": "Facebook",
+      "domains": [
+        "facebook.com",
+        "fb.com",
+        "fb.me",
+        "messenger.com",
+        "thefacebook.com",
+        "accountkit.com",
+        "instagram.com",
+        "freebasics.com",
+        "internet.org",
+        "oculus.com",
+        "whatsapp.com",
+        "whatsapp.net"
+
+
+      ]
+    }
+  ]
+}
