@@ -7,12 +7,25 @@
         "uber.com"
       ]
     },
+
     {
-      "name": "Roblox",
-      "url": "https://hackerone.com/roblox",
+      "name": "Vimeo",
+      "url": "https://hackerone.com/vimeo",
       "domains": [
-        "roblox.com",
-        "rbx.com"
+        "vimeo.com",
+        "livestream.com",
+        "magisto.com"
+      ]
+    },
+
+    {
+      "name": "Tesla",
+      "url": "https://bugcrowd.com/tesla",
+      "domains": [
+        "tesla.com",
+        "teslamotors.com",
+        "tesla.services",
+        "tesla.cn"
       ]
     },
     {
@@ -78,6 +91,15 @@
         "quicklane.com",
         "motorcraft.com",
         "omnicraftautoparts.com"
+      ]
+    },
+
+    {
+      "name": "Roblox",
+      "url": "https://hackerone.com/roblox",
+      "domains": [
+        "roblox.com",
+        "rbx.com"
       ]
     },
     {
