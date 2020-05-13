@@ -173,5 +173,16 @@
         "whatsapp.net"
       ]
     }
+    ,
+    {
+      "name": "Cloudflare",
+      "url": "https://hackerone.com/cloudflare",
+      "domains": [
+        "cloudflare.com",
+        "cloudflare.net",
+        "cloudflareworkers.com",
+        "cloudflareaccess.com"
+      ]
+    }
   ]
 }
