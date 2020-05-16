@@ -183,6 +183,127 @@
         "cloudflareworkers.com",
         "cloudflareaccess.com"
       ]
+    },
+    {
+      "name": "Ubiquiti",
+      "url": "https://hackerone.com/ui",
+      "domains": [
+        "ubnt.com",
+		"ui.com"
+      ]
+    },
+    {
+      "name": "Rockstargames",
+      "url": "https://hackerone.com/rockstargames",
+      "domains": [
+        "rockstargames.com"
+      ]
+    },
+    {
+      "name": "Spotify",
+      "url": "https://hackerone.com/spotify",
+      "domains": [
+        "spotify.com",
+		"spotify.net",
+		"spotifyforbrands.com"
+      ]
+    },
+    {
+      "name": "Line",
+      "url": "https://hackerone.com/line",
+      "domains": [
+        "line.me",
+		"line-apps.com",
+		"line.naver.jp"
+      ]
+    },
+    {
+      "name": "Takeaway",
+      "url": "https://bugcrowd.com/takeaway",
+      "domains": [
+        "lieferando.de",
+		"yourdelivery.de",
+		"takeaway.com",
+		"thuisbezorgd.nl",
+		"pyszne.pl",
+		"lieferando.at",
+		"scoober.com",
+		"scoober.com"
+      ]
+    },
+    {
+      "name": "Seek",
+      "url": "https://bugcrowd.com/seek",
+      "domains": [
+        "seek.com.au",
+		"seek.com",
+		"skinfra.xyz",
+		"myseek.xyz",
+		"outfra.xyz",
+		"sol-data.com",
+		"jobapi.net",
+		"jobapi.net",
+		"certsy.com",
+		"certsynonprod.com",
+		"aips-internal.com",
+		"aips-services.com"
+      ]
+    },
+    {
+      "name": "Pinterest",
+      "url": "https://bugcrowd.com/pinterest",
+      "domains": [
+        "pinterest.com"
+      ]
+    },
+    {
+      "name": "Upwork",
+      "url": "https://bugcrowd.com/upwork",
+      "domains": [
+        "upwork.com"
+      ]
+    },
+    {
+      "name": "Twilio",
+      "url": "https://bugcrowd.com/twilio",
+      "domains": [
+        "authy.com",
+		"twilio.com"
+      ]
+    },
+    {
+      "name": "Netflix",
+      "url": "https://bugcrowd.com/netflix",
+      "domains": [
+        "nflxvideo.net",
+		"nflxext.com",
+		"nflximg.net",
+		"nflxso.net",
+		"netflix.com"
+      ]
+    },
+    {
+      "name": "Etsy",
+      "url": "https://bugcrowd.com/etsy",
+      "domains": [
+        "etsy.com"
+      ]
+    },
+    {
+      "name": "Square",
+      "url": "https://bugcrowd.com/square",
+      "domains": [
+        "square.com",
+		"squareup.com",
+		"cash.me"
+      ]
+    },
+    {
+      "name": "Indeed",
+      "url": "https://bugcrowd.com/indeed",
+      "domains": [
+        "indeed.com"
+      ]
     }
   ]
 }
