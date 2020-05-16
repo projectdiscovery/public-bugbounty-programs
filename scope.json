@@ -202,5 +202,30 @@
         "alimama.com"
       ]
     }
+{
+      "name": "Oppo",
+      "url": "https://security.oppo.com/en/noticedetails.html?noticeId=20201578399519447",
+      "url": "https://security.oppo.com/en/noticedetails.html?noticeId=20191561429342835",
+      "domains": [
+        "oppo.com",
+        "oppo.cn",
+        "myoppo.com",
+        "opposhop.cn",
+        "coloros.com",
+        "nearme.com.cn",
+        "oppomobile.com",
+        "oppofind.com",
+        "myoas.com",
+        "heytap.com",
+        "heytapmobi.com",
+        "realme.com",
+        "realme.net",
+        "oppopay.com",
+        "keke.cn",
+        "myoas.com",
+        "oppoer.me",
+        "wanyol.com"
+      ]
+    }
   ]
 }
