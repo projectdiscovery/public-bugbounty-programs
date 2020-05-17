@@ -349,5 +349,13 @@
         "wanyol.com"
       ]
     }
+    ,
+    {
+      "name": "IBM",
+      "url": "https://hackerone.com/ibm",
+      "domains": [
+        "ibm.com"
+      ]
+    }
   ]
 }
