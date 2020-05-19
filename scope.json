@@ -357,5 +357,30 @@
         "ibm.com"
       ]
     }
+    ,
+    {
+      "name": "HUAWEI",
+      "url": "https://bugbounty.huawei.com/hbp/#/program",
+      "domains": [
+        "hicloud.com",
+	"vmall.com",
+	"appstore.huawei.com",
+	"developer.huawei.com",
+	"bugbounty.huawei.com",
+	"huaweicloud.com"
+      ]
+    }
+    ,
+    {
+      "name": "DIDI",
+      "url": "https://sec.didichuxing.com",
+      "domains": [
+        "didichuxing.com",
+	"xiaojukeji.com",
+	"didiglobal.com",
+	"udache.com",
+	"didiyun.com"
+      ]
+    }
   ]
 }
