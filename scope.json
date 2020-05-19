@@ -364,9 +364,7 @@
       "domains": [
         "hicloud.com",
 	"vmall.com",
-	"appstore.huawei.com",
-	"developer.huawei.com",
-	"bugbounty.huawei.com",
+	"huawei.com",
 	"huaweicloud.com"
       ]
     }
