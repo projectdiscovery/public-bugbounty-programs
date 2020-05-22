@@ -214,7 +214,7 @@
       "domains": [
         "line.me",
 		"line-apps.com",
-		"line.naver.jp"
+		"naver.jp"
       ]
     },
     {
@@ -359,7 +359,7 @@
     }
     ,
     {
-      "name": "HUAWEI",
+      "name": "Huawei",
       "url": "https://bugbounty.huawei.com/hbp/#/program",
       "domains": [
         "hicloud.com",
@@ -370,7 +370,7 @@
     }
     ,
     {
-      "name": "DIDI",
+      "name": "Didi",
       "url": "https://sec.didichuxing.com",
       "domains": [
         "didichuxing.com",
