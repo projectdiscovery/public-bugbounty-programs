@@ -221,13 +221,12 @@
       "name": "Takeaway",
       "url": "https://bugcrowd.com/takeaway",
       "domains": [
-        "lieferando.de",
+        	"lieferando.de",
 		"yourdelivery.de",
 		"takeaway.com",
 		"thuisbezorgd.nl",
 		"pyszne.pl",
 		"lieferando.at",
-		"scoober.com",
 		"scoober.com"
       ]
     },
@@ -241,7 +240,6 @@
 		"myseek.xyz",
 		"outfra.xyz",
 		"sol-data.com",
-		"jobapi.net",
 		"jobapi.net",
 		"certsy.com",
 		"certsynonprod.com",
