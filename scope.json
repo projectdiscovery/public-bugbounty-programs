@@ -367,6 +367,18 @@
       ]
     }
     ,
+
+    {
+      "name": "HackerOne",
+      "url": "https://hackerone.com/security",
+      "domains": [
+        "hackerone.com",
+	"hackerone.net",
+	"hacker101.com",
+	"hackerone-ext-content.com"
+      ]
+    }
+    ,
     {
       "name": "Didi",
       "url": "https://sec.didichuxing.com",
