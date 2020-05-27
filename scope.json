@@ -45,14 +45,7 @@
 				"network-auth.com"
 			]
 		},
-		{
-			"name": "Comcast Xfinity Vulnerability Disclosure Program",
-			"url": "https://bugcrowd.com/comcastvdp",
-			"domains": [
-				"comcast.com",
-				"xfinity.com"
-			]
-		},
+
 		{
 			"name": "Dell Technologies",
 			"url": "https://bugcrowd.com/dell",
