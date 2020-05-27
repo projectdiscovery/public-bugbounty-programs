@@ -307,13 +307,6 @@
 			]
 		},
 		{
-			"name": "Xfinity Home & xFi",
-			"url": "https://bugcrowd.com/xfinity-home",
-			"domains": [
-				"comcast.net"
-			]
-		},
-		{
 			"name": "Backblaze",
 			"url": "https://hackerone.com/backblaze",
 			"domains": [
