@@ -863,7 +863,6 @@
 			"name": "savedroid",
 			"url": "https://hackerone.com/savedroid",
 			"domains": [
-				"api.savedroid.de",
 				"savedroid.com"
 			]
 		},
