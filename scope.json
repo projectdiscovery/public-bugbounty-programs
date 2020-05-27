@@ -407,7 +407,7 @@
 			"url": "https://hackerone.com/airtable",
 			"domains": [
 				"staging-airtableblocks.com",
-				"staging.airtable.com"
+				"airtable.com"
 			]
 		},
 		{
@@ -503,11 +503,9 @@
 			"domains": [
 				"ayco.com",
 				"claritymoney.com",
-				"global-liquidity.gs.com",
 				"goldman.com",
 				"goldmansachs.com",
 				"gs-mosaic.gs.com",
-				"gs-mosaic.qa.gs.com",
 				"gsam.com",
 				"gspublishing.com",
 				"gsselect.com",
@@ -548,7 +546,6 @@
 			"domains": [
 				"line-apps.com",
 				"line.me",
-				"line.naver.jp"
 			]
 		},
 		{
@@ -682,8 +679,7 @@
 			"domains": [
 				"code.gov",
 				"login.gov",
-				"search.gov",
-				"search.usa.gov"
+				"search.gov"
 			]
 		},
 		{
@@ -734,9 +730,8 @@
 			"name": "LifeOmic",
 			"url": "https://hackerone.com/lifeomic",
 			"domains": [
-				"dev.jupiterone.io",
-				"dev.lifeomic.com",
-				"infra.lifeomic.com"
+				"jupiterone.io",
+				"lifeomic.com"
 			]
 		},
 		{
@@ -777,7 +772,6 @@
 			"name": "Tumblr",
 			"url": "https://hackerone.com/tumblr",
 			"domains": [
-				"srvcs.tumblr.com",
 				"tumblr.com",
 				"txmblr.com"
 			]
@@ -848,7 +842,6 @@
 			"url": "https://hackerone.com/8x8",
 			"domains": [
 				"8x8.com",
-				"contactnow.8x8.com",
 				"dxi.eu",
 				"easycontactnow.com",
 				"jit.si",
