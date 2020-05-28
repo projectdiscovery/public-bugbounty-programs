@@ -334,14 +334,7 @@
 				"coinbase.com"
 			]
 		},
-		{
-			"name": "Automattic",
-			"url": "https://hackerone.com/automattic",
-			"domains": [
-				"tumblr.com",
-				"txmblr.com"
-			]
-		},
+
 		{
 			"name": "IRCCloud",
 			"url": "https://hackerone.com/irccloud",
@@ -350,13 +343,7 @@
 				"irccloud.com"
 			]
 		},
-		{
-			"name": "Zendesk",
-			"url": "https://hackerone.com/zendesk",
-			"domains": [
-				"zendesk.com"
-			]
-		},
+
 		{
 			"name": "Urban Dictionary",
 			"url": "https://hackerone.com/urbandictionary",
@@ -774,14 +761,6 @@
 			"url": "https://hackerone.com/ycombinator",
 			"domains": [
 				"ycombinator.com"
-			]
-		},
-		{
-			"name": "Tumblr",
-			"url": "https://hackerone.com/tumblr",
-			"domains": [
-				"tumblr.com",
-				"txmblr.com"
 			]
 		},
 		{
