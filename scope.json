@@ -94,14 +94,14 @@
 			]
 		},
 		{
-			"name": "HealthifyMe's Vulnerability Disclosure Program",
+			"name": "HealthifyMe",
 			"url": "https://bugcrowd.com/healthifyme",
 			"domains": [
 				"healthifyme.com"
 			]
 		},
 		{
-			"name": "HubSpot Responsible Disclosure",
+			"name": "HubSpot",
 			"url": "https://bugcrowd.com/hubspot",
 			"domains": [
 				"hs-sites.com",
@@ -155,7 +155,7 @@
 			]
 		},
 		{
-			"name": "Overstock's Vulnerability Disclosure Page!",
+			"name": "Overstock",
 			"url": "https://bugcrowd.com/overstockvdp",
 			"domains": [
 				"handmade.com",
@@ -241,7 +241,7 @@
 		},
 
 		{
-			"name": "Telefónica Germany",
+			"name": "Telefonica",
 			"url": "https://bugcrowd.com/telefonicavdp",
 			"domains": [
 				"alditalk-kundenbetreuung.de",
@@ -291,7 +291,7 @@
 
 
 		{
-			"name": "Western Union Kudos",
+			"name": "Western Union",
 			"url": "https://bugcrowd.com/westernunion-kudos",
 			"domains": [
 				"westernunion.com"
@@ -471,7 +471,7 @@
 
 
 		{
-			"name": "Binary.com",
+			"name": "Binary",
 			"url": "https://hackerone.com/binary",
 			"domains": [
 				"binary.com"
@@ -652,7 +652,7 @@
 				"synack.com"
 			]
 		},
-		     
+
 		{
 			"name": "Roblox",
 			"url": "https://hackerone.com/roblox",
@@ -848,7 +848,7 @@
 			]
 		},
 		{
-			"name": "savedroid",
+			"name": "Savedroid",
 			"url": "https://hackerone.com/savedroid",
 			"domains": [
 				"savedroid.com"
@@ -1006,7 +1006,7 @@
 			]
 		},
 		{
-			"name": "KOPIKAS ENTERTAINMENT",
+			"name": "Kopikas Entertainment",
 			"url": "https://hackerone.com/kopikas_entertainment",
 			"domains": [
 				"slots.io"
@@ -1041,7 +1041,7 @@
 
 
 		{
-			"name": "Verizonmedia",
+			"name": "Verizon Media",
 			"url": "https://hackerone.com/verizonmedia",
 			"domains": [
 				"yahoo.com",
@@ -1339,16 +1339,16 @@
 			"name": "Paytm",
 			"url": "https://bugbounty.paytm.com",
 			"domains": [
-				"paytm.com"
-				"paytm.in"
-				"paytmmall.com"
-				"paytmbank.com"
-				"paytmfirstgames.com"
-				"gamepind.com"
-				"paytmmoney.com"
-				"paytm.ca"
+				"paytm.com",
+				"paytm.in",
+				"paytmmall.com",
+				"paytmbank.com",
+				"paytmfirstgames.com",
+				"gamepind.com",
+				"paytmmoney.com",
+				"paytm.ca",
 				"paytmlabs.com"
-                        ]
+			]
 		},
 		{
 			"name": "Didi",
