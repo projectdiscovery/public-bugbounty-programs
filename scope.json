@@ -1336,6 +1336,21 @@
 			]
 		},
 		{
+			"name": "Paytm",
+			"url": "https://bugbounty.paytm.com",
+			"domains": [
+				"paytm.com"
+				"paytm.in"
+				"paytmmall.com"
+				"paytmbank.com"
+				"paytmfirstgames.com"
+				"gamepind.com"
+				"paytmmoney.com"
+				"paytm.ca"
+				"paytmlabs.com"
+                        ]
+		},
+		{
 			"name": "Didi",
 			"url": "https://sec.didichuxing.com",
 			"domains": [
