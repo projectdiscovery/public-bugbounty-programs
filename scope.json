@@ -1367,6 +1367,18 @@
 			"domains": [
 				"att.com"
 			]
+		},
+		{
+			"name": "OnePlus",
+			"url": "https://security.oneplus.com/",
+			"domains": [
+				"oneplus.com",
+				"oneplus.in",
+				"oneplus.net",
+				"oneplus.cn",
+				"oneplusbbs.com",
+				"h2os.com"
+			]
 		}
 	]
 }
