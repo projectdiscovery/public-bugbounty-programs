@@ -1380,5 +1380,26 @@
 				"h2os.com"
 			]
 		}
+		     {
+			"name": "Mail.ru",
+			"url": "https://hackerone.com/mailru",
+			"domains": [
+				"mail.ru",
+		     		"pandao.ru",
+		     		"am.ru",
+		     		"youla.ru",
+		     		"vseapteki.ru",
+		     		"relap.io",
+			     	"my.com",
+		     		"my.games",
+		     		"lootdog.io",
+		     		"delivery-club.ru",
+		     		"zakazaka.ru",
+		     		"icq.com",
+			     	"icq.net",
+		     		"donationalerts.com",
+		     		"donationalerts.ru"
+			]
+		}
 	]
 }
