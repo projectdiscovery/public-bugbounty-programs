@@ -6,6 +6,13 @@
 				"better.com"
 			]
 		},
+    {
+			"name": "Bentley",
+			"url": "https://www.bentley.com/responsible_disclosure.pdf",
+			"domains": [
+				"bentley.com"
+			]
+		},
 		{
 			"name": "Binance",
 			"url": "https://bugcrowd.com/binance",
