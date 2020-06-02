@@ -29,3 +29,7 @@ We are currently accepting in JSON format, an example is below:
 **Note:** Use JSON validators (e.g. https://jsonlint.com/) to validate the modfied `scope.json` file when sending pull requests.
 
 Thanks again for your contribution and keeping the community vibrant. :heart:
+
+-------
+
+If you want to remove any program from the list, please contact us at contact@projectdiscovery.io.
