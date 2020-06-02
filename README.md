@@ -1,4 +1,4 @@
-This is the source for programs available on [chaos.projectdiscovery.io](http://chaos.projectdiscovery.io/). Please send pull-request of public bug bounty programs that you want to include in our live list.
+This is the source for programs available on [chaos.projectdiscovery.io](http://chaos.projectdiscovery.io/). Please send pull-request of public bug bounty programs that you want to include in our public list with recon data. 
 
 We are currently accepting in JSON format, an example is below:
 
@@ -26,7 +26,7 @@ We are currently accepting in JSON format, an example is below:
 }
 ```
 
-**Note:** Use JSON validators (e.g. https://jsonlint.com/) to validate the modfied `scope.json` file when sending pull requests.
+**Note:** Use JSON validators (e.g. https://jsonlint.com) to validate the modfied `scope.json` file when sending pull requests.
 
 Thanks again for your contribution and keeping the community vibrant. :heart:
 
