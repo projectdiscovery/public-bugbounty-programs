@@ -1356,6 +1356,18 @@
 				"hackerone-ext-content.com"
 			]
 		},
+		     
+		{
+			"name": "Offensive Security",
+			"url": "https://www.offensive-security.com/bug-bounty-program/",
+			"domains": [
+				"offensive-security.com"
+				"exploit-db.com"
+				"kali.org"
+				"backtrack-linux.org"
+			]
+		},
+		     
 		{
 			"name": "Didi",
 			"url": "https://sec.didichuxing.com",
