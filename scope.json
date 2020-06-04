@@ -1315,6 +1315,17 @@
 			]
 		},
 		{
+			"name": "Tencent",
+			"url": "https://en.security.tencent.com",
+			"domains": [
+				"qq.com",
+				"tencent.com",
+				"tenpay.com",
+				"dnspod.cn",
+				"weiyun.com"
+			]
+		},
+		{
 			"name": "IBM",
 			"url": "https://hackerone.com/ibm",
 			"domains": [
