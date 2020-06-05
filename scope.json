@@ -45,6 +45,14 @@
 				"network-auth.com"
 			]
 		},
+		     
+		{
+			"name": "Internet NL",
+			"url": "https://internet.nl/disclosure/",
+			"domains": [
+				"internet.nl",
+			]
+		},
 
 		{
 			"name": "Dell Technologies",
