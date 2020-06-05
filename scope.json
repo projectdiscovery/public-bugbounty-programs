@@ -784,6 +784,15 @@
 				"txmblr.com"
 			]
 		},
+		     
+		{
+			"name": "Check Point",
+			"url": "https://www.checkpoint.com/white-hat/",
+			"domains": [
+				"checkpoint.com",
+			]
+		},			     
+		     
 		{
 			"name": "RATELIMITED",
 			"url": "https://hackerone.com/ratelimited",
