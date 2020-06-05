@@ -4,29 +4,20 @@ We are currently accepting in JSON format, an example is below:
 
 ```json
 {
-
-"name":"HackerOne",
-
-"url":"https://hackerone.com/security",
-
-"bounty": true,
-
-"domains":[
-
-"hackerone.com",
-
-"hackerone.net",
-
-"hacker101.com",
-
-"hackerone-ext-content.com"
-
-]
-
+   "name":"HackerOne",
+   "url":"https://hackerone.com/security",
+   "domains":[
+      "hackerone.com",
+      "hackerone.net",
+      "hacker101.com",
+      "hackerone-ext-content.com"
+   ]
 }
 ```
 
-**Note:** Use JSON validators (e.g. https://jsonlint.com) to validate the modfied `scope.json` file when sending pull requests.
+**Notes:** 
+1. Use JSON validators (e.g. https://jsonlint.com) to validate the modfied `scope.json` file when sending pull requests.
+2. Scope file only accept root domain as input the `domains` field, so please do not add subdomains in `domain` field. 
 
 Thanks again for your contribution and keeping the community vibrant. :heart:
 
