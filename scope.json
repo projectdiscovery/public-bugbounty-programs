@@ -1448,6 +1448,28 @@
 		     		"donationalerts.com",
 		     		"donationalerts.ru"
 			]
-		}
+		},
+		
+		{
+			"name": "Microsoft Online Services",
+			"url": "https://www.microsoft.com/en-us/msrc/bounty-microsoft-cloud",
+			"domains": [
+				"office.com",
+				"live.com",
+				"onedrive.com",
+				"azure.com",
+				"office365.com",
+				"outlook.com",
+				"sharepoint.com",
+				"lync.com",
+				"yammer.com",
+				"sway.com",
+				"microsoft.com",
+				"skype.com",
+				"live.net",
+				"skype.com"
+			]
+		}		     
+
 	]
 }
