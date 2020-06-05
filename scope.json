@@ -1410,6 +1410,24 @@
 				"h2os.com"
 			]
 		},
+
+		{
+			"name": "Internet NL",
+			"url": "https://internet.nl/disclosure/",
+			"domains": [
+				"internet.nl"
+			]
+		},
+
+
+
+		{
+			"name": "Check Point",
+			"url": "https://www.checkpoint.com/white-hat/",
+			"domains": [
+				"checkpoint.com"
+			]
+		},
 		     {
 			"name": "Mail.ru",
 			"url": "https://hackerone.com/mailru",
