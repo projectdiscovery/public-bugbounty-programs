@@ -855,6 +855,14 @@
 			]
 		},
 		{
+			"name": "Fair",
+			"url": "https://www.fair.com/bug-bounty",
+			"domains": [
+				"fair.com",
+				"fair.engineering"
+			]
+		},
+		{
 			"name": "Savedroid",
 			"url": "https://hackerone.com/savedroid",
 			"domains": [
