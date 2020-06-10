@@ -1466,7 +1466,7 @@
       {
          "name":"Didi",
          "url":"https://sec.didichuxing.com",
-         "bounty":null,
+         "bounty":"none",
          "domains":[
             "didichuxing.com",
             "xiaojukeji.com",
@@ -1494,6 +1494,82 @@
             "oneplus.cn",
             "oneplusbbs.com",
             "h2os.com"
+         ]
+      },
+      {
+         "name":"Bentley",
+         "url":"https://www.bentley.com/responsible_disclosure.pdf",
+         "bounty":false,
+         "domains":[
+            "bentley.com"
+         ]
+      },
+      {
+         "name":"Offensive Security",
+         "url":"https://www.offensive-security.com/bug-bounty-program/",
+         "bounty":true,
+         "domains":[
+            "offensive-security.com",
+            "exploit-db.com",
+            "kali.org",
+            "backtrack-linux.org"
+         ]
+      },
+      {
+         "name":"Tencent",
+         "url":"https://en.security.tencent.com",
+         "bounty":true,
+         "domains":[
+            "qq.com",
+            "tencent.com",
+            "tenpay.com",
+            "dnspod.cn",
+            "weiyun.com"
+         ]
+      },
+      {
+         "name":"Fair",
+         "url":"https://www.fair.com/bug-bounty",
+         "bounty":true,
+         "domains":[
+            "fair.com",
+            "fair.engineering"
+         ]
+      },
+      {
+         "name":"Microsoft Online Services",
+         "url":"https://www.microsoft.com/en-us/msrc/bounty-microsoft-cloud",
+         "bounty":true,
+         "domains":[
+            "office.com",
+            "live.com",
+            "onedrive.com",
+            "azure.com",
+            "office365.com",
+            "outlook.com",
+            "sharepoint.com",
+            "lync.com",
+            "yammer.com",
+            "sway.com",
+            "microsoft.com",
+            "live.net",
+            "skype.com"
+         ]
+      },
+      {
+         "name":"Internet NL",
+         "url":"https://internet.nl/disclosure/",
+         "bounty":"none",
+         "domains":[
+            "internet.nl"
+         ]
+      },
+      {
+         "name":"Check Point",
+         "url":"https://www.checkpoint.com/white-hat/",
+         "bounty":false,
+         "domains":[
+            "checkpoint.com"
          ]
       },
       {
