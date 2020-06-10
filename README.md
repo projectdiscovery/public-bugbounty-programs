@@ -6,6 +6,7 @@ We are currently accepting in JSON format, an example is below:
 {
    "name":"HackerOne",
    "url":"https://hackerone.com/security",
+   "bounty":true,
    "domains":[
       "hackerone.com",
       "hackerone.net",
