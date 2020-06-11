@@ -1466,7 +1466,7 @@
       {
          "name":"Didi",
          "url":"https://sec.didichuxing.com",
-         "bounty":"false",
+         "bounty":false,
          "domains":[
             "didichuxing.com",
             "xiaojukeji.com",
@@ -1559,7 +1559,7 @@
       {
          "name":"Internet NL",
          "url":"https://internet.nl/disclosure/",
-         "bounty":"false",
+         "bounty":false,
          "domains":[
             "internet.nl"
          ]
