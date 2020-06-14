@@ -1630,6 +1630,14 @@
          "domains":[
             "intigriti.com"
          ]
+      },
+      {
+         "name":"Plaid",
+         "url":"https://hackerone.com/plaid",
+         "bounty":true,
+         "domains":[
+            "plaid.com"
+         ]
       }
    ]
 }
