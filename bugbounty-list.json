@@ -1632,6 +1632,14 @@
          ]
       },
       {
+         "name":"T-Mobile CZ",
+         "url":"https://www.t-mobile.cz/bug-bounty",
+         "bounty":true,
+         "domains":[
+            "t-mobile.cz"
+         ]
+      },
+      {
          "name":"Plaid",
          "url":"https://hackerone.com/plaid",
          "bounty":true,
