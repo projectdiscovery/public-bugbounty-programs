@@ -1640,6 +1640,14 @@
          ]
       },
       {
+         "name":"Touch Incentive Marketing B.V.",
+         "url":"https://www.touchincentive.com/responsible-disclosure/",
+         "bounty":true,
+         "domains":[
+            "touchincentive.com"
+         ]
+      },
+      {
          "name":"Plaid",
          "url":"https://hackerone.com/plaid",
          "bounty":true,
