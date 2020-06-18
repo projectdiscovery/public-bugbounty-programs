@@ -1656,6 +1656,14 @@
          ]
       },
       {
+         "name":"Wedbio",
+         "url":"https://wedbio.com/report-incident",
+         "bounty":false,
+         "domains":[
+            "wedbio.com"
+         ]
+      },
+      {
          "name":"Plaid",
          "url":"https://hackerone.com/plaid",
          "bounty":true,
