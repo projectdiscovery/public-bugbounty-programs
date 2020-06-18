@@ -1648,6 +1648,14 @@
          ]
       },
       {
+         "name":"MongoDB",
+         "url":"https://www.mongodb.com/security",
+         "bounty":false,
+         "domains":[
+            "touchincentive.com"
+         ]
+      },
+      {
          "name":"Plaid",
          "url":"https://hackerone.com/plaid",
          "bounty":true,
