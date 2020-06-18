@@ -183,25 +183,6 @@
          ]
       },
       {
-         "name":"SEEK",
-         "url":"https://bugcrowd.com/seek",
-         "bounty":true,
-         "domains":[
-            "aips-internal.com",
-            "aips-services.com",
-            "certsy.com",
-            "certsynonprod.com",
-            "jobapi.io",
-            "jobapi.net",
-            "myseek.xyz",
-            "outfra.xyz",
-            "seek.com",
-            "seek.com.au",
-            "skinfra.xyz",
-            "sol-data.com"
-         ]
-      },
-      {
          "name":"Simple",
          "url":"https://bugcrowd.com/simple",
          "bounty":true,
@@ -1315,7 +1296,10 @@
             "certsy.com",
             "certsynonprod.com",
             "aips-internal.com",
-            "aips-services.com"
+            "aips-services.com",
+            "aips-services.com",
+            "jobapi.io",
+            "sol-data.com"
          ]
       },
       {
