@@ -1672,6 +1672,14 @@
          ]
       },
       {
+         "name":"Redtube",
+         "url":"https://hackerone.com/redtube",
+         "bounty":true,
+         "domains":[
+            "redtube.com"
+         ]
+      },
+      {
          "name":"Plaid",
          "url":"https://hackerone.com/plaid",
          "bounty":true,
