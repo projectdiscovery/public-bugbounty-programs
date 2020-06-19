@@ -1676,10 +1676,7 @@
          "url":"https://hackerone.com/pornhub",
          "bounty":true,
          "domains":[
-            "www.pornhub.com",
-            "mobile.pornhub.com",
-            "api.pornhub.com",
-            "ht.pornhub.com",
+            "pornhub.com",
             "pornhubpremium.com",
          ]
       },
