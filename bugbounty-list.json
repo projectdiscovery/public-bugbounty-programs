@@ -1686,6 +1686,14 @@
          "domains":[
             "plaid.com"
          ]
+      },
+      {
+         "name":"Wickr",
+         "url":"https://wickr.com/security/bug-bounty/",
+         "bounty":true,
+         "domains":[
+            "wickr.com"
+         ]
       }
    ]
 }
