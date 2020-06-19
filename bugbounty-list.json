@@ -1664,6 +1664,14 @@
          ]
       },
       {
+         "name":"Royal Bank of Scotland",
+         "url":"http://personal.rbs.co.uk/personal/security-centre/responsible-disclosure.html",
+         "bounty":false,
+         "domains":[
+            "rbs.co.uk"
+         ]
+      },
+      {
          "name":"Plaid",
          "url":"https://hackerone.com/plaid",
          "bounty":true,
