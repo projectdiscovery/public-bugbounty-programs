@@ -1653,6 +1653,30 @@
          ]
       },
       {
+         "name":"Pornhub",
+         "url":"https://hackerone.com/pornhub",
+         "bounty":true,
+         "domains":[
+            "www.pornhub.com",
+            "mobile.pornhub.com",
+            "api.pornhub.com",
+            "ht.pornhub.com",
+            "pornhubpremium.com",
+         ]
+      },
+      {
+         "name":"Tube8",
+         "url":"https://hackerone.com/tube8",
+         "bounty":true,
+         "domains":[
+            "tube8.com",
+            "tube8.fr",
+            "tube8.es",
+            "de.tube8.com",
+            "jp.tube8.com",
+         ]
+      },
+      {
          "name":"Plaid",
          "url":"https://hackerone.com/plaid",
          "bounty":true,
