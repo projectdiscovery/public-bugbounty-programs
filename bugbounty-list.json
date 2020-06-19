@@ -1672,6 +1672,18 @@
          ]
       },
       {
+         "name":"Pornhub",
+         "url":"https://hackerone.com/pornhub",
+         "bounty":true,
+         "domains":[
+            "www.pornhub.com",
+            "mobile.pornhub.com",
+            "api.pornhub.com",
+            "ht.pornhub.com",
+            "pornhubpremium.com",
+         ]
+      },
+      {
          "name":"Plaid",
          "url":"https://hackerone.com/plaid",
          "bounty":true,
