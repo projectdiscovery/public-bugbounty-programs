@@ -1688,6 +1688,27 @@
          ]
       },
       {
+         "name":"Alibaba",
+         "url":"https://hackerone.com/alibaba",
+         "bounty":true,
+         "domains":[
+            "lazada.sg",
+            "cainiao.com",
+            "alibaba.com",
+            "aliexpress.com",
+            "taobao.com",
+            "tmall.com",
+            "aliyun.com",
+            "alibabacloud.com",
+            "1688.com",
+            "dingtalk.com",
+            "alibaba-inc.com",
+            "aliyun-inc.com",
+            "alibabagroup.com",
+            "alimama.com"
+         ]
+      },
+      {
          "name":"Plaid",
          "url":"https://hackerone.com/plaid",
          "bounty":true,
