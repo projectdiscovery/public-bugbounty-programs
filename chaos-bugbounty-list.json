@@ -1679,6 +1679,15 @@
             "redtube.com"
          ]
       },
+
+      {
+         "name":"Amazon",
+         "url":"https://aws.amazon.com/security/vulnerability-reporting/",
+         "bounty":false,
+         "domains":[
+            "amazon.com"
+         ]
+      },
       {
          "name":"Plaid",
          "url":"https://hackerone.com/plaid",
