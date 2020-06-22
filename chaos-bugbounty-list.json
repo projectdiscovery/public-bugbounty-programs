@@ -1706,6 +1706,24 @@
          ]
       },
       {
+         "name":"Rabobank",
+         "url":"https://hackerone.com/rabobank",
+         "bounty":true,
+         "domains":[
+            "rabobank.nl",
+            "rabobank.com"
+         ]
+      },
+      {
+         "name":"SNS Bank",
+         "url":"https://hackerone.com/sns_bank",
+         "bounty":true,
+         "domains":[
+            "snsbank.nl",
+            "sns.nl"
+         ]
+      },
+      {
          "name":"Wickr",
          "url":"https://wickr.com/security/bug-bounty/",
          "bounty":true,
