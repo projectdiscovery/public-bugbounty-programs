@@ -1235,7 +1235,6 @@
          "bounty":true,
          "domains":[
             "cloudflare.com",
-            "cloudflare.net",
             "cloudflareworkers.com",
             "cloudflareaccess.com"
          ]
