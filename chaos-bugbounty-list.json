@@ -1697,6 +1697,15 @@
          ]
       },
       {
+         "name":"ING Bank",
+         "url":"https://hackerone.com/ing",
+         "bounty":true,
+         "domains":[
+            "ing.com",
+            "ing.nl"
+         ]
+      },
+      {
          "name":"Wickr",
          "url":"https://wickr.com/security/bug-bounty/",
          "bounty":true,
