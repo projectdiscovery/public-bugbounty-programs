@@ -1715,6 +1715,15 @@
          ]
       },
       {
+         "name":"SNS Bank",
+         "url":"https://hackerone.com/sns_bank",
+         "bounty":true,
+         "domains":[
+            "snsbank.nl",
+            "sns.nl"
+         ]
+      },
+      {
          "name":"Wickr",
          "url":"https://wickr.com/security/bug-bounty/",
          "bounty":true,
