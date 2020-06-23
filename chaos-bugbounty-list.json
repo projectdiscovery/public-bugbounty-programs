@@ -1728,6 +1728,14 @@
          "domains":[
             "wickr.com"
          ]
+      },
+      {
+         "name": "Yatra",
+         "url": "https://www.yatra.com/online/bug-bounty",
+         "bounty": true,
+         "domains":[
+            "yatra.com"
+         ]
       }
    ]
 }
