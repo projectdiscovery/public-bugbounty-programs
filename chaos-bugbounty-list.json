@@ -1734,7 +1734,7 @@
          "url": "https://www.yatra.com/online/bug-bounty",
          "bounty": true,
          "domains":[
-            "www.yatra.com"
+            "yatra.com"
          ]
       }
    ]
