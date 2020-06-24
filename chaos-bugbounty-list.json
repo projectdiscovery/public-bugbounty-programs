@@ -1736,6 +1736,14 @@
          "domains":[
             "yatra.com"
          ]
+      },
+      {
+         "name":"Pon-Cat",
+         "url":"https://www.pon-cat.com/nl/responsible-disclosure",
+         "bounty":true,
+         "domains":[
+            "pon-cat.com"
+         ]
       }
    ]
 }
