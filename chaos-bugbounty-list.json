@@ -1738,6 +1738,14 @@
          ]
       },
       {
+         "name": "Starleaf",
+         "url": "https://www.starleaf.com/c/bug-bounty-program/",
+         "bounty": true,
+         "domains":[
+            "starleaf.com"
+         ]
+      },
+      {
          "name":"Pon-Cat",
          "url":"https://www.pon-cat.com/nl/responsible-disclosure",
          "bounty":true,
