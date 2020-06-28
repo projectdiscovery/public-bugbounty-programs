@@ -1760,14 +1760,13 @@
          "domains":[
             "playstation.net",
             "sonyentertainmentnetwork.com",
-            "api.playstation.com",
             "playstation.com"
          ]
       }
       ,
       {
          "name": "EC-Council",
-         "url": "https://www.eccouncil.org/",
+         "url": "https://www.eccouncil.org/bug-bounty/",
          "bounty": true,
          "domains":[
             "eccouncil.org"
