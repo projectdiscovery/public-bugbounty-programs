@@ -66,6 +66,14 @@
          ]
       },
       {
+         "name":"Deribit",
+         "url":"https://www.deribit.com/pages/information/bug-bounty-program",
+         "bounty":true,
+         "domains":[
+            "deribit.com"
+         ]
+      },
+      {
          "name":"Directly",
          "url":"https://bugcrowd.com/directly",
          "bounty":true,
