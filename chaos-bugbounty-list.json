@@ -688,6 +688,14 @@
          ]
       },
       {
+         "name":"Starbucks",
+         "url":"https://hackerone.com/starbucks",
+         "bounty":true,
+         "domains":[
+            "www.starbucks.com"
+         ]
+      },
+      {
          "name":"Synack",
          "url":"https://synack.responsibledisclosure.com/hc/en-us/",
          "bounty":true,
