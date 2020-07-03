@@ -692,7 +692,9 @@
          "url":"https://hackerone.com/starbucks",
          "bounty":true,
          "domains":[
-            "www.starbucks.com"
+            "starbucks.com",
+            "starbucksreserve.com",
+            "teavana.com"
          ]
       },
       {
