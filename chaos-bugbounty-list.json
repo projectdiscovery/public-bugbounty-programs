@@ -1778,8 +1778,7 @@
             "sonyentertainmentnetwork.com",
             "playstation.com"
          ]
-      }
-      ,
+      },
       {
          "name": "EC-Council",
          "url": "https://www.eccouncil.org/bug-bounty/",
@@ -1788,7 +1787,16 @@
             "eccouncil.org"
             ]
       },
-{
+
+      {
+         "name": "Wells Fargo",
+         "url": "https://hackerone.com/wellsfargo",
+         "bounty": false,
+         "domains":[
+            "wellsfargo.com"
+            ]
+      },
+      {
          "name":"Reaserchgate",
          "url":"https://explore.researchgate.net/display/support/Security+and+vulnerability",
          "bounty":true,
