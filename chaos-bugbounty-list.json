@@ -1787,6 +1787,14 @@
          "domains":[
             "eccouncil.org"
             ]
+      },
+      {
+         "name": "Wells Fargo",
+         "url": "https://hackerone.com/wellsfargo",
+         "bounty": false,
+         "domains":[
+            "wellsfargo.com"
+         ]
       }
    ]
 }
