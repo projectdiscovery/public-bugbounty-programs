@@ -18,7 +18,9 @@ def run(arguments):
     content_json = json.loads(content)
     sorted_data = sorted(content_json['programs'], key=sort_data)
     output_str = json.dumps({"programs": sorted_data}, indent=4, sort_keys=False)
+    print(output_str)
     if arguments.fix:
+        print('Writing sorted data to file')
         with open('chaos-bugbounty-list.json', 'w') as fd:
             fd.write(output_str)
 
