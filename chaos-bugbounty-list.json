@@ -1,5 +1,29 @@
 {
    "programs":[
+      {  
+         "name":"bitgo",
+         "url":"https://www.bitgo.com/bug-bounty",
+         "bounty":true,
+         "domains":[
+            "bitgo.com"
+         ]
+      },
+      {
+         "name":"kraken",
+         "url":"https://www.kraken.com/en-us/features/security/bug-bounty"
+         "bounty":true,
+         "domains":[
+            "kraken.com"
+         ]
+      },
+      {
+         "name":"apsis",
+         "url":"https://www.apsis.com/bug-bounty",
+         "bounty":true,
+         "domains":[
+            "apsis.com"
+         ]
+      },
       {  "name":"ola",
          "url":"https://whitehat.olacabs.com",
          "bounty":false,
