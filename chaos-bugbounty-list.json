@@ -10,7 +10,7 @@
       },
       {
          "name":"kraken",
-         "url":"https://www.kraken.com/en-us/features/security/bug-bounty"
+         "url":"https://www.kraken.com/en-us/features/security/bug-bounty",
          "bounty":true,
          "domains":[
             "kraken.com"
