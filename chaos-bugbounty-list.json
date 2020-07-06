@@ -1861,6 +1861,32 @@
             "magisto.com"
          ]
       },
+{
+	"name": "SMTP2GO",
+	"url": "https://hackerone.com/smtp2go",
+	"bounty": false,
+	"domains": [
+		"smtp2go.com"
+	]
+  }, 
+{
+	"name": "UpHabit",
+	"url": "https://hackerone.com/uphabit",
+	"bounty": false,
+	"domains": [
+		"api.uphabit.com"
+	]
+  }, 
+{
+	"name": "Courier",
+	"url": "https://hackerone.com/trycourier",
+	"bounty": false,
+	"domains": [
+		"trycourier.app",
+		"ct0.app",
+		"trycourier.com"
+	]
+  },
       {
          "name":"Engel & Völkers Technology GmbH",
          "url":"https://hackerone.com/engel_volkers",
