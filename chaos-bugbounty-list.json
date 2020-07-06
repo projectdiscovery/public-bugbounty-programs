@@ -1874,7 +1874,7 @@
 	"url": "https://hackerone.com/uphabit",
 	"bounty": false,
 	"domains": [
-		"api.uphabit.com"
+		"uphabit.com"
 	]
   }, 
 {
