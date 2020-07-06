@@ -1741,10 +1741,14 @@
 
       {
          "name":"Amazon",
-         "url":"https://aws.amazon.com/security/vulnerability-reporting/",
-         "bounty":false,
+         "url":"https://hackerone.com/amazonvrp",
+         "bounty":true,
          "domains":[
-            "amazon.com"
+           "amazon.com",
+		     "amazon.co.uk",
+           "amazon.co.jp",
+           "amazon.de",
+		     "amazon.fr"
          ]
       },
       {
