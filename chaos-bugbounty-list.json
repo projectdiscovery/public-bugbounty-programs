@@ -796,6 +796,14 @@
          ]
       },
       {
+         "name":"Nokia",
+         "url":"https://www.nokia.com/responsible-disclosure/",
+         "bounty":false,
+         "domains":[
+            "nokia.com"
+         ]
+      },
+      {
          "name":"Valve",
          "url":"https://hackerone.com/valve",
          "bounty":true,
