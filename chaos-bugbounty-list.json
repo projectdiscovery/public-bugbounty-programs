@@ -1860,10 +1860,8 @@
          "domains":[
             "magisto.com"
          ]
-      }
-   ]
-},
-{
+      },
+      {
          "name":"Engel & Völkers Technology GmbH",
          "url":"https://hackerone.com/engel_volkers",
          "bounty":false,
@@ -1871,3 +1869,6 @@
             "engelvoelkers.com"
          ]
       }
+   ]
+}
+
