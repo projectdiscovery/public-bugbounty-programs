@@ -1862,4 +1862,12 @@
          ]
       }
    ]
-}
+},
+{
+         "name":"Engel & Völkers Technology GmbH",
+         "url":"https://hackerone.com/engel_volkers",
+         "bounty":false,
+         "domains":[
+            "engelvoelkers.com"
+         ]
+      }
