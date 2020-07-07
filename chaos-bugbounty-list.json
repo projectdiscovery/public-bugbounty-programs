@@ -1,17 +1,14 @@
 {
    "programs":[
+
       {
          "name": "Priceline",
-	 "url": "https://hackerone.com/priceline",
-	 "bounty": true,
-	 "domains": [
-            "http://admin.rezserver.com",
-	    "http://api.rezserver.com",
-	    "http://cruises.priceline.com",
-	    "http://reservations.rezserver.com",
-	    "http://secure.rezserver.com",
-	    "http://bookingholdings.com",
-	    "http://priceline.com"
+	      "url": "https://hackerone.com/priceline",
+	      "bounty": true,
+	      "domains": [
+         "rezserver.com",
+	      "bookingholdings.com",
+	      "priceline.com"
 	  ]
       },
       {  
