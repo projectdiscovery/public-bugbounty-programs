@@ -1,5 +1,19 @@
 {
    "programs":[
+      {
+         "name": "Priceline",
+	 "url": "https://hackerone.com/priceline",
+	 "bounty": true,
+	 "domains": [
+            "http://admin.rezserver.com",
+	    "http://api.rezserver.com",
+	    "http://cruises.priceline.com",
+	    "http://reservations.rezserver.com",
+	    "http://secure.rezserver.com",
+	    "http://bookingholdings.com",
+	    "http://priceline.com"
+	  ]
+      },
       {  
          "name":"bitgo",
          "url":"https://www.bitgo.com/bug-bounty",
