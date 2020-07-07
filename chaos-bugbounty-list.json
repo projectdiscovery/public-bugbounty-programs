@@ -1949,6 +1949,14 @@
 		"trycourier.com"
 	]
   },
+{
+	"name": "Ozon",
+	"url": "https://hackerone.com/ozon",
+	"bounty": true,
+	"domains": [
+		"ozon.ru"
+	]
+  }, 
       {
          "name":"Engel & Völkers Technology GmbH",
          "url":"https://hackerone.com/engel_volkers",
