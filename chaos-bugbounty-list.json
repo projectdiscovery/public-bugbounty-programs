@@ -1892,7 +1892,7 @@
 	"url": "https://hackerone.com/ozon",
 	"bounty": true,
 	"domains": [
-		"www.ozon.ru"
+		"ozon.ru"
 	]
   }, 
       {
