@@ -2036,6 +2036,14 @@
 	"domains": [
 	    "livestream.com"
 	]
+      },
+      {
+	"name": "Canon",
+	"url": "https://canon.a.bigcontent.io/v1/static/canon_vdp_program-policy",
+	"bounty": false,
+	"domains":[
+	    "canon.com"
+	]
       }
    ]
 }
