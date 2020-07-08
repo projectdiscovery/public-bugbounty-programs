@@ -1,15 +1,6 @@
 {
    "programs":[
       {
-         "name":"Automattic",
-         "url":"https://hackerone.com/automattic",
-         "bounty":false,
-         "domains":[
-            "umblr.com",
-            "tumblr.com"
-         ]
-      },
-      {
          "name":"liquidweb",
          "url":"https://www.liquidweb.com/about-us/policies/bug-bounty-program/",
          "bounty":true,
