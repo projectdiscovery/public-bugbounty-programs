@@ -1,65 +1,73 @@
 {
    "programs":[
-
       {
-	 "name":"liquidweb",
-	 "url":"https://www.liquidweb.com/about-us/policies/bug-bounty-program/",
-	 "bounty":true,
-	 "domains":[
-	    "liquidweb.com"
+         "name":"Automattic",
+         "url":"https://hackerone.com/automattic",
+         "bounty":false,
+         "domains":[
+            "umblr.com",
+            "tumblr.com"
          ]
       },
       {
-	 "name":"range",
-	 "url":"https://www.range.co/security/bounty",
-	 "bounty":true,
-	 "domains":[
-	    "range.co"
-	 ]
+         "name":"liquidweb",
+         "url":"https://www.liquidweb.com/about-us/policies/bug-bounty-program/",
+         "bounty":true,
+         "domains":[
+            "liquidweb.com"
+         ]
       },
       {
-	 "name":"stanford",
-	 "url":"https://uit.stanford.edu/security/bug-bounty",
-	 "bounty":true,
-	 "domains":[
-	    "stanford.edu"
-	 ]
+         "name":"range",
+         "url":"https://www.range.co/security/bounty",
+         "bounty":true,
+         "domains":[
+            "range.co"
+         ]
       },
       {
-	 "name":"Oro",
-	 "url":"https://oroinc.com/bug-bounty/",
-	 "bounty":true,
-	 "domains":[
-	    "oroinc.com"
-	 ]
+         "name":"stanford",
+         "url":"https://uit.stanford.edu/security/bug-bounty",
+         "bounty":true,
+         "domains":[
+            "stanford.edu"
+         ]
       },
       {
-	 "name":"nozbe",
-	 "url":"https://nozbe.com/bug-bounty/",
-	 "bounty":true,
-	 "domains":[
-	    "nozbe.com"
-	 ]
+         "name":"Oro",
+         "url":"https://oroinc.com/bug-bounty/",
+         "bounty":true,
+         "domains":[
+            "oroinc.com"
+         ]
       },
       {
-	 "name":"bluesnap",
-	 "url":"https://home.bluesnap.com/security-bounty/",
-	 "bounty":true,
-	 "domains":[
-	    "bluesnap.com"
-	 ]
+         "name":"nozbe",
+         "url":"https://nozbe.com/bug-bounty/",
+         "bounty":true,
+         "domains":[
+            "nozbe.com"
+         ]
       },
       {
-         "name": "Priceline",
-	      "url": "https://hackerone.com/priceline",
-	      "bounty": true,
-	      "domains": [
-         "rezserver.com",
-	      "bookingholdings.com",
-	      "priceline.com"
-	  ]
+         "name":"bluesnap",
+         "url":"https://home.bluesnap.com/security-bounty/",
+         "bounty":true,
+         "domains":[
+            "bluesnap.com"
+         ]
       },
-      {  
+      {
+         "name":"Priceline",
+         "url":"https://hackerone.com/priceline",
+         "bounty":true,
+         "domains":[
+            "rezserver.com",
+            "bookingholdings.com",
+            "priceline.com"
+         ]
+      },
+      {
          "name":"bitgo",
          "url":"https://www.bitgo.com/bug-bounty",
          "bounty":true,
@@ -83,7 +91,8 @@
             "apsis.com"
          ]
       },
-      {  "name":"ola",
+      {
+         "name":"ola",
          "url":"https://whitehat.olacabs.com",
          "bounty":false,
          "domains":[
@@ -94,8 +103,8 @@
             "olaelectric.in",
             "mission-electric.in",
             "ola.institute"
-         ]  
-      },   
+         ]
+      },
       {
          "name":"Better",
          "url":"https://bugcrowd.com/better",
@@ -1378,77 +1387,77 @@
          ]
       },
       {
-	"name": "Spotify",
-	"url": "https://hackerone.com/spotify",
-	"bounty": true,
-	"domains": [
-		"spotify.com",
-		"spotify.net",
-		"spotifyforbrands.com",
-		"withspotify.com",
-		"byspotify.com",
-		"backstage.io",
-		"blackhistoryisnow.com",
-		"closetheplaygap.com",
-		"doesmydogmissme.com",
-		"equalizerproject.com",
-		"howamistillhungover.com",
-		"howdoikeepthekidsbusy.com",
-		"howdoimakethisroadtripbetter.com",
-		"imabandi.to",
-		"issa.website",
-		"justaddspotify.com",
-		"atspotify.com",
-		"masmexa.com",
-		"mimusica2019.com",
-		"ninemusesfestival.com",
-		"play-portraits.com",
-		"poddamnthatsfunny.com",
-		"reviewvault.com",
-		"secretgenius.com",
-		"sonalytic.com",
-		"spotify-countrymatch.com",
-		"spotify-everywhere.com",
-		"spotify-library.com",
-		"spotify.design",
-		"spotify.dev",
-		"spotify.xxx",
-		"spotifyawards.com",
-		"spotifycharts.com",
-		"spotifycodes.com",
-		"spotifyforcreatives.com",
-		"spotifyforpartners.com",
-		"spotifyforpodcasterssummit.com.br",
-		"spotifyforvendors.com",
-		"spotifyjobs.com",
-		"spotifyonstage.com",
-		"spotifypodcastsummit.com",
-		"spotifyresonate.com",
-		"spotifysoundcheck.com",
-		"spotifystories.com",
-		"spotifyvault.com",
-		"timetoplayfair.com",
-		"whatisapushplaylist.com",
-		"whatsgoingonintheworld.com",
-		"whatsthedealwithasmr.com",
-		"whatswrongwithmysucculent.com",
-		"whowebe.com",
-		"whycantigettosleep.com",
-		"enspotify.com",
-		"extraordinariesonthemic.com",
-		"geistguest.com",
-		"gimlet.design",
-		"gimletmedia.com",
-		"startuplistener.com",
-		"surprisinglyawesome.com",
-		"thenodbuysblack.com",
-		"thesecrettovictory.com",
-		"niland.io",
-		"parcast.com",
-		"everynoise.com",
-		"soundtrap.com"
-	]
-},
+         "name":"Spotify",
+         "url":"https://hackerone.com/spotify",
+         "bounty":true,
+         "domains":[
+            "spotify.com",
+            "spotify.net",
+            "spotifyforbrands.com",
+            "withspotify.com",
+            "byspotify.com",
+            "backstage.io",
+            "blackhistoryisnow.com",
+            "closetheplaygap.com",
+            "doesmydogmissme.com",
+            "equalizerproject.com",
+            "howamistillhungover.com",
+            "howdoikeepthekidsbusy.com",
+            "howdoimakethisroadtripbetter.com",
+            "imabandi.to",
+            "issa.website",
+            "justaddspotify.com",
+            "atspotify.com",
+            "masmexa.com",
+            "mimusica2019.com",
+            "ninemusesfestival.com",
+            "play-portraits.com",
+            "poddamnthatsfunny.com",
+            "reviewvault.com",
+            "secretgenius.com",
+            "sonalytic.com",
+            "spotify-countrymatch.com",
+            "spotify-everywhere.com",
+            "spotify-library.com",
+            "spotify.design",
+            "spotify.dev",
+            "spotify.xxx",
+            "spotifyawards.com",
+            "spotifycharts.com",
+            "spotifycodes.com",
+            "spotifyforcreatives.com",
+            "spotifyforpartners.com",
+            "spotifyforpodcasterssummit.com.br",
+            "spotifyforvendors.com",
+            "spotifyjobs.com",
+            "spotifyonstage.com",
+            "spotifypodcastsummit.com",
+            "spotifyresonate.com",
+            "spotifysoundcheck.com",
+            "spotifystories.com",
+            "spotifyvault.com",
+            "timetoplayfair.com",
+            "whatisapushplaylist.com",
+            "whatsgoingonintheworld.com",
+            "whatsthedealwithasmr.com",
+            "whatswrongwithmysucculent.com",
+            "whowebe.com",
+            "whycantigettosleep.com",
+            "enspotify.com",
+            "extraordinariesonthemic.com",
+            "geistguest.com",
+            "gimlet.design",
+            "gimletmedia.com",
+            "startuplistener.com",
+            "surprisinglyawesome.com",
+            "thenodbuysblack.com",
+            "thesecrettovictory.com",
+            "niland.io",
+            "parcast.com",
+            "everynoise.com",
+            "soundtrap.com"
+         ]
+      },
       {
          "name":"Takeaway",
          "url":"https://bugcrowd.com/takeaway",
@@ -1859,17 +1868,16 @@
             "redtube.com"
          ]
       },
-
       {
          "name":"Amazon",
          "url":"https://hackerone.com/amazonvrp",
          "bounty":true,
          "domains":[
-           "amazon.com",
-		     "amazon.co.uk",
-           "amazon.co.jp",
-           "amazon.de",
-		     "amazon.fr"
+            "amazon.com",
+            "amazon.co.uk",
+            "amazon.co.jp",
+            "amazon.de",
+            "amazon.fr"
          ]
       },
       {
@@ -1916,17 +1924,17 @@
          ]
       },
       {
-         "name": "Yatra",
-         "url": "https://www.yatra.com/online/bug-bounty",
-         "bounty": true,
+         "name":"Yatra",
+         "url":"https://www.yatra.com/online/bug-bounty",
+         "bounty":true,
          "domains":[
             "yatra.com"
          ]
       },
       {
-         "name": "Starleaf",
-         "url": "https://www.starleaf.com/c/bug-bounty-program/",
-         "bounty": true,
+         "name":"Starleaf",
+         "url":"https://www.starleaf.com/c/bug-bounty-program/",
+         "bounty":true,
          "domains":[
             "starleaf.com"
          ]
@@ -1940,9 +1948,9 @@
          ]
       },
       {
-         "name": "Playstation",
-         "url": "https://hackerone.com/playstation",
-         "bounty": true,
+         "name":"Playstation",
+         "url":"https://hackerone.com/playstation",
+         "bounty":true,
          "domains":[
             "playstation.net",
             "sonyentertainmentnetwork.com",
@@ -1950,21 +1958,20 @@
          ]
       },
       {
-         "name": "EC-Council",
-         "url": "https://www.eccouncil.org/bug-bounty/",
-         "bounty": true,
+         "name":"EC-Council",
+         "url":"https://www.eccouncil.org/bug-bounty/",
+         "bounty":true,
          "domains":[
             "eccouncil.org"
-            ]
+         ]
       },
-
       {
-         "name": "Wells Fargo",
-         "url": "https://hackerone.com/wellsfargo",
-         "bounty": false,
+         "name":"Wells Fargo",
+         "url":"https://hackerone.com/wellsfargo",
+         "bounty":false,
          "domains":[
             "wellsfargo.com"
-            ]
+         ]
       },
       {
          "name":"Reaserchgate",
@@ -1982,48 +1989,48 @@
             "magisto.com"
          ]
       },
-{
-	"name": "SMTP2GO",
-	"url": "https://hackerone.com/smtp2go",
-	"bounty": false,
-	"domains": [
-		"smtp2go.com"
-	]
-  }, 
-{
-	"name": "UpHabit",
-	"url": "https://hackerone.com/uphabit",
-	"bounty": false,
-	"domains": [
-		"uphabit.com"
-	]
-  }, 
-{
-	"name": "Courier",
-	"url": "https://hackerone.com/trycourier",
-	"bounty": false,
-	"domains": [
-		"trycourier.app",
-		"ct0.app",
-		"trycourier.com"
-	]
-  },
-{
-	"name": "Ozon",
-	"url": "https://hackerone.com/ozon",
-	"bounty": true,
-	"domains": [
-		"ozon.ru"
-	]
-  },
-{
-	"name": "Gener8",
-	"url": "https://hackerone.com/gener8",
-	"bounty": false,
-	"domains": [
-		"gener8ads.com"
-	]
-  }, 
+      {
+         "name":"SMTP2GO",
+         "url":"https://hackerone.com/smtp2go",
+         "bounty":false,
+         "domains":[
+            "smtp2go.com"
+         ]
+      },
+      {
+         "name":"UpHabit",
+         "url":"https://hackerone.com/uphabit",
+         "bounty":false,
+         "domains":[
+            "uphabit.com"
+         ]
+      },
+      {
+         "name":"Courier",
+         "url":"https://hackerone.com/trycourier",
+         "bounty":false,
+         "domains":[
+            "trycourier.app",
+            "ct0.app",
+            "trycourier.com"
+         ]
+      },
+      {
+         "name":"Ozon",
+         "url":"https://hackerone.com/ozon",
+         "bounty":true,
+         "domains":[
+            "ozon.ru"
+         ]
+      },
+      {
+         "name":"Gener8",
+         "url":"https://hackerone.com/gener8",
+         "bounty":false,
+         "domains":[
+            "gener8ads.com"
+         ]
+      },
       {
          "name":"Engel & Völkers Technology GmbH",
          "url":"https://hackerone.com/engel_volkers",
@@ -2034,4 +2041,3 @@
       }
    ]
 }
-
