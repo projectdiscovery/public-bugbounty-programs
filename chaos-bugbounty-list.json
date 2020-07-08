@@ -1232,7 +1232,6 @@
          "bounty":true,
          "domains":[
             "vimeo.com",
-            "livestream.com",
             "magisto.com"
          ]
       },
@@ -2031,6 +2030,14 @@
          "domains":[
             "engelvoelkers.com"
          ]
+      },
+      {
+	"name": "livestream",
+	"url": "https://hackerone.com/livestream",
+	"bounty": true,
+	"domains": [
+	    "livestream.com"
+	]
       }
    ]
 }
