@@ -2062,7 +2062,7 @@
 	"url": "https://hackerone.com/hyatt",
 	"bounty": true,
 	"domains": [
-        "hyatt.com",
+        "hyatt.com"
 	]
   },
   {
@@ -2070,7 +2070,7 @@
 	"url": "https://hackerone.com/greenhouse",
 	"bounty": true,
 	"domains": [
-        "greenhouse.io",
+        "greenhouse.io"
 	]
   },
   {
@@ -2078,7 +2078,7 @@
 	"url": "https://hackerone.com/coursera",
 	"bounty": false,
 	"domains": [
-        "coursera.org",
+        "coursera.org"
 	]
   },
   {
@@ -2094,7 +2094,7 @@
     "url":"https://hackerone.com/badoo",
     "bounty":true,
     "domains":[
-       ".badoo.com",
+       "badoo.com",
        "badoocdn.com",
        "hotornot.com"
     ]
