@@ -1374,7 +1374,9 @@
          "url":"https://hackerone.com/rockstargames",
          "bounty":true,
          "domains":[
-            "rockstargames.com"
+            "rockstargames.com",
+	    "lifeinvader.com",
+            "rockstarnorth.com"
          ]
       },
       {
