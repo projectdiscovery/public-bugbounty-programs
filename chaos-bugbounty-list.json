@@ -2040,6 +2040,67 @@
 	    "livestream.com"
 	]
       },
+{
+	"name": "Bime",
+	"url": "https://hackerone.com/bime",
+	"bounty": true,
+	"domains": [
+        "bime.io",
+        "bimeanalytics.com"
+	]
+  }, 
+  {
+	"name": "JamieWeb",
+	"url": "https://hackerone.com/jamieweb",
+	"bounty": false,
+	"domains": [
+        "jamieweb.net",
+        "jamiewebgbelqfno.onion",
+        "jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion"
+	]
+  }, 
+  {
+	"name": "Hyatt",
+	"url": "https://hackerone.com/hyatt",
+	"bounty": true,
+	"domains": [
+        "hyatt.com"
+	]
+  },
+  {
+	"name": "Greenhouse.io",
+	"url": "https://hackerone.com/greenhouse",
+	"bounty": true,
+	"domains": [
+        "greenhouse.io"
+	]
+  },
+  {
+	"name": "Coursera",
+	"url": "https://hackerone.com/coursera",
+	"bounty": false,
+	"domains": [
+        "coursera.org"
+	]
+  },
+  {
+    "name":"Files.com",
+    "url":"https://hackerone.com/files",
+    "bounty":true,
+    "domains":[
+       "files.com"
+    ]
+ },
+ {
+    "name":"Badoo",
+    "url":"https://hackerone.com/badoo",
+    "bounty":true,
+    "domains":[
+       "badoo.com",
+       "badoocdn.com",
+       "hotornot.com"
+    ]
+ },
       {
 	"name": "Canon",
 	"url": "https://canon.a.bigcontent.io/v1/static/canon_vdp_program-policy",
