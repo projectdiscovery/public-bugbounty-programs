@@ -2108,6 +2108,22 @@
 	"domains":[
 	    "canon.com"
 	]
+      },
+      {
+	"name": "Okta",
+	"url": "https://bugcrowd.com/okta",
+	"bounty": true,
+	"domains":[
+	    "oktapreview.com"
+	]
+      },
+      {
+	"name": "Playtech",
+	"url": "https://www.playtech.com/contact-us/security-inquiry",
+	"bounty": false,
+	"domains":[
+	    "playtech.com"
+	]
       }
    ]
 }
