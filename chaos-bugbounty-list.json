@@ -8,6 +8,14 @@
             "liquidweb.com"
          ]
       },
+     {
+        "name":"Salesforce",
+        "url":"https://www.salesforce.com/company/disclosure/",
+        "bounty":false,
+        "domains":[
+            "salesforce.com"
+         ]
+      },
       {
          "name":"range",
          "url":"https://www.range.co/security/bounty",
