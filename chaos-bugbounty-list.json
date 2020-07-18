@@ -190,13 +190,13 @@
          "url":"https://security.dji.com/policy?lang=en_US",
          "bounty":true,
          "domains":[
-            "dji.com",
-            "skypixel.com",
-	    "djicdn.com",
-	    "djivideos.com",
-            "dji.net",
-	    "robomaster.com",
-            "djiservice.org"
+		"dji.com",
+		"skypixel.com",
+		"djicdn.com",
+		"djivideos.com",
+		"dji.net",
+		"robomaster.com",
+		"djiservice.org"
          ]
       },
       {
