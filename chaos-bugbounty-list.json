@@ -1,6 +1,15 @@
 {
    "programs":[
       {
+         "name": "clairo",
+         "url": "https://hackerone.com/clario",
+         "bounty": true,
+         "domains": [
+            "clario.co",
+            "mackeeper.com"
+         ]
+      },
+      {
          "name":"liquidweb",
          "url":"https://www.liquidweb.com/about-us/policies/bug-bounty-program/",
          "bounty":true,
@@ -190,13 +199,13 @@
          "url":"https://security.dji.com/policy?lang=en_US",
          "bounty":true,
          "domains":[
-		"dji.com",
-		"skypixel.com",
-		"djicdn.com",
-		"djivideos.com",
-		"dji.net",
-		"robomaster.com",
-		"djiservice.org"
+      "dji.com",
+      "skypixel.com",
+      "djicdn.com",
+      "djivideos.com",
+      "dji.net",
+      "robomaster.com",
+      "djiservice.org"
          ]
       },
       {
@@ -465,7 +474,7 @@
          "domains":[
             "cbhq.net",
             "coinbase.com",
-	    "paradex.io"
+       "paradex.io"
          ]
       },
       {
@@ -1397,7 +1406,7 @@
          "bounty":true,
          "domains":[
             "rockstargames.com",
-	    "lifeinvader.com",
+       "lifeinvader.com",
             "rockstarnorth.com"
          ]
       },
@@ -2055,55 +2064,55 @@
          ]
       },
       {
-	"name": "livestream",
-	"url": "https://hackerone.com/livestream",
-	"bounty": true,
-	"domains": [
-	    "livestream.com"
-	]
+   "name": "livestream",
+   "url": "https://hackerone.com/livestream",
+   "bounty": true,
+   "domains": [
+       "livestream.com"
+   ]
       },
 {
-	"name": "Bime",
-	"url": "https://hackerone.com/bime",
-	"bounty": true,
-	"domains": [
+   "name": "Bime",
+   "url": "https://hackerone.com/bime",
+   "bounty": true,
+   "domains": [
         "bime.io",
         "bimeanalytics.com"
-	]
+   ]
   },
   {
-	"name": "JamieWeb",
-	"url": "https://hackerone.com/jamieweb",
-	"bounty": false,
-	"domains": [
+   "name": "JamieWeb",
+   "url": "https://hackerone.com/jamieweb",
+   "bounty": false,
+   "domains": [
         "jamieweb.net",
         "jamiewebgbelqfno.onion",
         "jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion"
-	]
+   ]
   },
   {
-	"name": "Hyatt",
-	"url": "https://hackerone.com/hyatt",
-	"bounty": true,
-	"domains": [
+   "name": "Hyatt",
+   "url": "https://hackerone.com/hyatt",
+   "bounty": true,
+   "domains": [
         "hyatt.com"
-	]
+   ]
   },
   {
-	"name": "Greenhouse.io",
-	"url": "https://hackerone.com/greenhouse",
-	"bounty": true,
-	"domains": [
+   "name": "Greenhouse.io",
+   "url": "https://hackerone.com/greenhouse",
+   "bounty": true,
+   "domains": [
         "greenhouse.io"
-	]
+   ]
   },
   {
-	"name": "Coursera",
-	"url": "https://hackerone.com/coursera",
-	"bounty": false,
-	"domains": [
+   "name": "Coursera",
+   "url": "https://hackerone.com/coursera",
+   "bounty": false,
+   "domains": [
         "coursera.org"
-	]
+   ]
   },
   {
     "name":"Files.com",
@@ -2124,28 +2133,28 @@
     ]
  },
       {
-	"name": "Canon",
-	"url": "https://canon.a.bigcontent.io/v1/static/canon_vdp_program-policy",
-	"bounty": false,
-	"domains":[
-	    "canon.com"
-	]
+   "name": "Canon",
+   "url": "https://canon.a.bigcontent.io/v1/static/canon_vdp_program-policy",
+   "bounty": false,
+   "domains":[
+       "canon.com"
+   ]
       },
       {
-	"name": "Okta",
-	"url": "https://bugcrowd.com/okta",
-	"bounty": true,
-	"domains":[
-	    "oktapreview.com"
-	]
+   "name": "Okta",
+   "url": "https://bugcrowd.com/okta",
+   "bounty": true,
+   "domains":[
+       "oktapreview.com"
+   ]
       },
       {
-	"name": "Playtech",
-	"url": "https://www.playtech.com/contact-us/security-inquiry",
-	"bounty": false,
-	"domains":[
-	    "playtech.com"
-	]
+   "name": "Playtech",
+   "url": "https://www.playtech.com/contact-us/security-inquiry",
+   "bounty": false,
+   "domains":[
+       "playtech.com"
+   ]
       },
       {
          "name": "Qulture.Rocks",
@@ -2157,3 +2166,4 @@
       }
    ]
 }
+
