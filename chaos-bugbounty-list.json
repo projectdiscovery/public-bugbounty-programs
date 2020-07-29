@@ -1,5 +1,7 @@
 {
-   "programs": [{
+   "programs": [
+
+      {
          "name": "Rockset",
          "url": "https://hackerone.com/rockset",
          "bounty": false,
@@ -7,8 +9,8 @@
             "rockset.com"
          ]
       },
-{
-   "programs": [{
+      {
+
          "name": "Codefi",
          "url": "https://hackerone.com/codefi_bbp",
          "bounty": true,
@@ -16,8 +18,7 @@
             "codefi.network"
          ]
       },
-{
-   "programs": [{
+      {
          "name": "clario",
          "url": "https://hackerone.com/clario",
          "bounty": true,
