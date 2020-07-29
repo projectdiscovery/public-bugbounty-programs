@@ -1,5 +1,23 @@
 {
     "programs": [
+
+      {
+         "name": "Rockset",
+         "url": "https://hackerone.com/rockset",
+         "bounty": false,
+         "domains": [
+            "rockset.com"
+         ]
+      },
+      {
+
+         "name": "Codefi",
+         "url": "https://hackerone.com/codefi_bbp",
+         "bounty": true,
+         "domains": [
+            "codefi.network"
+         ]
+      },
         {
             "name": "Acorns Grow, Inc.",
             "url": "https://bugcrowd.com/acorns",
@@ -1009,16 +1027,6 @@
                 "coinbase.com",
                 "cbhq.net",
                 "paradex.io"
-            ]
-        },
-        {
-            "name": "Automattic",
-            "url": "https://hackerone.com/automattic",
-            "bounty": false,
-            "domains": [
-                "tumblr.com",
-                "txmblr.com",
-                "umblr.com"
             ]
         },
         {
@@ -2245,7 +2253,6 @@
             "url": "https://hackerone.com/tumblr",
             "bounty": false,
             "domains": [
-                "tumblr.com",
                 "txmblr.com",
                 "umblr.com"
             ]
