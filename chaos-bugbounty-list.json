@@ -158,7 +158,6 @@
             "bounty": false,
             "domains": [
                 "comcast.com",
-                "comcast.net",
                 "xfinity.com"
             ]
         },
@@ -821,17 +820,6 @@
                 "wpengine.io",
                 "wpesvc.net",
                 "studiopress.com"
-            ]
-        },
-        {
-            "name": "Xfinity Home & xFi",
-            "url": "https://bugcrowd.com/xfinity-home",
-            "bounty": true,
-            "domains": [
-                "comcast.net",
-                "xfinity.com",
-                "codebig2.net",
-                "orc-xfi.com"
             ]
         },
         {
