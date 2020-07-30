@@ -874,7 +874,7 @@
       {
          "name":"Backblaze",
          "url":"https://hackerone.com/backblaze",
-         "bounty":false,
+         "bounty":true,
          "domains":[
             "backblazeb2.com",
             "backblaze.com"
@@ -1045,7 +1045,7 @@
       {
          "name":"GitLab",
          "url":"https://hackerone.com/gitlab",
-         "bounty":false,
+         "bounty":true,
          "domains":[
             "gitter.im",
             "gitlab.com"
@@ -1122,7 +1122,7 @@
       {
          "name":"Yelp",
          "url":"https://hackerone.com/yelp",
-         "bounty":false,
+         "bounty":true,
          "domains":[
             "yelp.com",
             "yelpwifi.com",
@@ -1168,7 +1168,7 @@
       {
          "name":"Airbnb",
          "url":"https://hackerone.com/airbnb",
-         "bounty":false,
+         "bounty":true,
          "domains":[
             "byairbnb.com",
             "luckey.app",
@@ -1298,7 +1298,7 @@
       {
          "name":"PayPal",
          "url":"https://hackerone.com/paypal",
-         "bounty":false,
+         "bounty":true,
          "domains":[
             "paypal.here",
             "paypal.me",
@@ -1517,7 +1517,7 @@
       {
          "name":"Goldman Sachs",
          "url":"https://hackerone.com/goldmansachs",
-         "bounty":false,
+         "bounty":true,
          "domains":[
             "gspublishing.com",
             "claritymoney.com",
@@ -1799,7 +1799,7 @@
       {
          "name":"NordVPN",
          "url":"https://hackerone.com/nordvpn",
-         "bounty":false,
+         "bounty":true,
          "domains":[
             "nordvpn.com"
          ]
@@ -2108,7 +2108,7 @@
       {
          "name":"Crowdstrike",
          "url":"https://hackerone.com/crowdstrike",
-         "bounty":false,
+         "bounty":true,
          "domains":[
             "crowdstrike.com",
             "crowdstrike.org",
@@ -2283,7 +2283,6 @@
             "marriott.com",
             "starwoodhotels.com",
             "ritzcarlton.com",
-            "com.marriott",
             "eleganthotels.com"
          ]
       },
@@ -3317,15 +3316,6 @@
             "betterscience.org",
             "fuzzing-project.org",
             "hboeck.de"
-         ]
-      },
-      {
-         "name":"Marriott",
-         "url":"https://hackerone.com/marriott",
-         "bounty":false,
-         "domains":[
-            "marriott.com",
-            "starwoodhotels.com"
          ]
       },
       {
