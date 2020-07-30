@@ -1543,15 +1543,6 @@
          ]
       },
       {
-         "name":"Hyatt Hotels",
-         "url":"https://hackerone.com/hyatt",
-         "bounty":true,
-         "domains":[
-            "hyatt.com",
-            "com.hyatt"
-         ]
-      },
-      {
          "name":"Livestream",
          "url":"https://hackerone.com/livestream",
          "bounty":true,
