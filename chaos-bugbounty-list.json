@@ -3182,6 +3182,17 @@
          ]
       },
       {
+         "name":"Deutsche Telekom",
+         "url":"https://www.telekom.com/en/corporate-responsibility/data-protection-data-security/security/details/closing-security-gaps-360054",
+         "bounty":true,
+         "domains":[
+            "telekom.de",
+            "telekom.net",
+            "telekom.com",
+            "t-systems.com"
+         ]
+      },
+      {
          "name":"Simple",
          "url":"https://bugcrowd.com/simple",
          "bounty":true,
