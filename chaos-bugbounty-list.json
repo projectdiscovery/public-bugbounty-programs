@@ -3629,6 +3629,16 @@
          ]
       },
       {
+         "name":"RBK.money",
+         "url":"https://rbk.money/en/bug-bounty/",
+         "bounty":true,
+         "domains":[
+            "rbk.money",
+            "rbk.mn",
+            "rbkmoney.com"
+         ]
+      },
+      {
          "name":"T-Mobile CZ",
          "url":"https://www.t-mobile.cz/bug-bounty",
          "bounty":true,
