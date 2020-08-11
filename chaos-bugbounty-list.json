@@ -126,6 +126,15 @@
          ]
       },
       {
+         "name":"BugPoC",
+         "url":"https://hackerone.com/bugpoc",
+         "bounty":true,
+         "domains":[
+            "bugpoc.com",
+            "bugpoc.ninja"
+         ]
+      },
+      {
          "name":"Caffeine",
          "url":"https://bugcrowd.com/caffeine",
          "bounty":true,
