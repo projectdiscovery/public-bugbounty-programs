@@ -3886,6 +3886,48 @@
             "scrapinghub.com",
             "crawlera.com"
          ]
+      },
+      {
+         "name":"Observu",
+         "url":"https://observu.com/security.php",
+         "bounty":false,
+         "domains":[
+            "observu.com"
+         ]
+      },
+      {
+         "name":"Khan Academy",
+         "url":"https://hackerone.com/khanacademy",
+         "bounty":false,
+         "domains":[
+            "khanacademy.org"
+         ]
+      },
+      {
+         "name":"Clause",
+         "url":"https://clause.io/security",
+         "bounty":true,
+         "domains":[
+            "clausestaging.com"
+         ]
+      },
+      {
+         "name":"Imgur",
+         "url":"https://hackerone.com/imgur",
+         "bounty":true,
+         "domains":[
+            "imgur.com"
+         ]
+      },
+      {
+         "name":"Spokeo",
+         "url":"https://www.spokeo.com/bug-bounty",
+         "bounty":true,
+         "domains":[
+            "spokeo.com",
+            "freepeopledirectory.com",
+            "spokeoaffiliates.com"
+         ]
       }
    ]
 }
