@@ -3928,6 +3928,48 @@
             "freepeopledirectory.com",
             "spokeoaffiliates.com"
          ]
+      },
+      {
+         "name":"Nike",
+         "url":"https://www.nike.com/help/a/responsible-disclosure",
+         "bounty":false,
+         "domains":[
+            "nike.com",
+            "converse.com",
+            "nike.net"
+         ]
+      },
+      {
+         "name":"Takealot",
+         "url":"https://www.takealot.com/help/responsible-disclosure-policy",
+         "bounty":false,
+         "domains":[
+            "takealot.com"
+         ]
+      },
+      {
+         "name":"Eventbrite",
+         "url":"https://www.eventbrite.com/security/",
+         "bounty":false,
+         "domains":[
+            "eventbrite.com"
+         ]
+      },
+      {
+         "name":"Buffer",
+         "url":"https://buffer.com/legal#security",
+         "bounty":true,
+         "domains":[
+            "buffer.com"
+         ]
+      },
+      {
+         "name":"LetsBuild",
+         "url":"https://www.letsbuild.com/responsible-disclosure",
+         "bounty":false,
+         "domains":[
+            "letsbuild.com"
+         ]
       }
    ]
 }
