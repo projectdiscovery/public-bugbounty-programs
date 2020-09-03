@@ -3970,6 +3970,17 @@
          "domains":[
             "letsbuild.com"
          ]
+     
+      }
+   
+      {
+        "name":"samsung ",
+        "url" :"https://samsungtvbounty.com"
+        "bounty":true,
+       "domains":[
+            "samsung.com"
+         ]
       }
    ]
+   
 }
