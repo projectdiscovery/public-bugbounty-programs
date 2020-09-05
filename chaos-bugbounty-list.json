@@ -9,6 +9,45 @@
          ]
       },
       {
+         "name":"18F",
+         "url":"https://18f.gsa.gov/vulnerability-disclosure-policy/",
+         "bounty":true,
+         "domains":[
+            "cloud.gov",
+            "account.fr.cloud.gov",
+            "admin.fr.cloud.gov",
+            "alertmanager.fr.cloud.gov",
+            "api.fr.cloud.gov",
+            "ci.fr.cloud.gov",
+            "dashboard.fr.cloud.gov",
+            "diagrams.fr.cloud.gov",
+            "grafana.fr.cloud.gov",
+            "idp.fr.cloud.gov",
+            "login.fr.cloud.gov",
+            "logs.fr.cloud.gov",
+            "logs-platform.fr.cloud.gov",
+            "nessus.fr.cloud.gov",
+            "opslogin.fr.cloud.gov",
+            "prometheus.fr.cloud.gov",
+            "ssh.fr.cloud.gov",
+            "uaa.fr.cloud.gov"
+            "federalist.18f.gov",
+            "federalist-docs.18f.gov",
+            "federalist-proxy.app.cloud.gov,api.data.gov",
+            "federation.data.gov",
+            "sdg.data.gov",
+            "labs.data.gov",
+            "catalog.data.gov",
+            "inventory.data.gov",
+            "static.data.gov",
+            "admin-catalog-bsp.data.gov",
+            "vote.gov",
+            "analytics.usa.gov",
+            "calc.gsa.gov",
+            "18f.gsa.gov"
+         ]
+      },
+      {
          "name":"Codefi",
          "url":"https://hackerone.com/codefi_bbp",
          "bounty":true,
@@ -47,6 +86,22 @@
          "domains":[
             "atlassian.net",
             "atlassian.com"
+         ]
+      },
+      {
+         "name":"Australia Post",
+         "url":"https://auspost.com.au/about-us/about-our-site/responsible-disclosure",
+         "bounty":true,
+         "domains":[
+            "auspost.com.au"
+         ]
+      },
+        {
+         "name":"Auvik",
+         "url":"https://www.auvik.com/disclosure-policy.html",
+         "bounty":true,
+         "domains":[
+            "auvik.com"
          ]
       },
       {
@@ -216,6 +271,19 @@
             "rsa.com",
             "rsaconference.com",
             "secureworks.com"
+         ]
+      },
+      {
+         "name":"De Volksbank",
+         "url":"https://hackerone.com/devolksbank?type=team",
+         "bounty":true,
+         "domains":[
+            "devolksbank.nl",
+            "asnbank.nl",
+            "blgwonen.nl",
+            "regiobank.nl",
+            "snsbank.nl",
+            "sns.nl"
          ]
       },
       {
