@@ -9,6 +9,19 @@
          ]
       },
       {
+         "name":"18F",
+         "url":"https://18f.gsa.gov/vulnerability-disclosure-policy/",
+         "bounty":true,
+         "domains":[
+            "cloud.gov",
+            "8f.gov",
+            "data.gov",
+            "vote.gov",
+            "usa.gov",
+            "gsa.gov"
+         ]
+      },
+      {
          "name":"Codefi",
          "url":"https://hackerone.com/codefi_bbp",
          "bounty":true,
@@ -47,6 +60,22 @@
          "domains":[
             "atlassian.net",
             "atlassian.com"
+         ]
+      },
+      {
+         "name":"Australia Post",
+         "url":"https://auspost.com.au/about-us/about-our-site/responsible-disclosure",
+         "bounty":true,
+         "domains":[
+            "auspost.com.au"
+         ]
+      },
+        {
+         "name":"Auvik",
+         "url":"https://www.auvik.com/disclosure-policy.html",
+         "bounty":true,
+         "domains":[
+            "auvik.com"
          ]
       },
       {
@@ -216,6 +245,19 @@
             "rsa.com",
             "rsaconference.com",
             "secureworks.com"
+         ]
+      },
+      {
+         "name":"De Volksbank",
+         "url":"https://hackerone.com/devolksbank?type=team",
+         "bounty":true,
+         "domains":[
+            "devolksbank.nl",
+            "asnbank.nl",
+            "blgwonen.nl",
+            "regiobank.nl",
+            "snsbank.nl",
+            "sns.nl"
          ]
       },
       {
