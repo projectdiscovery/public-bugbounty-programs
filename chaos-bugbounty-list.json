@@ -4013,6 +4013,14 @@
             "letsbuild.com"
          ]
       },
+       {
+         "name":"Clickup",
+         "url":"https://clickup.com/bug-bounty",
+         "bounty":true,
+         "domains":[
+            "clickup.com"
+         ]
+      },
       {
         "name":"Samsung ",
         "url" :"https://samsungtvbounty.com",
