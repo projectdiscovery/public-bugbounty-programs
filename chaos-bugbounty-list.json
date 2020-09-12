@@ -9,6 +9,14 @@
          ]
       },
       {
+   "name":"On2it",
+   "url":"https://on2it.net/en/responsible-disclosure/",
+   "bounty":true,
+   "domains":[
+      "*.on2it.net"
+      ]
+      },
+      {
          "name":"18F",
          "url":"https://18f.gsa.gov/vulnerability-disclosure-policy/",
          "bounty":true,
