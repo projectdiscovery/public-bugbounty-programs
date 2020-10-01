@@ -4032,6 +4032,14 @@
          ]
       },
       {
+         "name":"Stox",
+         "url":"https://www.stox.com/bounty/",
+         "bounty":true,
+         "domains":[
+            "www.stox.com"
+         ]
+      },
+      {
         "name":"Samsung",
         "url" :"https://samsungtvbounty.com",
         "bounty":true,
