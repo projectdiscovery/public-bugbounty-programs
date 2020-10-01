@@ -4008,6 +4008,14 @@
          ]
       },
       {
+         "name":"Parity",
+         "url":"https://www.parity.io/bug-bounty/",
+         "bounty":true,
+         "domains":[
+            "parity.io"
+         ]
+      },
+      {
          "name":"Buffer",
          "url":"https://buffer.com/legal#security",
          "bounty":true,
