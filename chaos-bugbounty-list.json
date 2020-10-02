@@ -4055,7 +4055,18 @@
        "domains":[
             "samsung.com"
          ]
-      }
+      }, 
+			{
+				"name": "Torfs",
+				"url": "https://www.intigriti.com/programs/torfs/torfs/detail",
+				"bounty": true,
+				"domains": [
+					"torfs.be",
+					"rieker-shop.be",
+					"schoenentorfs.be",
+					"schoenentorfs.nl "
+				]
+			}
    ]
    
 }
