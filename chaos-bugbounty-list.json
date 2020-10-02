@@ -4066,6 +4066,32 @@
 					"schoenentorfs.be",
 					"schoenentorfs.nl "
 				]
+			},
+			{
+				"name": "Port of Antwerp",
+				"url": "https://www.intigriti.com/programs/portofantwerp/portofantwerp/detail",
+				"bounty": false,
+				"domains": [
+					"c-point.be",
+					"portofantwerp.com"
+				]
+			},
+			{
+				"name": "Jooki",
+				"url": "https://www.intigriti.com/programs/muuselabs/jooki/detail",
+				"bounty": true,
+				"domains": [
+					"jooki.rocks",
+					"muuselabs.com"
+				]
+			},
+			{
+				"name": "Phished",
+				"url": "https://www.intigriti.com/programs/phished/phished/detail",
+				"bounty": false,
+				"domains": [
+					"phished.be"
+				]
 			}
    ]
    
