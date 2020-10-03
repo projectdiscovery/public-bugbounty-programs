@@ -4082,7 +4082,37 @@
       "domains": [
         "phished.be"
       ]
+    },
+    {
+      "name": "Achmea",
+      "url": "https://www.achmea.nl/en/responsibledisclosure",
+      "bounty": false,
+      "domains": [
+        "achmea.nl",
+        "syntrus.com",
+        "woonfonds.nl",
+        "fbto.nl",
+        "averoachmea.nl",
+        "union.sk",
+        "centraalbeheer.nl",
+        "onlia.ca"
+      ]
+    },
+    {
+      "name": "TheStandard",
+      "url": "https://www.standard.com/about-standard/responsible-disclosure-program",
+      "bounty": false,
+      "domains": [
+        "standard.com"
+      ]
+    },
+    {
+      "name": "Connectis",
+      "url": "https://connectis.com/en/about-us/security/responsible-disclosure-policy/",
+      "bounty": false,
+      "domains": [
+        "connectis.com"
+      ]
     }
   ]
 }
-
