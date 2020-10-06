@@ -3979,7 +3979,6 @@
             "samsung.com"
          ]
       },
-   
       { 
       "name":"PGGM",
       "url":"https://www.pggm.nl/en/responsible-disclosure",
@@ -3987,7 +3986,7 @@
       "domain":[
          "pggm.nl"
           ]
-      },
+      }
    ]
    
 }
