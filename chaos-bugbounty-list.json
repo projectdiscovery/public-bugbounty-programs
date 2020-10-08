@@ -1,5 +1,7 @@
 {
-	"programs": [{
+	"programs": [
+
+		{
 			"name": "Rockset",
 			"url": "https://hackerone.com/rockset",
 			"bounty": false,
@@ -4122,6 +4124,14 @@
 				"redbullmediahouse.com",
 				"redbullmusicacademy.com"
 			]
-		}
+		},
+		{ 
+      		"name":"PGGM",
+      		"url":"https://www.pggm.nl/en/responsible-disclosure",
+      		"bounty":true,
+      		"domain":[
+         		"pggm.nl"
+          	]
+      	}
 	]
 }
