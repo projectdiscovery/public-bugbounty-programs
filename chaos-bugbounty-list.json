@@ -172,6 +172,16 @@
 				"bugpoc.ninja"
 			]
 		},
+		
+		{
+  		   	"name":"Canva",
+		   	"url":"https://bugcrowd.com/canva",
+   			"bounty":true,
+  			"domains":[
+      				"canva.com",
+      				"canva.cn"
+  			]
+		},		
 		{
 			"name": "Caffeine",
 			"url": "https://bugcrowd.com/caffeine",
