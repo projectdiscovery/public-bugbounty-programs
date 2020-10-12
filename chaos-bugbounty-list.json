@@ -4180,7 +4180,7 @@
       		"name":"PGGM",
       		"url":"https://www.pggm.nl/en/responsible-disclosure",
       		"bounty":true,
-      		"domain":[
+      		"domains":[
          		"pggm.nl"
           	]
       	}
