@@ -23,9 +23,12 @@ We are currently accepting in JSON format, an example is below:
 }
 ```
 
-**Important notes:** 
-- Our backend only accepts TLD as input in the `domains` field, so please do not add subdomains or URLs in `domain` field. 
-- Use JSON validators (e.g. [jsonlint](https://jsonlint.com) to validate the modified `chaos-bugbounty-list.json` file when sending pull requests.
+**📋 Notes:**
+
+- Only domain name values are accepted in the `domains` field.
+- We do not support wildcard input like `*.tld` or `*.tld.*`.
+- **domains** field includes domain name information associated with the target program, not based on scope of the program.
+- Subdomains are populated using **Passive API** (chaos dataset). 
 
 Thanks again for your contribution and keeping the community vibrant. :heart:
 
