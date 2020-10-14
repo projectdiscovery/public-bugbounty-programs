@@ -1,5 +1,22 @@
 {
 	"programs": [
+		{
+ 		       "name":"Sony",
+   			"url":"https://hackerone.com/sony",
+ 			"bounty":false,
+   			"domains":[
+   			"*.sony.*",
+   			]
+		{
+			"name": "Tripadvisor",
+			"url": "https://bugcrowd.com/tripadvisor-vdp",
+			"bounty": true,
+			"domains": [
+				"*.tripadvisor.*"
+			]
+		},
+			
+		}
 
 		{
 			"name": "Rockset",
