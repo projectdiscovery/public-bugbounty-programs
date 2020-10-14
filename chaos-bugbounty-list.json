@@ -1,23 +1,27 @@
 {
 	"programs": [
+
 		{
- 		       "name":"Sony",
+ 		    "name":"Sony",
    			"url":"https://hackerone.com/sony",
  			"bounty":false,
    			"domains":[
-   			"*.sony.*",
+   			"sony.com"
    			]
+   		},
 		{
 			"name": "Tripadvisor",
 			"url": "https://bugcrowd.com/tripadvisor-vdp",
 			"bounty": true,
 			"domains": [
-				"*.tripadvisor.*"
+				"tripadvisor.com",
+				"tapayments.com",
+				"cruisecritic.com",
+				"bokun.com",
+				"tripadvisorwifi.com",
+				"tripadvisormediamanager.com"
 			]
 		},
-			
-		}
-
 		{
 			"name": "Rockset",
 			"url": "https://hackerone.com/rockset",
