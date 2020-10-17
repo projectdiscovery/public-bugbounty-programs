@@ -2,11 +2,11 @@
 	"programs": [
 
 		{
-   		   "name":"OYO",
-  			"url":"https://www.oyorooms.com/responsible-disclosure",
+   		   "name":"Edmodo
+  			"url":"https://support.edmodo.com/hc/en-us/articles/360035475733-Bug-Bounty-Guidelines",
    			"bounty":true,
    			"domains":[
-   		   		"oyorooms.com"
+   		   		"edmodo.com",    			
   		    ]
 		},
 		{
