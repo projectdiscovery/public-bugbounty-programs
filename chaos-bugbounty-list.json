@@ -2,6 +2,14 @@
 	"programs": [
 
 		{
+   		   "name":"OYO",
+  			"url":"https://www.oyorooms.com/responsible-disclosure",
+   			"bounty":true,
+   			"domains":[
+   		   		"oyorooms.com",     			
+  		    ]
+		},
+		{
    		   "name":"TikTok",
   			"url":"https://hackerone.com/tiktok",
    			"bounty":true,
