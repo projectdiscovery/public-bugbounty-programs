@@ -2,11 +2,20 @@
 	"programs": [
 
 		{
+   		   "name":"TikTok",
+  			"url":"https://hackerone.com/tiktok",
+   			"bounty":true,
+   			"domains":[
+   		   		"tiktok.com",
+      			"tiktokv.com"     			
+  		    ]
+		},
+		{
  		    "name":"Sony",
    			"url":"https://hackerone.com/sony",
  			"bounty":false,
    			"domains":[
-   			"sony.com"
+   				"sony.com"
    			]
    		},
 		{
