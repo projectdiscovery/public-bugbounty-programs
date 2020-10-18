@@ -112,7 +112,7 @@
 		{
 			"name": "Australia Post",
 			"url": "https://auspost.com.au/about-us/about-our-site/responsible-disclosure",
-			"bounty": true,
+			"bounty": false,
 			"domains": [
 				"auspost.com.au"
 			]
