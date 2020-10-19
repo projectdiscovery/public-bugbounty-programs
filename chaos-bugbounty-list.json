@@ -3986,6 +3986,15 @@
             "samsung.com"
          ]
       }
+       },
+      {
+        "name":"T-Mobile ",
+        "url" :"https://hackerone.com/tmobile?type=team",
+        "bounty":true,
+       "domains":[
+            "t-mobile.com"
+         ]
+      }
    ]
    
 }
