@@ -1,6 +1,21 @@
 {
 	"programs": [
-
+		{
+   		   "name":"FIRST",
+  			"url":"https://www.first.org/about/bugs",
+   			"bounty":false,
+   			"domains":[
+			    	"first.org"
+  		    ]
+		},
+		{
+   		   "name":"WINNI",
+  			"url":"https://www.winni.in/bug-bounty",
+   			"bounty":true,
+   			"domains":[
+			    	"winni.in"
+  		    ]
+		},
 		{
    		   "name":"OYO",
   			"url":"https://www.oyorooms.com/responsible-disclosure",
