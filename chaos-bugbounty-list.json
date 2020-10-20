@@ -4123,5 +4123,15 @@
 				"redbullmusicacademy.com"
 			]
 		}
+   ,
+		{
+			"name": "Nextiva",
+			"url": "https://www.nextiva.com/security-policy.html",
+			"bounty": true,
+			"domains": [
+				"nextiva.com",
+				"nextos.com"
+			]
+		}
 	]
 }
