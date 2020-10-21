@@ -1,6 +1,67 @@
 {
 	"programs": [
-
+		{
+   		   "name":"FIRST",
+  			"url":"https://www.first.org/about/bugs",
+   			"bounty":false,
+   			"domains":[
+			    	"first.org"
+  		    ]
+		},
+		{
+   		   "name":"WINNI",
+  			"url":"https://www.winni.in/bug-bounty",
+   			"bounty":true,
+   			"domains":[
+			    	"winni.in"
+  		    ]
+		},
+        {
+            "name":"OYO",
+            "url":"https://www.oyorooms.com/responsible-disclosure",
+            "bounty":true,
+            "domains":[
+                "oyorooms.com"
+              ]
+        },
+        {
+            "name":"Edmodo",
+            "url":"https://support.edmodo.com/hc/en-us/articles/360035475733-Bug-Bounty-Guidelines",
+            "bounty":true,
+            "domains":[
+                "edmodo.com"
+              ]
+        },
+		{
+   		   "name":"TikTok",
+  			"url":"https://hackerone.com/tiktok",
+   			"bounty":true,
+   			"domains":[
+   		   		"tiktok.com",
+      			"tiktokv.com"     			
+  		    ]
+		},
+		{
+ 		    "name":"Sony",
+   			"url":"https://hackerone.com/sony",
+ 			"bounty":false,
+   			"domains":[
+   				"sony.com"
+   			]
+   		},
+		{
+			"name": "Tripadvisor",
+			"url": "https://bugcrowd.com/tripadvisor-vdp",
+			"bounty": true,
+			"domains": [
+				"tripadvisor.com",
+				"tapayments.com",
+				"cruisecritic.com",
+				"bokun.com",
+				"tripadvisorwifi.com",
+				"tripadvisormediamanager.com"
+			]
+		},
 		{
 			"name": "Rockset",
 			"url": "https://hackerone.com/rockset",
@@ -74,7 +135,7 @@
 		{
 			"name": "Australia Post",
 			"url": "https://auspost.com.au/about-us/about-our-site/responsible-disclosure",
-			"bounty": true,
+			"bounty": false,
 			"domains": [
 				"auspost.com.au"
 			]
@@ -1321,6 +1382,39 @@
 			"domains": [
 				"legalrobot-test.com",
 				"legalrobot.com"
+			]
+		},
+		{
+			"name": "Logitech",
+			"url": "https://hackerone.com/logitech",
+			"bounty": true,
+			"domains": [
+				"logi.com",
+				"streamlabs.com",
+				"teambeyond.net",
+				"challonge.com",
+				"playmaster.gg",
+				"logitech.com",
+				"logitechg.com",
+				"logitech-partner.com",
+				"jaybirdsport.com",
+				"ultimateears.com",
+				"astrogaming.com",
+				"ultimateearsuniversity.com",
+				"mysqueezebox.com",
+				"logitechmusic.com",
+				"logitechauthorization.com",
+				"logitech-channel-marketing.com",
+				"vclogitech.com",
+				"logitech.com.cn",
+				"harmonyremote.com",
+				"slimdevices.com",
+				"uesmartradio.com",
+				"logitechstore.com.br",
+				"myharmony.com",
+				"lukwerks.com",
+				"cognitiveperformer.com",
+				"logitech.io"
 			]
 		},
 		{
@@ -3494,7 +3588,14 @@
 				"dingtalk.com",
 				"alibaba-inc.com",
 				"aliyun-inc.com",
-				"alimama.com"
+            "alimama.com",
+            "lazada.com",
+            "lazada.sg",
+            "lazada.vn",
+            "lazada.com.my",
+            "lazada.com.ph",
+            "lazada.co.id",
+            "lazada.co.th"
 			]
 		},
 		{
@@ -4147,8 +4248,25 @@
       		"name":"PGGM",
       		"url":"https://www.pggm.nl/en/responsible-disclosure",
       		"bounty":true,
-      		"domain":[
+      		"domains":[
          		"pggm.nl"
+          	]
+      	},
+		{ 
+      		"name":"Nextiva",
+      		"url":"https://www.nextiva.com/security-policy.html",
+      		"bounty":true,
+      		"domains":[
+         		"nextiva.com",
+            	"nextos.com"
+          	]
+      	},
+		{ 
+      		"name":"Clio",
+      		"url":"https://support.clio.com/hc/en-us/articles/360001114273-How-do-I-Claim-a-Bug-Bounty-or-Report-a-Vulnerability-",
+      		"bounty":true,
+      		"domains":[
+         		"clio.com"
           	]
       	}
 	]
