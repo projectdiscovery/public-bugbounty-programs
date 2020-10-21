@@ -90,7 +90,7 @@
 				"yelo.be",
 				"yeloplay.be"
 			]
-		}
+		},
 		{
 			"name": "Tweakers",
 			"url": "https://www.intigriti.com/programs/depersgroep/tweakers/detail",
@@ -100,7 +100,7 @@
 				"tweakers.net",
 				"tweakimg.net"
 			]
-		}
+		},
 		{
 			"name": "Dailymotion",
 			"url": "https://yeswehack.com/programs/dailymotion-public-bug-bounty",
@@ -112,7 +112,7 @@
 				"dailymotionadvertising.com",
 				"dm.gg"
 			]
-		}			
+		},
 		{
 			"name": "18F",
 			"url": "https://18f.gsa.gov/vulnerability-disclosure-policy/",
