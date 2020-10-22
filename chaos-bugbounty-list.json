@@ -63,6 +63,22 @@
 			]
 		},
 		{
+			"name": "Freshworks",
+			"url": "https://www.freshworks.com/security/responsible-disclosure/",
+			"bounty": false,
+			"domains": [
+				"freshworks.com",
+				"freshdesk.com",
+				"freshservice.com",
+				"freshsales.io",
+				"freshcaller.com",
+				"freshchat.com",
+				"freshmarketer.com",
+				"freshconnect.io",
+				"freshping.io"
+			]
+		},
+		{
 			"name": "Rockset",
 			"url": "https://hackerone.com/rockset",
 			"bounty": false,
