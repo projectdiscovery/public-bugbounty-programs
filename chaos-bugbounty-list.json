@@ -1,6 +1,30 @@
 {
 	"programs": [
 		{
+   		   "name":"Airship",
+  			"url":"https://www.airship.com/legal/full-disclosure-security-policy/",
+   			"bounty":false,
+   			"domains":[
+			    	"www.airship.com",
+				"www.airship.eu",
+				"www.apptimize.eu",
+				"analyze.airship.accengage.netcom",
+				"www.apptimize.com",
+				"analyze-api.airship.com",
+				"docs.airship.com",
+				"go.airship.com",
+				"sftp.airship.com",
+				"support-eu.airship.com",
+				"support.airship.com",
+				"team.airship.com",
+				"view.airship.com",
+				"accengage.net",
+				"device-api.urbanairship.com",
+				"combine.urbanairship.com",	
+  		    ]
+		},
+		
+		{
    		   "name":"FIRST",
   			"url":"https://www.first.org/about/bugs",
    			"bounty":false,
@@ -38,7 +62,7 @@
    			"bounty":true,
    			"domains":[
    		   		"tiktok.com",
-      			"tiktokv.com"     			
+      				"tiktokv.com"     			
   		    ]
 		},
 		{
