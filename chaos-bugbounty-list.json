@@ -79,6 +79,40 @@
 			]
 		},
 		{
+   			"name": "Telenet",
+  			"url": "https://www.intigriti.com/researcher/programs/telenet/telenetgroup/detail",
+   			"bounty": true,
+   			"domains": [
+				"9lives.be",
+				"base.be",
+				"telenet.be",
+				"telenethotspot.be",
+				"yelo.be",
+				"yeloplay.be"
+			]
+		},
+		{
+			"name": "Tweakers",
+			"url": "https://www.intigriti.com/programs/depersgroep/tweakers/detail",
+   			"bounty": true,
+   			"domains": [
+				"tweakblogs.net",
+				"tweakers.net",
+				"tweakimg.net"
+			]
+		},
+		{
+			"name": "Dailymotion",
+			"url": "https://yeswehack.com/programs/dailymotion-public-bug-bounty",
+   			"bounty": true,
+   			"domains": [
+				"dailymotion.com",
+				"dmcdn.net",
+				"dailymotionadvertising.com",
+				"dm.gg"
+			]
+		},
+		{
 			"name": "18F",
 			"url": "https://18f.gsa.gov/vulnerability-disclosure-policy/",
 			"bounty": true,
