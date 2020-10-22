@@ -1,5 +1,19 @@
 {
 	"programs": [
+
+		{
+   		   "name":"Airship",
+  			"url":"https://www.airship.com/legal/full-disclosure-security-policy/",
+   			"bounty":false,
+   			"domains":[
+			    "airship.com",
+				"airship.eu",
+				"apptimize.eu",
+				"apptimize.com",
+				"accengage.net",
+				"urbanairship.com"
+  		    ]
+		},
 		{
    		   "name":"FIRST",
   			"url":"https://www.first.org/about/bugs",
