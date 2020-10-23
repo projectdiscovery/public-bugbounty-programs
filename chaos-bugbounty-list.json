@@ -4228,6 +4228,16 @@
       		"domains":[
          		"pggm.nl"
           	]
-      	}
+      	       
+		},
+		{
+			"name": "Redbull",
+			"url": "https://www.htc.com/in/terms/product-security/",
+			"bounty": true,
+			"domains": [
+				"htc.com"
+
+			]
+		}
 	]
 }
