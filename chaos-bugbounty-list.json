@@ -1,5 +1,19 @@
 {
 	"programs": [
+
+		{
+   		   "name":"Airship",
+  			"url":"https://www.airship.com/legal/full-disclosure-security-policy/",
+   			"bounty":false,
+   			"domains":[
+			    "airship.com",
+				"airship.eu",
+				"apptimize.eu",
+				"apptimize.com",
+				"accengage.net",
+				"urbanairship.com"
+  		    ]
+		},
 		{
    		   "name":"FIRST",
   			"url":"https://www.first.org/about/bugs",
@@ -92,6 +106,40 @@
 			"bounty": true,
 			"domains": [
 				"on2it.net"
+			]
+		},
+		{
+   			"name": "Telenet",
+  			"url": "https://www.intigriti.com/researcher/programs/telenet/telenetgroup/detail",
+   			"bounty": true,
+   			"domains": [
+				"9lives.be",
+				"base.be",
+				"telenet.be",
+				"telenethotspot.be",
+				"yelo.be",
+				"yeloplay.be"
+			]
+		},
+		{
+			"name": "Tweakers",
+			"url": "https://www.intigriti.com/programs/depersgroep/tweakers/detail",
+   			"bounty": true,
+   			"domains": [
+				"tweakblogs.net",
+				"tweakers.net",
+				"tweakimg.net"
+			]
+		},
+		{
+			"name": "Dailymotion",
+			"url": "https://yeswehack.com/programs/dailymotion-public-bug-bounty",
+   			"bounty": true,
+   			"domains": [
+				"dailymotion.com",
+				"dmcdn.net",
+				"dailymotionadvertising.com",
+				"dm.gg"
 			]
 		},
 		{
