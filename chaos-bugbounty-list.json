@@ -23,6 +23,22 @@
   		    ]
 		},
 		{
+   		   "name":"Flipkart",
+  			"url":"https://www.flipkart.com/pages/security",
+   			"bounty":false,
+   			"domains":[
+			    	"flipkart.com"
+  		    ]
+		},
+		{
+   		   "name":"Shopclues",
+  			"url":"https://www.shopclues.com/wall-of-fame.html",
+   			"bounty":false,
+   			"domains":[
+			    	"shopclues.com"
+  		    ]
+		},
+		{
    		   "name":"WINNI",
   			"url":"https://www.winni.in/bug-bounty",
    			"bounty":true,
