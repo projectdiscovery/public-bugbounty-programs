@@ -4366,13 +4366,13 @@
 
 			]
 		},
-		      {
-   		       "name":"Flipkart",
-  			"url":"hhttps://itslearning.com/global/your-data-matters/responsible-disclosure/",
+		{
+   		    "name":"Itslearning",
+  			"url":"https://itslearning.com/global/your-data-matters/responsible-disclosure/",
    			"bounty":true,
    			"domains":[
-			    	"itslearning.com"
+			    "itslearning.com"
+			]
+		}
 	]
-	          },
-			      
 }
