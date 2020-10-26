@@ -4365,6 +4365,14 @@
 				"htc.com"
 
 			]
+		},
+		{
+   		    "name":"Itslearning",
+  			"url":"https://itslearning.com/global/your-data-matters/responsible-disclosure/",
+   			"bounty":true,
+   			"domains":[
+			    "itslearning.com"
+			]
 		}
 	]
 }
