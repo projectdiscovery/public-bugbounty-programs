@@ -2,6 +2,14 @@
 	"programs": [
 
 		{
+   		   "name":"Crowdin",
+  			"url":"https://support.crowdin.com/vulnerability-policy/",
+   			"bounty":false,
+   			"domains":[
+			    	"crowdin.com"
+  		    ]
+		},
+		{
    		   "name":"Airship",
   			"url":"https://www.airship.com/legal/full-disclosure-security-policy/",
    			"bounty":false,
