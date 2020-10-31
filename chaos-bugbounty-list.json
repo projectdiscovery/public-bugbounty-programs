@@ -2,6 +2,14 @@
 	"programs": [
 
 		{
+   		   "name":"Umbraco",
+  			"url":"https://umbraco.com/about-us/trust-center/security-and-umbraco/how-to-report-a-vulnerability-in-umbraco/",
+   			"bounty":false,
+   			"domains":[
+			    	"umbraco.com"
+  		    ]
+		},
+		{
    		   "name":"Crowdin",
   			"url":"https://support.crowdin.com/vulnerability-policy/",
    			"bounty":false,
