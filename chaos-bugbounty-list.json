@@ -4389,6 +4389,14 @@
    			"domains":[
 			    "itslearning.com"
 			]
+		},
+		{
+   		    "name":"Remitano",
+  			"url":"https://security.remitano.com/",
+   			"bounty":true,
+   			"domains":[
+			    "remitano.com"
+			]
 		}
 	]
 }
