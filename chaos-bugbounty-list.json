@@ -4397,6 +4397,14 @@
    			"domains":[
 			    "remitano.com"
 			]
+		},
+		{
+   		    "name":"iFood",
+  			"url":"https://www.ifood.com.br/bugbounty/",
+   			"bounty":true,
+   			"domains":[
+			    "ifood.com.br"
+			]
 		}
 	]
 }
