@@ -4403,10 +4403,7 @@
   			"url":"https://www.ifood.com.br/bugbounty/",
    			"bounty":true,
    			"domains":[
-			    "www.ifood.com.br",
-			    "marketplace.ifood.com.br",
-			    "wsloja.ifood.com.br",
-			    "wslatam.ifood.com.br"
+			    "ifood.com.br"
 			]
 		}
 	]
