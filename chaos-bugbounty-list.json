@@ -4405,6 +4405,14 @@
    			"domains":[
 			    "ifood.com.br"
 			]
+		},
+		{
+   		    "name":"Discord",
+  			"url":"https://canary.discord.com/security",
+   			"bounty":true,
+   			"domains":[
+			    "discord.com"
+			]
 		}
 	]
 }
