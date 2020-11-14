@@ -4413,6 +4413,14 @@
    			"domains":[
 			    "discord.com"
 			]
+		},
+		{
+			"name": "Nubank",
+			"url": "https://hackerone.com/nubank",
+			"bounty": true,
+			"domains": [
+				"nubank.com.br"
+			]
 		}
 	]
 }
