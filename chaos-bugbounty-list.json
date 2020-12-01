@@ -36,6 +36,39 @@
 		    ]
 		},
 		{
+		   "name":"jimdo",
+			"url":"https://hackerone.com/jimdo",
+			"bounty":false,
+			"domains":[
+				"jimdo.com",
+				"jimdofree.com",
+				"jimdosite.com",
+				"jimdo-platform.net"
+		    ]		
+		},
+		{
+		   "name":"navient",
+			"url":"https://hackerone.com/navient_solutions",
+			"bounty":false,
+			"domains":[
+				"navient.com",
+				"navirefi.com",
+				"gilacorp.com",
+				"msbnexus.com",
+				"msbselfserve.com",
+				"msbpay.com"
+		    ]
+
+		},
+		{
+		   "name":"mendix",
+			"url":"https://hackerone.com/mendix",
+			"bounty":false,
+			"domains":[
+				"mendix.com"
+		    ]
+		},
+		{
 		   "name":"larksuite",
 			"url":"https://hackerone.com/lark_technologies",
 			"bounty":true,
