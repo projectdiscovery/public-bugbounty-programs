@@ -10,6 +10,14 @@
   		    ]
 		},
 		{
+		   "name":"exodus",
+			"url":"https://hackerone.com/exodus",
+			"bounty":true,
+			"domains":[
+				"exodus.io"
+		    ]
+		},
+		{
    		   "name":"Crowdin",
   			"url":"https://support.crowdin.com/vulnerability-policy/",
    			"bounty":false,
