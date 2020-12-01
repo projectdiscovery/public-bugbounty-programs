@@ -14,8 +14,7 @@
 			"url":"https://hackerone.com/exodus",
 			"bounty":true,
 			"domains":[
-				"exodus.io",
-				"a.exodus.io"
+				"exodus.io"
 		    ]
 		},
 		{
