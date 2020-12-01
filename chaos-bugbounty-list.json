@@ -18,6 +18,25 @@
   		    ]
 		},
 		{
+		   "name":"rms",
+			"url":"https://hackerone.com/rms_inc",
+			"bounty":false,
+			"domains":[
+				"rms.com",
+				"liferisks.com",
+				"miuinsights.com"
+		    ]
+		},
+		{
+		   "name":"larksuite",
+			"url":"https://hackerone.com/lark_technologies",
+			"bounty":true,
+			"domains":[
+				"larksuite.com",
+				"byteoversea.com"
+		    ]
+		},
+		{
    		   "name":"Airship",
   			"url":"https://www.airship.com/legal/full-disclosure-security-policy/",
    			"bounty":false,
