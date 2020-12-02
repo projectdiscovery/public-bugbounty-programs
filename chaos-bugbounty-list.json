@@ -4482,5 +4482,13 @@
 				"nubank.com.br"
 			]
 		}
+				{
+			"name": "BtcTurk",
+			"url": "https://pro.btcturk.com/odul-avciligi",
+			"bounty": true,
+			"domains": [
+				"btcturk.com"
+			]
+		}
 	]
 }
