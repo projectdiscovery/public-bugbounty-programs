@@ -144,7 +144,7 @@
    			"bounty":true,
    			"domains":[
    		   		"tiktok.com",
-      			"tiktokv.com"     			
+      			"tiktokv.com"
   		    ]
 		},
 		{
@@ -2252,7 +2252,7 @@
 			]
 		},
 		{
-			"name": "Upserve ",
+			"name": "Upserve",
 			"url": "https://hackerone.com/upserve",
 			"bounty": true,
 			"domains": [
@@ -2501,7 +2501,7 @@
 			]
 		},
 		{
-			"name": "NCSC UK ",
+			"name": "NCSC UK",
 			"url": "https://hackerone.com/ncsc_uk",
 			"bounty": false,
 			"domains": [
@@ -4322,7 +4322,7 @@
 				"torfs.be",
 				"rieker-shop.be",
 				"schoenentorfs.be",
-				"schoenentorfs.nl "
+				"schoenentorfs.nl"
 			]
 		},
 		{
