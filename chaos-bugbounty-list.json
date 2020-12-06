@@ -4492,8 +4492,7 @@
 			"url": "https://grofers.com/bug-bounty",
 			"bounty": true,
 			"domains": [
-				"grofers.com",
-				"*.grofers.com"
+				"grofers.com"
 			]
 		}
 	]
