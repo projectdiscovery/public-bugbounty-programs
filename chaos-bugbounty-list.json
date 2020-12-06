@@ -4486,6 +4486,15 @@
 			"domains": [
 				"nubank.com.br"
 			]
+		},
+		{
+			"name": "Grofers",
+			"url": "https://grofers.com/bug-bounty",
+			"bounty": true,
+			"domains": [
+				"grofers.com",
+				"*.grofers.com"
+			]
 		}
 	]
 }
