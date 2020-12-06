@@ -1,169 +1,167 @@
 {
 	"programs": [
-
 		{
-   		   "name":"Umbraco",
-  			"url":"https://umbraco.com/about-us/trust-center/security-and-umbraco/how-to-report-a-vulnerability-in-umbraco/",
-   			"bounty":false,
-   			"domains":[
-			    	"umbraco.com"
-  		    ]
+			"name": "Umbraco",
+			"url": "https://umbraco.com/about-us/trust-center/security-and-umbraco/how-to-report-a-vulnerability-in-umbraco/",
+			"bounty": false,
+			"domains": [
+				"umbraco.com"
+			]
 		},
 		{
-		   "name":"SpaceX",
-			"url":"https://bugcrowd.com/spacex",
-			"bounty":true,
-			"domains":[
+			"name": "SpaceX",
+			"url": "https://bugcrowd.com/spacex",
+			"bounty": true,
+			"domains": [
 				"starlink.com",
 				"starlinkisp.net"
-		    ]
+			]
 		},
 		{
-		   "name":"exodus",
-			"url":"https://hackerone.com/exodus",
-			"bounty":true,
-			"domains":[
+			"name": "exodus",
+			"url": "https://hackerone.com/exodus",
+			"bounty": true,
+			"domains": [
 				"exodus.io"
-		    ]
+			]
 		},
 		{
-   		   "name":"Crowdin",
-  			"url":"https://support.crowdin.com/vulnerability-policy/",
-   			"bounty":false,
-   			"domains":[
-			    	"crowdin.com"
-  		    ]
+			"name": "Crowdin",
+			"url": "https://support.crowdin.com/vulnerability-policy/",
+			"bounty": false,
+			"domains": [
+				"crowdin.com"
+			]
 		},
 		{
-		   "name":"rms",
-			"url":"https://hackerone.com/rms_inc",
-			"bounty":false,
-			"domains":[
+			"name": "rms",
+			"url": "https://hackerone.com/rms_inc",
+			"bounty": false,
+			"domains": [
 				"rms.com",
 				"liferisks.com",
 				"miuinsights.com"
-		    ]
+			]
 		},
 		{
-		   "name":"jimdo",
-			"url":"https://hackerone.com/jimdo",
-			"bounty":false,
-			"domains":[
+			"name": "jimdo",
+			"url": "https://hackerone.com/jimdo",
+			"bounty": false,
+			"domains": [
 				"jimdo.com",
 				"jimdofree.com",
 				"jimdosite.com",
 				"jimdo-platform.net"
-		    ]		
+			]
 		},
 		{
-		   "name":"navient",
-			"url":"https://hackerone.com/navient_solutions",
-			"bounty":false,
-			"domains":[
+			"name": "navient",
+			"url": "https://hackerone.com/navient_solutions",
+			"bounty": false,
+			"domains": [
 				"navient.com",
 				"navirefi.com",
 				"gilacorp.com",
 				"msbnexus.com",
 				"msbselfserve.com",
 				"msbpay.com"
-		    ]
-
+			]
 		},
 		{
-		   "name":"mendix",
-			"url":"https://hackerone.com/mendix",
-			"bounty":false,
-			"domains":[
+			"name": "mendix",
+			"url": "https://hackerone.com/mendix",
+			"bounty": false,
+			"domains": [
 				"mendix.com"
-		    ]
+			]
 		},
 		{
-		   "name":"larksuite",
-			"url":"https://hackerone.com/lark_technologies",
-			"bounty":true,
-			"domains":[
+			"name": "larksuite",
+			"url": "https://hackerone.com/lark_technologies",
+			"bounty": true,
+			"domains": [
 				"larksuite.com",
 				"byteoversea.com"
-		    ]
+			]
 		},
 		{
-   		   "name":"Airship",
-  			"url":"https://www.airship.com/legal/full-disclosure-security-policy/",
-   			"bounty":false,
-   			"domains":[
-			    "airship.com",
+			"name": "Airship",
+			"url": "https://www.airship.com/legal/full-disclosure-security-policy/",
+			"bounty": false,
+			"domains": [
+				"airship.com",
 				"airship.eu",
 				"apptimize.eu",
 				"apptimize.com",
 				"accengage.net",
 				"urbanairship.com"
-  		    ]
+			]
 		},
 		{
-   		   "name":"FIRST",
-  			"url":"https://www.first.org/about/bugs",
-   			"bounty":false,
-   			"domains":[
-			    	"first.org"
-  		    ]
+			"name": "FIRST",
+			"url": "https://www.first.org/about/bugs",
+			"bounty": false,
+			"domains": [
+				"first.org"
+			]
 		},
 		{
-   		   "name":"Flipkart",
-  			"url":"https://www.flipkart.com/pages/security",
-   			"bounty":false,
-   			"domains":[
-			    	"flipkart.com"
-  		    ]
+			"name": "Flipkart",
+			"url": "https://www.flipkart.com/pages/security",
+			"bounty": false,
+			"domains": [
+				"flipkart.com"
+			]
 		},
 		{
-   		   "name":"Shopclues",
-  			"url":"https://www.shopclues.com/wall-of-fame.html",
-   			"bounty":false,
-   			"domains":[
-			    	"shopclues.com"
-  		    ]
+			"name": "Shopclues",
+			"url": "https://www.shopclues.com/wall-of-fame.html",
+			"bounty": false,
+			"domains": [
+				"shopclues.com"
+			]
 		},
 		{
-   		   "name":"WINNI",
-  			"url":"https://www.winni.in/bug-bounty",
-   			"bounty":true,
-   			"domains":[
-			    	"winni.in"
-  		    ]
-		},
-        {
-            "name":"OYO",
-            "url":"https://www.oyorooms.com/responsible-disclosure",
-            "bounty":true,
-            "domains":[
-                "oyorooms.com"
-              ]
-        },
-        {
-            "name":"Edmodo",
-            "url":"https://support.edmodo.com/hc/en-us/articles/360035475733-Bug-Bounty-Guidelines",
-            "bounty":true,
-            "domains":[
-                "edmodo.com"
-              ]
-        },
-		{
-   		   "name":"TikTok",
-  			"url":"https://hackerone.com/tiktok",
-   			"bounty":true,
-   			"domains":[
-   		   		"tiktok.com",
-      			"tiktokv.com"
-  		    ]
+			"name": "WINNI",
+			"url": "https://www.winni.in/bug-bounty",
+			"bounty": true,
+			"domains": [
+				"winni.in"
+			]
 		},
 		{
- 		    "name":"Sony",
-   			"url":"https://hackerone.com/sony",
- 			"bounty":false,
-   			"domains":[
-   				"sony.com"
-   			]
-   		},
+			"name": "OYO",
+			"url": "https://www.oyorooms.com/responsible-disclosure",
+			"bounty": true,
+			"domains": [
+				"oyorooms.com"
+			]
+		},
+		{
+			"name": "Edmodo",
+			"url": "https://support.edmodo.com/hc/en-us/articles/360035475733-Bug-Bounty-Guidelines",
+			"bounty": true,
+			"domains": [
+				"edmodo.com"
+			]
+		},
+		{
+			"name": "TikTok",
+			"url": "https://hackerone.com/tiktok",
+			"bounty": true,
+			"domains": [
+				"tiktok.com",
+				"tiktokv.com"
+			]
+		},
+		{
+			"name": "Sony",
+			"url": "https://hackerone.com/sony",
+			"bounty": false,
+			"domains": [
+				"sony.com"
+			]
+		},
 		{
 			"name": "Tripadvisor",
 			"url": "https://bugcrowd.com/tripadvisor-vdp",
@@ -210,10 +208,10 @@
 			]
 		},
 		{
-   			"name": "Telenet",
-  			"url": "https://www.intigriti.com/researcher/programs/telenet/telenetgroup/detail",
-   			"bounty": true,
-   			"domains": [
+			"name": "Telenet",
+			"url": "https://www.intigriti.com/researcher/programs/telenet/telenetgroup/detail",
+			"bounty": true,
+			"domains": [
 				"9lives.be",
 				"base.be",
 				"telenet.be",
@@ -225,8 +223,8 @@
 		{
 			"name": "Tweakers",
 			"url": "https://www.intigriti.com/programs/depersgroep/tweakers/detail",
-   			"bounty": true,
-   			"domains": [
+			"bounty": true,
+			"domains": [
 				"tweakblogs.net",
 				"tweakers.net",
 				"tweakimg.net"
@@ -235,8 +233,8 @@
 		{
 			"name": "Dailymotion",
 			"url": "https://yeswehack.com/programs/dailymotion-public-bug-bounty",
-   			"bounty": true,
-   			"domains": [
+			"bounty": true,
+			"domains": [
 				"dailymotion.com",
 				"dmcdn.net",
 				"dailymotionadvertising.com",
@@ -398,16 +396,15 @@
 				"bugpoc.ninja"
 			]
 		},
-		
 		{
-  		   	"name":"Canva",
-		   	"url":"https://bugcrowd.com/canva",
-   			"bounty":true,
-  			"domains":[
-      				"canva.com",
-      				"canva.cn"
-  			]
-		},		
+			"name": "Canva",
+			"url": "https://bugcrowd.com/canva",
+			"bounty": true,
+			"domains": [
+				"canva.com",
+				"canva.cn"
+			]
+		},
 		{
 			"name": "Caffeine",
 			"url": "https://bugcrowd.com/caffeine",
@@ -3753,14 +3750,14 @@
 				"dingtalk.com",
 				"alibaba-inc.com",
 				"aliyun-inc.com",
-            "alimama.com",
-            "lazada.com",
-            "lazada.sg",
-            "lazada.vn",
-            "lazada.com.my",
-            "lazada.com.ph",
-            "lazada.co.id",
-            "lazada.co.th"
+				"alimama.com",
+				"lazada.com",
+				"lazada.sg",
+				"lazada.vn",
+				"lazada.com.my",
+				"lazada.com.ph",
+				"lazada.co.id",
+				"lazada.co.th"
 			]
 		},
 		{
@@ -4409,78 +4406,77 @@
 				"redbullmusicacademy.com"
 			]
 		},
-		{ 
-      		"name":"PGGM",
-      		"url":"https://www.pggm.nl/en/responsible-disclosure",
-      		"bounty":true,
-      		"domains":[
-         		"pggm.nl"
-          	]
-      	},
-		{ 
-      		"name":"Nextiva",
-      		"url":"https://www.nextiva.com/security-policy.html",
-      		"bounty":true,
-      		"domains":[
-         		"nextiva.com",
-            	"nextos.com"
-          	]
-      	},
-		{ 
-      		"name":"Myntra",
-      		"url":"https://www.myntra.com/security/whitehat",
-      		"bounty":false,
-      		"domains":[
-         		"myntra.com"
-          	]
-      	},
-		{ 
-      		"name":"Clio",
-      		"url":"https://support.clio.com/hc/en-us/articles/360001114273-How-do-I-Claim-a-Bug-Bounty-or-Report-a-Vulnerability-",
-      		"bounty":true,
-      		"domains":[
-         		"clio.com"
-          	]
-      	},
-      	{
+		{
+			"name": "PGGM",
+			"url": "https://www.pggm.nl/en/responsible-disclosure",
+			"bounty": true,
+			"domains": [
+				"pggm.nl"
+			]
+		},
+		{
+			"name": "Nextiva",
+			"url": "https://www.nextiva.com/security-policy.html",
+			"bounty": true,
+			"domains": [
+				"nextiva.com",
+				"nextos.com"
+			]
+		},
+		{
+			"name": "Myntra",
+			"url": "https://www.myntra.com/security/whitehat",
+			"bounty": false,
+			"domains": [
+				"myntra.com"
+			]
+		},
+		{
+			"name": "Clio",
+			"url": "https://support.clio.com/hc/en-us/articles/360001114273-How-do-I-Claim-a-Bug-Bounty-or-Report-a-Vulnerability-",
+			"bounty": true,
+			"domains": [
+				"clio.com"
+			]
+		},
+		{
 			"name": "HTC",
 			"url": "https://www.htc.com/in/terms/product-security/",
 			"bounty": true,
 			"domains": [
 				"htc.com"
-
 			]
 		},
 		{
-   		    "name":"Itslearning",
-  			"url":"https://itslearning.com/global/your-data-matters/responsible-disclosure/",
-   			"bounty":true,
-   			"domains":[
-			    "itslearning.com"
+			"name": "Itslearning",
+			"url": "https://itslearning.com/global/your-data-matters/responsible-disclosure/",
+			"bounty": true,
+			"domains": [
+				"itslearning.com"
 			]
 		},
 		{
-   		    "name":"Remitano",
-  			"url":"https://security.remitano.com/",
-   			"bounty":true,
-   			"domains":[
-			    "remitano.com"
+			"name": "Remitano",
+			"url": "https://security.remitano.com/",
+			"bounty": true,
+			"domains": [
+				"remitano.com"
 			]
 		},
 		{
-   		    "name":"iFood",
-  			"url":"https://www.ifood.com.br/bugbounty/",
-   			"bounty":true,
-   			"domains":[
-			    "ifood.com.br"
+			"name": "iFood",
+			"url": "https://www.ifood.com.br/bugbounty/",
+			"bounty": true,
+			"domains": [
+				"ifood.com.br"
 			]
 		},
 		{
-   		    "name":"Discord",
-  			"url":"https://canary.discord.com/security",
-   			"bounty":true,
-   			"domains":[
-			    "discord.com"
+			"name": "Discord",
+			"url": "https://canary.discord.com/security",
+			"bounty": true,
+			"domains": [
+				"discord.com"
 			]
 		},
 		{
@@ -4489,6 +4485,14 @@
 			"bounty": true,
 			"domains": [
 				"nubank.com.br"
+			]
+		},
+		{
+			"name": "Grofers",
+			"url": "https://grofers.com/bug-bounty",
+			"bounty": true,
+			"domains": [
+				"grofers.com"
 			]
 		}
 	]
