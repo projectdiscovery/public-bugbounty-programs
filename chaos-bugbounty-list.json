@@ -4389,14 +4389,6 @@
 			]
 		},
 		{
-			"name": "LetsBuild",
-			"url": "https://www.letsbuild.com/responsible-disclosure",
-			"bounty": true,
-			"domains": [
-				"letsbuild.com"
-			]
-		},
-		{
 			"name": "Redbull",
 			"url": "https://www.intigriti.com/programs/redbull/redbull/detail",
 			"bounty": false,
