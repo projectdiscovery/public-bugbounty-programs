@@ -4486,6 +4486,14 @@
 			"domains": [
 				"grofers.com"
 			]
+		},
+		{
+			"name":"Aiven",
+			"url":"https://hackerone.com/aiven_ltd",
+			"bounty":true,
+			"domains":[
+				"aiven.io"
+			]
 		}
 	]
 }
