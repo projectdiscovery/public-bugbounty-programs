@@ -4494,6 +4494,14 @@
 			"domains":[
 				"aiven.io"
 			]
+		},
+		{
+			"name":"Ribose",
+			"url":"https://www.ribose.com/feedback/security",
+			"bounty":false,
+			"domains":[
+				"ribose.com"
+			]
 		}
 	]
 }
