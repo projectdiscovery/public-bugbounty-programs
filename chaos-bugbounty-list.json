@@ -242,19 +242,6 @@
 			]
 		},
 		{
-			"name": "18F",
-			"url": "https://18f.gsa.gov/vulnerability-disclosure-policy/",
-			"bounty": true,
-			"domains": [
-				"cloud.gov",
-				"8f.gov",
-				"data.gov",
-				"vote.gov",
-				"usa.gov",
-				"gsa.gov"
-			]
-		},
-		{
 			"name": "Codefi",
 			"url": "https://hackerone.com/codefi_bbp",
 			"bounty": true,
@@ -497,9 +484,7 @@
 				"devolksbank.nl",
 				"asnbank.nl",
 				"blgwonen.nl",
-				"regiobank.nl",
-				"snsbank.nl",
-				"sns.nl"
+				"regiobank.nl"
 			]
 		},
 		{
@@ -570,14 +555,6 @@
 			"bounty": true,
 			"domains": [
 				"gusto-demo.com"
-			]
-		},
-		{
-			"name": "Hack Me!",
-			"url": "https://bugcrowd.com/hackme",
-			"bounty": true,
-			"domains": [
-				"bugcrowd.com"
 			]
 		},
 		{
@@ -701,13 +678,10 @@
 			"bounty": true,
 			"domains": [
 				"mastercard.ch",
-				"mastercard.com.au",
 				"mastercard.nl",
 				"mastercard.ru",
 				"mastercard.us",
-				"simplify.com",
-				"mastercard.com"
-			]
+				"simplify.com"			]
 		},
 		{
 			"name": "MasterCard VDP",
@@ -1193,7 +1167,6 @@
 			"url": "https://hackerone.com/vimeo",
 			"bounty": true,
 			"domains": [
-				"magisto.com",
 				"vimeopro.com",
 				"vimeo.com"
 			]
@@ -1777,14 +1750,6 @@
 				"unikrn.com",
 				"pinion.gg",
 				"unikoingold.com"
-			]
-		},
-		{
-			"name": "Binary.com",
-			"url": "https://hackerone.com/binary",
-			"bounty": true,
-			"domains": [
-				"binary.com"
 			]
 		},
 		{
@@ -2392,9 +2357,7 @@
 			"domains": [
 				"jamiewebgbelqfno.onion",
 				"jamieweb.net",
-				"jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion",
-				"gitlab.com"
-			]
+				"jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion"			]
 		},
 		{
 			"name": "Paddy Power Betfair",
@@ -2519,9 +2482,7 @@
 			"url": "https://hackerone.com/passit",
 			"bounty": false,
 			"domains": [
-				"passit.io",
-				"gitlab.com"
-			]
+				"passit.io"			]
 		},
 		{
 			"name": "Crypto.com",
@@ -3251,7 +3212,6 @@
 				"hydraulics-group.com",
 				"rem-b.com",
 				"remb.be",
-				"sharepoint.com",
 				"rembconnect.be"
 			]
 		},
