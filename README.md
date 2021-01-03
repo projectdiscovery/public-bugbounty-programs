@@ -39,4 +39,4 @@ If you want to remove any program from the list, please contact us at chaos@proj
 ## Resources
 
 - https://github.com/arkadiyt/bounty-targets-data
-- https://github.com/disclose/disclose/tree/master/program-list
+- https://github.com/disclose/diodb/blob/master/program-list.json
