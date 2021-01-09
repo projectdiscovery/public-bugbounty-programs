@@ -4462,6 +4462,15 @@
 			"domains":[
 				"ribose.com"
 			]
+		},
+		{
+			"name":"cafebazaar",
+			"url":"https://bugbounty.cafebazaar.cloud/",
+			"bounty":true,
+			"domains":[
+				"cafebazaar.ir",
+				"pishkhan.cafebazaar.ir"
+			]
 		}
 	]
 }
