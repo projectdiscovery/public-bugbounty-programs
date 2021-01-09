@@ -4468,8 +4468,7 @@
 			"url":"https://bugbounty.cafebazaar.cloud/",
 			"bounty":true,
 			"domains":[
-				"cafebazaar.ir",
-				"pishkhan.cafebazaar.ir"
+				"cafebazaar.ir"
 			]
 		}
 	]
