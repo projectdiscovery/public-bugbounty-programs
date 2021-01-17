@@ -293,7 +293,7 @@
 		{
 			"name": "Auvik",
 			"url": "https://www.auvik.com/disclosure-policy.html",
-			"bounty": true,
+			"bounty": false,
 			"domains": [
 				"auvik.com"
 			]
