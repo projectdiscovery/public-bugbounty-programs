@@ -4303,7 +4303,7 @@
 		{
 			"name": "Jooki",
 			"url": "https://www.intigriti.com/programs/muuselabs/jooki/detail",
-			"bounty": true,
+			"bounty": false,
 			"domains": [
 				"jooki.rocks",
 				"muuselabs.com"
