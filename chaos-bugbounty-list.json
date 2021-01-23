@@ -4479,6 +4479,33 @@
 			"domains":[
 				"cafebazaar.ir"
 			]
+		},
+		{
+			"name": "OpenMage",
+			"url": "https://hackerone.com/openmage",
+			"bounty": false,
+			"domains": [
+				"openmage.org"
+			]
+		},
+		{
+			"name": "Cirrus Insight",
+			"url": "https://hackerone.com/cirrusinsight",
+			"bounty": false,
+			"domains": [
+				"cirrusinsight.com",
+				"cirruspath.com",
+				"zynbitdev.com"
+			]
+		},
+		{
+			"name": "Panther Labs",
+			"url": "https://hackerone.com/panther_labs",
+			"bounty": true,
+			"domains": [
+				"runpanther.io",
+				"runpanther.com"
+			]
 		}
 	]
 }
