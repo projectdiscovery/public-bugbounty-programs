@@ -29,6 +29,7 @@
 			"name": "Crowdin",
 			"url": "https://support.crowdin.com/vulnerability-policy/",
 			"bounty": false,
+			"swag": true,
 			"domains": [
 				"crowdin.com"
 			]
@@ -1082,6 +1083,7 @@
 			"name": "HackerOne",
 			"url": "https://hackerone.com/security",
 			"bounty": true,
+			"swag": true,
 			"domains": [
 				"hacker101.com",
 				"hackerone-user-content.com",
@@ -1588,6 +1590,7 @@
 			"name": "PayPal",
 			"url": "https://hackerone.com/paypal",
 			"bounty": true,
+			"swag": true,
 			"domains": [
 				"paypal.here",
 				"paypal.me",
@@ -3439,6 +3442,7 @@
 			"name": "DJI",
 			"url": "https://security.dji.com/policy?lang=en_US",
 			"bounty": true,
+			"swag": true,
 			"domains": [
 				"dji.com",
 				"skypixel.com",
@@ -3567,6 +3571,7 @@
 			"name": "Synack",
 			"url": "https://synack.responsibledisclosure.com/hc/en-us/",
 			"bounty": true,
+			"swag": true,
 			"domains": [
 				"synack.com"
 			]
@@ -4321,6 +4326,7 @@
 			"name": "Achmea",
 			"url": "https://www.achmea.nl/en/responsibledisclosure",
 			"bounty": true,
+			"swag": true,
 			"domains": [
 				"achmea.nl",
 				"syntrus.com",
@@ -4361,6 +4367,7 @@
 			"name": "Redbull",
 			"url": "https://www.intigriti.com/programs/redbull/redbull/detail",
 			"bounty": false,
+			"swag": true,
 			"domains": [
 				"redbull.com",
 				"redbullmediahouse.com",
@@ -4511,6 +4518,7 @@
 			"name": "Government of Netherlands",
 			"url": "https://www.government.nl/topics/cybercrime/fighting-cybercrime-in-the-netherlands/responsible-disclosure",
 			"bounty": false,
+			"swag": true,
 		    	"domains": [
 				"0800-8051.nl",
 				"0900-8844.nl",
