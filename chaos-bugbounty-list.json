@@ -4633,6 +4633,15 @@
                 "eff.org"
             ]
         },
+                {
+            "name":"Tyk",
+            "url":"https://app.zerocopter.com/en/rd/261e0379-9eb8-4de6-b45d-48e30891a8bb",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "tyk.io"
+            ]
+        },
         {
             "name":"Government of Netherlands",
             "url":"https://www.government.nl/topics/cybercrime/fighting-cybercrime-in-the-netherlands/responsible-disclosure",
