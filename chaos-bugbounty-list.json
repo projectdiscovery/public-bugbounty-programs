@@ -4197,6 +4197,22 @@
 			]
 		},
 		{
+		   "name":"Mobile DE",
+		   "url":"https://app.zerocopter.com/en/rd/261e0379-9eb8-4de6-b45d-48e30891a8bb",
+		   "bounty":true,
+		   "domains":[
+		      "tyk.io",
+		   ]
+		},
+		{
+		   "name":"Tyk",
+		   "url":"https://app.zerocopter.com/de/rd/aef29c56-5295-4789-b848-3f121eeca350",
+		   "bounty":true,
+		   "domains":[
+		      "mobile.de",
+		   ]
+		},
+		{
 			"name": "Spokeo",
 			"url": "https://www.spokeo.com/bug-bounty",
 			"bounty": true,
