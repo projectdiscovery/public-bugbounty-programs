@@ -5135,6 +5135,15 @@
 				"zoekscholen.nl",
 				"zorgengezondheid.nl"
 		    ]
+		},
+
+		{
+			"name":"mollie",
+			"url":"https://www.mollie.com/",
+			"bounty":true,
+			"domains":[
+				"cafebazaar.ir"
+			]
 		}
 	]
 }
