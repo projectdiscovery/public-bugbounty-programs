@@ -2,6 +2,14 @@
 	"programs": [
 
 		{
+			"name": "Hackchecks Infosec Solutions",
+			"url": "https://hackchecks.in/responsible-disclosure/",
+			"bounty": false,
+			"domains": [
+				"hackchecks.in"
+			]
+		},
+		{
 			"name": "OLX",
 			"url": "https://hackerone.com/olx",
 			"bounty": false,
