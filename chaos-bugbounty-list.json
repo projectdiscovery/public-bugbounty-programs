@@ -4560,7 +4560,115 @@
             "tyk.io"
          ]
       },
-		{
+	{
+            "name":"Wageningen University & Research's",
+            "url":"https://www.wur.nl/en/Value-Creation-Cooperation/Information-security.htm",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "wur.nl"
+            ]
+        },
+        {
+            "name":"Paymill",
+            "url":"https://www.paymill.com/en/security/",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "paymill.com"
+            ]
+        },
+        {
+            "name":"Onfido",
+            "url":"https://onfido.com/company/responsible-disclosure/",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "onfido.com"
+            ]
+        },
+        {
+            "name":"REVE Antivirus",
+            "url":"https://www.reveantivirus.com/in/bug-bounty-program",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "reveantivirus.com"
+            ]
+        },
+        {
+            "name":"Sketch App",
+            "url":"https://www.sketch.com/security/disclosure/",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "sketch.com"
+            ]
+        },
+        {
+            "name":"Surf",
+            "url":"https://www.surf.nl/en/responsible-disclosure-surf",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "surf.nl"
+            ]
+        },
+        {
+            "name":"de Rechtspraak",
+            "url":"https://www.rechtspraak.nl/English/Contact/Pages/Contact-point-vulnerabilities-responsible-disclosure.aspx",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "rechtspraak.nl"
+            ]
+        },
+        {
+            "name":"Issuu",
+            "url":"https://issuu.com/responsible-disclosure",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "issuu.com"
+            ]
+        },
+        {
+            "name":"Ivanti",
+            "url":"https://www.ivanti.com/support/contact-security",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "ivanti.com"
+            ]
+        },
+        {
+            "name":"Octopus Deploy",
+            "url":"https://octopus.com/security/disclosure",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "octopus.com"
+            ]
+        },
+        {
+            "name":"Carbon Black",
+            "url":"https://www.carbonblack.com/legal/reporting-security-vulnerability/",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "carbonblack.com"
+            ]
+        },
+        {
+            "name":"EFF",
+            "url":"https://www.eff.org/security/",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "eff.org"
+            ]
+        },
+ 		{
 			"name": "Government of Netherlands",
 			"url": "https://www.government.nl/topics/cybercrime/fighting-cybercrime-in-the-netherlands/responsible-disclosure",
 			"bounty": false,
