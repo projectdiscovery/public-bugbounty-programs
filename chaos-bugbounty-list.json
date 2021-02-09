@@ -5165,7 +5165,7 @@
 
 		{
 			"name": "mollie",
-			"url": "https://www.mollie.com/",
+			"url": "https://www.mollie.com",
 			"bounty": true,
 			"domains": [
 				"mollie.com"
