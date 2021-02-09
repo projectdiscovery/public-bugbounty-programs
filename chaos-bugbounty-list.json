@@ -21,17 +21,6 @@
 			]
 		},
 		{
-			"name": "OLX",
-			"url": "https://hackerone.com/olx",
-			"bounty": false,
-			"domains": [
-				"olx.in",
-				"olx.co.za",
-				"olx.co.id",
-				"olx.com.pk"
-			]
-		},
-		{
 			"name": "Umbraco",
 			"url": "https://umbraco.com/about-us/trust-center/security-and-umbraco/how-to-report-a-vulnerability-in-umbraco/",
 			"bounty": false,
