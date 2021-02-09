@@ -13,6 +13,17 @@
 			]
 		},
 		{
+			"name": "OLX",
+			"url": "https://hackerone.com/olx",
+			"bounty": false,
+			"domains": [
+				"olx.in",
+				"olx.co.za",
+				"olx.co.id",
+				"olx.com.pk"
+			]
+		},
+		{
 			"name": "Umbraco",
 			"url": "https://umbraco.com/about-us/trust-center/security-and-umbraco/how-to-report-a-vulnerability-in-umbraco/",
 			"bounty": false,
@@ -4534,6 +4545,22 @@
 			]
 		},
 		{
+         "name":"Mobile DE",
+         "url":"https://app.zerocopter.com/de/rd/aef29c56-5295-4789-b848-3f121eeca350",
+         "bounty":true,
+         "domains":[
+            "mobile.de"
+         ]
+      },
+      {
+         "name":"Tyk",
+         "url":"https://app.zerocopter.com/en/rd/261e0379-9eb8-4de6-b45d-48e30891a8bb",
+         "bounty":true,
+         "domains":[
+            "tyk.io"
+         ]
+      },
+		{
 			"name": "Government of Netherlands",
 			"url": "https://www.government.nl/topics/cybercrime/fighting-cybercrime-in-the-netherlands/responsible-disclosure",
 			"bounty": false,
@@ -5162,12 +5189,11 @@
 				"zorgengezondheid.nl"
 			]
 		},
-
-		{
-			"name": "mollie",
-			"url": "https://www.mollie.com",
-			"bounty": true,
-			"domains": [
+    {
+			"name":"Mollie",
+			"url":"https://www.mollie.com/en/responsible-disclosure",
+			"bounty":true,
+			"domains":[
 				"mollie.com"
 			]
 		}
