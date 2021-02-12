@@ -178,6 +178,7 @@
 			"name": "Sony",
 			"url": "https://hackerone.com/sony",
 			"bounty": false,
+			"swag":true,
 			"domains": [
 				"sony.com"
 			]
@@ -1609,6 +1610,7 @@
 			"name": "PayPal",
 			"url": "https://hackerone.com/paypal",
 			"bounty": true,
+			"swag": true,
 			"domains": [
 				"paypal.here",
 				"paypal.me",
@@ -4663,6 +4665,23 @@
             "swag":true,
             "domains":[
                 "eff.org"
+            ]
+        },
+	{
+            "name":"Smokescreen",
+            "url":"https://www.smokescreen.io/responsible-disclosure-policy/",
+            "bounty":true,
+            "domains":[
+                "smokescreen.io"
+            ]
+        },
+	{
+            "name":"PagerDuty",
+            "url":"https://www.pagerduty.com/security/disclosure/",
+            "bounty":false,
+	    "swag":true,
+            "domains":[
+                "pagerduty.com"
             ]
         },
  		{
