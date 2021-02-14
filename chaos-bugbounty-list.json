@@ -5313,12 +5313,25 @@
 				"zorgengezondheid.nl"
 			]
 		},
-    {
+	    {
 			"name":"Mollie",
 			"url":"https://www.mollie.com/en/responsible-disclosure",
 			"bounty":true,
 			"domains":[
 				"mollie.com"
+			]
+		},
+		{
+			"name":"Host Gator",
+			"url":"https://bugcrowd.com/endurance-hostgatorlatam",
+			"bounty":false,
+			"domains":[
+				"hostgator.com.br",
+				"hostgator.mx",
+				"hostgator.cl",
+				"hostgator.co",
+				"hostgator.io",
+				"cliente.hostgator"
 			]
 		}
 	]
