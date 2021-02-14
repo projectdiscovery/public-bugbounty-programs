@@ -5333,6 +5333,14 @@
 				"hostgator.io",
 				"cliente.hostgator"
 			]
+		},
+		{
+			"name":"Bluehost",
+			"url":"https://bugcrowd.com/endurance-bluehost",
+			"bounty":false,
+			"domains":[
+				"bluehost.com"
+			]
 		}
 	]
 }
