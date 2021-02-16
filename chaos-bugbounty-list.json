@@ -3444,7 +3444,7 @@
 		{
 			"name": "ola",
 			"url": "https://whitehat.olacabs.com",
-			"bounty": false,
+			"bounty": true,
 			"domains": [
 				"olacabs.com",
 				"olamoney.com",
@@ -3820,7 +3820,8 @@
 				"gamepind.com",
 				"paytmmoney.com",
 				"paytm.ca",
-				"paytmlabs.com"
+				"paytmlabs.com",
+				"mypaytm.com"
 			]
 		},
 		{
