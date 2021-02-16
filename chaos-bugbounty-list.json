@@ -5349,6 +5349,14 @@
 			"domains":[
 				"bluehost.com"
 			]
+		},
+		{
+   			"name":"Instamojo",
+   			"url":"https://support.instamojo.com/hc/en-us/articles/207758769-Instamojo-Bug-Bounty-Policy",
+   			"bounty": true,
+   			"domains":[
+   			   "instamojo.com"
+   			]
 		}
 	]
 }
