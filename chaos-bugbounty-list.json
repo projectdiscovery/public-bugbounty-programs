@@ -5358,6 +5358,15 @@
    			"domains":[
    			   "instamojo.com"
    			]
+		},
+		{
+   			"name":"Cbre",
+   			"url":"https://hackerone.com/cbre",
+   			"bounty": false,
+   			"domains":[
+   			   "cbre.com",
+   			   "trammellcrow.com"
+   			]
 		}
 	]
 }
