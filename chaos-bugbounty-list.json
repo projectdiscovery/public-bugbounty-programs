@@ -1,6 +1,15 @@
 {
 	"programs": [
-
+		
+		{
+			"name": "OVH",
+			"url": "https://yeswehack.com/programs/ovh",
+			"bounty": true,
+			"domains": [
+				"api.ovh.com",
+				"ovh.com"
+			]
+		},
 		{
 			"name": "Fetlife",
 			"url": "https://hackerone.com/fetlife",
