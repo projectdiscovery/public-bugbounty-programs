@@ -6,7 +6,6 @@
 			"url": "https://yeswehack.com/programs/ovh",
 			"bounty": true,
 			"domains": [
-				"api.ovh.com",
 				"ovh.com"
 			]
 		},
