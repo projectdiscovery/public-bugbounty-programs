@@ -2,7 +2,6 @@ name: Syntax-checking
 
 on:
   push:
-    branches-ignore: [master]
   pull_request:
     branches: [master]
 
