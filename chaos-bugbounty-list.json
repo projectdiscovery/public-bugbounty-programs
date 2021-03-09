@@ -1,6 +1,14 @@
 {
 	"programs": [
-
+		{
+			"name": "Tealium",
+			"url": "https://tealium.com/vdp/",
+			"bounty": false,
+			"domains": [
+				"tealium.com",
+				"tealium.net"
+			]
+		},
 		{
 			"name": "Fetlife",
 			"url": "https://hackerone.com/fetlife",
