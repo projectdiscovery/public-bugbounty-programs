@@ -1,6 +1,15 @@
 {
 	"programs": [
-
+		{
+			"name": "Tealium",
+			"url": "https://tealium.com/vdp/",
+			"bounty": false,
+			"domains": [
+				"tealium.com",
+				"tealium.net",
+				"tiqcdn.com"
+			]
+		},
 		{
 			"name": "OVH",
 			"url": "https://yeswehack.com/programs/ovh",
