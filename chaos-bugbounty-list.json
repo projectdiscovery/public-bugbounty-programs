@@ -5392,6 +5392,57 @@
    			   "cbre.com",
    			   "trammellcrow.com"
    			]
+		},
+		{
+   			"name":"Bugv",
+   			"url":"https://app.bugv.io/researcher/program/0000001/detail",
+   			"bounty": true,
+   			"domains":[
+   			   "bugv.io"
+   			]
+		},
+		{
+   			"name":"t-teet",
+   			"url":"https://app.bugv.io/researcher/program/000000C/detail",
+   			"bounty": true,
+   			"domains":[
+   			   "t-teet.com"
+   			]
+		},
+		{
+   			"name":"Pasls Store",
+   			"url":"https://app.bugv.io/researcher/program/0000008/detail",
+   			"bounty": true,
+   			"domains":[
+   			   "zimisa.com",
+   			   "pasls.com"
+   			]
+		},
+		{
+   			"name":"Cynical Technology",
+   			"url":"https://app.bugv.io/researcher/program/0000006/detail",
+   			"bounty": true,
+   			"domains":[
+   			   "cynicaltechnology.com",
+   			   "cynicaltechnology.com.np",
+   			   "cynical.com.np"
+   			]
+		},
+		{
+   			"name":"OMG Nepal",
+   			"url":"https://app.bugv.io/researcher/program/0000005/detail",
+   			"bounty": true,
+   			"domains":[
+   			   "omgnepal.com"
+   			]
+		},
+		{
+   			"name":"Premier Hero",
+   			"url":"https://app.bugv.io/researcher/program/0000004/detail",
+   			"bounty": true,
+   			"domains":[
+   			   "premierhero.com"
+   			]
 		}
 	]
 }
