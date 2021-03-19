@@ -2448,14 +2448,6 @@
 			]
 		},
 		{
-			"name": "Mobile DE",
-			"url": "https://app.zerocopter.com/en/rd/261e0379-9eb8-4de6-b45d-48e30891a8bb",
-			"bounty": true,
-			"domains": [
-				"mobile.de"
-			]
-		},
-		{
 			"name": "Crowdstrike",
 			"url": "https://hackerone.com/crowdstrike",
 			"bounty": true,
