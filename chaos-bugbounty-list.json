@@ -5437,12 +5437,12 @@
    			]
 		},
 		{
-   			"name":"Premier Hero",
-   			"url":"https://app.bugv.io/researcher/program/0000004/detail",
-   			"bounty": true,
-   			"domains":[
-   			   "premierhero.com"
-   			]
+			"name":"Warren Brasil",
+			"url":"https://admin.bughunt.com.br/p/warren-brasil-bug-bounty-program",
+			"bounty": true,
+			"domains":[
+			   "warren.com.br",
+			   "www.warren.com.br"
+			]
 		}
-	]
 }
