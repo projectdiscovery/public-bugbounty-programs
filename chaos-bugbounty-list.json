@@ -5451,6 +5451,16 @@
 			"domains":[
    			   "warren.com.br"
 			]
+		},
+		{
+			"name":"Scopely",
+			"url":"https://hackerone.com/scopely",
+			"bounty": true,
+			"domains":[
+   			   "scopely.io",
+   			   "scopely.com",
+   			   "withbuddies.com"
+			]
 		}
 	]
 }
