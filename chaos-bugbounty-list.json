@@ -5449,8 +5449,7 @@
 			"url":"https://admin.bughunt.com.br/p/warren-brasil-bug-bounty-program",
 			"bounty": true,
 			"domains":[
-   			   "warren.com.br",
-   			   "www.warren.com.br"
+   			   "warren.com.br"
 			]
 		}
 	]
