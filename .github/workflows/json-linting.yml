@@ -1,6 +1,14 @@
-name: Syntax-checking
+name: json-linting
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - 'master'
+      - release/*
+  pull_request:
+    branches:
+      - master
+      - release/*
 
 jobs:
   build:
