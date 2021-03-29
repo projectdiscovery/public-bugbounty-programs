@@ -2744,7 +2744,7 @@
 			]
 		},
 		{
-			"name": "Fortmatic Inc.",
+			"name": "Fortmatic Inc",
 			"url": "https://hackerone.com/fortmatic_inc",
 			"bounty": true,
 			"domains": [
@@ -2973,7 +2973,7 @@
 			]
 		},
 		{
-			"name": "Mailtime Technology Inc.",
+			"name": "Mailtime Technology",
 			"url": "https://hackerone.com/mailtime_technology_inc",
 			"bounty": false,
 			"domains": []
@@ -3180,7 +3180,7 @@
 			]
 		},
 		{
-			"name": "MobiSystems Ltd.",
+			"name": "MobiSystems Ltd",
 			"url": "https://hackerone.com/mobisystems_ltd",
 			"bounty": false,
 			"domains": [
@@ -4003,7 +4003,7 @@
 			]
 		},
 		{
-			"name": "Touch Incentive Marketing B.V.",
+			"name": "Touch Incentive Marketing",
 			"url": "https://www.touchincentive.com/responsible-disclosure/",
 			"bounty": true,
 			"domains": [
