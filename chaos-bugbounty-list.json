@@ -304,7 +304,7 @@
 			]
 		},
 		{
-			"name": "Acorns Grow, Inc.",
+			"name": "Acorns Grow",
 			"url": "https://bugcrowd.com/acorns",
 			"bounty": true,
 			"domains": [
@@ -2019,7 +2019,7 @@
 			]
 		},
 		{
-			"name": "DRIVE.NET, Inc.",
+			"name": "Drive",
 			"url": "https://hackerone.com/drive_net_inc",
 			"bounty": false,
 			"domains": [
@@ -2440,7 +2440,7 @@
 			]
 		},
 		{
-			"name": "Coalition, Inc.",
+			"name": "Coalition",
 			"url": "https://hackerone.com/coalition",
 			"bounty": false,
 			"domains": [
@@ -3204,7 +3204,7 @@
 			]
 		},
 		{
-			"name": "Polymail, Inc.",
+			"name": "Polymail",
 			"url": "https://hackerone.com/polymail_inc",
 			"bounty": false,
 			"domains": [
