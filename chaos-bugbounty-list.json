@@ -159,6 +159,21 @@
 			]
 		},
 		{
+			   "name":"Majid Al Futtaim",
+			   "url":"https://www.majidalfuttaim.com/en/responsible-disclosure-policy",
+			   "bounty": false,
+			   "swag": false,
+			   "domains":[
+			     "najm.ae",
+			     "najmvoyager.com",
+			     "prepaid.maffinance.com",
+			     "premogiftcards.com",
+			     "magicplanetmena.com"
+			     "*.maf.ae",
+			     "*.voxcinemas.ae"   
+			   ]
+		},
+		{
 			"name": "FIRST",
 			"url": "https://www.first.org/about/bugs",
 			"bounty": false,
