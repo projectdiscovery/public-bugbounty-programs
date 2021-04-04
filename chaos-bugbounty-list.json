@@ -4551,14 +4551,6 @@
 			]
 		},
 		{
-			"name": "cafebazaar",
-			"url": "https://bugbounty.cafebazaar.cloud/",
-			"bounty": true,
-			"domains": [
-				"cafebazaar.ir"
-			]
-		},
-		{
 			"name": "OpenMage",
 			"url": "https://hackerone.com/openmage",
 			"bounty": false,
