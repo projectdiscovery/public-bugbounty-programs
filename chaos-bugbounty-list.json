@@ -1,6 +1,17 @@
 {
 	"programs": [
 		{
+			"name": "pythonanywhere",
+			"url": "https://help.pythonanywhere.com/pages/BugBounty",
+			"bounty": true,
+			"domains": [
+				"blog.pythonanywhere.com",
+				"help.pythonanywhere.com",
+				"integration.pythonanywhere.com",
+				"eu.pythonanywhere.com"	
+			]
+		},
+		{
 			"name": "Alaska Airlines",
 			"url": "https://www.alaskaair.com/content/about-us/site-info/report-site-security-issues",
 			"bounty": false,
