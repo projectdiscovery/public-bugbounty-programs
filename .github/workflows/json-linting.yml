@@ -16,4 +16,5 @@ jobs:
       - name: Validate JSON Syntax
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
+          INPUT_SCHEMA: ./schema.json
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
