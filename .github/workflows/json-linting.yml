@@ -17,4 +17,5 @@ jobs:
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
           INPUT_SCHEMA: ./schema.json
+          INPUT_JSONS: chaos-bugbounty-list.json
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
