@@ -1,21 +1,20 @@
-name: json-validation
+name: json-syntax-check
 
 on:
   push:
-    branches: [ master ]
+    paths:
+      - '**.json'
   pull_request:
-    branches: [ master ]
-
+    paths:
+      - '**.json'
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
-
-      - name: Validate JSON Syntax
-        uses: docker://orrosenblatt/validate-json-action:latest
+      - name: json-syntax-check
+        uses: limitusus/json-syntax-check@v1
+        with:
+          pattern: "\\.json$"
         env:
-          INPUT_SCHEMA: ./schema.json
-          INPUT_JSONS: chaos-bugbounty-list.json
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
