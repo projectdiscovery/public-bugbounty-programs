@@ -1,26 +1,19 @@
-name: json-linting
+name: json-validation
 
 on:
   push:
-    branches:
-      - 'master'
-      - release/*
+    branches: [ master ]
   pull_request:
-    branches:
-      - master
-      - release/*
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
 
-      - name: jsonlint
-        uses: docker://github/super-linter:v3
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Validate JSON Syntax
+        uses: docker://orrosenblatt/validate-json-action:latest
         env:
-          VALIDATE_ALL_CODEBASE: false
-          VALIDATE_JSON: true
-          DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
