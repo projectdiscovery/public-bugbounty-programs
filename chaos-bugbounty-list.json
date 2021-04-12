@@ -5,10 +5,7 @@
 			"url": "https://help.pythonanywhere.com/pages/BugBounty",
 			"bounty": true,
 			"domains": [
-				"blog.pythonanywhere.com",
-				"help.pythonanywhere.com",
-				"integration.pythonanywhere.com",
-				"eu.pythonanywhere.com"	
+				"pythonanywhere.com"
 			]
 		},
 		{
