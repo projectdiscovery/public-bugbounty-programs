@@ -5478,6 +5478,14 @@
 		      "jora.com",
 		      "jora.xyz"
 		   ]
+		},
+		{
+		   "name":"IKEA",
+		   "url":"https://bugs.ikea.com/",
+		   "bounty": true,
+		   "domains":[
+		      "ikea.com"
+		   ]
 		}
 	]
 }
