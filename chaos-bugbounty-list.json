@@ -5490,6 +5490,15 @@
 		   "domains":[
 		      "ikea.com"
 		   ]
-		}
+		},
+		{
+			"name":"Mailtrack.io",
+			"url":"https://mailtrack.io/en/responsible-vulnerability",
+			"bounty": false,
+			"swag": false,
+			"domains":[
+			   "mailtrack.io"
+			]
+		 }
 	]
 }
