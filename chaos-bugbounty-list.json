@@ -5499,6 +5499,25 @@
 			"domains":[
 			   "mailtrack.io"
 			]
-		 }
+		 },
+		{
+			"name": "ProtonMail",
+			"url": "https://protonmail.com/blog/protonmail-bug-bounty-program/",
+			"bounty": true,
+			"swag": "false",
+			"domains": [
+				"protonmail.com"
+			]
+		},
+		{
+			"name": "ProtonVPN",
+			"url": "https://protonvpn.com/blog/bug-bounty-program/",
+			"bounty": true,
+			"swag": "false",
+			"domains": [
+				"protonvpn.com",
+				"protonvpn.ch"
+			]
+		}
 	]
 }
