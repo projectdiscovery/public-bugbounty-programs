@@ -5531,6 +5531,42 @@
 				"protonvpn.com",
 				"protonvpn.ch"
 			]
+		},
+		{
+			"name": "ABB",
+			"url": "https://library.e.abb.com/public/71f0c85561b7448498bd765c65ce54fc/9ADB005059_ABB_SoftwareVulnerabilityWhitepaper_RevE.pdf?x-sign=zrZH4qj9VUlfw+VwO1fJcPUKb3Mrmv/fck092fcrRSkYwVluZzxVzS9osOw5eVZs",
+			"bounty": false,
+			"swag": false,
+			"domains": [
+				"abb.com"
+			]
+		},
+		{
+			"name": "AIMS360",
+			"url": "https://www.aims360.com/vulnerability-responses/",
+			"bounty": false,
+			"swag": false,
+			"domains": [
+				"aims360.com"
+			]
+		},
+		{
+			"name": "FireEye",
+			"url": "https://www.fireeye.com/company/security.html",
+			"bounty": false,
+			"swag": false,
+			"domains": [
+				"fireeye.com"
+			]
+		},
+		{
+			"name": "Intuit",
+			"url": "https://hackerone.com/intuitinc",
+			"bounty": false,
+			"swag": false,
+			"domains": [
+				"intuit.com"
+			]
 		}
 	]
 }
