@@ -5567,6 +5567,17 @@
 			"domains": [
 				"intuit.com"
 			]
+		},
+		{
+			"name":"Swisscom",
+			"url":"https://www.swisscom.ch/en/about/security/bug-bounty.html",
+			"bounty": true,
+			"swag": false,
+			"domains":[
+				"swisscom.ch",
+				"swisscom.com",
+				"wingo.ch"
+			]
 		}
 	]
 }
