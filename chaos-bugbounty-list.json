@@ -5578,6 +5578,15 @@
 				"swisscom.com",
 				"wingo.ch"
 			]
+		},
+		{
+			"name": "TryHackMe",
+			"url": "https://help.tryhackme.com/miscellaneous/the-bug-bounty-programme",
+			"bounty": true,
+			"swag": true,
+			"domains": [
+				"tryhackme.com"
+			]
 		}
 	]
 }
