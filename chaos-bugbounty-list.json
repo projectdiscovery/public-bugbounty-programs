@@ -5587,7 +5587,8 @@
 			"domains": [
 				"tryhackme.com"
 			]
-		}
+		},
+                {
                         "name": "Shakepay",
                         "url": "https://legal.shakepay.com/bug-bounty-program",
                         "bounty": true,
