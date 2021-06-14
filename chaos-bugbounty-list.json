@@ -5594,13 +5594,13 @@
 			"bounty": false,
 			"swag": false,
 			"domains": [
-				"*cedars-sinai.org",
-				"*www.cshs.org",
-				"*csmc.edu",
-				"*mycslink.org",
-				"*cedars-sinai.edu",
-				"*www.marinahospital.com",
-				"*kerlanjobe.org"
+				"cedars-sinai.org",
+				"cshs.org",
+				"csmc.edu",
+				"mycslink.org",
+				"marinahospital.com",
+				"cedars-sinai.edu",
+				"kerlanjobe.org"
 			]
 		},
 		{
