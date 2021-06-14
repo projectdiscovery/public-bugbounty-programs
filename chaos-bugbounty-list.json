@@ -5588,6 +5588,15 @@
 				"tryhackme.com"
 			]
 		},
+        {
+            "name": "Shakepay",
+            "url": "https://legal.shakepay.com/bug-bounty-program",
+            "bounty": true,
+            "swag": false, 
+            "domains": [
+            "shakepay.com"
+            ]
+        },
 		{
 			"name": "Cedars-Sinai",
 			"url": "https://hackerone.com/cedars-sinai",
