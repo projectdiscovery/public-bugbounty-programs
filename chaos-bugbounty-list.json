@@ -5589,6 +5589,21 @@
 			]
 		},
 		{
+			"name": "Cedars-Sinai",
+			"url": "https://hackerone.com/cedars-sinai",
+			"bounty": false,
+			"swag": false,
+			"domains": [
+				"cedars-sinai.org",
+				"cshs.org",
+				"csmc.edu",
+				"mycslink.org",
+				"marinahospital.com",
+				"cedars-sinai.edu",
+				"kerlanjobe.org"
+			]
+		},
+		{
 			"name": "Lazada",
 			"url": "https://yeswehack.com/programs/lazada",
 			"bounty": true,
