@@ -5587,6 +5587,37 @@
 			"domains": [
 				"tryhackme.com"
 			]
+		},
+		{
+			"name": "Lazada",
+			"url": "https://yeswehack.com/programs/lazada",
+			"bounty": true,
+			"swag": true,
+			"domains": [
+				"lazada.sg",
+				"lazada.vn",
+				"lazada.co.id",
+				"lazada.co.th",
+				"lazada.com",
+				"lazada.com.ph",
+				"lazada.com.my",
+				"redmart.com",
+				"lel.asia",
+				"lex.co.id",
+				"lex.com.my",
+				"lex.in.th",
+				"lex.ph",
+				"lex.vn",
+				"supertms.com",
+				"lel.global",
+				"pickmee.vn",
+				"pickmee.id",
+				"pickmee.in.th",
+				"pickmee.ph",
+				"pickmee.my",
+				"pickmee.sg",
+				"lazada-seller.cn"
+			]
 		}
 	]
 }
