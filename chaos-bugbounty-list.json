@@ -5642,6 +5642,18 @@
 				"pickmee.sg",
 				"lazada-seller.cn"
 			]
+		},
+		{
+			"name": "Opera Public Bug Bounty",
+			"url": "https://bugcrowd.com/opera",
+			"bounty": true,
+			"domains": [
+				"yoyogames.com",
+				"opera.com",
+				"opera.software",
+				"opera.technology",
+				"sec-tunnel.com",
+			]
 		}
 	]
 }
