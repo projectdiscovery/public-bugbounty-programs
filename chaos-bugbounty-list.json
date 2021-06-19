@@ -5642,6 +5642,36 @@
 				"pickmee.sg",
 				"lazada-seller.cn"
 			]
+		},
+		{
+			"name": "Opera Public Bug Bounty",
+			"url": "https://bugcrowd.com/opera",
+			"bounty": true,
+			"domains": [
+				"yoyogames.com",
+				"opera.com",
+				"opera.software",
+				"opera.technology",
+				"sec-tunnel.com"
+			]
+		},
+		{
+			"name": "VRT",
+			"url": "https://app.intigriti.com/programs/vrtnv/vrt/",
+			"bounty": false,
+			"domains": [
+					"canvas.be",
+					"dewarmsteweek.be",
+					"ketnet.be",
+					"klara.be",
+					"mnm.be",
+					"radio1.be",
+					"radio2.be",
+					"radioplus.be",
+					"sporza.be",
+					"stubru.be",
+					"vrt.be"
+			]
 		}
 	]
 }
