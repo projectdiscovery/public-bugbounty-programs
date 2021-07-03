@@ -5679,9 +5679,7 @@
 			"bounty": true,
 			"swag": true,
 			"domains": [
-				"auth.treebal.green",
-				"treebal.green",
-				"fr.treebal.green"
+				"treebal.green"
 			]
 		}
 	]
