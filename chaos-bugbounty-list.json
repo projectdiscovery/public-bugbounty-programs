@@ -5672,6 +5672,15 @@
 					"stubru.be",
 					"vrt.be"
 			]
+		},
+		{
+			"name": "Treebal",
+			"url": "https://yeswehack.com/programs/treebal-the-eco-responsible-messaging",
+			"bounty": true,
+			"swag": true,
+			"domains": [
+				"treebal.green"
+			]
 		}
 	]
 }
