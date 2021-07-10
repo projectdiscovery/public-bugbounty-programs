@@ -5690,6 +5690,14 @@
 			"domains": [
 				"btcturk.com"
 			]
+		},
+		{
+		   	"name":"Dutch Tax Office",
+		   	"url":"https://belastingdienst.nl/security",
+		   	"bounty": false,
+		   	"domains":[
+		      		"belastingdienst.nl"
+		   	]
 		}
 	]
 }
