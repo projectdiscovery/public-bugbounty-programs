@@ -5698,6 +5698,17 @@
 		   	"domains":[
 		      		"belastingdienst.nl"
 		   	]
+		},
+		{
+			"name": "Urban Company",
+			"url": "https://hackerone.com/urbancompany",
+			"bounty": true,
+			"swag":true,
+			"domains": [
+				"www.urbancompany.com",
+				"partner.urbancompany.com",
+				"www.urbanclap.com"
+			]
 		}
 	]
 }
