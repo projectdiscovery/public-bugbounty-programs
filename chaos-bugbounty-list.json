@@ -1178,6 +1178,14 @@
 			]
 	        },
 		{
+			"name": "Elementor",
+			"url": "https://bugcrowd.com/elementor",
+			"bounty": true,
+			"domains": [
+				"elementor.com"
+			]
+		},
+		{
 			"name": "Endless Hosting",
 			"url": "https://hackerone.com/endless_hosting",
 			"bounty": false,
@@ -3825,6 +3833,14 @@
 			]
 		},
 		{
+			"name": "Pexels",
+			"url": "https://bugcrowd.com/pexels",
+			"bounty": true,
+			"domains": [
+				"pexels.com"
+			]
+		},
+		{
 			"name": "PGGM",
 			"url": "https://www.pggm.nl/en/responsible-disclosure",
 			"bounty": true,
@@ -3862,6 +3878,14 @@
 			"bounty": true,
 			"domains": [
 				"pinterest.com"
+			]
+		},
+		{
+			"name": "Pixabay",
+			"url": "https://bugcrowd.com/pixabay",
+			"bounty": true,
+			"domains": [
+				"pixabay.com"
 			]
 		},
 		{
@@ -5254,6 +5278,15 @@
 			"bounty": false,
 			"domains": [
 				"unilever.com"
+			]
+		},
+		{
+			"name": "Unity",
+			"url": "https://bugcrowd.com/unity",
+			"bounty": true,
+			"domains": [
+				"unity3d.com",
+				"unity.com"
 			]
 		},
 		{
