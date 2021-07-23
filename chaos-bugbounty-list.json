@@ -1182,14 +1182,7 @@
 			"url": "https://bugcrowd.com/elementor",
 			"bounty": true,
 			"domains": [
-				"elementor.com",
-				"my.elementor.com",
-				"go.elementor.com",
-				"translate.elementor.com",
-				"developers.elementor.com",
-				"he.elementor.com",
-				"code.elementor.com",
-				"library.elementor.com"
+				"elementor.com"
 			]
 		},
 		{
@@ -5292,13 +5285,8 @@
 			"url": "https://bugcrowd.com/unity",
 			"bounty": true,
 			"domains": [
-				"www.unity3d.com",
-				"id.unity.com",
-				"api.unity.com",
-				"dashboard.unity3d.com",
-				"store.unity.com",
-				"pay.unity.com",
-				"analytics.cloud.unity3d.com"
+				"unity3d.com",
+				"unity.com"
 			]
 		},
 		{
