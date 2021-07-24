@@ -5041,6 +5041,15 @@
 			]
 		},
 		{
+			"name": "Traveloka",
+			"url": "https://www.traveloka.com/en-id/bugs",
+			"bounty": true,
+			"domains": [
+				"www.traveloka.com",
+				"m.traveloka.com"
+			]
+		},
+		{
 			"name": "Treebal",
 			"url": "https://yeswehack.com/programs/treebal-the-eco-responsible-messaging",
 			"bounty": true,
