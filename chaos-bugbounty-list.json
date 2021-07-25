@@ -5732,6 +5732,15 @@
 			]
 		},
 		{
+			"name": "Zoho",
+			"url": "https://bugbounty.zoho.com/bb/info",
+			"bounty": true,
+			"swag": false,
+			"domains": [
+				"zoho.com"
+			]
+		},
+		{
 			"name": "Zomato",
 			"url": "https://hackerone.com/zomato",
 			"bounty": true,
@@ -5748,6 +5757,17 @@
 			"domains": [
 				"zynga.com",
 				"zyngagames.com"
+			]
+		},
+		{
+		    "name": "Tokopedia",
+			"url": "https://bounty.tokopedia.net/rules",
+			"bounty": true,
+			"swag": false,
+			"domains": [
+				"tokopedia.net",
+				"tokopedia.com",
+				"tokopedia.id"
 			]
 		}
 	]
