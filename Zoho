@@ -1,9 +1,0 @@
-{
-   "name":"self hosted",
-   "url":"https://bugbounty.zoho.com/bb/info",
-   "bounty": true,
-   "swag": false,
-   "domains":[
-      "zoho.com"
-   ]
-}
