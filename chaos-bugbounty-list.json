@@ -1028,8 +1028,8 @@
 			"url": "https://hackerone.com/deptofdefense",
 			"bounty": false,
 			"domains": [
-				"DSPO.mil",
-				"YellowRibbon.mil",
+				"dspo.mil",
+				"yellowribbon.mil",
 				"afirm.mil",
 				"afpims.mil",
 				"africom.mil",
