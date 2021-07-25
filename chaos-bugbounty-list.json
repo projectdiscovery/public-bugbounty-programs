@@ -5758,6 +5758,17 @@
 				"zynga.com",
 				"zyngagames.com"
 			]
+		},
+		{
+		    "name": "Tokopedia",
+			"url": "https://bounty.tokopedia.net/rules",
+			"bounty": true,
+			"swag": false,
+			"domains": [
+				"tokopedia.net",
+				"tokopedia.com",
+				"tokopedia.id"
+			]
 		}
 	]
 }
