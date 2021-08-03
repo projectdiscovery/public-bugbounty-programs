@@ -199,6 +199,42 @@
 			]
 		},
 		{
+			"name": "Amex",
+			"url": "https://bugcrowd.com/amexgbt-vdp",
+			"bounty": false,
+			"domains": [
+				"amexglobalbusinesstravel.com",
+				"bienquiries.co.uk",
+				"ebrdevents.co.uk",
+				"mytravelsolution.com",
+				"itq.in",
+				"winnerscircleregistration.com",
+				"gbt-invoicing.com",
+				"amexgbt.com",
+				"banks-sadler.com",
+				"gbtexternal.com",
+				"gbtnta.com",
+				"pre-gbtspain.com",
+				"gbtspain.com",
+				"hrgnorthamerica.com",
+				"hrgworldwide.com",
+				"meetingsexpress.com",
+				"meetingssource.com",
+				"mykds.com",
+				"uathrg-isuite.com",
+				"uathrgisuite.com",
+				"kds.com",
+				"ovationtravel.com",
+				"wovationtravel.com",
+				"lawyerstravel.com",
+				"miclientool.com",
+				"supplierstool.com",
+				"mieventool.com",
+				"miwebtool.com",
+				"sourcingcenteramexgbt.com"
+			]
+		},
+		{
 			"name": "Amitree Inc",
 			"url": "https://hackerone.com/amitree_inc",
 			"bounty": false,
@@ -518,6 +554,14 @@
    			"domains": [
 				"bugv.io"
    			]
+		},
+		{
+			"name": "Bullish",
+			"url": "https://bugcrowd.com/bullish",
+			"bounty": true,
+			"domains": [
+				"bullish.com"
+			]
 		},
 		{
 			"name": "Bunq VDP",
@@ -3621,6 +3665,14 @@
 			]
 		},
 		{
+			"name": "OneTrust",
+			"url": "https://bugcrowd.com/onetrust",
+			"bounty": true,
+			"domains": [
+				"onetrust.com"
+			]
+		},
+		{
 			"name": "Onfido",
 			"url": "https://onfido.com/company/responsible-disclosure/",
 			"bounty": false,
@@ -4604,13 +4656,21 @@
 			]
 		},
 		{
+             "name": "Smartmockups",
+             "url": "https://bugcrowd.com/smartmockups",
+             "bounty": true,
+             "domains": [
+				"smartmockups.com"
+			]
+		},
+		{
 			"name": "Smokescreen",
 			"url": "https://www.smokescreen.io/responsible-disclosure-policy/",
 			"bounty": true,
-            		"domains": [
-                		"smokescreen.io"
+           	"domains": [
+                "smokescreen.io"
 			]
-	        },
+	    },
 		{
 			"name": "SMTP2GO",
 			"url": "https://hackerone.com/smtp2go",
