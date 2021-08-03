@@ -1736,6 +1736,15 @@
    			]
 		},
 		{
+			"name": "Bullish",
+			"url": "https://bugcrowd.com/bullish",
+			"bounty": true,
+			"domains": [
+				"bullish.com",
+				"investor.bullish.com"
+			]
+		},
+		{
 			"name": "Bunq VDP",
 			"url": "https://hackerone.com/bunq",
 			"bounty": false,
@@ -4835,6 +4844,14 @@
 				"oneplus.cn",
 				"oneplusbbs.com",
 				"h2os.com"
+			]
+		},
+		{
+			"name": "OneTrust",
+			"url": "https://bugcrowd.com/onetrust",
+			"bounty": true,
+			"domains": [
+				"pentest-app.onetrust.com"
 			]
 		},
 		{
