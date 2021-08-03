@@ -4140,6 +4140,16 @@
 			]
 		},
 		{
+			"name": "PostNL",
+			"url": "https://www.postnl.nl/en/responsible-disclosure/",
+			"bounty": false,
+			"domains": [
+				"postnl.nl",
+				"postnl.com",
+				"postnl.post"
+			]
+		},
+		{
    			"name": "Premier Hero",
    			"url": "https://app.bugv.io/researcher/program/0000004/detail",
    			"bounty": true,
