@@ -175,14 +175,7 @@
 				"dingtalk.com",
 				"alibaba-inc.com",
 				"aliyun-inc.com",
-				"alimama.com",
-				"lazada.com",
-				"lazada.sg",
-				"lazada.vn",
-				"lazada.com.my",
-				"lazada.com.ph",
-				"lazada.co.id",
-				"lazada.co.th"
+				"alimama.com"
 			]
 		},
 		{
@@ -2863,10 +2856,10 @@
 				"lazada.sg",
 				"lazada.vn",
 				"lazada.co.id",
-				"lazada.co.th",
 				"lazada.com",
 				"lazada.com.ph",
 				"lazada.com.my",
+				"lazada-seller.cn",
 				"redmart.com",
 				"lel.asia",
 				"lex.co.id",
@@ -2881,8 +2874,7 @@
 				"pickmee.in.th",
 				"pickmee.ph",
 				"pickmee.my",
-				"pickmee.sg",
-				"lazada-seller.cn"
+				"pickmee.sg"
 			]
 		},
 		{
