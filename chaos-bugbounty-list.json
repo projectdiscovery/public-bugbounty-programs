@@ -4344,6 +4344,24 @@
 			]
 		},
 		{
+			"name": "Reddit",
+			"url": "https://hackerone.com/reddit",
+			"bounty": true,
+			"domains": [
+				"reddit.com",
+				"snooguts.net",
+				"redd.it",
+				"redditblog.com",
+				"redditmedia.com",
+				"redditstatic.com",
+				"redditgifts.com",
+				"reddituploads.com",
+				"redditinc.com",
+				"reddithelp.com",
+				"dubsmash.com"
+			]
+		},
+		{
 			"name": "Redox",
 			"url": "https://bugcrowd.com/redox",
 			"bounty": true,
