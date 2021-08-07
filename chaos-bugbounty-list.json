@@ -1237,8 +1237,8 @@
 			"url": "https://todoist.com/help/articles/doist-bug-bounty-policy",
 			"bounty": true,
 			"domains": [
-				"www.todoist.com",
-				"www.twist.com"
+				"todoist.com",
+				"twist.com"
 			]
 		},
 		{
