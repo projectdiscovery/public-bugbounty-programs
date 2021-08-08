@@ -175,14 +175,7 @@
 				"dingtalk.com",
 				"alibaba-inc.com",
 				"aliyun-inc.com",
-				"alimama.com",
-				"lazada.com",
-				"lazada.sg",
-				"lazada.vn",
-				"lazada.com.my",
-				"lazada.com.ph",
-				"lazada.co.id",
-				"lazada.co.th"
+				"alimama.com"
 			]
 		},
 		{
@@ -203,6 +196,42 @@
 				"amazon.co.jp",
 				"amazon.de",
 				"amazon.fr"
+			]
+		},
+		{
+			"name": "Amex",
+			"url": "https://bugcrowd.com/amexgbt-vdp",
+			"bounty": false,
+			"domains": [
+				"amexglobalbusinesstravel.com",
+				"bienquiries.co.uk",
+				"ebrdevents.co.uk",
+				"mytravelsolution.com",
+				"itq.in",
+				"winnerscircleregistration.com",
+				"gbt-invoicing.com",
+				"amexgbt.com",
+				"banks-sadler.com",
+				"gbtexternal.com",
+				"gbtnta.com",
+				"pre-gbtspain.com",
+				"gbtspain.com",
+				"hrgnorthamerica.com",
+				"hrgworldwide.com",
+				"meetingsexpress.com",
+				"meetingssource.com",
+				"mykds.com",
+				"uathrg-isuite.com",
+				"uathrgisuite.com",
+				"kds.com",
+				"ovationtravel.com",
+				"wovationtravel.com",
+				"lawyerstravel.com",
+				"miclientool.com",
+				"supplierstool.com",
+				"mieventool.com",
+				"miwebtool.com",
+				"sourcingcenteramexgbt.com"
 			]
 		},
 		{
@@ -525,6 +554,14 @@
    			"domains": [
 				"bugv.io"
    			]
+		},
+		{
+			"name": "Bullish",
+			"url": "https://bugcrowd.com/bullish",
+			"bounty": true,
+			"domains": [
+				"bullish.com"
+			]
 		},
 		{
 			"name": "Bunq VDP",
@@ -1024,6 +1061,105 @@
 			]
         	},
 		{
+			"name": "U.S. Dept Of Defense (DoD)",
+			"url": "https://hackerone.com/deptofdefense",
+			"bounty": false,
+			"domains": [
+				"dspo.mil",
+				"yellowribbon.mil",
+				"afirm.mil",
+				"afpims.mil",
+				"africom.mil",
+				"ah.mil",
+				"ai.mil",
+				"amaro.mil",
+				"arlingtoncemetery.mil",
+				"cac.mil",
+				"capmed.mil",
+				"centcom.mil",
+				"cto.mil",
+				"darpa.mil",
+				"dau.mil",
+				"dc3.mil",
+				"dcaa.mil",
+				"dcma.mil",
+				"dcoe.mil",
+				"dcsa.mil",
+				"dds.mil",
+				"defenseinnovationmarketplace.mil",
+				"deps.mil",
+				"dfas.mil",
+				"dhra.mil",
+				"dia.mil",
+				"dimoc.mil",
+				"disa.mil",
+				"dla.mil",
+				"dma.mil",
+				"dod.mil",
+				"doded.mil",
+				"dodig.mil",
+				"dodlive.mil",
+				"dodtap.mil",
+				"dodtechipedia.mil",
+				"dpaa.mil",
+				"dren.mil",
+				"dsca.mil",
+				"dss.mil",
+				"dtic.mil",
+				"dtra.mil",
+				"dtsa.mil",
+				"eb.mil",
+				"esgr.mil",
+				"esi.mil",
+				"eucom.mil",
+				"freedomaward.mil",
+				"health.mil",
+				"hpc.mil",
+				"inherentresolve.mil",
+				"iot.mil",
+				"jcs.mil",
+				"jcse.mil",
+				"jecc.mil",
+				"jfcom.mil",
+				"jieddo.mil",
+				"jsf.mil",
+				"jten.mil",
+				"jtj.mil",
+				"mail.mil",
+				"marines.mil",
+				"mc.mil",
+				"mda.mil",
+				"metc.mil",
+				"militaryonesource.mil",
+				"milsuite.mil",
+				"move.mil",
+				"nationalguard.mil",
+				"navy.mil",
+				"ng.mil",
+				"nga.mil",
+				"nipr.mil",
+				"norad.mil",
+				"northcom.mil",
+				"osd.mil",
+				"pacom.mil",
+				"pentagon.mil",
+				"pfpa.mil",
+				"sapr.mil",
+				"sigar.mil",
+				"soc.mil",
+				"socom.mil",
+				"southcom.mil",
+				"stratcom.mil",
+				"tricare.mil",
+				"uscg.mil",
+				"usfk.mil",
+				"usmc.mil",
+				"ustranscom.mil",
+				"warriorcare.mil",
+				"whs.mil"
+			]
+		},
+		{
 			"name": "Deutsche Telekom",
 			"url": "https://www.telekom.com/en/corporate-responsibility/data-protection-data-security/security/details/closing-security-gaps-360054",
 			"bounty": true,
@@ -1094,6 +1230,15 @@
 				"dji.net",
 				"robomaster.com",
 				"djiservice.org"
+			]
+		},
+		{
+			"name": "Doist",
+			"url": "https://todoist.com/help/articles/doist-bug-bounty-policy",
+			"bounty": true,
+			"domains": [
+				"todoist.com",
+				"twist.com"
 			]
 		},
 		{
@@ -2764,10 +2909,10 @@
 				"lazada.sg",
 				"lazada.vn",
 				"lazada.co.id",
-				"lazada.co.th",
 				"lazada.com",
 				"lazada.com.ph",
 				"lazada.com.my",
+				"lazada-seller.cn",
 				"redmart.com",
 				"lel.asia",
 				"lex.co.id",
@@ -2782,8 +2927,7 @@
 				"pickmee.in.th",
 				"pickmee.ph",
 				"pickmee.my",
-				"pickmee.sg",
-				"lazada-seller.cn"
+				"pickmee.sg"
 			]
 		},
 		{
@@ -3530,6 +3674,14 @@
 			]
 		},
 		{
+			"name": "OneTrust",
+			"url": "https://bugcrowd.com/onetrust",
+			"bounty": true,
+			"domains": [
+				"onetrust.com"
+			]
+		},
+		{
 			"name": "Onfido",
 			"url": "https://onfido.com/company/responsible-disclosure/",
 			"bounty": false,
@@ -3997,6 +4149,16 @@
 			]
 		},
 		{
+			"name": "PostNL",
+			"url": "https://www.postnl.nl/en/responsible-disclosure/",
+			"bounty": false,
+			"domains": [
+				"postnl.nl",
+				"postnl.com",
+				"postnl.post"
+			]
+		},
+		{
    			"name": "Premier Hero",
    			"url": "https://app.bugv.io/researcher/program/0000004/detail",
    			"bounty": true,
@@ -4188,6 +4350,24 @@
 				"redbull.com",
 				"redbullmediahouse.com",
 				"redbullmusicacademy.com"
+			]
+		},
+		{
+			"name": "Reddit",
+			"url": "https://hackerone.com/reddit",
+			"bounty": true,
+			"domains": [
+				"reddit.com",
+				"snooguts.net",
+				"redd.it",
+				"redditblog.com",
+				"redditmedia.com",
+				"redditstatic.com",
+				"redditgifts.com",
+				"reddituploads.com",
+				"redditinc.com",
+				"reddithelp.com",
+				"dubsmash.com"
 			]
 		},
 		{
@@ -4513,13 +4693,21 @@
 			]
 		},
 		{
+             "name": "Smartmockups",
+             "url": "https://bugcrowd.com/smartmockups",
+             "bounty": true,
+             "domains": [
+				"smartmockups.com"
+			]
+		},
+		{
 			"name": "Smokescreen",
 			"url": "https://www.smokescreen.io/responsible-disclosure-policy/",
 			"bounty": true,
-            		"domains": [
-                		"smokescreen.io"
+           	"domains": [
+                "smokescreen.io"
 			]
-	        },
+	    },
 		{
 			"name": "SMTP2GO",
 			"url": "https://hackerone.com/smtp2go",
@@ -5732,6 +5920,15 @@
 			]
 		},
 		{
+			"name": "Zoho",
+			"url": "https://bugbounty.zoho.com/bb/info",
+			"bounty": true,
+			"swag": false,
+			"domains": [
+				"zoho.com"
+			]
+		},
+		{
 			"name": "Zomato",
 			"url": "https://hackerone.com/zomato",
 			"bounty": true,
@@ -5748,6 +5945,27 @@
 			"domains": [
 				"zynga.com",
 				"zyngagames.com"
+			]
+		},
+		{
+		    "name": "Tokopedia",
+			"url": "https://bounty.tokopedia.net/rules",
+			"bounty": true,
+			"swag": false,
+			"domains": [
+				"tokopedia.net",
+				"tokopedia.com",
+				"tokopedia.id"
+			]
+		},
+		{
+		    "name": "Danskebank",
+			"url": "https://danskebank.com/responsible-disclosure",
+			"bounty": true,
+			"swag": false,
+			"domains": [
+				"june.dk",
+				"sunday.dk"
 			]
 		}
 	]
