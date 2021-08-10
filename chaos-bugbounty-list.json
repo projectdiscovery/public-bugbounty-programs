@@ -982,6 +982,16 @@
 			]
 		},
 		{
+		    "name": "Danskebank",
+			"url": "https://danskebank.com/responsible-disclosure",
+			"bounty": true,
+			"swag": false,
+			"domains": [
+				"june.dk",
+				"sunday.dk"
+			]
+		},
+		{
 			"name": "Dashlane",
 			"url": "https://hackerone.com/dashlane",
 			"bounty": true,
@@ -5956,16 +5966,6 @@
 				"tokopedia.net",
 				"tokopedia.com",
 				"tokopedia.id"
-			]
-		},
-		{
-		    "name": "Danskebank",
-			"url": "https://danskebank.com/responsible-disclosure",
-			"bounty": true,
-			"swag": false,
-			"domains": [
-				"june.dk",
-				"sunday.dk"
 			]
 		}
 	]
