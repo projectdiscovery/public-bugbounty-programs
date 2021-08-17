@@ -2768,6 +2768,36 @@
 			"bounty": false,
 			"domains": []
 		},
+		{	"name": "John Deere",
+			"url": "https://hackerone.com/john-deere",
+			"bounty": false,
+			"domains": [
+				"https://www.johndeere.com",
+				"https://deere.com",
+				"http://serviceadvisor.deere.com/WebSA/home ",
+				"https://partsadvisor.deere.com",
+				"https://jdoapps.jdisonline.com",
+				"https://myjohndeere.deere.com",
+				"https://jdquote2.deere.com",
+				"http://mint.deere.com/jdmint/main",
+				"https://jdwarrantysystem.deere.com",
+				"https://ccms.deere.com",
+				"https://salescenter.deere.com",
+				"https://my.deere.com",
+				"https://apps.apple.com/us/app/myoperations/id1104383066",
+				"https://play.google.com/store/apps/details?id=com.deere.myoperations&hl=en_US",
+				"https://play.google.com/store/apps/details?id=com.deere.equipmentplus&hl=en_US&gl=US",
+				"https://developer.deere.com",
+				"https://jdlink.deere.com",
+				"https://apps.apple.com/us/app/equipmentplus/id1498206477 ",
+				"https://apps.apple.com/us/app/john-deere-connect-mobile/id958749681",
+				
+				"https://MyFinancialAccounts.deere.com",
+				"https://oca.deere.com",
+				"https://payload.deere.com"
+			]	
+		},	
+			
 		{
 			"name": "Jooki",
 			"url": "https://www.intigriti.com/programs/muuselabs/jooki/detail",
