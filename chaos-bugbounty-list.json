@@ -1331,7 +1331,22 @@
 			"domains": [
 				"eff.org"
 			]
-	        },
+	    },
+		{
+		    "name": "Elastic",
+			"url": "https://hackerone.com/elastic",
+			"bounty": true,
+			"swag": false,
+			"domains": [
+				"elastic.co",
+				"found.io",
+				"swiftype.com",
+				"elstc.co",
+				"elasticnet.co",
+				"eops.nl",
+				"elastic-cloud.com"
+			]
+		},
 		{
 			"name": "Elementor",
 			"url": "https://bugcrowd.com/elementor",
@@ -5966,21 +5981,6 @@
 				"tokopedia.net",
 				"tokopedia.com",
 				"tokopedia.id"
-			]
-		},
-				{
-		    "name": "Elastic",
-			"url": "https://hackerone.com/elastic",
-			"bounty": true,
-			"swag": false,
-			"domains": [
-				"elastic.co",
-				"found.io",
-				"swiftype.com",
-				"elstc.co",
-				"elasticnet.co",
-				"eops.nl",
-				"elastic-cloud.com"
 			]
 		}
 	]
