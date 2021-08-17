@@ -2784,6 +2784,16 @@
 			"bounty": false,
 			"domains": []
 		},
+		{	"name": "John Deere",
+			"url": "https://hackerone.com/john-deere",
+			"bounty": false,
+			"domains": [
+				"johndeere.com",
+				"deere.com",
+				"jdisonline.com"
+			]	
+		},	
+			
 		{
 			"name": "Jooki",
 			"url": "https://www.intigriti.com/programs/muuselabs/jooki/detail",
