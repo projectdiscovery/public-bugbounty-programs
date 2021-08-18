@@ -4553,12 +4553,18 @@
 			]
 		},
 		{
-			"name": "Samsung",
+			"name": "Samsung TV",
 			"url": "https://samsungtvbounty.com",
 			"bounty": true,
 			"domains": [
 				"samsung.com"
 			]
+		},
+			{
+			"name": "Samsung Mobile",
+			"url": "https://security.samsungmobile.com/rewardsProgram.smsb",
+			"bounty": true,
+			"domains": []
 		},
 		{
 			"name": "SAP Concur",
