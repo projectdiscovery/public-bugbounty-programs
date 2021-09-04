@@ -5993,6 +5993,22 @@
 				"tokopedia.com",
 				"tokopedia.id"
 			]
+		},
+		{
+			"name":"Second Street",
+			"url":"https://www.secondstreet.com/product-security-responsible-disclosure-policy",
+			"bounty": false,
+   			"domains":[
+      			"secondstreetapp.com"
+   			]
+		},
+		{
+   			"name":"strongDM",
+   			"url":"https://www.strongdm.com/security/responsible-disclosure",
+   			"bounty": false,
+   			"domains":[
+      			"strongdm.com"
+   			]
 		}
 	]
 }
