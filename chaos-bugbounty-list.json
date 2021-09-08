@@ -5212,6 +5212,17 @@
 			]
 		},
 		{
+		    "name": "Tokopedia",
+			"url": "https://bounty.tokopedia.net/rules",
+			"bounty": true,
+			"swag": false,
+			"domains": [
+				"tokopedia.net",
+				"tokopedia.com",
+				"tokopedia.id"
+			]
+		},
+		{
 			"name": "TomTom",
 			"url": "https://hackerone.com/tomtom",
 			"bounty": false,
@@ -5981,17 +5992,6 @@
 			"domains": [
 				"zynga.com",
 				"zyngagames.com"
-			]
-		},
-		{
-		    "name": "Tokopedia",
-			"url": "https://bounty.tokopedia.net/rules",
-			"bounty": true,
-			"swag": false,
-			"domains": [
-				"tokopedia.net",
-				"tokopedia.com",
-				"tokopedia.id"
 			]
 		}
 	]
