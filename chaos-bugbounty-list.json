@@ -4583,6 +4583,22 @@
 			]
 		},
 		{
+			"name":"Second Street",
+			"url":"https://www.secondstreet.com/product-security-responsible-disclosure-policy",
+			"bounty": false,
+   			"domains":[
+      			"secondstreetapp.com"
+   			]
+		},
+		{
+   			"name":"StrongDM",
+   			"url":"https://www.strongdm.com/security/responsible-disclosure",
+   			"bounty": false,
+   			"domains":[
+      			"strongdm.com"
+   			]
+		},
+		{
 			"name":"Scopely",
 			"url":"https://hackerone.com/scopely",
 			"bounty": true,
@@ -5223,6 +5239,17 @@
 			"bounty": true,
 			"domains": [
 				"t-mobile.cz"
+			]
+		},
+		{
+		    "name": "Tokopedia",
+			"url": "https://bounty.tokopedia.net/rules",
+			"bounty": true,
+			"swag": false,
+			"domains": [
+				"tokopedia.net",
+				"tokopedia.com",
+				"tokopedia.id"
 			]
 		},
 		{
@@ -5995,17 +6022,6 @@
 			"domains": [
 				"zynga.com",
 				"zyngagames.com"
-			]
-		},
-		{
-		    "name": "Tokopedia",
-			"url": "https://bounty.tokopedia.net/rules",
-			"bounty": true,
-			"swag": false,
-			"domains": [
-				"tokopedia.net",
-				"tokopedia.com",
-				"tokopedia.id"
 			]
 		}
 	]
