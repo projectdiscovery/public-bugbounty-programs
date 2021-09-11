@@ -4564,7 +4564,7 @@
 			"name": "Samsung Mobile",
 			"url": "https://security.samsungmobile.com/rewardsProgram.smsb",
 			"bounty": true,
-			"domains": []
+			"domains": "samsungmobile.com"
 		},
 		{
 			"name": "SAP Concur",
