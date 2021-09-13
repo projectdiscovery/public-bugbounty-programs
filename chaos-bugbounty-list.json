@@ -31,6 +31,17 @@
 			]
 		},
 		{
+			"name": "84codes",
+			"url": "https://www.84codes.com/security",
+			"bounty": true,
+			"domains": [
+				"cloudamqp.com",
+				"cloudkarafka.com",
+				"elephantsql.com",
+				"cloudmqtt.com"
+			]
+		},
+		{
 			"name": "Achmea",
 			"url": "https://www.achmea.nl/en/responsibledisclosure",
 			"bounty": true,
