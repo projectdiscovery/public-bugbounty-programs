@@ -1029,6 +1029,14 @@
 			]
 		},
 		{
+			"name": "Definity Inc",
+			"url": "https://definityinc.com/bug-bounty-program/",
+			"bounty": true,
+			"domains": [
+				"definityinc.com"
+			]
+		},
+		{
 			"name": "Delight.im",
 			"url": "https://hackerone.com/delight_im",
 			"bounty": false,
