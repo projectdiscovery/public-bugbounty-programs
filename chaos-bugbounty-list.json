@@ -5916,7 +5916,7 @@
 		{
 			"name": "Woodpecker",
 			"url": "https://woodpecker.co/vulnerability-disclosure-program/",
-			"bounty": Unknown,
+			"bounty": false,
 			"domains": [
 				"http://app.woodpecker.co/"
 			]
