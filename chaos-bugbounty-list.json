@@ -5319,6 +5319,18 @@
 			]
 		},
 		{
+			"name": "Toyota",
+			"url": "https://hackerone.com/toyota?type=team",
+			"bounty": false,
+			"domains": [
+				"www.toyotacertified.com
+				"www.toyotacertificados.com",
+				"www.trdusa.com",
+				"www.toyotamobility.com",
+				"www.tddsprogram.com",
+			]
+		},
+		{
 			"name": "TransferWise",
 			"url": "https://bugcrowd.com/transferwise",
 			"bounty": true,
