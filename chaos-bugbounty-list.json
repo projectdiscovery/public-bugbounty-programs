@@ -9,6 +9,25 @@
 				"4cdn.org"
 			]
 		},
+		
+
+	
+
+			"url": "https://jivochat.com/bugbounty/",
+
+			"bounty": true,
+
+			"domains": [
+
+				"app.jivosite.com",
+
+				"code.jivosite.com",
+
+				"partner.jivosite.com"
+
+			]
+
+		},
 		{
 			"name": "8x8",
 			"url": "https://hackerone.com/8x8",
