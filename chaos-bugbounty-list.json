@@ -30,6 +30,36 @@
 			]
 		},
 		{
+
+			"name": "Picky Assist",
+			"url": "https://pickyassist.com/blog/bug-bounty-program-bug-beacon/",
+			"bounty": true,
+			"domains": [
+				"pickyassist.com",
+				"pickyassist.com/app",
+				"pickyassist.com/beta",
+				"pickyassist.com/blog",
+			]
+		},
+		{
+
+			"name": "Empuls",
+			"url": "https://www.empuls.io/bug-bounty",
+			"bounty": true,
+			"domains": [
+				"empuls.io",
+			]
+		},
+		{
+
+			"name": "ImpactGuru",
+			"url": "https://www.impactguru.com/bug-bounty",
+			"bounty": true,
+			"domains": [
+				"whitehat.impactguru.com",
+			]
+		},
+		{
 			"name": "8x8",
 			"url": "https://hackerone.com/8x8",
 			"bounty": false,
