@@ -5323,11 +5323,11 @@
 			"url": "https://hackerone.com/toyota?type=team",
 			"bounty": false,
 			"domains": [
-				"www.toyotacertified.com
+				"www.toyotacertified.com",
 				"www.toyotacertificados.com",
 				"www.trdusa.com",
 				"www.toyotamobility.com",
-				"www.tddsprogram.com",
+				"www.tddsprogram.com"
 			]
 		},
 		{
