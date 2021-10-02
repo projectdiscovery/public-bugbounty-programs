@@ -153,6 +153,14 @@
 			]
 		},
 		{
+			"name": "McDelivery ",
+			"url": "https://www.mcdelivery.co.in/More/bugBounty",
+			"bounty": true,
+			"domains": [
+				"mcdelivery.co.in"
+			]
+		},
+		{
 			"name": "Alaska Airlines",
 			"url": "https://www.alaskaair.com/content/about-us/site-info/report-site-security-issues",
 			"bounty": false,
