@@ -21,6 +21,15 @@
 			]
 		},
 		{
+
+			"name": "LogMeOnce",
+			"url": "https://www.logmeonce.com/vulnerability-disclosure-policy/",
+			"bounty": true,
+			"domains": [
+				"secure.logmeonce.com",
+			]
+		},
+		{
 			"name": "8x8",
 			"url": "https://hackerone.com/8x8",
 			"bounty": false,
