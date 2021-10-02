@@ -10,6 +10,51 @@
 			]
 		},
 		{
+
+			"name": "Jivochat",
+			"url": "https://jivochat.com/bugbounty/",
+			"bounty": true,
+			"domains": [
+				"jivosite.com"
+			]
+		},
+		{
+
+			"name": "LogMeOnce",
+			"url": "https://www.logmeonce.com/vulnerability-disclosure-policy/",
+			"bounty": true,
+			"domains": [
+				"logmeonce.com"
+			]
+		},
+		{
+
+			"name": "Picky Assist",
+			"url": "https://pickyassist.com/blog/bug-bounty-program-bug-beacon/",
+			"bounty": true,
+			"domains": [
+				"pickyassist.com"
+			]
+		},
+		{
+
+			"name": "Empuls",
+			"url": "https://www.empuls.io/bug-bounty",
+			"bounty": true,
+			"domains": [
+				"empuls.io"
+			]
+		},
+		{
+
+			"name": "ImpactGuru",
+			"url": "https://www.impactguru.com/bug-bounty",
+			"bounty": true,
+			"domains": [
+				"impactguru.com"
+			]
+		},
+		{
 			"name": "8x8",
 			"url": "https://hackerone.com/8x8",
 			"bounty": false,
