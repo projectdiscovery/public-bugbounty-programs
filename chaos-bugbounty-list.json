@@ -15,9 +15,7 @@
 			"url": "https://jivochat.com/bugbounty/",
 			"bounty": true,
 			"domains": [
-				"app.jivosite.com",
-				"code.jivosite.com",
-				"partner.jivosite.com"
+				"jivosite.com"
 			]
 		},
 		{
@@ -26,7 +24,7 @@
 			"url": "https://www.logmeonce.com/vulnerability-disclosure-policy/",
 			"bounty": true,
 			"domains": [
-				"secure.logmeonce.com",
+				"logmeonce.com",
 			]
 		},
 		{
@@ -35,10 +33,7 @@
 			"url": "https://pickyassist.com/blog/bug-bounty-program-bug-beacon/",
 			"bounty": true,
 			"domains": [
-				"pickyassist.com",
-				"pickyassist.com/app",
-				"pickyassist.com/beta",
-				"pickyassist.com/blog",
+				"pickyassist.com"
 			]
 		},
 		{
@@ -47,7 +42,7 @@
 			"url": "https://www.empuls.io/bug-bounty",
 			"bounty": true,
 			"domains": [
-				"empuls.io",
+				"empuls.io"
 			]
 		},
 		{
@@ -56,7 +51,7 @@
 			"url": "https://www.impactguru.com/bug-bounty",
 			"bounty": true,
 			"domains": [
-				"whitehat.impactguru.com",
+				"impactguru.com"
 			]
 		},
 		{
