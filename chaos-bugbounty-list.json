@@ -5320,14 +5320,14 @@
 		},
 		{
 			"name": "Toyota",
-			"url": "https://hackerone.com/toyota?type=team",
+			"url": "https://hackerone.com/toyota",
 			"bounty": false,
 			"domains": [
-				"www.toyotacertified.com",
-				"www.toyotacertificados.com",
-				"www.trdusa.com",
-				"www.toyotamobility.com",
-				"www.tddsprogram.com"
+				"toyotacertified.com",
+				"toyotacertificados.com",
+				"trdusa.com",
+				"toyotamobility.com",
+				"tddsprogram.com"
 			]
 		},
 		{
