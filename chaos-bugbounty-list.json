@@ -6060,8 +6060,7 @@
 			"url": "https://rupiahtoken.com/blog/bug-bounty-program",
 			"bounty": true,
 			"domains": [
-				"rupiahtoken.com",
-				"api.rupiahtoken.com"
+				"rupiahtoken.com"
 			]
 		}
 	]
