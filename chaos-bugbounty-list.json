@@ -5918,7 +5918,7 @@
 			"url": "https://woodpecker.co/vulnerability-disclosure-program/",
 			"bounty": false,
 			"domains": [
-				"http://app.woodpecker.co/"
+				"woodpecker.co"
 			]
 		},
 		{
