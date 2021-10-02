@@ -9,9 +9,9 @@
 				"4cdn.org"
 			]
 		},
-		
+		{
 
-	
+			"name": "Jivochat",
 
 			"url": "https://jivochat.com/bugbounty/",
 
@@ -28,6 +28,11 @@
 			]
 
 		},
+		
+
+	
+
+			
 		{
 			"name": "8x8",
 			"url": "https://hackerone.com/8x8",
