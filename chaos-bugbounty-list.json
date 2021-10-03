@@ -343,6 +343,15 @@
 			]
 		},
 		{
+			"name": "AmoCRM",
+			"url": "https://www.amocrm.com/vulnerability-disclosure-program/",
+			"bounty": false,
+			"domains": [
+				"amocrm.com",
+				"amocrm.ru"
+			]
+		},
+		{
 			"name": "Apsis",
 			"url": "https://www.apsis.com/bug-bounty",
 			"bounty": true,
