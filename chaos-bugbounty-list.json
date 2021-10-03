@@ -24,8 +24,7 @@
 			"url": "https://chargezoom.com/bugbounty/",
 			"bounty": true,
 			"domains": [
-				"*.payportal.net",
-				"api.payportal.net"
+				"payportal.net"
 			]
 		},
 		{
@@ -34,7 +33,7 @@
 			"url": "https://www.consumerfinance.gov/vulnerability-disclosure-policy/",
 			"bounty": false,
 			"domains": [
-				"*.consumerfinance.gov"
+				"consumerfinance.gov"
 			]
 		},
         {
@@ -43,7 +42,7 @@
 			"url": "https://zapier.com/engineering/bug-bounty-program/",
 			"bounty": true,
 			"domains": [
-				"*.zapier.com"
+				"zapier.com"
 			]
 		},
 		{
@@ -52,7 +51,7 @@
 			"url": "https://www.easyprojects.net/company/vulnerability-reward-program/",
 			"bounty": true,
 			"domains": [
-				"*.easyprojects.net"
+				"easyprojects.net"
 			]
 		},
 		{
