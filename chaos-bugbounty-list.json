@@ -30,6 +30,15 @@
 		},
 		{
 
+			"name": "Consumer Financial",
+			"url": "https://www.consumerfinance.gov/vulnerability-disclosure-policy/",
+			"bounty": false,
+			"domains": [
+				"*.consumerfinance.gov"
+			]
+		},
+        {
+
 			"name": "Zapier",
 			"url": "https://zapier.com/engineering/bug-bounty-program/",
 			"bounty": true,
