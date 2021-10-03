@@ -20,6 +20,16 @@
 		},
 		{
 
+			"name": "Chargezoom",
+			"url": "https://chargezoom.com/bugbounty/",
+			"bounty": true,
+			"domains": [
+				"*.payportal.net",
+				"api.payportal.net"
+			]
+		},
+		{
+
 			"name": "LogMeOnce",
 			"url": "https://www.logmeonce.com/vulnerability-disclosure-policy/",
 			"bounty": true,
@@ -195,6 +205,14 @@
 			"bounty": true,
 			"domains": [
 				"aiven.io"
+			]
+		},
+		{
+			"name": "McDelivery ",
+			"url": "https://www.mcdelivery.co.in/More/bugBounty",
+			"bounty": true,
+			"domains": [
+				"mcdelivery.co.in"
 			]
 		},
 		{
@@ -5364,6 +5382,18 @@
 			]
 		},
 		{
+			"name": "Toyota",
+			"url": "https://hackerone.com/toyota",
+			"bounty": false,
+			"domains": [
+				"toyotacertified.com",
+				"toyotacertificados.com",
+				"trdusa.com",
+				"toyotamobility.com",
+				"tddsprogram.com"
+			]
+		},
+		{
 			"name": "TransferWise",
 			"url": "https://bugcrowd.com/transferwise",
 			"bounty": true,
@@ -5959,6 +5989,14 @@
 			]
 		},
 		{
+			"name": "Woodpecker",
+			"url": "https://woodpecker.co/vulnerability-disclosure-program/",
+			"bounty": false,
+			"domains": [
+				"woodpecker.co"
+			]
+		},
+		{
 			"name": "WordPress",
 			"url": "https://hackerone.com/wordpress",
 			"bounty": false,
@@ -6098,6 +6136,14 @@
 				"nominet.uk",
 				"nominet.org.uk",
 				"nic.uk"
+			]
+		},
+		{
+			"name": "RupiahToken",
+			"url": "https://rupiahtoken.com/blog/bug-bounty-program",
+			"bounty": true,
+			"domains": [
+				"rupiahtoken.com"
 			]
 		}
 	]
