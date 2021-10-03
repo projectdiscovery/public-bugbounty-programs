@@ -39,6 +39,15 @@
 		},
 		{
 
+			"name": "Easyprojects",
+			"url": "https://www.easyprojects.net/company/vulnerability-reward-program/",
+			"bounty": true,
+			"domains": [
+				"*.easyprojects.net"
+			]
+		},
+		{
+
 			"name": "LogMeOnce",
 			"url": "https://www.logmeonce.com/vulnerability-disclosure-policy/",
 			"bounty": true,
