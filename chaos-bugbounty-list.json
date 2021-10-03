@@ -30,6 +30,15 @@
 		},
 		{
 
+			"name": "Zapier",
+			"url": "https://zapier.com/engineering/bug-bounty-program/",
+			"bounty": true,
+			"domains": [
+				"*.zapier.com"
+			]
+		},
+		{
+
 			"name": "LogMeOnce",
 			"url": "https://www.logmeonce.com/vulnerability-disclosure-policy/",
 			"bounty": true,
