@@ -20,6 +20,43 @@
 		},
 		{
 
+			"name": "Chargezoom",
+			"url": "https://chargezoom.com/bugbounty/",
+			"bounty": true,
+			"domains": [
+				"*.payportal.net",
+				"api.payportal.net"
+			]
+		},
+		{
+
+			"name": "Consumer Financial",
+			"url": "https://www.consumerfinance.gov/vulnerability-disclosure-policy/",
+			"bounty": false,
+			"domains": [
+				"*.consumerfinance.gov"
+			]
+		},
+        {
+
+			"name": "Zapier",
+			"url": "https://zapier.com/engineering/bug-bounty-program/",
+			"bounty": true,
+			"domains": [
+				"*.zapier.com"
+			]
+		},
+		{
+
+			"name": "Easyprojects",
+			"url": "https://www.easyprojects.net/company/vulnerability-reward-program/",
+			"bounty": true,
+			"domains": [
+				"*.easyprojects.net"
+			]
+		},
+		{
+
 			"name": "LogMeOnce",
 			"url": "https://www.logmeonce.com/vulnerability-disclosure-policy/",
 			"bounty": true,
