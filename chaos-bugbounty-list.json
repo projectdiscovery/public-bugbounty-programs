@@ -2596,6 +2596,26 @@
 			]
 		},
 		{
+			"name": "Hostinger",
+			"url": "https://www.hostinger.in/responsible-disclosure-policy",
+			"bounty": true,
+			"domains": [
+				"www.hostinger.com",
+				"hpanel.hostinger.com",
+				"cpanel.hostinger.com",
+				"payments.hostinger.com",
+				"www.zyro.com",
+				"backend.zyro.com",
+				"editor.zyro.com",
+				"logo.zyro.com",
+				"tracking.zyro.com",
+				"www.hosting24.com",
+				"hpanel.hosting24.com",
+				"cpannel.hosting24.com",
+				"payments.hosting24.com"
+			]
+		},
+		{
 			"name": "HTC",
 			"url": "https://www.htc.com/in/terms/product-security/",
 			"bounty": true,
