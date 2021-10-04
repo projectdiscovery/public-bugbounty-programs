@@ -10,6 +10,21 @@
 			]
 		},
 		{
+			"name": "Zendesk",
+			"url": "https://hackerone.com/zendesk?type=team",
+			"bounty": true,
+			"domains": [
+				"www.zendesk.com",
+				"developer.zendesk.com",
+				"app.smooch.io",
+				"api.smooch.io",
+				"smooch.io",
+				"zopim.com",
+				"apps.zendesk.com"
+				
+			]
+		},
+		{
 
 			"name": "Jivochat",
 			"url": "https://jivochat.com/bugbounty/",
