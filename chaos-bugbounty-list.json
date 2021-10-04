@@ -39,6 +39,15 @@
 		},
 		{
 
+			"name": "mujs",
+			"url": "https://mujs.com/security.html",
+			"bounty": true,
+			"domains": [
+				"mujs.com"
+			]
+		},
+		{
+
 			"name": "Chargezoom",
 			"url": "https://chargezoom.com/bugbounty/",
 			"bounty": true,
