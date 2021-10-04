@@ -10,13 +10,22 @@
 			]
 		},
 		{
+			"name": "Zendesk",
+			"url": "https://hackerone.com/zendesk?type=team",
+			"bounty": true,
+			"domains": [
+				"zendesk.com",
+				"smooch.io",
+				"zopim.com"
+			]
+		},
+		{
 			"name":"Zerodha",
 			"url": "https://zerodha.com/bug-bounty/",
 			"bounty": true,
 			"domains": [
 				"zerodha.com",
-				"kite.trade"
-			
+				"kite.trade"			
 			]
 		},
 		{
