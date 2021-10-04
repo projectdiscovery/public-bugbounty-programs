@@ -14,18 +14,8 @@
 			"url": "https://zerodha.com/bug-bounty/",
 			"bounty": true,
 			"domains": [
-				"https://zerodha.com",
-				"https://coin.zerodha.com",
-				"https://zerodhacapital.com",
-				"https://kite.zerodha.com",
-				"https://console.zerodha.com",
-				"https://sentinel.zerodha.com",
-				"https://kite.trade",
-				"https://developers.kite.trade",
-				"https://cashier.zerodha.com",
-				"https://support.zerodha.com",
-				"https://zerodha.com/resources",
-				"https://pulse.zerodha.com"
+				"zerodha.com",
+				"kite.trade"
 			
 			]
 		},
