@@ -14,13 +14,9 @@
 			"url": "https://hackerone.com/zendesk?type=team",
 			"bounty": true,
 			"domains": [
-				"www.zendesk.com",
-				"developer.zendesk.com",
-				"app.smooch.io",
-				"api.smooch.io",
+				"zendesk.com",
 				"smooch.io",
-				"zopim.com",
-				"apps.zendesk.com"
+				"zopim.com"
 				
 			]
 		},
