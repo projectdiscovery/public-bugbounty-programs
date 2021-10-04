@@ -25,10 +25,7 @@
 			"url": "https://razorpay.com/responsible-disclosure/",
 			"bounty": false,
 			"domains": [
-				"dashboard.razorpay.com",
-				"api.razorpay.com",
-				"checkout.razorpay.com",
-				"invoices.razorpay.com"
+				"razorpay.com"
 			]
 		},
 		{
