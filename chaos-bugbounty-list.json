@@ -29,6 +29,15 @@
 		},
 		{
 
+			"name": "Groww",
+			"url": "https://groww.in/p/security/",
+			"bounty": true,
+			"domains": [
+				"groww.in"
+			]
+		},
+		{
+
 			"name": "Consumer Financial",
 			"url": "https://www.consumerfinance.gov/vulnerability-disclosure-policy/",
 			"bounty": false,
