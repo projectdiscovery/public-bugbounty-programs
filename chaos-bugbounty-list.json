@@ -2525,8 +2525,8 @@
 				"h1ctf.com"
 			]
 		},
-                {
-		"name": "Hackchecks",
+        {
+			"name": "Hackchecks",
 			"url": "https://hackchecks.in/responsible-disclosure/",
 			"bounty": false,
 			"domains": [
@@ -2534,7 +2534,7 @@
 			]
 		},
 		{
-		"name": "Harvard",
+			"name": "Harvard",
 			"url": "https://huit.harvard.edu/responsible-vulnerability-reporting-standards#inscope",
 			"bounty": false,
 			"domains": [
