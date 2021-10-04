@@ -10,12 +10,50 @@
 			]
 		},
 		{
+			"name":"Zerodha",
+			"url": "https://zerodha.com/bug-bounty/",
+			"bounty": true,
+			"domains": [
+				"zerodha.com",
+				"kite.trade"
+			
+			]
+		},
+		{
 
 			"name": "Jivochat",
 			"url": "https://jivochat.com/bugbounty/",
 			"bounty": true,
 			"domains": [
 				"jivosite.com"
+			]
+		},
+		
+		{
+
+			"name": "Razorpay",
+			"url": "https://razorpay.com/responsible-disclosure/",
+			"bounty": false,
+			"domains": [
+				"razorpay.com"
+			]
+		},
+		{
+
+			"name": "Upstox",
+			"url": "https://upstox.com/bug-bounty/",
+			"bounty": true,
+			"domains": [
+				"upstox.com"
+			]
+		},
+		{
+
+			"name": "mujs",
+			"url": "https://mujs.com/security.html",
+			"bounty": true,
+			"domains": [
+				"mujs.com"
 			]
 		},
 		{
@@ -28,12 +66,28 @@
 			]
 		},
 		{
-
 			"name": "strongdm",
 			"url": "https://www.strongdm.com/security/responsible-disclosure",
 			"bounty": false,
 			"domains": [
 				"strongdm.com"
+			]
+		},
+		{
+			"name": "Groww",
+			"url": "https://groww.in/p/security/",
+			"bounty": true,
+			"domains": [
+				"groww.in"
+			]
+		},
+		{
+
+			"name": "Tata Motors",
+			"url": "https://hackerone.com/tatamotors",
+			"bounty": true,
+			"domains": [
+				"tatamotors.com"
 			]
 		},
 		{
@@ -79,6 +133,15 @@
 			"bounty": true,
 			"domains": [
 				"pickyassist.com"
+			]
+		},
+		{
+
+			"name": "Mobikwik",
+			"url": "https://www.mobikwik.com/bug-bounty/guidelines",
+			"bounty": true,
+			"domains": [
+				"mobikwik.com"
 			]
 		},
 		{
@@ -2534,12 +2597,20 @@
 				"h1ctf.com"
 			]
 		},
-                {
+        {
 			"name": "Hackchecks",
 			"url": "https://hackchecks.in/responsible-disclosure/",
 			"bounty": false,
 			"domains": [
 				"hackchecks.in"
+			]
+		},
+		{
+			"name": "Harvard",
+			"url": "https://huit.harvard.edu/responsible-vulnerability-reporting-standards#inscope",
+			"bounty": false,
+			"domains": [
+				"harvard.edu"
 			]
 		},
 		{
@@ -2602,6 +2673,16 @@
 				"hostgator.co",
 				"hostgator.io",
 				"cliente.hostgator"
+			]
+		},
+		{
+			"name": "Hostinger",
+			"url": "https://www.hostinger.in/responsible-disclosure-policy",
+			"bounty": true,
+			"domains": [
+				"hostinger.com",
+				"zyro.com",
+				"hosting24.com"
 			]
 		},
 		{
@@ -5765,6 +5846,40 @@
 			]
 		},
 		{
+			"name": "U.S. Dept of Health & Human Services (HHS)",
+			"url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+			"bounty": false,
+			"domains": [
+				"acl.gov", 
+				"agingstats.gov", 
+				"aids.gov", 
+				"cdc.gov", 
+				"cms.gov", 
+				"cuidadodesalud.gov", 
+				"donaciondeorganos.gov", 
+				"fitness.gov", 
+				"foodsafety.gov", 
+				"girlshealth.gov", 
+				"grantsolutions.gov", 
+				"health.gov", 
+				"healthdata.gov", 
+				"healthfinder.gov", 
+				"healthypeople.gov", 
+				"hhs.gov", 
+				"hiv.gov", 
+				"hrsa.gov", 
+				"insurekidsnow.gov", 
+				"medicaid.gov", 
+				"medicare.gov", 
+				"mymedicare.gov", 
+				"nih.gov", 
+				"organdonor.gov", 
+				"simplereport.gov", 
+				"stopbullying.gov", 
+				"womenshealth.gov"
+			]
+		},
+		{
 			"name": "USAA",
 			"url": "https://bugcrowd.com/usaa",
 			"bounty": true,
@@ -6189,6 +6304,17 @@
 			"domains": [
 				"rupiahtoken.com"
 			]
+		},
+		{
+			"name":"UK Ministry of Defence",
+			"url":"https://www.gov.uk/guidance/report-a-vulnerability-on-an-mod-system",
+			"bounty":false,
+			"swag":true,
+			"domains": [
+				"mod.uk",
+				"mod.gov.uk"
+			]
 		}
+			
 	]
 }
