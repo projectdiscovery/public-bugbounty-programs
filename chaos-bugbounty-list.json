@@ -6180,6 +6180,17 @@
 			"domains": [
 				"rupiahtoken.com"
 			]
+		},
+		{
+			"name":"UK Ministry of Defence",
+			"url":"https://www.gov.uk/guidance/report-a-vulnerability-on-an-mod-system",
+			"bounty":false,
+			"swag":true,
+			"domains": [
+				"mod.uk",
+				"mod.gov.uk"
+			]
 		}
+			
 	]
 }
