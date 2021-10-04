@@ -67,6 +67,16 @@
 		},
 		{
 
+			"name": "Tinder",
+			"url": "https://hackerone.com/tinder?type=team",
+			"bounty": true,
+			"domains": [
+				"tinder.com",
+				"gotinder.com"
+			]
+		},
+		{
+
 			"name": "Chargezoom",
 			"url": "https://chargezoom.com/bugbounty/",
 			"bounty": true,
