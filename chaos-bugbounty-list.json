@@ -74,6 +74,15 @@
 		},
 		{
 
+			"name": "Mobikwik",
+			"url": "https://www.mobikwik.com/bug-bounty/guidelines",
+			"bounty": true,
+			"domains": [
+				"mobikwik.com"
+			]
+		},
+		{
+
 			"name": "Empuls",
 			"url": "https://www.empuls.io/bug-bounty",
 			"bounty": true,
