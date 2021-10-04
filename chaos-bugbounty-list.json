@@ -29,6 +29,15 @@
 		},
 		{
 
+			"name": "strongdm",
+			"url": "https://www.strongdm.com/security/responsible-disclosure",
+			"bounty": false,
+			"domains": [
+				"strongdm.com"
+			]
+		},
+		{
+
 			"name": "Consumer Financial",
 			"url": "https://www.consumerfinance.gov/vulnerability-disclosure-policy/",
 			"bounty": false,
