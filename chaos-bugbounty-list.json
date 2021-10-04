@@ -2613,6 +2613,16 @@
 			]
 		},
 		{
+			"name": "Hostinger",
+			"url": "https://www.hostinger.in/responsible-disclosure-policy",
+			"bounty": true,
+			"domains": [
+				"hostinger.com",
+				"zyro.com",
+				"hosting24.com"
+			]
+		},
+		{
 			"name": "HTC",
 			"url": "https://www.htc.com/in/terms/product-security/",
 			"bounty": true,
