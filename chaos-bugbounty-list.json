@@ -6333,6 +6333,16 @@
 				"mod.uk",
 				"mod.gov.uk"
 			]
+		},
+		{
+   			"name":"Rakuten",
+  			"url":"https://bugcrowd.com/rakuten-vdp",
+   			"bounty": false,
+   			"swag": true,
+   			"domains":[
+      				"https://fr.shopping.rakuten.com/",
+      				"rakuten.com"
+   			]
 		}
 			
 	]
