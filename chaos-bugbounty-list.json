@@ -6325,6 +6325,16 @@
 			]
 		},
 		{
+			"name":"Coca-Cola",
+			"url":"https://bugcrowd.com/coca-cola",
+			"bounty": false,
+			"domains":[
+				"coca-cola.com",
+			   	"coca-colaentuhogar.com",
+				"vebatcoke.com"
+		  	]
+		},
+		{
 			"name":"UK Ministry of Defence",
 			"url":"https://www.gov.uk/guidance/report-a-vulnerability-on-an-mod-system",
 			"bounty":false,
