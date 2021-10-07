@@ -94,15 +94,6 @@
 		},
 		{
 
-			"name": "Tata Motors",
-			"url": "https://hackerone.com/tatamotors",
-			"bounty": true,
-			"domains": [
-				"tatamotors.com"
-			]
-		},
-		{
-
 			"name": "Consumer Financial",
 			"url": "https://www.consumerfinance.gov/vulnerability-disclosure-policy/",
 			"bounty": false,
