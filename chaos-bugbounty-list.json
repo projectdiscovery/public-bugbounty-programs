@@ -4529,7 +4529,7 @@
 		},
 		{
 			"name": "Qulture.Rocks",
-			"url": "https://hackerone.com/qulture_rocks_x3u44",
+			"url": "https://hackerone.com/qulture_rocks",
 			"bounty": false,
 			"domains": [
 				"qulture.rocks"
