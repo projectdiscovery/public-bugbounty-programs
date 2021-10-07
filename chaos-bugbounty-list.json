@@ -85,28 +85,11 @@
 			]
 		},
 		{
-			"name": "strongdm",
-			"url": "https://www.strongdm.com/security/responsible-disclosure",
-			"bounty": false,
-			"domains": [
-				"strongdm.com"
-			]
-		},
-		{
 			"name": "Groww",
 			"url": "https://groww.in/p/security/",
 			"bounty": true,
 			"domains": [
 				"groww.in"
-			]
-		},
-		{
-
-			"name": "Tata Motors",
-			"url": "https://hackerone.com/tatamotors",
-			"bounty": true,
-			"domains": [
-				"tatamotors.com"
 			]
 		},
 		{
