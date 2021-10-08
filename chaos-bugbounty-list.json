@@ -10,6 +10,161 @@
 			]
 		},
 		{
+			"name": "Zendesk",
+			"url": "https://hackerone.com/zendesk?type=team",
+			"bounty": true,
+			"domains": [
+				"zendesk.com",
+				"smooch.io",
+				"zopim.com"
+			]
+		},
+		{
+			"name":"Zerodha",
+			"url": "https://zerodha.com/bug-bounty/",
+			"bounty": true,
+			"domains": [
+				"zerodha.com",
+				"kite.trade"			
+			]
+		},
+		{
+
+			"name": "Jivochat",
+			"url": "https://jivochat.com/bugbounty/",
+			"bounty": true,
+			"domains": [
+				"jivosite.com"
+			]
+		},
+		
+		{
+
+			"name": "Razorpay",
+			"url": "https://razorpay.com/responsible-disclosure/",
+			"bounty": false,
+			"domains": [
+				"razorpay.com"
+			]
+		},
+		{
+
+			"name": "Upstox",
+			"url": "https://upstox.com/bug-bounty/",
+			"bounty": true,
+			"domains": [
+				"upstox.com"
+			]
+		},
+		{
+
+			"name": "mujs",
+			"url": "https://mujs.com/security.html",
+			"bounty": true,
+			"domains": [
+				"mujs.com"
+			]
+		},
+		{
+
+			"name": "Tinder",
+			"url": "https://hackerone.com/tinder?type=team",
+			"bounty": true,
+			"domains": [
+				"tinder.com",
+				"gotinder.com"
+			]
+		},
+		{
+
+			"name": "Chargezoom",
+			"url": "https://chargezoom.com/bugbounty/",
+			"bounty": true,
+			"domains": [
+				"payportal.net"
+			]
+		},
+		{
+			"name": "Groww",
+			"url": "https://groww.in/p/security/",
+			"bounty": true,
+			"domains": [
+				"groww.in"
+			]
+		},
+		{
+
+			"name": "Consumer Financial",
+			"url": "https://www.consumerfinance.gov/vulnerability-disclosure-policy/",
+			"bounty": false,
+			"domains": [
+				"consumerfinance.gov"
+			]
+		},
+        {
+
+			"name": "Zapier",
+			"url": "https://zapier.com/engineering/bug-bounty-program/",
+			"bounty": true,
+			"domains": [
+				"zapier.com"
+			]
+		},
+		{
+
+			"name": "Easyprojects",
+			"url": "https://www.easyprojects.net/company/vulnerability-reward-program/",
+			"bounty": true,
+			"domains": [
+				"easyprojects.net"
+			]
+		},
+		{
+
+			"name": "LogMeOnce",
+			"url": "https://www.logmeonce.com/vulnerability-disclosure-policy/",
+			"bounty": true,
+			"domains": [
+				"logmeonce.com"
+			]
+		},
+		{
+
+			"name": "Picky Assist",
+			"url": "https://pickyassist.com/blog/bug-bounty-program-bug-beacon/",
+			"bounty": true,
+			"domains": [
+				"pickyassist.com"
+			]
+		},
+		{
+
+			"name": "Mobikwik",
+			"url": "https://www.mobikwik.com/bug-bounty/guidelines",
+			"bounty": true,
+			"domains": [
+				"mobikwik.com"
+			]
+		},
+		{
+
+			"name": "Empuls",
+			"url": "https://www.empuls.io/bug-bounty",
+			"bounty": true,
+			"domains": [
+				"empuls.io"
+			]
+		},
+		{
+
+			"name": "ImpactGuru",
+			"url": "https://www.impactguru.com/bug-bounty",
+			"bounty": true,
+			"domains": [
+				"impactguru.com"
+			]
+		},
+		{
 			"name": "8x8",
 			"url": "https://hackerone.com/8x8",
 			"bounty": false,
@@ -153,6 +308,14 @@
 			]
 		},
 		{
+			"name": "McDelivery ",
+			"url": "https://www.mcdelivery.co.in/More/bugBounty",
+			"bounty": true,
+			"domains": [
+				"mcdelivery.co.in"
+			]
+		},
+		{
 			"name": "Alaska Airlines",
 			"url": "https://www.alaskaair.com/content/about-us/site-info/report-site-security-issues",
 			"bounty": false,
@@ -251,6 +414,15 @@
 			"bounty": false,
 			"domains": [
 				"amitree.com"
+			]
+		},
+		{
+			"name": "AmoCRM",
+			"url": "https://www.amocrm.com/vulnerability-disclosure-program/",
+			"bounty": false,
+			"domains": [
+				"amocrm.com",
+				"amocrm.ru"
 			]
 		},
 		{
@@ -1026,6 +1198,14 @@
 			"bounty": true,
 			"domains": [
 				"datastax.com"
+			]
+		},
+		{
+			"name": "Definity Inc",
+			"url": "https://definityinc.com/bug-bounty-program/",
+			"bounty": true,
+			"domains": [
+				"definityinc.com"
 			]
 		},
 		{
@@ -2419,12 +2599,20 @@
 				"h1ctf.com"
 			]
 		},
-                {
+        {
 			"name": "Hackchecks",
 			"url": "https://hackchecks.in/responsible-disclosure/",
 			"bounty": false,
 			"domains": [
 				"hackchecks.in"
+			]
+		},
+		{
+			"name": "Harvard",
+			"url": "https://huit.harvard.edu/responsible-vulnerability-reporting-standards#inscope",
+			"bounty": false,
+			"domains": [
+				"harvard.edu"
 			]
 		},
 		{
@@ -2490,6 +2678,16 @@
 			]
 		},
 		{
+			"name": "Hostinger",
+			"url": "https://www.hostinger.in/responsible-disclosure-policy",
+			"bounty": true,
+			"domains": [
+				"hostinger.com",
+				"zyro.com",
+				"hosting24.com"
+			]
+		},
+		{
 			"name": "HTC",
 			"url": "https://www.htc.com/in/terms/product-security/",
 			"bounty": true,
@@ -2500,7 +2698,7 @@
 		{
 			"name": "Huawei",
 			"url": "https://bugbounty.huawei.com/hbp/#/program",
-			"bounty": true,
+			"bounty": false,
 			"domains": [
 				"hicloud.com",
 				"vmall.com",
@@ -4314,7 +4512,7 @@
 		},
 		{
 			"name": "Qulture.Rocks",
-			"url": "https://hackerone.com/qulture_rocks_x3u44",
+			"url": "https://hackerone.com/qulture_rocks",
 			"bounty": false,
 			"domains": [
 				"qulture.rocks"
@@ -5311,6 +5509,18 @@
 			]
 		},
 		{
+			"name": "Toyota",
+			"url": "https://hackerone.com/toyota",
+			"bounty": false,
+			"domains": [
+				"toyotacertified.com",
+				"toyotacertificados.com",
+				"trdusa.com",
+				"toyotamobility.com",
+				"tddsprogram.com"
+			]
+		},
+		{
 			"name": "TransferWise",
 			"url": "https://bugcrowd.com/transferwise",
 			"bounty": true,
@@ -5638,6 +5848,40 @@
 			]
 		},
 		{
+			"name": "U.S. Dept of Health & Human Services (HHS)",
+			"url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+			"bounty": false,
+			"domains": [
+				"acl.gov", 
+				"agingstats.gov", 
+				"aids.gov", 
+				"cdc.gov", 
+				"cms.gov", 
+				"cuidadodesalud.gov", 
+				"donaciondeorganos.gov", 
+				"fitness.gov", 
+				"foodsafety.gov", 
+				"girlshealth.gov", 
+				"grantsolutions.gov", 
+				"health.gov", 
+				"healthdata.gov", 
+				"healthfinder.gov", 
+				"healthypeople.gov", 
+				"hhs.gov", 
+				"hiv.gov", 
+				"hrsa.gov", 
+				"insurekidsnow.gov", 
+				"medicaid.gov", 
+				"medicare.gov", 
+				"mymedicare.gov", 
+				"nih.gov", 
+				"organdonor.gov", 
+				"simplereport.gov", 
+				"stopbullying.gov", 
+				"womenshealth.gov"
+			]
+		},
+		{
 			"name": "USAA",
 			"url": "https://bugcrowd.com/usaa",
 			"bounty": true,
@@ -5906,6 +6150,14 @@
 			]
 		},
 		{
+			"name": "Woodpecker",
+			"url": "https://woodpecker.co/vulnerability-disclosure-program/",
+			"bounty": false,
+			"domains": [
+				"woodpecker.co"
+			]
+		},
+		{
 			"name": "WordPress",
 			"url": "https://hackerone.com/wordpress",
 			"bounty": false,
@@ -6036,6 +6288,62 @@
 				"zynga.com",
 				"zyngagames.com"
 			]
-		}
+		},
+		{
+			"name": "Nominet",
+			"url": "https://hackerone.com/nominet",
+			"bounty": false,
+			"domains": [
+				"nominet.uk",
+				"nominet.org.uk",
+				"nic.uk"
+			]
+		},
+		{
+			"name": "RupiahToken",
+			"url": "https://rupiahtoken.com/blog/bug-bounty-program",
+			"bounty": true,
+			"domains": [
+				"rupiahtoken.com"
+			]
+		},
+		{
+			"name":"Coca-Cola",
+			"url":"https://bugcrowd.com/coca-cola",
+			"bounty": false,
+			"domains":[
+				"coca-cola.com",
+			   	"coca-colaentuhogar.com",
+				"vebatcoke.com"
+		  	]
+		},
+		{
+			"name":"UK Ministry of Defence",
+			"url":"https://www.gov.uk/guidance/report-a-vulnerability-on-an-mod-system",
+			"bounty":false,
+			"swag":true,
+			"domains": [
+				"mod.uk",
+				"mod.gov.uk"
+			]
+		},
+		{
+   			"name":"Rakuten",
+  			"url":"https://bugcrowd.com/rakuten-vdp",
+   			"bounty": false,
+   			"swag": false,
+   			"domains":[
+      			"rakuten.com"
+   			]
+		},
+		{
+   			"name":"Geotab",
+  			"url":"https://community.geotab.com/s/article/How-to-report-security-vulnerabilities?language=en_US",
+   			"bounty": true,
+   			"swag": false,
+   			"domains":[
+      			"geotab.com"
+   			]
+		}		
 	]
 }
