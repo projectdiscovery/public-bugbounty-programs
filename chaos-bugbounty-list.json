@@ -6335,6 +6335,16 @@
    			"domains":[
       			"rakuten.com"
    			]
-		}	
+		}
+		{
+			 "name":"Recorded Future",
+			 "url":"https://hackerone.com/recorded-future?type=team",
+			 "bounty": true,
+			 "domains":[
+			         "www.recordedfuture.com",
+			         "api.recordedfuture.com",
+			         "therecord.media"
+			]
+		}
 	]
 }
