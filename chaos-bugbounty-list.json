@@ -4596,6 +4596,15 @@
             ]
         },
         {
+            "name":"Recorded Future",
+            "url":"https://hackerone.com/recorded-future",
+            "bounty":true,
+            "domains":[
+                "recordedfuture.com",
+                "therecord.media"
+            ]
+        },
+        {
             "name":"RecargaPay",
             "url":"https://hackerone.com/recargapay",
             "bounty":true,
