@@ -1194,6 +1194,23 @@
             ]
         },
         {
+            "name":"Datto VDP",
+            "url":"https://www.datto.com/legal/vulnerability-disclosure-program",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "autotask.net",
+                "backupify.com",
+                "centrastage.net",
+                "cloudtrax.com",
+                "datto.com",
+                "dattobackup.com",
+                "gluh.co",
+                "openmesh.com",
+                "soonr.com"
+            ]
+        },
+        {
             "name":"Definity Inc",
             "url":"https://definityinc.com/bug-bounty-program/",
             "bounty":true,
