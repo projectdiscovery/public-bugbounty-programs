@@ -1,0 +1,28 @@
+name: JSON Sorting
+on:
+  workflow_run:
+    workflows: ["json-syntax-check"]
+    types:
+      - completed
+  workflow_dispatch:
+
+
+jobs:  
+  sorting:
+    name: JSON Sorting
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: JSON shorting
+        run: |
+          jq --tab -s 'sort_by(.name)' chaos-bugbounty-list.json > chaos-bugbounty-list.json.tmp && mv chaos-bugbounty-list.json.tmp chaos-bugbounty-list.json
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Automatic JSON Sorting [$(date)] :robot:" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
