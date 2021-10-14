@@ -13,14 +13,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: JSON shorting
+      - name: JSON Sorting
         run: |
           jq --tab -s 'sort_by(.name)' chaos-bugbounty-list.json > chaos-bugbounty-list.json.tmp && mv chaos-bugbounty-list.json.tmp chaos-bugbounty-list.json
+
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Automatic JSON Sorting [$(date)] :robot:" -a
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
