@@ -495,6 +495,15 @@
             ]
         },
         {
+            "name":"BBC",
+            "url":"https://www.bbc.com/backstage/security-disclosure-policy/",
+            "bounty":false,
+            "swag":true,
+            "domains":[
+                "bbc.com"
+            ]
+        },
+        {
             "name":"Bentley",
             "url":"https://www.bentley.com/responsible_disclosure.pdf",
             "bounty":true,
