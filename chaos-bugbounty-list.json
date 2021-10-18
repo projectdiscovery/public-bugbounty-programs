@@ -6363,6 +6363,15 @@
             ]
         },
         {
+            "name":"Narkasa",
+            "url":"https://support.narkasa.com/hc/en-us/articles/360011019458-Bug-Bounty",
+            "bounty":true,
+            "swag":false,
+            "domains":[
+                "narkasa.com"
+            ]
+        },
+        {
             "name":"Geotab",
             "url":"https://community.geotab.com/s/article/How-to-report-security-vulnerabilities?language=en_US",
             "bounty":true,
