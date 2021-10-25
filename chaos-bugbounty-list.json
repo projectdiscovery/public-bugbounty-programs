@@ -6363,6 +6363,24 @@
 				"domains": [
 					"geotab.com"
 				]
+			},
+			{
+				"name": "Ninja Kiwi",
+				"url": "https://hackerone.com/ninja-kiwi",
+				"bounty": true,
+				"swag": false,
+				"domains": [
+					"api.ninjakiwi.com",
+					"analytics.ninjakiwi.com",
+					"battles.tv",
+					"*.nkstatic.com",
+					"ninja.kiwi",
+					"mynk.ninjakiwi.com",
+					"boomer2.ninjakiwi.com",
+					"ipa-auckland.ninja.kiwi",
+					"relay-legacy.ninja.kiwi",
+					"relay-nksrv.ninja.kiwi"
+				]
 			}
 		]
 	}
