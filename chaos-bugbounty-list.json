@@ -6371,7 +6371,21 @@
         "domains":[
           "geotab.com"
         ]
-      }
+      },
+      {
+        "name":"Consensys",
+        "url":"https://hackerone.com/consensys?type=team",
+        "bounty":true,
+        "domains":[
+          "mmi-test.codefi.network",
+          "activate.codefi.network",
+          "staking.codefi.network",
+          "consensys.net",
+          "assets-paris-demo.codefi.network",
+          "bridge.codefi.network",
+          "https://ipfs.infura.io"
+        ]
+      },
     ]
   }
 ]
