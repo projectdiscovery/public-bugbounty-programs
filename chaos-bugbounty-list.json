@@ -932,6 +932,16 @@
         ]
       },
       {
+        "name": "Consensys",
+        "url": "https://hackerone.com/consensys",
+        "bounty": true,
+        "domains": [
+          "codefi.network",
+          "consensys.net",
+          "nfura.io"
+        ]
+      },
+      {
         "name": "Constant Contact",
         "url": "https://bugcrowd.com/constantcontact",
         "bounty": false,
