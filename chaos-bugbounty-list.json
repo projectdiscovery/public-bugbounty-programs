@@ -1134,7 +1134,7 @@
       },
       {
         "name": "De Volksbank",
-        "url": "https://hackerone.com/devolksbank?type=team",
+        "url": "https://hackerone.com/devolksbank",
         "bounty": true,
         "domains": [
           "devolksbank.nl",
@@ -5433,11 +5433,15 @@
       },
       {
         "name": "Tinder",
-        "url": "https://hackerone.com/tinder?type=team",
+        "url": "https://hackerone.com/tinder",
         "bounty": true,
         "domains": [
           "tinder.com",
-          "gotinder.com"
+          "gotinder.com",
+          "tinderops.net",
+          "tstaging.com",
+          "tstaging.tools",
+          "tinderwebstaging.com"
         ]
       },
       {
@@ -6334,7 +6338,7 @@
       },
       {
         "name": "Zendesk",
-        "url": "https://hackerone.com/zendesk?type=team",
+        "url": "https://hackerone.com/zendesk",
         "bounty": true,
         "domains": [
           "zendesk.com",
