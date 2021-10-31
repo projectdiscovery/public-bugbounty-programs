@@ -747,6 +747,16 @@
         ]
       },
       {
+        "name": "Chase",
+        "url": "https://responsibledisclosure.jpmorganchase.com",
+        "bounty": false,
+        "swag": false,
+        "domains": [
+          "chase.com",
+          "jpmorganchase.com"
+        ]
+      },
+      {
         "name": "Chaturbate",
         "url": "https://hackerone.com/chaturbate",
         "bounty": true,
