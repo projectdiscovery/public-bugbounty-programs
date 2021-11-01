@@ -4713,7 +4713,9 @@
       "url": "http://personal.rbs.co.uk/personal/security-centre/responsible-disclosure.html",
       "bounty": false,
       "domains": [
-        "rbs.co.uk"
+        "rbs.com",
+        "rbs.co.uk",
+        "rbsdigital.co.uk"
       ]
     },
     {
