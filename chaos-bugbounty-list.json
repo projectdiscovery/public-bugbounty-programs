@@ -295,6 +295,27 @@
       ]
     },
     {
+      "name": "Arrow Electronics VDP",
+      "url": "https://bugcrowd.com/arrow-electronics-vdp",
+      "bounty": false,
+      "domains": [
+        "arrow.com",
+        "verical.com",
+        "richardsonrfpd.com",
+        "immixgroup.com",
+        "powerandsignal.com",
+        "einfochips.com",
+        "siliconexpert.com",
+        "aepetsche.com",
+        "elektroda.pl",
+        "arrow.cn",
+        "chip1stop.com",
+        "transim.com",
+        "aspencore.com",
+        "eetimes.com"
+      ]
+    },
+    {
       "name": "Atlassian",
       "url": "https://bugcrowd.com/atlassian",
       "bounty": true,
@@ -916,6 +937,16 @@
       ]
     },
     {
+      "name": "Coindcx",
+      "url": "https://bugcrowd.com/coindcx-og",
+      "bounty": true,
+      "domains": [
+        "coindcx.com",
+        "dcxstage.com",
+        "dcxlearn.com"
+      ]
+    },
+    {
       "name": "Comcast Xfinity",
       "url": "https://bugcrowd.com/comcastvdp",
       "bounty": false,
@@ -945,7 +976,6 @@
       "url": "https://hackerone.com/consensys",
       "bounty": true,
       "domains": [
-        "codefi.network",
         "consensys.net",
         "nfura.io"
       ]
@@ -3908,6 +3938,14 @@
       ]
     },
     {
+      "name": "Onhir",
+      "url": "https://bugcrowd.com/onhir-vdp",
+      "bounty": false,
+      "domains": [
+        "onhir.gov"
+      ]
+    },
+    {
       "name": "Open Technology Fund",
       "url": "https://hackerone.com/otf",
       "bounty": true,
@@ -4666,6 +4704,14 @@
       ]
     },
     {
+      "name": "Reseller Club VDP Pro",
+      "url": "https://bugcrowd.com/newfold-resellerclub-vdp",
+      "bounty": false,
+      "domains": [
+        "resellerclub.com"
+      ]
+    },
+    {
       "name": "Ribose",
       "url": "https://www.ribose.com/feedback/security",
       "bounty": false,
@@ -4906,6 +4952,14 @@
         "shopify.com",
         "shopifykloud.com",
         "myshopify.com"
+      ]
+    },
+    {
+      "name": "Shoppingcart",
+      "url": "https://bugcrowd.com/shoppingcart",
+      "bounty": true,
+      "domains": [
+        "mcssl.com"
       ]
     },
     {
