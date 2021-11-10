@@ -3650,19 +3650,6 @@
       ]
     },
     {
-      "name": "Navient",
-      "url": "https://hackerone.com/navient_solutions",
-      "bounty": false,
-      "domains": [
-        "navient.com",
-        "navirefi.com",
-        "gilacorp.com",
-        "msbnexus.com",
-        "msbselfserve.com",
-        "msbpay.com"
-      ]
-    },
-    {
       "name": "Netflix",
       "url": "https://bugcrowd.com/netflix",
       "bounty": true,
