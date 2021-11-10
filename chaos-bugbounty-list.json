@@ -6413,13 +6413,13 @@
       ]
     },
     {
-      "name": "coindcx",
+      "name": "Coindcx",
       "url": "https://bugcrowd.com/coindcx-og",
       "bounty": true,
       "domains": [
         "coindcx.com",
         "dcxstage.com",
-        "dcxlearn.com",
+        "dcxlearn.com"
       ]
     },
     {
@@ -6427,7 +6427,7 @@
       "url": "https://bugcrowd.com/newfold-resellerclub-vdp",
       "bounty": false,
       "domains": [
-        "resellerclub.com",
+        "resellerclub.com"
       ]
     },
     {
@@ -6452,19 +6452,19 @@
       ]
     },
     {
-      "name": "ONHIR",
+      "name": "Onhir",
       "url": "https://bugcrowd.com/onhir-vdp",
       "bounty": false,
       "domains": [
-        "onhir.gov",
+        "onhir.gov"
       ]
     },
     {
-      "name": "1Shoppingcart.com",
+      "name": "Shoppingcart",
       "url": "https://bugcrowd.com/shoppingcart",
       "bounty": true,
       "domains": [
-        "mcssl.com",
+        "mcssl.com"
       ]
     }
   ]
