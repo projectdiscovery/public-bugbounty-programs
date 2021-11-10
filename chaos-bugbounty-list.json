@@ -945,7 +945,6 @@
       "url": "https://hackerone.com/consensys",
       "bounty": true,
       "domains": [
-        "codefi.network",
         "consensys.net",
         "nfura.io"
       ]
