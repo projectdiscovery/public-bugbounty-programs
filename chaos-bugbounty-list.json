@@ -3371,6 +3371,14 @@
       ]
     },
     {
+      "name": "MakeMyTrip",
+      "url": "https://www.makemytrip.com/pwa-hlp/mmtbb/report",
+      "bounty": true,
+      "domains": [
+        "makemytrip.com"
+      ]
+    },
+    {
       "name": "Mapbox",
       "url": "https://hackerone.com/mapbox",
       "bounty": true,
