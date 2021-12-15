@@ -6462,6 +6462,14 @@
         "zynga.com",
         "zyngagames.com"
       ]
+    },
+    {
+      "name": "Bitrue",
+      "url": "https://hackenproof.com/bitrue/bitrue",
+      "bounty": true,
+      "domains": [
+        "bitrue.com"
+      ]
     }
   ]
 }
