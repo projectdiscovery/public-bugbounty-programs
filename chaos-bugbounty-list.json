@@ -3251,6 +3251,15 @@
       ]
     },
     {
+      "name":"Lululemon",
+      "url":"https://bugcrowd.com/lululemon",
+      "bounty": true,
+      "domains":[
+        "lululemon.com",
+        "lululemon.co.uk"
+      ]
+    },    
+    {
       "name": "Lyst",
       "url": "https://hackerone.com/lyst",
       "bounty": true,
