@@ -157,7 +157,8 @@
       "url": "https://hackerone.com/aiven_ltd",
       "bounty": true,
       "domains": [
-        "aiven.io"
+        "aiven.io",
+        "aivencloud.com"
       ]
     },
     {
