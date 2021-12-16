@@ -6480,6 +6480,22 @@
       "domains": [
         "bitrue.com"
       ]
+    },
+    {
+      "name": "Yandex",
+      "url": "https://yandex.com/bugbounty/index",
+      "bounty": true,
+      "domains": [
+        "yandex.ru",
+        "yandex.com",
+        "yandex.com.tr",
+        "yandex.kz",
+        "yandex.ua",
+        "yandex.by",
+        "yandex.st",
+        "yandex.net",
+        "ya.ru"
+      ]
     }
   ]
 }
