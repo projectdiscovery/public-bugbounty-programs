@@ -6505,6 +6505,16 @@
       "domains": [
         "hackerrank.com"
       ]
+    },
+	  {
+      "name": "Arrival",
+      "url": "https://arrival.com/us/en/security",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "arrival.com",
+        "arrival.co"
+      ]
     }
   ]
 }
