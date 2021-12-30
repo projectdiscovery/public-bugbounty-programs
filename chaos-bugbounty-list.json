@@ -6505,6 +6505,20 @@
       "domains": [
         "hackerrank.com"
       ]
+    },
+	  {
+      "name": "Ola",
+      "url": "https://whitehat.olacabs.com/",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "olacabs.com",
+        "olamoney.com",
+        "ola.foundation",
+        "olaelectric.in",
+        "mission-electric.in",
+        "ola.institute"
+      ]
     }
   ]
 }
