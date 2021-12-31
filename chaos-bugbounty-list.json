@@ -350,6 +350,14 @@
       ]
     },
     {
+      "name": "AVROTROS",
+      "url": "https://www.avrotros.nl/privacy/responsible-disclosure/",
+      "bounty": true,
+      "domains": [
+        "avrotros.nl"
+      ]
+    },
+    {
       "name": "BBC",
       "url": "https://www.bbc.com/backstage/security-disclosure-policy/",
       "bounty": false,
@@ -962,6 +970,14 @@
       "bounty": false,
       "domains": [
         "companyhub.com"
+      ]
+    },
+    {
+      "name": "Conclusion",
+      "url": "https://www.conclusion.nl/kleine-lettertjes/coordinated-vulnerability-disclosure",
+      "bounty": false,
+      "domains": [
+        "conclusion.nl"
       ]
     },
     {
@@ -2363,13 +2379,13 @@
         "trendsinbeeldocw.nl",
         "tuchtcollege-gezondheidszorg.nl",
         "tuchtcollegegezondheidszorg.nl",
-        "Tweedekamer.nl",
+        "tweedekamer.nl",
         "ubrijk.nl",
         "ukomttochweer.nl",
         "un-psf2017.com",
         "uwlast.nl",
         "vaarweginfo.nl",
-        "vaarweginformatie.nlfddmainhome",
+        "vaarweginformatie.nl",
         "vananaloognaardigitaal.nl",
         "vechtscheidingen.nl",
         "veiligheidshuisdordrecht.nl",
@@ -3759,6 +3775,14 @@
       "bounty": true,
       "domains": [
         "nordvpn.com"
+      ]
+    },
+    {
+      "name": "NOS",
+      "url": "https://over.nos.nl/organisatie/regelgeving/",
+      "bounty": true,
+      "domains": [
+        "nos.nl"
       ]
     },
     {
@@ -6047,6 +6071,14 @@
       ]
     },
     {
+      "name": "VGZ",
+      "url": "https://app.zerocopter.com/nl/rd/bda542d5-c421-49f8-8e9c-5e70f5525673",
+      "bounty": false,
+      "domains": [
+        "vgz.nl"
+      ]
+    },
+    {
       "name": "VHX",
       "url": "https://hackerone.com/vhx",
       "bounty": true,
@@ -6443,6 +6475,15 @@
       "domains": [
         "zilliqa.com",
         "learnscilla.com"
+      ]
+    },
+    {
+      "name": "Zivver",
+      "url": "https://hackerone.com/zivver",
+      "bounty": false,
+      "domains": [
+        "zivver.com",
+        "zivvermeet.com"
       ]
     },
     {
