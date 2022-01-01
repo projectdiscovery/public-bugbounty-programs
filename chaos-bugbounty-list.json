@@ -350,6 +350,14 @@
       ]
     },
     {
+      "name": "AVROTROS",
+      "url": "https://www.avrotros.nl/privacy/responsible-disclosure/",
+      "bounty": true,
+      "domains": [
+        "avrotros.nl"
+      ]
+    },
+    {
       "name": "BBC",
       "url": "https://www.bbc.com/backstage/security-disclosure-policy/",
       "bounty": false,
@@ -710,6 +718,14 @@
       ]
     },
     {
+      "name": "CBS",
+      "url": "https://www.cbs.nl/nl-nl/over-ons/website/responsible-disclosure",
+      "bounty": false,
+      "domains": [
+        "cbs.nl"
+      ]
+    },
+    {
       "name": "Cedars-Sinai",
       "url": "https://hackerone.com/cedars-sinai",
       "bounty": false,
@@ -965,6 +981,14 @@
       ]
     },
     {
+      "name": "Conclusion",
+      "url": "https://www.conclusion.nl/kleine-lettertjes/coordinated-vulnerability-disclosure",
+      "bounty": false,
+      "domains": [
+        "conclusion.nl"
+      ]
+    },
+    {
       "name": "Connectis",
       "url": "https://connectis.com/en/about-us/security/responsible-disclosure-policy/",
       "bounty": false,
@@ -1086,6 +1110,14 @@
       ]
     },
     {
+      "name": "D66",
+      "url": "https://d66.nl/responsible-disclosure/",
+      "bounty": true,
+      "domains": [
+        "d66.nl"
+      ]
+    },
+    {
       "name": "DJI",
       "url": "https://security.dji.com/policy?lang=en_US",
       "bounty": true,
@@ -1116,6 +1148,8 @@
       "bounty": true,
       "swag": false,
       "domains": [
+        "danskebank.com",
+        "danskebank.dk",
         "june.dk",
         "sunday.dk"
       ]
@@ -1390,6 +1424,14 @@
       ]
     },
     {
+      "name": "Eerste Kamer",
+      "url": "https://www.eerstekamer.nl/begrip/responsible_disclosure",
+      "bounty": false,
+      "domains": [
+        "eerstekamer.nl"
+      ]
+    },
+    {
       "name": "Elastic",
       "url": "https://hackerone.com/elastic",
       "bounty": true,
@@ -1456,11 +1498,22 @@
       ]
     },
     {
+      "name": "European Central Bank",
+      "url": "https://www.ecb.europa.eu/services/responsible-disclosure/html/index.nl.html",
+      "bounty": false,
+      "domains": [
+        "ecb.europa.eu",
+        "esrb.europa.eu",
+        "bankingsupervision.europa.eu"
+      ]
+    },
+    {
       "name": "Eventbrite",
       "url": "https://www.eventbrite.com/security/",
       "bounty": false,
       "domains": [
-        "eventbrite.com"
+        "eventbrite.com",
+        "eventbrite.nl"
       ]
     },
     {
@@ -1925,7 +1978,6 @@
         "cyberradar.nl",
         "cybersecuritycouncil.nl",
         "cybersecurityraad.nl",
-        "D66.nl",
         "daardoenwehetvoor.nl",
         "daarkunjemeethuiskomen.nl",
         "deadelaarisgeland.nl",
@@ -1978,7 +2030,6 @@
         "ec-hrm.nl",
         "ecia.nl",
         "eerenvrijheid.nl",
-        "Eerstekamer.nl ",
         "eidstelsel.nl",
         "elonext.nl",
         "emissieautoriteit.nl",
@@ -2363,13 +2414,13 @@
         "trendsinbeeldocw.nl",
         "tuchtcollege-gezondheidszorg.nl",
         "tuchtcollegegezondheidszorg.nl",
-        "Tweedekamer.nl",
+        "tweedekamer.nl",
         "ubrijk.nl",
         "ukomttochweer.nl",
         "un-psf2017.com",
         "uwlast.nl",
         "vaarweginfo.nl",
-        "vaarweginformatie.nlfddmainhome",
+        "vaarweginformatie.nl",
         "vananaloognaardigitaal.nl",
         "vechtscheidingen.nl",
         "veiligheidshuisdordrecht.nl",
@@ -3759,6 +3810,14 @@
       "bounty": true,
       "domains": [
         "nordvpn.com"
+      ]
+    },
+    {
+      "name": "NOS",
+      "url": "https://over.nos.nl/organisatie/regelgeving/",
+      "bounty": true,
+      "domains": [
+        "nos.nl"
       ]
     },
     {
@@ -6047,6 +6106,14 @@
       ]
     },
     {
+      "name": "VGZ",
+      "url": "https://app.zerocopter.com/nl/rd/bda542d5-c421-49f8-8e9c-5e70f5525673",
+      "bounty": false,
+      "domains": [
+        "vgz.nl"
+      ]
+    },
+    {
       "name": "VHX",
       "url": "https://hackerone.com/vhx",
       "bounty": true,
@@ -6207,6 +6274,15 @@
       "bounty": false,
       "domains": [
         "vivy.com"
+      ]
+    },
+    {
+      "name": "VOLKIS",
+      "url": "https://www.volkis.com.au/vulnerability-disclosure/",
+      "bounty": true,
+      "domains": [
+        "volkis.com.au",
+        "volk.is"
       ]
     },
     {
@@ -6443,6 +6519,15 @@
       "domains": [
         "zilliqa.com",
         "learnscilla.com"
+      ]
+    },
+    {
+      "name": "Zivver",
+      "url": "https://hackerone.com/zivver",
+      "bounty": false,
+      "domains": [
+        "zivver.com",
+        "zivvermeet.com"
       ]
     },
     {
