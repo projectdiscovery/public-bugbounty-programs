@@ -718,6 +718,14 @@
       ]
     },
     {
+      "name": "CBS",
+      "url": "https://www.cbs.nl/nl-nl/over-ons/website/responsible-disclosure",
+      "bounty": false,
+      "domains": [
+        "cbs.nl"
+      ]
+    },
+    {
       "name": "Cedars-Sinai",
       "url": "https://hackerone.com/cedars-sinai",
       "bounty": false,
@@ -1102,6 +1110,14 @@
       ]
     },
     {
+      "name": "D66",
+      "url": "https://d66.nl/responsible-disclosure/",
+      "bounty": true,
+      "domains": [
+        "d66.nl"
+      ]
+    },
+    {
       "name": "DJI",
       "url": "https://security.dji.com/policy?lang=en_US",
       "bounty": true,
@@ -1132,6 +1148,8 @@
       "bounty": true,
       "swag": false,
       "domains": [
+        "danskebank.com",
+        "danskebank.dk",
         "june.dk",
         "sunday.dk"
       ]
@@ -1406,6 +1424,14 @@
       ]
     },
     {
+      "name": "Eerste Kamer",
+      "url": "https://www.eerstekamer.nl/begrip/responsible_disclosure",
+      "bounty": false,
+      "domains": [
+        "eerstekamer.nl"
+      ]
+    },
+    {
       "name": "Elastic",
       "url": "https://hackerone.com/elastic",
       "bounty": true,
@@ -1472,11 +1498,22 @@
       ]
     },
     {
+      "name": "European Central Bank",
+      "url": "https://www.ecb.europa.eu/services/responsible-disclosure/html/index.nl.html",
+      "bounty": false,
+      "domains": [
+        "ecb.europa.eu",
+        "esrb.europa.eu",
+        "bankingsupervision.europa.eu"
+      ]
+    },
+    {
       "name": "Eventbrite",
       "url": "https://www.eventbrite.com/security/",
       "bounty": false,
       "domains": [
-        "eventbrite.com"
+        "eventbrite.com",
+        "eventbrite.nl"
       ]
     },
     {
@@ -1941,7 +1978,6 @@
         "cyberradar.nl",
         "cybersecuritycouncil.nl",
         "cybersecurityraad.nl",
-        "D66.nl",
         "daardoenwehetvoor.nl",
         "daarkunjemeethuiskomen.nl",
         "deadelaarisgeland.nl",
@@ -1994,7 +2030,6 @@
         "ec-hrm.nl",
         "ecia.nl",
         "eerenvrijheid.nl",
-        "Eerstekamer.nl ",
         "eidstelsel.nl",
         "elonext.nl",
         "emissieautoriteit.nl",
@@ -6239,6 +6274,15 @@
       "bounty": false,
       "domains": [
         "vivy.com"
+      ]
+    },
+    {
+      "name": "VOLKIS",
+      "url": "https://www.volkis.com.au/vulnerability-disclosure/",
+      "bounty": true,
+      "domains": [
+        "volkis.com.au",
+        "volk.is"
       ]
     },
     {
