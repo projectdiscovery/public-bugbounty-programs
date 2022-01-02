@@ -1537,7 +1537,8 @@
       "url": "https://hackerone.com/exodus",
       "bounty": true,
       "domains": [
-        "exodus.io"
+        "exodus.io",
+        "exodus.com"
       ]
     },
     {
@@ -3054,7 +3055,16 @@
         "unibet.casino",
         "storspiller.com",
         "kolikkopelit.com",
-        "unibet.com"
+        "unibet.com",
+        "32red.com",
+        "unibet.fr",
+        "kindredext.net",
+        "ottokasino.com",
+        "stly.eu",
+        "maria.casino",
+        "unibet.me",
+        "vladcazino.ro",
+        "igame.com"
       ]
     },
     {
@@ -3461,9 +3471,11 @@
       "bounty": false,
       "domains": [
         "marriott.com",
+        "marriott.co.uk",
         "starwoodhotels.com",
         "ritzcarlton.com",
-        "eleganthotels.com"
+        "eleganthotels.com",
+        "marrtool.com"
       ]
     },
     {
