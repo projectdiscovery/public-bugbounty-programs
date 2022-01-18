@@ -6612,6 +6612,45 @@
         "arrival.com",
         "arrival.co"
       ]
+    },
+	  {
+      "name": "Scotts Miracle-Gro",
+      "url": "https://bugcrowd.com/thescottsmiraclerd",
+      "bounty": false,
+      "domains": [
+        "scotts.com",
+	"tomcatbrand.com",
+	"roundup.com",
+	"ortho.com",
+	"miraclegro.com",
+	"hawthorne-gardening.com",
+	"scottsprogram.com",
+	"mygro.com",
+	"myblossom.com",
+	"aerogarden.com",
+	"hawthornegc.com",
+	"naturescare.com",
+	"scottsbrands.com",
+	"scottsrootfactory.com",
+	"tanglefoot.com",
+	"therootfactory.com",
+	"whitneyfarms.com",
+	"bonnieplants.com",
+	"bonniecabbageprogram.com",
+	"bonnieplants.ca",
+	"weedingwisely.com",
+	"rootfarm.com",
+	"rootfarm.ca",
+	"provistaturf.com",
+	"blackmagic.com",
+	"ecoscraps.com",
+	"miraclegrotwelve.com",
+	"justknockknock.com",
+	"getbarkyard.com",
+	"scottsmiraclegro.com",
+	"lunarly.com",
+	"mother-earthproducts.co"
+      ]
     }
   ]
 }
