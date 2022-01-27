@@ -7467,6 +7467,65 @@
 	      "lunarly.com",
 	      "mother-earthproducts.co"
       ]
+    },
+    {
+      "name": "Tim Brasil",
+      "url": "https://admin.bughunt.com.br/program/detail?6058de165576f62d921fc844",
+      "bounty": true,
+      "domains": [
+        "site.tim.com.br"
+      ]
+    },
+    {
+      "name": "BitcoinTrade Bug Bounty Program",
+      "url": "https://admin.bughunt.com.br/program/detail?5f98855f51ec4c09107c0534",
+      "bounty": true,
+      "domains": [
+        "api.bitcointrade.com.br",
+        "bitcointrade.com.br",
+        "bitcointrade.com.br",
+        "brocker.bitcointrade.com.br",
+        "apigw.bitcointrade.com.br",
+        "core.bitcointrade.com.br",
+        "coreuat.bitcointrade.com.br",
+        "bitcoinback.com.br",
+        "backofficespa.bitcointrade.com.br",
+        "cdn.bitcoinback.com.br",
+        "btcback.bitcointrade.com.br",
+        "apistg.bitcointrade.com.br",
+        "link.bitcointrade.com.br",
+        "www.bitcoinback.com.br"
+      ]
+    },
+    {
+      "name": "OLX Brasil Bug Bounty",
+      "url": "https://admin.bughunt.com.br/program/detail?60ca003869707962894a5b33",
+      "bounty": true,
+      "domains": [
+        "site.tim.com.br",
+        "https://play.google.com/store/apps/details?id=com.schibsted.bomnegocio.androidApp&hl=pt_BR&showAllReviews=true",
+        "apigw.olx.com.br/(WIP)",
+        "conta.olx.com.br",
+        "wallet.olx.com.br",
+        "apigw.olx.com.br",
+        "wallet-api.olx.com.br",
+        "payment.olx.com.br",
+        "goldpayments.olx.com.br",
+        "conta.olx.com.br/pagamentos",
+        "payment-by-chat-api.olx.com.br/checkout/delivery-default",
+        "payment-by-chat-api.olx.com.br/checkout/delivery-options",
+        "payment-by-chat-api.olx.com.br/checkout",
+        "payment-by-chat-api.olx.com.br/eligible",
+        "payment-by-chat-api.olx.com.br/newbutton",
+        "payment-by-chat-api.olx.com.br/button",
+        "payment-by-chat-api.olx.com.br/transaction",
+        "api-transaction.olx.com.br/sign-up",
+        "olxpay.olx.com.br/aderir",
+        "delivery-tracking.olx.com.br/api/v1/webhook/",
+        "delivery-quote.olx.com.br/api/v1/quote",
+        "apigw.olx.com.br/delivery/shipment_order/{transactionId} (WIP)",
+        "olx.com.br"
+      ]
     }
   ]
 }
