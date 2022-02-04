@@ -1269,6 +1269,14 @@
       ]
     },
     {
+      "name": "Deutsche Bank",
+      "url": "https://bugcrowd.com/deutschebank-vdp",
+      "bounty": false,
+      "domains": [
+        "db.com"
+      ]
+    },
+    {
       "name": "Deutsche Telekom",
       "url": "https://www.telekom.com/en/corporate-responsibility/data-protection-data-security/security/details/closing-security-gaps-360054",
       "bounty": true,
