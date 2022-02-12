@@ -7474,6 +7474,15 @@
 	      "lunarly.com",
 	      "mother-earthproducts.co"
       ]
+    },
+	  {
+      "name": "Amon",
+      "url": "https://amon.tech/bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "amon.tech"
+      ]
     }
   ]
 }
