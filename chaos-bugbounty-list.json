@@ -7489,22 +7489,7 @@
       "url": "https://www.swiggy.com/bug-bounty",
       "bounty": true,
       "domains": [
-        "https://www.swiggy.com",
-        "app.swiggy.com",
-        "api.swiggy.com",
-        "chkout.swiggy.com",
-        "disc.swiggy.com",
-        "rms.swiggy.com",
-        "dash.swiggy.com",
-        "picker.swiggy.com",
-        "stores.swiggy.com",
-        "go.swiggy.com",
-        "profile.swiggy.com",
-        "pos.swiggy.com",
-        "maps.swiggy.com",
-        "spns.swiggy.com",
-        "analytics.swiggy.com"
-
+        "swiggy.com"
       ]
     }
   ]
