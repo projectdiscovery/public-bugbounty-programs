@@ -7491,6 +7491,26 @@
       "domains": [
         "swiggy.com"
       ]
-    }
+    },
+    {
+      "name": "Baidu",
+      "url": "https://bsrc.baidu.com/v2/#/en",
+      "bounty": true,
+      "domains": [
+        "baidu.com",
+        "hao123.com" 
+      ]
+    },
+    {
+      "name": "Vivo",
+      "url": "https://security.vivo.com.cn/#/home",
+      "bounty": true,
+      "domains": [
+        "vivo.com",
+        "app.vivo.xyz",
+        "app.vivo.cn",
+        "ru.vivo.com"
+      ]
+    },
   ]
 }
