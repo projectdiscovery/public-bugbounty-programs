@@ -6247,6 +6247,19 @@
       ]
     },
     {
+   "name":"Stripe",
+   "url":"https://hackerone.com/stripe",
+   "bounty": true,
+   "domains":[
+      "stripe.com",
+      "touchtechpayments.com",
+      "indiehackers.com",
+      "payable.com",
+      "getbouncer.com",
+      "taxjar.com"
+      ]
+    },
+    {
       "name": "T-Mobile CZ",
       "url": "https://www.t-mobile.cz/bug-bounty",
       "bounty": true,
