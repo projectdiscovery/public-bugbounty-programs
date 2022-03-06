@@ -7507,9 +7507,8 @@
       "bounty": true,
       "domains": [
         "vivo.com",
-        "app.vivo.xyz",
-        "app.vivo.cn",
-        "ru.vivo.com"
+        "vivo.xyz",
+        "vivo.cn"
       ]
     }
   ]
