@@ -220,7 +220,7 @@
         "alibaba-inc.com",
         "aliyun-inc.com",
         "alimama.com",
-	"ele.me",
+        "ele.me",
         "koubei.com",
         "alipay.com",
         "kaola.com",
@@ -303,6 +303,15 @@
         "amocrm.ru"
       ]
     },
+   {
+      "name":"Amsterdam Airport Schiphol",
+      "url":"https://www.schiphol.nl/en/page/responsible-disclosure-notification/",
+      "bounty":false,
+      "domains":[
+         "schiphol.nl",
+         "schiphol.com"
+      ]
+   },
     {
       "name": "Apsis",
       "url": "https://www.apsis.com/bug-bounty",
@@ -7559,7 +7568,7 @@
         "olx.com.br"
       ]
     },
-	  {
+    {
       "name": "Amon",
       "url": "https://amon.tech/bug-bounty-program",
       "bounty": true,
