@@ -7472,7 +7472,7 @@
         "hackerrank.com"
       ]
     },
-	  {
+    {
       "name": "Arrival",
       "url": "https://arrival.com/us/en/security",
       "bounty": true,
@@ -7482,43 +7482,68 @@
         "arrival.co"
       ]
     },
-	  {
+    {
       "name": "Scotts Miracle-Gro",
       "url": "https://bugcrowd.com/thescottsmiraclerd",
       "bounty": false,
       "domains": [
         "scotts.com",
-	      "tomcatbrand.com",
-	      "roundup.com",
-	      "ortho.com",
-	      "miraclegro.com",
-	      "hawthorne-gardening.com",
-	      "scottsprogram.com",
-	      "mygro.com",
-	      "myblossom.com",
-	      "aerogarden.com",
-	      "hawthornegc.com",
-	      "naturescare.com",
-	      "scottsbrands.com",
-	      "scottsrootfactory.com",
-	      "tanglefoot.com",
-	      "therootfactory.com",
-	      "whitneyfarms.com",
-	      "bonnieplants.com",
-	      "bonniecabbageprogram.com",
-	      "bonnieplants.ca",
-	      "weedingwisely.com",
-	      "rootfarm.com",
-	      "rootfarm.ca",
-	      "provistaturf.com",
-	      "blackmagic.com",
-	      "ecoscraps.com",
-	      "miraclegrotwelve.com",
-	      "justknockknock.com",
-	      "getbarkyard.com",
-	      "scottsmiraclegro.com",
-	      "lunarly.com",
-	      "mother-earthproducts.co"
+        "tomcatbrand.com",
+        "roundup.com",
+        "ortho.com",
+        "miraclegro.com",
+        "hawthorne-gardening.com",
+        "scottsprogram.com",
+        "mygro.com",
+        "myblossom.com",
+        "aerogarden.com",
+        "hawthornegc.com",
+        "naturescare.com",
+        "scottsbrands.com",
+        "scottsrootfactory.com",
+        "tanglefoot.com",
+        "therootfactory.com",
+        "whitneyfarms.com",
+        "bonnieplants.com",
+        "bonniecabbageprogram.com",
+        "bonnieplants.ca",
+        "weedingwisely.com",
+        "rootfarm.com",
+        "rootfarm.ca",
+        "provistaturf.com",
+        "blackmagic.com",
+        "ecoscraps.com",
+        "miraclegrotwelve.com",
+        "justknockknock.com",
+        "getbarkyard.com",
+        "scottsmiraclegro.com",
+        "lunarly.com",
+        "mother-earthproducts.co"
+      ]
+    },
+    {
+      "name": "Tim Brasil",
+      "url": "https://admin.bughunt.com.br/program/detail?6058de165576f62d921fc844",
+      "bounty": true,
+      "domains": [
+        "tim.com.br"
+      ]
+    },
+    {
+      "name": "BitcoinTrade",
+      "url": "https://admin.bughunt.com.br/program/detail?5f98855f51ec4c09107c0534",
+      "bounty": true,
+      "domains": [
+        "bitcointrade.com.br",
+        "bitcoinback.com.br"
+      ]
+    },
+    {
+      "name": "OLX Brasil",
+      "url": "https://admin.bughunt.com.br/program/detail?60ca003869707962894a5b33",
+      "bounty": true,
+      "domains": [
+        "olx.com.br"
       ]
     },
 	  {
