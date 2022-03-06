@@ -1720,6 +1720,20 @@
       ]
     },
     {
+      "name": "Fondy",
+      "url": "https://docs.fondy.eu/en/docs/page/bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "fondy.eu",
+        "fondy.io",
+        "fondy.ua",
+        "fondy.ru",
+        "cloudipsp.com",
+        "cipsp.net"
+      ]
+    },
+    {
       "name": "Ford",
       "url": "https://hackerone.com/ford",
       "bounty": false,
