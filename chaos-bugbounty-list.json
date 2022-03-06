@@ -194,6 +194,16 @@
       ]
     },
     {
+      "name": "Alohi",
+      "url": "https://hackerone.com/alohi",
+      "bounty": false,
+      "domains": [
+        "fax.plus",
+        "sign.plus",
+        "alohi.com"
+      ]
+    },
+    {
       "name": "Alibaba",
       "url": "https://hackerone.com/alibaba",
       "bounty": true,
