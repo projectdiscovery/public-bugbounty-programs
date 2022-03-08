@@ -7622,6 +7622,16 @@
       "domains": [
         "moviexchange.com"
       ]
+    },
+    {
+      "name": "Trade Republic",
+      "url": "https://hackerone.com/trade-republic-bbp",
+      "bounty": true,
+      "domains": [
+        "api.traderepublic.com",
+        "app.traderepublic.com",
+        "traderepublic.com"
+      ]
     }
   ]
 }
