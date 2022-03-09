@@ -7630,6 +7630,28 @@
       "domains": [
         "traderepublic.com"
       ]
+    },
+    {
+      "name": "eToro",
+      "url": "https://hackerone.com/etoro_bbp",
+      "bounty": true,
+      "domains": [
+        "etoro.com",
+        "etoropartners.com",
+        "delta.app"
+      ]
+    },
+    {
+      "name": "Databricks",
+      "url": "https://hackerone.com/databricks",
+      "bounty": true,
+      "domains": [
+        "databricks.com",
+        "spark-summit.org",
+        "delta.io",
+        "spark-portal.org",
+        "spark-summit.com"
+      ]
     }
   ]
 }
