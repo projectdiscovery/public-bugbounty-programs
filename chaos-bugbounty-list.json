@@ -3696,9 +3696,10 @@
     {
       "name": "Instacart",
       "url": "https://hackerone.com/instacart",
-      "bounty": false,
+      "bounty": true,
       "domains": [
-        "instacart.com"
+        "instacart.com",
+        "instacart.tools"
       ]
     },
     {
