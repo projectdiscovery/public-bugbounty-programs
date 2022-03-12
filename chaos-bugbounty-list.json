@@ -7652,6 +7652,18 @@
         "delta.io",
         "spark-portal.org",
         "spark-summit.com"
+        ]
+    },
+    {
+      "name": "Dragon"
+      "url": "https://hackerone.com/dragon"
+      "bounty": true
+      "domains": [
+        "getdragon.ch",
+        "webrtc.dragonapp.io",
+        "wipe.dragonapp.io",
+        "releases.dragonapp.io",
+        "admin.dragonapp.io"
       ]
     }
   ]
