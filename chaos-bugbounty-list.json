@@ -5,13 +5,7 @@
       "url": "https://www.dokobit.com/compliance/vulnerability-disclosure-policy",
       "bounty": true,
       "domains": [
-        "app.dokobit.com",
-        "developers.dokobit.com",
-        "gateway-sandbox.dokobit.com",
-        "id-sandbox.dokobit.com",
-        "gateway.dokobit.com",
-        "id.dokobit.com",
-        "ws.dokobit.com"
+        "dokobit.com"
       ]
     },
     {
