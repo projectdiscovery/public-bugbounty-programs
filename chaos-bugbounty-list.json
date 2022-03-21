@@ -1544,9 +1544,7 @@
       "url": "https://www.ecb.europa.eu/services/responsible-disclosure/html/index.nl.html",
       "bounty": false,
       "domains": [
-        "ecb.europa.eu",
-        "esrb.europa.eu",
-        "bankingsupervision.europa.eu"
+        "europa.eu"
       ]
     },
     {
@@ -1571,7 +1569,7 @@
       "url": "https://hackerone.com/stagingdoteverydotorg",
       "bounty": false,
       "domains": [
-        "staging.every.org"
+        "every.org"
       ]
     },
     {
