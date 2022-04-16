@@ -7846,7 +7846,16 @@
         "delta.io",
         "spark-portal.org",
         "spark-summit.com"
-      ]
+        ]
+    },
+    {
+      "name": "Dragon",
+      "url": "https://hackerone.com/dragon",
+      "bounty": true,
+      "domains": [
+        "getdragon.ch",
+        "dragonapp.io"
+        ]
     }
   ]
 }
