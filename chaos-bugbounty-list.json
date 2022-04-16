@@ -847,6 +847,14 @@
       ]
     },
     {
+      "name": "Circle",
+      "url": "https://hackerone.com/circle",
+      "bounty": false,
+      "domains": [
+        "circle.com"
+      ]
+    },
+    {
       "name": "Cirrus Insight",
       "url": "https://hackerone.com/cirrusinsight",
       "bounty": false,
@@ -1055,6 +1063,17 @@
       "bounty": false,
       "domains": [
         "consumerfinance.gov"
+      ]
+    },
+    {
+      "name": "Costco",
+      "url": "https://hackerone.com/costco",
+      "bounty": false,
+      "domains": [
+        "costco.com",
+        "costco.ca",
+        "costcobusinessdelivery.com",
+        "costcobusinesscentre.ca"
       ]
     },
     {
@@ -1544,9 +1563,7 @@
       "url": "https://www.ecb.europa.eu/services/responsible-disclosure/html/index.nl.html",
       "bounty": false,
       "domains": [
-        "ecb.europa.eu",
-        "esrb.europa.eu",
-        "bankingsupervision.europa.eu"
+        "europa.eu"
       ]
     },
     {
@@ -1571,7 +1588,7 @@
       "url": "https://hackerone.com/stagingdoteverydotorg",
       "bounty": false,
       "domains": [
-        "staging.every.org"
+        "every.org"
       ]
     },
     {
@@ -3398,6 +3415,15 @@
       ]
     },
     {
+      "name": "Gymshark",
+      "url": "https://hackerone.com/gymshark",
+      "bounty": false,
+      "domains": [
+        "gymshark.com",
+        "gymshark.io"
+      ]
+    },
+    {
       "name": "H1-CTF",
       "url": "https://hackerone.com/h1-ctf",
       "bounty": false,
@@ -3538,6 +3564,14 @@
       "bounty": true,
       "domains": [
         "hyatt.com"
+      ]
+    },
+    {
+      "name": "Hy-Vee",
+      "url": "https://hackerone.com/hy-vee",
+      "bounty": false,
+      "domains": [
+        "hy-vee.com"
       ]
     },
     {
@@ -3798,6 +3832,14 @@
       ]
     },
     {
+      "name": "JetBlue",
+      "url": "https://hackerone.com/jetblue",
+      "bounty": false,
+      "domains": [
+        "jetblue.com"
+      ]
+    },
+    {
       "name": "Jfrog",
       "url": "https://hackerone.com/jfrog",
       "bounty": false,
@@ -3946,6 +3988,15 @@
       "bounty": false,
       "domains": [
         "slots.io"
+      ]
+    },
+    {
+      "name": "Kraden",
+      "url": "https://hackerone.com/kraden",
+      "bounty": true,
+      "domains": [
+        "dragonapp.io",
+        "getdragon.ch"
       ]
     },
     {
@@ -4789,6 +4840,15 @@
       ]
     },
     {
+      "name": "Odoo",
+      "url": "https://www.odoo.com/security-report",
+      "bounty": false,
+      "swag": false,
+      "domains": [
+        "odoo.com"
+      ]
+    },
+    {
       "name": "Offensive Security",
       "url": "https://www.offensive-security.com/bug-bounty-program/",
       "bounty": true,
@@ -4910,6 +4970,14 @@
       "bounty": false,
       "domains": [
         "openmage.org"
+      ]
+    },
+    {
+      "name": "OpenSea",
+      "url": "https://hackerone.com/opensea",
+      "bounty": true,
+      "domains": [
+        "opensea.io"
       ]
     },
     {
@@ -5046,6 +5114,25 @@
       ]
     },
     {
+      "name": "Palantir Public",
+      "url": "https://hackerone.com/palantir_public",
+      "bounty": true,
+      "domains": [
+        "palantir.com",
+        "palantir.tech",
+        "palantir.build",
+        "palantircloud.com",
+        "palantircloud.co.uk",
+        "palantirfoundry.com",
+        "palantirfoundry.co.uk",
+        "palantirfoundry.de",
+        "palantirfoundry.fr",
+        "palantirfoundry.com.au",
+        "palantirgov.com",
+        "foundrygov.com"
+      ]
+    },
+    {
       "name": "Palo Alto Software",
       "url": "https://hackerone.com/palo_alto_software",
       "bounty": false,
@@ -5106,6 +5193,14 @@
       "bounty": false,
       "domains": [
         "passit.io"
+      ]
+    },
+    {
+      "name": "Payoneer",
+      "url": "https://hackerone.com/payoneer",
+      "bounty": true,
+      "domains": [
+        "payoneer.com"
       ]
     },
     {
@@ -5550,6 +5645,28 @@
       ]
     },
     {
+      "name": "Realogy",
+      "url": "https://hackerone.com/realogy",
+      "bounty": false,
+      "domains": [
+        "realogy.com",
+        "bhgre.com",
+        "century21.com",
+        "coldwellbanker.com",
+        "cbcworldwide.com",
+        "corcoran.com",
+        "era.com",
+        "sothebysrealty.com",
+        "nrtllc.com",
+        "trgc.com",
+        "leadrouter.com",
+        "cartus.com",
+        "mycbdeskcom",
+        "cbintouch.com",
+        "myzap.com"
+      ]
+    },
+    {
       "name": "RealSelf",
       "url": "https://bugcrowd.com/realself",
       "bounty": true,
@@ -5601,6 +5718,15 @@
         "redditinc.com",
         "reddithelp.com",
         "dubsmash.com"
+      ]
+    },
+    {
+      "name": "Redis",
+      "url": "https://hackerone.com/redis-vdp",
+      "bounty": false,
+      "domains": [
+        "redislabs.com",
+        "redis.com"
       ]
     },
     {
@@ -5831,6 +5957,15 @@
       ]
     },
     {
+      "name": "SecurityScorecard",
+      "url": "https://hackerone.com/securityscorecard",
+      "bounty": false,
+      "domains": [
+        "securityscorecard.io",
+        "securityscorecard.com"
+      ]
+    },
+    {
       "name": "Seek",
       "url": "https://bugcrowd.com/seek",
       "bounty": true,
@@ -5865,6 +6000,23 @@
       "swag": false,
       "domains": [
         "shakepay.com"
+      ]
+    },
+    {
+      "name": "SHEIN",
+      "url": "https://hackerone.com/shein",
+      "bounty": true,
+      "domains": [
+        "shein.com",
+        "shein.in",
+        "shein.tw",
+        "shein.se",
+        "shein.com.hk",
+        "shein.com.vn",
+        "shein.com.mx",
+        "shein.co.uk",
+        "romwe.com",
+        "romwe.co.in"
       ]
     },
     {
@@ -6027,6 +6179,14 @@
         "reflexion.net",
         "sophos.com",
         "surfright.nl"
+      ]
+    },
+    {
+      "name": "Sorare",
+      "url": "https://hackerone.com/sorare",
+      "bounty": true,
+      "domains": [
+        "sorare.com"
       ]
     },
     {
@@ -6440,6 +6600,28 @@
       "bounty": false,
       "domains": [
         "standard.com"
+      ]
+    },
+    {
+      "name": "The Walt Disney Company",
+      "url": "https://hackerone.com/disney",
+      "bounty": false,
+      "domains": [
+        "thewaltdisneycompany.com",
+        "waltdisneystudios.com",
+        "disneyanimation.com",
+        "pixar.com",
+        "marvel.com",
+        "lucasfilm.com",
+        "disneyplus.com",
+        "espn.com",
+        "disney.com",
+        "disneyconnect.com",
+        "disneynow.com",
+        "startv.com",
+        "hotstar.com",
+        "fxnetworks.com",
+        "abc.com"
       ]
     },
     {
@@ -6961,6 +7143,14 @@
       ]
     },
     {
+      "name": "UPS VDP",
+      "url": "https://hackerone.com/ups",
+      "bounty": false,
+      "domains": [
+        "ups.com"
+      ]
+    },
+    {
       "name": "Upwork",
       "url": "https://bugcrowd.com/upwork",
       "bounty": true,
@@ -6992,6 +7182,16 @@
         "ud.wtf",
         "urbandictionary.biz",
         "urbandictionary.blog"
+      ]
+    },
+    {
+      "name": "Veeam",
+      "url": "https://hackerone.com/veeam",
+      "bounty": false,
+      "domains": [
+        "veeam.com",
+        "kasten.io",
+        "veeamgov.com"
       ]
     },
     {
