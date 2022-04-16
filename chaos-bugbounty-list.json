@@ -4840,6 +4840,15 @@
       ]
     },
     {
+      "name": "Odoo",
+      "url": "https://www.odoo.com/security-report",
+      "bounty": false,
+      "swag": false,
+      "domains": [
+        "odoo.com"
+      ]
+    },
+    {
       "name": "Offensive Security",
       "url": "https://www.offensive-security.com/bug-bounty-program/",
       "bounty": true,
