@@ -369,6 +369,19 @@
       ]
     },
     {
+      "name": "Automattic",
+      "url": "https://hackerone.com/automattic",
+      "bounty": true,
+      "domains": [
+        "intensedebate.com",
+        "simplenote.com",
+        "happy.tools",
+        "simperium.com",
+        "akismet.com",
+        "mailpoet.com"
+        ]
+    },
+    {
       "name": "Auvik",
       "url": "https://www.auvik.com/disclosure-policy.html",
       "bounty": false,
@@ -6802,15 +6815,9 @@
       "url": "https://hackerone.com/tumblr",
       "bounty": false,
       "domains": [
-        "api.tumblr.com",
-        "safe.tumblr.com",
-        "secure.tumblr.com",
-        "assets.tumblr.com",
-        "embed.tumblr.com",
         "tumblr.com",
-        "srvcs.tumblr.com",
         "txmblr.com",
-        "t.umblr.com"
+        "umblr.com"
       ]
     },
     {
