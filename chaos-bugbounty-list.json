@@ -6465,6 +6465,15 @@
       ]
     },
     {
+      "name": "Swiss Post",
+      "url": "https://yeswehack.com/programs/swiss-post",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "post.ch"   
+      ]
+    },
+    {
       "name": "Synack",
       "url": "https://synack.responsibledisclosure.com/hc/en-us/",
       "bounty": true,
