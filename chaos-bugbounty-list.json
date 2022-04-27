@@ -6470,10 +6470,7 @@
       "bounty": true,
       "swag": false,
       "domains": [
-        "account.post.ch",
-        "service.post.ch",
-        "billingonline.post.ch",
-        "shop.post.ch"   
+        "post.ch"   
       ]
     },
     {
