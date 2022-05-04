@@ -10,6 +10,17 @@
       ]
     },
     {
+      "name": "84codes",
+      "url": "https://www.84codes.com/security",
+      "bounty": true,
+      "domains": [
+        "cloudamqp.com",
+        "cloudkarafka.com",
+        "elephantsql.com",
+        "cloudmqtt.com"
+      ]
+    },
+    {
       "name": "8x8",
       "url": "https://hackerone.com/8x8",
       "bounty": false,
@@ -28,34 +39,6 @@
         "easycontactnow.com",
         "8x8.spot",
         "sameroom.io"
-      ]
-    },
-    {
-      "name": "84codes",
-      "url": "https://www.84codes.com/security",
-      "bounty": true,
-      "domains": [
-        "cloudamqp.com",
-        "cloudkarafka.com",
-        "elephantsql.com",
-        "cloudmqtt.com"
-      ]
-    },
-    {
-      "name": "AIMS360",
-      "url": "https://www.aims360.com/vulnerability-responses/",
-      "bounty": false,
-      "swag": false,
-      "domains": [
-        "aims360.com"
-      ]
-    },
-    {
-      "name": "AT&T",
-      "url": "https://hackerone.com/att",
-      "bounty": true,
-      "domains": [
-        "att.com"
       ]
     },
     {
@@ -100,11 +83,12 @@
       ]
     },
     {
-      "name": "AirMap",
-      "url": "https://www.airmap.com/responsible-disclosure-policy/",
+      "name": "AIMS360",
+      "url": "https://www.aims360.com/vulnerability-responses/",
       "bounty": false,
+      "swag": false,
       "domains": [
-        "airmap.com"
+        "aims360.com"
       ]
     },
     {
@@ -128,6 +112,14 @@
         "luxuryretreats.com",
         "luckeyhomes.com",
         "urbandoor.com"
+      ]
+    },
+    {
+      "name": "AirMap",
+      "url": "https://www.airmap.com/responsible-disclosure-policy/",
+      "bounty": false,
+      "domains": [
+        "airmap.com"
       ]
     },
     {
@@ -180,16 +172,6 @@
       ]
     },
     {
-      "name": "Alohi",
-      "url": "https://hackerone.com/alohi",
-      "bounty": false,
-      "domains": [
-        "fax.plus",
-        "sign.plus",
-        "alohi.com"
-      ]
-    },
-    {
       "name": "Alibaba",
       "url": "https://hackerone.com/alibaba",
       "bounty": true,
@@ -225,6 +207,16 @@
       ]
     },
     {
+      "name": "Alohi",
+      "url": "https://hackerone.com/alohi",
+      "bounty": false,
+      "domains": [
+        "fax.plus",
+        "sign.plus",
+        "alohi.com"
+      ]
+    },
+    {
       "name": "Amazon",
       "url": "https://hackerone.com/amazonvrp",
       "bounty": true,
@@ -234,6 +226,39 @@
         "amazon.co.jp",
         "amazon.de",
         "amazon.fr"
+      ]
+    },
+    {
+      "name": "AMERICAN SYSTEMS",
+      "url": "https://hackerone.com/american_systems_bbp",
+      "bounty": true,
+      "domains": [
+        "alexamerican.com",
+        "alexamericansystems.com",
+        "americansystems.com",
+        "ascvpc.com",
+        "ascsites.com",
+        "ascgov.com",
+        "ddlomni.com",
+        "nhaero.com",
+        "americansystems.info",
+        "amsyscorp.com",
+        "2asc.com",
+        "americanalliant.com",
+        "asc.name",
+        "digitalaccess.com",
+        "americansystemsuniversity.com",
+        "americansystems.org",
+        "thoughtmill.com",
+        "american-systems.org",
+        "american-systems.com",
+        "asextranet.com",
+        "emsolutionsinc.com",
+        "emsolve.com",
+        "essworld.net",
+        "nswccd-fbw-scs.com",
+        "asvpc.com",
+        "alex-as.com"
       ]
     },
     {
@@ -289,15 +314,24 @@
         "amocrm.ru"
       ]
     },
-   {
-      "name":"Amsterdam Airport Schiphol",
-      "url":"https://www.schiphol.nl/en/page/responsible-disclosure-notification/",
-      "bounty":false,
-      "domains":[
-         "schiphol.nl",
-         "schiphol.com"
+    {
+      "name": "Amon",
+      "url": "https://amon.tech/bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "amon.tech"
       ]
-   },
+    },
+    {
+      "name": "Amsterdam Airport Schiphol",
+      "url": "https://www.schiphol.nl/en/page/responsible-disclosure-notification/",
+      "bounty": false,
+      "domains": [
+        "schiphol.nl",
+        "schiphol.com"
+      ]
+    },
     {
       "name": "Apsis",
       "url": "https://www.apsis.com/bug-bounty",
@@ -323,6 +357,16 @@
       ]
     },
     {
+      "name": "Arrival",
+      "url": "https://arrival.com/us/en/security",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "arrival.com",
+        "arrival.co"
+      ]
+    },
+    {
       "name": "Arrow Electronics VDP",
       "url": "https://bugcrowd.com/arrow-electronics-vdp",
       "bounty": false,
@@ -341,6 +385,14 @@
         "transim.com",
         "aspencore.com",
         "eetimes.com"
+      ]
+    },
+    {
+      "name": "AT&T",
+      "url": "https://hackerone.com/att",
+      "bounty": true,
+      "domains": [
+        "att.com"
       ]
     },
     {
@@ -371,7 +423,7 @@
         "simperium.com",
         "akismet.com",
         "mailpoet.com"
-        ]
+      ]
     },
     {
       "name": "Auvik",
@@ -398,25 +450,6 @@
       ]
     },
     {
-      "name": "BBC",
-      "url": "https://www.bbc.com/backstage/security-disclosure-policy/",
-      "bounty": false,
-      "swag": true,
-      "domains": [
-        "bbc.com"
-      ]
-    },
-    {
-      "name": "BMW Group",
-      "url": "https://hackerone.com/bmwgroup",
-      "bounty": true,
-      "domains": [
-        "bmw.de",
-        "mini.de",
-        "bmw-motorrad.de"
-      ]
-    },
-    {
       "name": "Backblaze",
       "url": "https://hackerone.com/backblaze",
       "bounty": true,
@@ -433,6 +466,24 @@
         "badoo.com",
         "badoocdn.com",
         "hotornot.com"
+      ]
+    },
+    {
+      "name": "Baidu",
+      "url": "https://bsrc.baidu.com/v2/#/en",
+      "bounty": true,
+      "domains": [
+        "baidu.com",
+        "hao123.com"
+      ]
+    },
+    {
+      "name": "BBC",
+      "url": "https://www.bbc.com/backstage/security-disclosure-policy/",
+      "bounty": false,
+      "swag": true,
+      "domains": [
+        "bbc.com"
       ]
     },
     {
@@ -494,6 +545,24 @@
       ]
     },
     {
+      "name": "Bitaccess",
+      "url": "https://hackerone.com/bitaccess",
+      "bounty": false,
+      "domains": [
+        "bitaccessbtm.com",
+        "faa.st"
+      ]
+    },
+    {
+      "name": "BitcoinTrade",
+      "url": "https://admin.bughunt.com.br/program/detail?5f98855f51ec4c09107c0534",
+      "bounty": true,
+      "domains": [
+        "bitcointrade.com.br",
+        "bitcoinback.com.br"
+      ]
+    },
+    {
       "name": "BitDefender",
       "url": "https://bugcrowd.com/bitdefender",
       "bounty": true,
@@ -527,12 +596,11 @@
       ]
     },
     {
-      "name": "Bitaccess",
-      "url": "https://hackerone.com/bitaccess",
-      "bounty": false,
+      "name": "Bitrue",
+      "url": "https://hackenproof.com/bitrue/bitrue",
+      "bounty": true,
       "domains": [
-        "bitaccessbtm.com",
-        "faa.st"
+        "bitrue.com"
       ]
     },
     {
@@ -595,6 +663,16 @@
       ]
     },
     {
+      "name": "BMW Group",
+      "url": "https://hackerone.com/bmwgroup",
+      "bounty": true,
+      "domains": [
+        "bmw.de",
+        "mini.de",
+        "bmw-motorrad.de"
+      ]
+    },
+    {
       "name": "Boozt Fashion",
       "url": "https://bugcrowd.com/boozt-og",
       "bounty": true,
@@ -630,20 +708,20 @@
       ]
     },
     {
+      "name": "Bugcrowd",
+      "url": "https://bugcrowd.com/bugcrowd",
+      "bounty": true,
+      "domains": [
+        "bugcrowd.com"
+      ]
+    },
+    {
       "name": "BugPoC",
       "url": "https://hackerone.com/bugpoc",
       "bounty": true,
       "domains": [
         "bugpoc.com",
         "bugpoc.ninja"
-      ]
-    },
-    {
-      "name": "Bugcrowd",
-      "url": "https://bugcrowd.com/bugcrowd",
-      "bounty": true,
-      "domains": [
-        "bugcrowd.com"
       ]
     },
     {
@@ -668,23 +746,6 @@
       "bounty": false,
       "domains": [
         "bunq.com"
-      ]
-    },
-    {
-      "name": "CBRE",
-      "url": "https://hackerone.com/cbre",
-      "bounty": false,
-      "domains": [
-        "cbre.com",
-        "trammellcrow.com"
-      ]
-    },
-    {
-      "name": "CFP Time",
-      "url": "https://hackerone.com/cfptime",
-      "bounty": false,
-      "domains": [
-        "cfptime.org"
       ]
     },
     {
@@ -758,6 +819,15 @@
       ]
     },
     {
+      "name": "CBRE",
+      "url": "https://hackerone.com/cbre",
+      "bounty": false,
+      "domains": [
+        "cbre.com",
+        "trammellcrow.com"
+      ]
+    },
+    {
       "name": "CBS",
       "url": "https://www.cbs.nl/nl-nl/over-ons/website/responsible-disclosure",
       "bounty": false,
@@ -804,6 +874,14 @@
       "bounty": true,
       "domains": [
         "centrify.com"
+      ]
+    },
+    {
+      "name": "CFP Time",
+      "url": "https://hackerone.com/cfptime",
+      "bounty": false,
+      "domains": [
+        "cfptime.org"
       ]
     },
     {
@@ -975,19 +1053,19 @@
       ]
     },
     {
-      "name": "CodeIgniter",
-      "url": "https://hackerone.com/codeigniter",
-      "bounty": false,
-      "domains": [
-        "codeigniter.com"
-      ]
-    },
-    {
       "name": "Codefi",
       "url": "https://hackerone.com/codefi_bbp",
       "bounty": true,
       "domains": [
         "codefi.network"
+      ]
+    },
+    {
+      "name": "CodeIgniter",
+      "url": "https://hackerone.com/codeigniter",
+      "bounty": false,
+      "domains": [
+        "codeigniter.com"
       ]
     },
     {
@@ -1177,20 +1255,6 @@
       ]
     },
     {
-      "name": "DJI",
-      "url": "https://security.dji.com/policy?lang=en_US",
-      "bounty": true,
-      "domains": [
-        "dji.com",
-        "skypixel.com",
-        "djicdn.com",
-        "djivideos.com",
-        "dji.net",
-        "robomaster.com",
-        "djiservice.org"
-      ]
-    },
-    {
       "name": "Dailymotion",
       "url": "https://yeswehack.com/programs/dailymotion-public-bug-bounty",
       "bounty": true,
@@ -1229,6 +1293,18 @@
         "sf.net",
         "libav.org",
         "videolan.org"
+      ]
+    },
+    {
+      "name": "Databricks",
+      "url": "https://hackerone.com/databricks",
+      "bounty": true,
+      "domains": [
+        "databricks.com",
+        "spark-summit.org",
+        "delta.io",
+        "spark-portal.org",
+        "spark-summit.com"
       ]
     },
     {
@@ -1320,14 +1396,6 @@
       ]
     },
     {
-      "name": "Dokobit",
-      "url": "https://www.dokobit.com/compliance/vulnerability-disclosure-policy",
-      "bounty": true,
-      "domains": [
-        "dokobit.com"
-      ]
-    },
-    {
       "name": "Deribit",
       "url": "https://www.deribit.com/pages/information/bug-bounty-program",
       "bounty": true,
@@ -1392,12 +1460,34 @@
       ]
     },
     {
+      "name": "DJI",
+      "url": "https://security.dji.com/policy?lang=en_US",
+      "bounty": true,
+      "domains": [
+        "dji.com",
+        "skypixel.com",
+        "djicdn.com",
+        "djivideos.com",
+        "dji.net",
+        "robomaster.com",
+        "djiservice.org"
+      ]
+    },
+    {
       "name": "Doist",
       "url": "https://todoist.com/help/articles/doist-bug-bounty-policy",
       "bounty": true,
       "domains": [
         "todoist.com",
         "twist.com"
+      ]
+    },
+    {
+      "name": "Dokobit",
+      "url": "https://www.dokobit.com/compliance/vulnerability-disclosure-policy",
+      "bounty": true,
+      "domains": [
+        "dokobit.com"
       ]
     },
     {
@@ -1437,36 +1527,19 @@
       ]
     },
     {
-      "name": "EC-Council",
-      "url": "https://www.eccouncil.org/bug-bounty/",
-      "bounty": true,
-      "domains": [
-        "eccouncil.org"
-      ]
-    },
-    {
-      "name": "EFF",
-      "url": "https://www.eff.org/security/",
-      "bounty": false,
-      "swag": true,
-      "domains": [
-        "eff.org"
-      ]
-    },
-    {
-      "name": "ESLint",
-      "url": "https://hackerone.com/eslint",
-      "bounty": false,
-      "domains": [
-        "eslint.org"
-      ]
-    },
-    {
       "name": "Easyprojects",
       "url": "https://www.easyprojects.net/company/vulnerability-reward-program/",
       "bounty": true,
       "domains": [
         "easyprojects.net"
+      ]
+    },
+    {
+      "name": "EC-Council",
+      "url": "https://www.eccouncil.org/bug-bounty/",
+      "bounty": true,
+      "domains": [
+        "eccouncil.org"
       ]
     },
     {
@@ -1503,6 +1576,15 @@
       "bounty": false,
       "domains": [
         "eerstekamer.nl"
+      ]
+    },
+    {
+      "name": "EFF",
+      "url": "https://www.eff.org/security/",
+      "bounty": false,
+      "swag": true,
+      "domains": [
+        "eff.org"
       ]
     },
     {
@@ -1547,7 +1629,7 @@
       ]
     },
     {
-      "name": "Engel & Völkers",
+      "name": "Engel & V\u00f6lkers",
       "url": "https://hackerone.com/engel_volkers",
       "bounty": false,
       "domains": [
@@ -1560,6 +1642,53 @@
       "bounty": true,
       "domains": [
         "eobot.com"
+      ]
+    },
+    {
+      "name": "Epic Games",
+      "url": "https://hackerone.com/epicgames",
+      "bounty": true,
+      "domains": [
+        "rocketleague.com",
+        "psynet.gg",
+        "unrealtournament.com",
+        "epicgames.com",
+        "unrealengine.com",
+        "fortnite.com",
+        "epicgames.dev",
+        "psyonix.com",
+        "3lateral.com",
+        "cubicmotion.com",
+        "oncatapult.com",
+        "fallguys.com",
+        "mediatonic.co.uk",
+        "artstation.com",
+        "easy.ac",
+        "sketchfab.com",
+        "quixel.com",
+        "superawesome.tv",
+        "superawesome.com",
+        "popjam.com",
+        "rukkaz.com",
+        "jellychat.com"
+      ]
+    },
+    {
+      "name": "ESLint",
+      "url": "https://hackerone.com/eslint",
+      "bounty": false,
+      "domains": [
+        "eslint.org"
+      ]
+    },
+    {
+      "name": "eToro",
+      "url": "https://hackerone.com/etoro_bbp",
+      "bounty": true,
+      "domains": [
+        "etoro.com",
+        "etoropartners.com",
+        "delta.app"
       ]
     },
     {
@@ -1621,22 +1750,6 @@
         "expressvpn.com",
         "xvservice.net",
         "expressobutiolem.onion"
-      ]
-    },
-    {
-      "name": "FINRA Response",
-      "url": "https://hackerone.com/finra",
-      "bounty": false,
-      "domains": [
-        "finra.org"
-      ]
-    },
-    {
-      "name": "FIRST",
-      "url": "https://www.first.org/about/bugs",
-      "bounty": false,
-      "domains": [
-        "first.org"
       ]
     },
     {
@@ -1703,6 +1816,14 @@
       ]
     },
     {
+      "name": "Files.com",
+      "url": "https://bugcrowd.com/files",
+      "bounty": true,
+      "domains": [
+        "files.com"
+      ]
+    },
+    {
       "name": "FileZilla",
       "url": "https://hackerone.com/filezilla",
       "bounty": true,
@@ -1711,11 +1832,11 @@
       ]
     },
     {
-      "name": "Files.com",
-      "url": "https://bugcrowd.com/files",
-      "bounty": true,
+      "name": "FINRA Response",
+      "url": "https://hackerone.com/finra",
+      "bounty": false,
       "domains": [
-        "files.com"
+        "finra.org"
       ]
     },
     {
@@ -1725,6 +1846,14 @@
       "swag": false,
       "domains": [
         "fireeye.com"
+      ]
+    },
+    {
+      "name": "FIRST",
+      "url": "https://www.first.org/about/bugs",
+      "bounty": false,
+      "domains": [
+        "first.org"
       ]
     },
     {
@@ -1821,15 +1950,6 @@
       ]
     },
     {
-      "name": "GO-JEK",
-      "url": "https://bugcrowd.com/gojek",
-      "bounty": true,
-      "domains": [
-        "gojekapi.com",
-        "gojek.co.id"
-      ]
-    },
-    {
       "name": "Genasys Technologies",
       "url": "https://hackerone.com/genasys",
       "bounty": false,
@@ -1894,6 +2014,15 @@
       "bounty": false,
       "domains": [
         "gmelius.com"
+      ]
+    },
+    {
+      "name": "GO-JEK",
+      "url": "https://bugcrowd.com/gojek",
+      "bounty": true,
+      "domains": [
+        "gojekapi.com",
+        "gojek.co.id"
       ]
     },
     {
@@ -3448,14 +3577,6 @@
       ]
     },
     {
-      "name": "HTC",
-      "url": "https://www.htc.com/in/terms/product-security/",
-      "bounty": true,
-      "domains": [
-        "htc.com"
-      ]
-    },
-    {
       "name": "Hackchecks",
       "url": "https://hackchecks.in/responsible-disclosure/",
       "bounty": false,
@@ -3473,6 +3594,15 @@
         "hackerone.net",
         "hackerone.com",
         "hackerone-ext-content.com"
+      ]
+    },
+    {
+      "name": "HackerRank",
+      "url": "https://www.hackerrank.com/trust/security",
+      "bounty": false,
+      "swag": true,
+      "domains": [
+        "hackerrank.com"
       ]
     },
     {
@@ -3544,6 +3674,14 @@
       ]
     },
     {
+      "name": "HTC",
+      "url": "https://www.htc.com/in/terms/product-security/",
+      "bounty": true,
+      "domains": [
+        "htc.com"
+      ]
+    },
+    {
       "name": "Huawei",
       "url": "https://bugbounty.huawei.com/hbp/#/program",
       "bounty": false,
@@ -3575,19 +3713,19 @@
       ]
     },
     {
-      "name": "Hyatt",
-      "url": "https://hackerone.com/hyatt",
-      "bounty": true,
-      "domains": [
-        "hyatt.com"
-      ]
-    },
-    {
       "name": "Hy-Vee",
       "url": "https://hackerone.com/hy-vee",
       "bounty": false,
       "domains": [
         "hy-vee.com"
+      ]
+    },
+    {
+      "name": "Hyatt",
+      "url": "https://hackerone.com/hyatt",
+      "bounty": true,
+      "domains": [
+        "hyatt.com"
       ]
     },
     {
@@ -3607,6 +3745,15 @@
       ]
     },
     {
+      "name": "Ibotta",
+      "url": "https://bugcrowd.com/ibotta",
+      "bounty": true,
+      "domains": [
+        "ibotta.com",
+        "ibops.net"
+      ]
+    },
+    {
       "name": "IFood",
       "url": "https://www.ifood.com.br/bugbounty/",
       "bounty": true,
@@ -3623,50 +3770,6 @@
       ]
     },
     {
-      "name": "ING Bank",
-      "url": "https://hackerone.com/ing",
-      "bounty": true,
-      "domains": [
-        "ing.com",
-        "ing.nl"
-      ]
-    },
-    {
-      "name": "IOVLabs",
-      "url": "https://hackerone.com/iovlabs",
-      "bounty": true,
-      "domains": [
-        "rsk.co"
-      ]
-    },
-    {
-      "name": "IRCCloud",
-      "url": "https://hackerone.com/irccloud",
-      "bounty": true,
-      "domains": [
-        "irccloud.com",
-        "irccloud-cdn.com"
-      ]
-    },
-    {
-      "name": "ISC",
-      "url": "https://bugcrowd.com/isc2",
-      "bounty": false,
-      "domains": [
-        "isc2.org",
-        "iamcybersafe.org"
-      ]
-    },
-    {
-      "name": "Ibotta",
-      "url": "https://bugcrowd.com/ibotta",
-      "bounty": true,
-      "domains": [
-        "ibotta.com",
-        "ibops.net"
-      ]
-    },
-    {
       "name": "Imgur",
       "url": "https://hackerone.com/imgur",
       "bounty": true,
@@ -3680,15 +3783,6 @@
       "bounty": true,
       "domains": [
         "impactguru.com"
-      ]
-    },
-    {
-      "name": "InVision",
-      "url": "https://bugcrowd.com/invision",
-      "bounty": true,
-      "domains": [
-        "muz.li",
-        "invisionapp.com"
       ]
     },
     {
@@ -3713,6 +3807,15 @@
       "bounty": false,
       "domains": [
         "informatica.com"
+      ]
+    },
+    {
+      "name": "ING Bank",
+      "url": "https://hackerone.com/ing",
+      "bounty": true,
+      "domains": [
+        "ing.com",
+        "ing.nl"
       ]
     },
     {
@@ -3806,6 +3909,41 @@
       ]
     },
     {
+      "name": "InVision",
+      "url": "https://bugcrowd.com/invision",
+      "bounty": true,
+      "domains": [
+        "muz.li",
+        "invisionapp.com"
+      ]
+    },
+    {
+      "name": "IOVLabs",
+      "url": "https://hackerone.com/iovlabs",
+      "bounty": true,
+      "domains": [
+        "rsk.co"
+      ]
+    },
+    {
+      "name": "IRCCloud",
+      "url": "https://hackerone.com/irccloud",
+      "bounty": true,
+      "domains": [
+        "irccloud.com",
+        "irccloud-cdn.com"
+      ]
+    },
+    {
+      "name": "ISC",
+      "url": "https://bugcrowd.com/isc2",
+      "bounty": false,
+      "domains": [
+        "isc2.org",
+        "iamcybersafe.org"
+      ]
+    },
+    {
       "name": "Issuu",
       "url": "https://issuu.com/responsible-disclosure",
       "bounty": false,
@@ -3830,12 +3968,6 @@
       "domains": [
         "ivanti.com"
       ]
-    },
-    {
-      "name": "JNJ Mobile",
-      "url": "https://hackerone.com/jnj_mobile",
-      "bounty": false,
-      "domains": []
     },
     {
       "name": "JamieWeb",
@@ -3885,6 +4017,12 @@
       ]
     },
     {
+      "name": "JNJ Mobile",
+      "url": "https://hackerone.com/jnj_mobile",
+      "bounty": false,
+      "domains": []
+    },
+    {
       "name": "John Deere",
       "url": "https://hackerone.com/john-deere",
       "bounty": false,
@@ -3910,14 +4048,6 @@
       "domains": [
         "jora.com",
         "jora.xyz"
-      ]
-    },
-    {
-      "name": "KIWI.KI GmbH",
-      "url": "https://hackerone.com/kiwi-ki",
-      "bounty": false,
-      "domains": [
-        "kiwi.ki"
       ]
     },
     {
@@ -3990,6 +4120,14 @@
       ]
     },
     {
+      "name": "KIWI.KI GmbH",
+      "url": "https://hackerone.com/kiwi-ki",
+      "bounty": false,
+      "domains": [
+        "kiwi.ki"
+      ]
+    },
+    {
       "name": "Koho",
       "url": "https://hackerone.com/koho",
       "bounty": false,
@@ -4034,16 +4172,6 @@
         "kubernetes.io",
         "k8s.io",
         "gcr.io"
-      ]
-    },
-    {
-      "name": "LINE",
-      "url": "https://hackerone.com/line",
-      "bounty": true,
-      "domains": [
-        "line.me",
-        "line-apps.com",
-        "naver.jp"
       ]
     },
     {
@@ -4158,6 +4286,16 @@
       ]
     },
     {
+      "name": "LINE",
+      "url": "https://hackerone.com/line",
+      "bounty": true,
+      "domains": [
+        "line.me",
+        "line-apps.com",
+        "naver.jp"
+      ]
+    },
+    {
       "name": "LiquidWeb",
       "url": "https://www.liquidweb.com/about-us/policies/bug-bounty-program/",
       "bounty": true,
@@ -4183,17 +4321,6 @@
       ]
     },
     {
-      "name": "LocalTapiola",
-      "url": "https://hackerone.com/localtapiola",
-      "bounty": true,
-      "domains": [
-        "lahitapiola.fi",
-        "lahitapiola.mobile",
-        "lahitapiolarahoitus.fi",
-        "tapiola.fi"
-      ]
-    },
-    {
       "name": "Localize",
       "url": "https://hackerone.com/localizejs",
       "bounty": true,
@@ -4203,11 +4330,14 @@
       ]
     },
     {
-      "name": "LogMeOnce",
-      "url": "https://www.logmeonce.com/vulnerability-disclosure-policy/",
+      "name": "LocalTapiola",
+      "url": "https://hackerone.com/localtapiola",
       "bounty": true,
       "domains": [
-        "logmeonce.com"
+        "lahitapiola.fi",
+        "lahitapiola.mobile",
+        "lahitapiolarahoitus.fi",
+        "tapiola.fi"
       ]
     },
     {
@@ -4244,14 +4374,22 @@
       ]
     },
     {
-      "name":"Lululemon",
-      "url":"https://bugcrowd.com/lululemon",
+      "name": "LogMeOnce",
+      "url": "https://www.logmeonce.com/vulnerability-disclosure-policy/",
       "bounty": true,
-      "domains":[
+      "domains": [
+        "logmeonce.com"
+      ]
+    },
+    {
+      "name": "Lululemon",
+      "url": "https://bugcrowd.com/lululemon",
+      "bounty": true,
+      "domains": [
         "lululemon.com",
         "lululemon.co.uk"
       ]
-    },    
+    },
     {
       "name": "Lyst",
       "url": "https://hackerone.com/lyst",
@@ -4260,42 +4398,6 @@
         "lystit.com",
         "lyst.com",
         "lyst.co"
-      ]
-    },
-    {
-      "name": "MTN Group",
-      "url": "https://hackerone.com/mtn_group",
-      "bounty": false,
-      "domains": [
-        "areeba.com.gn",
-        "irancell.ir",
-        "lonestarcell.com",
-        "mtn.bj",
-        "mtn.ci",
-        "mtn.cm",
-        "mtn.co.rw",
-        "mtn.co.sz",
-        "mtn.co.ug",
-        "mtn.co.za",
-        "mtn.com.af",
-        "mtn.com.gh",
-        "mtn.com.ye",
-        "mtn.sd",
-        "mtnblog.co.za",
-        "mtnbusiness.com",
-        "mtnbusiness.com.ng",
-        "mtncameroon.net",
-        "mtncongo.net",
-        "mtnfootball.com",
-        "mtnonline.com",
-        "mtnplay.co.za",
-        "mtnzakhele.co.za",
-        "mtnzambia.co.zm",
-        "mtn.com",
-        "mtngbissau.com",
-        "mtnplay.co.zm",
-        "mtnselfcare.co.zm",
-        "mtn.zm"
       ]
     },
     {
@@ -4365,19 +4467,19 @@
       ]
     },
     {
-      "name": "Maker Ecosystem",
-      "url": "https://hackerone.com/makerdao_bbp",
-      "bounty": true,
-      "domains": [
-        "makerdao.com"
-      ]
-    },
-    {
       "name": "MakeMyTrip",
       "url": "https://www.makemytrip.com/pwa-hlp/mmtbb/report",
       "bounty": true,
       "domains": [
         "makemytrip.com"
+      ]
+    },
+    {
+      "name": "Maker Ecosystem",
+      "url": "https://hackerone.com/makerdao_bbp",
+      "bounty": true,
+      "domains": [
+        "makerdao.com"
       ]
     },
     {
@@ -4532,14 +4634,6 @@
       ]
     },
     {
-      "name": "MobiSystems Ltd",
-      "url": "https://hackerone.com/mobisystems_ltd",
-      "bounty": false,
-      "domains": [
-        "mobisystems.office"
-      ]
-    },
-    {
       "name": "Mobikwik",
       "url": "https://www.mobikwik.com/bug-bounty/guidelines",
       "bounty": true,
@@ -4553,6 +4647,14 @@
       "bounty": true,
       "domains": [
         "mobile.de"
+      ]
+    },
+    {
+      "name": "MobiSystems Ltd",
+      "url": "https://hackerone.com/mobisystems_ltd",
+      "bounty": false,
+      "domains": [
+        "mobisystems.office"
       ]
     },
     {
@@ -4598,6 +4700,50 @@
       ]
     },
     {
+      "name": "MovieXChange",
+      "url": "https://moviexchange.com/responsible-disclosure-policy/",
+      "bounty": false,
+      "domains": [
+        "moviexchange.com"
+      ]
+    },
+    {
+      "name": "MTN Group",
+      "url": "https://hackerone.com/mtn_group",
+      "bounty": false,
+      "domains": [
+        "areeba.com.gn",
+        "irancell.ir",
+        "lonestarcell.com",
+        "mtn.bj",
+        "mtn.ci",
+        "mtn.cm",
+        "mtn.co.rw",
+        "mtn.co.sz",
+        "mtn.co.ug",
+        "mtn.co.za",
+        "mtn.com.af",
+        "mtn.com.gh",
+        "mtn.com.ye",
+        "mtn.sd",
+        "mtnblog.co.za",
+        "mtnbusiness.com",
+        "mtnbusiness.com.ng",
+        "mtncameroon.net",
+        "mtncongo.net",
+        "mtnfootball.com",
+        "mtnonline.com",
+        "mtnplay.co.za",
+        "mtnzakhele.co.za",
+        "mtnzambia.co.zm",
+        "mtn.com",
+        "mtngbissau.com",
+        "mtnplay.co.zm",
+        "mtnselfcare.co.zm",
+        "mtn.zm"
+      ]
+    },
+    {
       "name": "Mujs",
       "url": "https://mujs.com/security.html",
       "bounty": true,
@@ -4620,14 +4766,6 @@
       "bounty": false,
       "domains": [
         "myntra.com"
-      ]
-    },
-    {
-      "name": "NCSC UK",
-      "url": "https://hackerone.com/ncsc_uk",
-      "bounty": false,
-      "domains": [
-        "ncsc.gov.uk"
       ]
     },
     {
@@ -4659,6 +4797,14 @@
       "bounty": false,
       "domains": [
         "natur.com"
+      ]
+    },
+    {
+      "name": "NCSC UK",
+      "url": "https://hackerone.com/ncsc_uk",
+      "bounty": false,
+      "domains": [
+        "ncsc.gov.uk"
       ]
     },
     {
@@ -4788,49 +4934,6 @@
       ]
     },
     {
-      "name": "OLX",
-      "url": "https://hackerone.com/olx",
-      "bounty": false,
-      "domains": [
-        "olx.in",
-        "olx.co.za",
-        "olx.co.id",
-        "olx.com.pk"
-      ]
-    },
-    {
-      "name": "OMG Nepal",
-      "url": "https://app.bugv.io/researcher/program/0000005/detail",
-      "bounty": true,
-      "domains": [
-        "omgnepal.com"
-      ]
-    },
-    {
-      "name": "OVH",
-      "url": "https://yeswehack.com/programs/ovh",
-      "bounty": true,
-      "domains": [
-        "ovh.com"
-      ]
-    },
-    {
-      "name": "OWASP ZAP",
-      "url": "https://bugcrowd.com/owaspzap",
-      "bounty": true,
-      "domains": [
-        "zaproxy.org"
-      ]
-    },
-    {
-      "name": "OYO",
-      "url": "https://www.oyorooms.com/responsible-disclosure",
-      "bounty": true,
-      "domains": [
-        "oyorooms.com"
-      ]
-    },
-    {
       "name": "Oasis Protocol Foundation",
       "url": "https://hackerone.com/oasis_protocol_foundation",
       "bounty": true,
@@ -4905,6 +5008,33 @@
         "olaelectric.in",
         "mission-electric.in",
         "ola.institute"
+      ]
+    },
+    {
+      "name": "OLX",
+      "url": "https://hackerone.com/olx",
+      "bounty": false,
+      "domains": [
+        "olx.in",
+        "olx.co.za",
+        "olx.co.id",
+        "olx.com.pk"
+      ]
+    },
+    {
+      "name": "OLX Brasil",
+      "url": "https://admin.bughunt.com.br/program/detail?60ca003869707962894a5b33",
+      "bounty": true,
+      "domains": [
+        "olx.com.br"
+      ]
+    },
+    {
+      "name": "OMG Nepal",
+      "url": "https://app.bugv.io/researcher/program/0000005/detail",
+      "bounty": true,
+      "domains": [
+        "omgnepal.com"
       ]
     },
     {
@@ -5075,10 +5205,34 @@
       ]
     },
     {
+      "name": "OVH",
+      "url": "https://yeswehack.com/programs/ovh",
+      "bounty": true,
+      "domains": [
+        "ovh.com"
+      ]
+    },
+    {
+      "name": "OWASP ZAP",
+      "url": "https://bugcrowd.com/owaspzap",
+      "bounty": true,
+      "domains": [
+        "zaproxy.org"
+      ]
+    },
+    {
       "name": "OwnCloud",
       "url": "https://hackerone.com/owncloud",
       "bounty": true,
       "domains": []
+    },
+    {
+      "name": "OYO",
+      "url": "https://www.oyorooms.com/responsible-disclosure",
+      "bounty": true,
+      "domains": [
+        "oyorooms.com"
+      ]
     },
     {
       "name": "Ozon",
@@ -5086,23 +5240,6 @@
       "bounty": true,
       "domains": [
         "ozon.ru"
-      ]
-    },
-    {
-      "name": "PGGM",
-      "url": "https://www.pggm.nl/en/responsible-disclosure",
-      "bounty": true,
-      "domains": [
-        "pggm.nl"
-      ]
-    },
-    {
-      "name": "PUBG",
-      "url": "https://hackerone.com/pubg",
-      "bounty": false,
-      "domains": [
-        "pubg.com",
-        "pubgesports.com"
       ]
     },
     {
@@ -5212,6 +5349,15 @@
       ]
     },
     {
+      "name": "Paymill",
+      "url": "https://www.paymill.com/en/security/",
+      "bounty": false,
+      "swag": true,
+      "domains": [
+        "paymill.com"
+      ]
+    },
+    {
       "name": "Payoneer",
       "url": "https://hackerone.com/payoneer",
       "bounty": true,
@@ -5241,15 +5387,6 @@
         "loanbuilder.com",
         "xoom.com",
         "xoom.app"
-      ]
-    },
-    {
-      "name": "Paymill",
-      "url": "https://www.paymill.com/en/security/",
-      "bounty": false,
-      "swag": true,
-      "domains": [
-        "paymill.com"
       ]
     },
     {
@@ -5289,6 +5426,14 @@
       "bounty": true,
       "domains": [
         "pexels.com"
+      ]
+    },
+    {
+      "name": "PGGM",
+      "url": "https://www.pggm.nl/en/responsible-disclosure",
+      "bounty": true,
+      "domains": [
+        "pggm.nl"
       ]
     },
     {
@@ -5440,6 +5585,14 @@
       ]
     },
     {
+      "name": "Postmates",
+      "url": "https://hackerone.com/postmates",
+      "bounty": true,
+      "domains": [
+        "postmates.com"
+      ]
+    },
+    {
       "name": "PostNL",
       "url": "https://www.postnl.nl/en/responsible-disclosure/",
       "bounty": false,
@@ -5447,14 +5600,6 @@
         "postnl.nl",
         "postnl.com",
         "postnl.post"
-      ]
-    },
-    {
-      "name": "Postmates",
-      "url": "https://hackerone.com/postmates",
-      "bounty": true,
-      "domains": [
-        "postmates.com"
       ]
     },
     {
@@ -5500,6 +5645,15 @@
       "domains": [
         "protonvpn.com",
         "protonvpn.ch"
+      ]
+    },
+    {
+      "name": "PUBG",
+      "url": "https://hackerone.com/pubg",
+      "bounty": false,
+      "domains": [
+        "pubg.com",
+        "pubgesports.com"
       ]
     },
     {
@@ -5572,53 +5726,6 @@
       ]
     },
     {
-      "name": "RATELIMITED",
-      "url": "https://hackerone.com/ratelimited",
-      "bounty": false,
-      "domains": [
-        "ratelimited.me"
-      ]
-    },
-    {
-      "name": "RBK.money",
-      "url": "https://rbk.money/en/bug-bounty/",
-      "bounty": true,
-      "domains": [
-        "rbk.money",
-        "rbk.mn",
-        "rbkmoney.com"
-      ]
-    },
-    {
-      "name": "REM-B Hydraulics",
-      "url": "https://hackerone.com/remb_hydraulics",
-      "bounty": false,
-      "domains": [
-        "hydass.be",
-        "hydraulics-group.com",
-        "rem-b.com",
-        "remb.be",
-        "rembconnect.be"
-      ]
-    },
-    {
-      "name": "REVE Antivirus",
-      "url": "https://www.reveantivirus.com/in/bug-bounty-program",
-      "bounty": false,
-      "swag": true,
-      "domains": [
-        "reveantivirus.com"
-      ]
-    },
-    {
-      "name": "RGhost",
-      "url": "https://hackerone.com/rghost",
-      "bounty": false,
-      "domains": [
-        "rghost.net"
-      ]
-    },
-    {
       "name": "Rabobank",
       "url": "https://hackerone.com/rabobank",
       "bounty": true,
@@ -5653,11 +5760,29 @@
       ]
     },
     {
+      "name": "RATELIMITED",
+      "url": "https://hackerone.com/ratelimited",
+      "bounty": false,
+      "domains": [
+        "ratelimited.me"
+      ]
+    },
+    {
       "name": "Razorpay",
       "url": "https://razorpay.com/responsible-disclosure/",
       "bounty": false,
       "domains": [
         "razorpay.com"
+      ]
+    },
+    {
+      "name": "RBK.money",
+      "url": "https://rbk.money/en/bug-bounty/",
+      "bounty": true,
+      "domains": [
+        "rbk.money",
+        "rbk.mn",
+        "rbkmoney.com"
       ]
     },
     {
@@ -5762,6 +5887,18 @@
       ]
     },
     {
+      "name": "REM-B Hydraulics",
+      "url": "https://hackerone.com/remb_hydraulics",
+      "bounty": false,
+      "domains": [
+        "hydass.be",
+        "hydraulics-group.com",
+        "rem-b.com",
+        "remb.be",
+        "rembconnect.be"
+      ]
+    },
+    {
       "name": "Remitano",
       "url": "https://security.remitano.com/",
       "bounty": true,
@@ -5791,6 +5928,23 @@
       "bounty": false,
       "domains": [
         "resellerclub.com"
+      ]
+    },
+    {
+      "name": "REVE Antivirus",
+      "url": "https://www.reveantivirus.com/in/bug-bounty-program",
+      "bounty": false,
+      "swag": true,
+      "domains": [
+        "reveantivirus.com"
+      ]
+    },
+    {
+      "name": "RGhost",
+      "url": "https://hackerone.com/rghost",
+      "bounty": false,
+      "domains": [
+        "rghost.net"
       ]
     },
     {
@@ -5863,49 +6017,6 @@
       ]
     },
     {
-      "name": "SAP Concur",
-      "url": "https://bugcrowd.com/concur",
-      "bounty": false,
-      "domains": [
-        "tripit.com"
-      ]
-    },
-    {
-      "name": "SEMrush",
-      "url": "https://hackerone.com/semrush",
-      "bounty": true,
-      "domains": [
-        "berush.com",
-        "semrush.com",
-        "labs-semrush.com",
-        "sellzone.com",
-        "semrush.net",
-        "semrushchina.cn",
-        "seoquake.com",
-        "hr-semrush.com",
-        "sellerly.com",
-        "seoab.io",
-        "scatec.io"
-      ]
-    },
-    {
-      "name": "SMTP2GO",
-      "url": "https://hackerone.com/smtp2go",
-      "bounty": false,
-      "domains": [
-        "smtp2go.com"
-      ]
-    },
-    {
-      "name": "SNS Bank",
-      "url": "https://hackerone.com/sns_bank",
-      "bounty": true,
-      "domains": [
-        "snsbank.nl",
-        "sns.nl"
-      ]
-    },
-    {
       "name": "Salesforce",
       "url": "https://www.salesforce.com/company/disclosure/",
       "bounty": false,
@@ -5930,6 +6041,14 @@
       ]
     },
     {
+      "name": "SAP Concur",
+      "url": "https://bugcrowd.com/concur",
+      "bounty": false,
+      "domains": [
+        "tripit.com"
+      ]
+    },
+    {
       "name": "Savedroid",
       "url": "https://hackerone.com/savedroid",
       "bounty": true,
@@ -5945,6 +6064,45 @@
         "scopely.io",
         "scopely.com",
         "withbuddies.com"
+      ]
+    },
+    {
+      "name": "Scotts Miracle-Gro",
+      "url": "https://bugcrowd.com/thescottsmiraclerd",
+      "bounty": false,
+      "domains": [
+        "scotts.com",
+        "tomcatbrand.com",
+        "roundup.com",
+        "ortho.com",
+        "miraclegro.com",
+        "hawthorne-gardening.com",
+        "scottsprogram.com",
+        "mygro.com",
+        "myblossom.com",
+        "aerogarden.com",
+        "hawthornegc.com",
+        "naturescare.com",
+        "scottsbrands.com",
+        "scottsrootfactory.com",
+        "tanglefoot.com",
+        "therootfactory.com",
+        "whitneyfarms.com",
+        "bonnieplants.com",
+        "bonniecabbageprogram.com",
+        "bonnieplants.ca",
+        "weedingwisely.com",
+        "rootfarm.com",
+        "rootfarm.ca",
+        "provistaturf.com",
+        "blackmagic.com",
+        "ecoscraps.com",
+        "miraclegrotwelve.com",
+        "justknockknock.com",
+        "getbarkyard.com",
+        "scottsmiraclegro.com",
+        "lunarly.com",
+        "mother-earthproducts.co"
       ]
     },
     {
@@ -6007,6 +6165,24 @@
       "domains": [
         "segment.io",
         "segment.com"
+      ]
+    },
+    {
+      "name": "SEMrush",
+      "url": "https://hackerone.com/semrush",
+      "bounty": true,
+      "domains": [
+        "berush.com",
+        "semrush.com",
+        "labs-semrush.com",
+        "sellzone.com",
+        "semrush.net",
+        "semrushchina.cn",
+        "seoquake.com",
+        "hr-semrush.com",
+        "sellerly.com",
+        "seoab.io",
+        "scatec.io"
       ]
     },
     {
@@ -6138,6 +6314,14 @@
       ]
     },
     {
+      "name": "SMTP2GO",
+      "url": "https://hackerone.com/smtp2go",
+      "bounty": false,
+      "domains": [
+        "smtp2go.com"
+      ]
+    },
+    {
       "name": "Smule",
       "url": "https://hackerone.com/smule",
       "bounty": false,
@@ -6155,6 +6339,15 @@
         "bitmoji.com",
         "bitstrips.com",
         "scan.me"
+      ]
+    },
+    {
+      "name": "SNS Bank",
+      "url": "https://hackerone.com/sns_bank",
+      "bounty": true,
+      "domains": [
+        "snsbank.nl",
+        "sns.nl"
       ]
     },
     {
@@ -6421,6 +6614,19 @@
       ]
     },
     {
+      "name": "Stripe",
+      "url": "https://hackerone.com/stripe",
+      "bounty": true,
+      "domains": [
+        "stripe.com",
+        "touchtechpayments.com",
+        "indiehackers.com",
+        "payable.com",
+        "getbouncer.com",
+        "taxjar.com"
+      ]
+    },
+    {
       "name": "Stripo Inc",
       "url": "https://hackerone.com/stripo",
       "bounty": false,
@@ -6454,6 +6660,23 @@
       ]
     },
     {
+      "name": "Swiggy",
+      "url": "https://www.swiggy.com/bug-bounty",
+      "bounty": true,
+      "domains": [
+        "swiggy.com"
+      ]
+    },
+    {
+      "name": "Swiss Post",
+      "url": "https://yeswehack.com/programs/swiss-post",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "post.ch"
+      ]
+    },
+    {
       "name": "Swisscom",
       "url": "https://www.swisscom.ch/en/about/security/bug-bounty.html",
       "bounty": true,
@@ -6465,15 +6688,6 @@
       ]
     },
     {
-      "name": "Swiss Post",
-      "url": "https://yeswehack.com/programs/swiss-post",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "post.ch"   
-      ]
-    },
-    {
       "name": "Synack",
       "url": "https://synack.responsibledisclosure.com/hc/en-us/",
       "bounty": true,
@@ -6482,41 +6696,11 @@
       ]
     },
     {
-   "name":"Stripe",
-   "url":"https://hackerone.com/stripe",
-   "bounty": true,
-   "domains":[
-      "stripe.com",
-      "touchtechpayments.com",
-      "indiehackers.com",
-      "payable.com",
-      "getbouncer.com",
-      "taxjar.com"
-      ]
-    },
-    {
       "name": "T-Mobile CZ",
       "url": "https://www.t-mobile.cz/bug-bounty",
       "bounty": true,
       "domains": [
         "t-mobile.cz"
-      ]
-    },
-    {
-      "name": "TTS Bug Bounty",
-      "url": "https://hackerone.com/tts",
-      "bounty": true,
-      "domains": [
-        "data.gov",
-        "18f.gov",
-        "cloud.gov",
-        "search.gov",
-        "vote.gov",
-        "fedramp.gov",
-        "usa.gov",
-        "gsa.gov",
-        "code.gov",
-        "login.gov"
       ]
     },
     {
@@ -6659,6 +6843,14 @@
       ]
     },
     {
+      "name": "Tim Brasil",
+      "url": "https://admin.bughunt.com.br/program/detail?6058de165576f62d921fc844",
+      "bounty": true,
+      "domains": [
+        "tim.com.br"
+      ]
+    },
+    {
       "name": "Tinder",
       "url": "https://hackerone.com/tinder",
       "bounty": true,
@@ -6740,6 +6932,14 @@
       ]
     },
     {
+      "name": "Trade Republic",
+      "url": "https://hackerone.com/trade-republic-bbp",
+      "bounty": true,
+      "domains": [
+        "traderepublic.com"
+      ]
+    },
+    {
       "name": "TransferWise",
       "url": "https://bugcrowd.com/transferwise",
       "bounty": true,
@@ -6810,6 +7010,23 @@
       "swag": true,
       "domains": [
         "tryhackme.com"
+      ]
+    },
+    {
+      "name": "TTS Bug Bounty",
+      "url": "https://hackerone.com/tts",
+      "bounty": true,
+      "domains": [
+        "data.gov",
+        "18f.gov",
+        "cloud.gov",
+        "search.gov",
+        "vote.gov",
+        "fedramp.gov",
+        "usa.gov",
+        "gsa.gov",
+        "code.gov",
+        "login.gov"
       ]
     },
     {
@@ -7024,40 +7241,6 @@
       ]
     },
     {
-      "name": "UK Ministry of Defence",
-      "url": "https://www.gov.uk/guidance/report-a-vulnerability-on-an-mod-system",
-      "bounty": false,
-      "swag": true,
-      "domains": [
-        "mod.uk",
-        "mod.gov.uk"
-      ]
-    },
-    {
-      "name": "UNDER ARMOUR",
-      "url": "https://bugcrowd.com/underarmour",
-      "bounty": false,
-      "domains": [
-        "myfitnesspal.com",
-        "underarmour.com",
-        "endomondo.com",
-        "mapmyfitness.com",
-        "mapmyride.com",
-        "mapmyrun.com",
-        "mapmywalk.com",
-        "underarmour.co.uk",
-        "ua.com"
-      ]
-    },
-    {
-      "name": "USAA",
-      "url": "https://bugcrowd.com/usaa",
-      "bounty": true,
-      "domains": [
-        "usaa.com"
-      ]
-    },
-    {
       "name": "Uber",
       "url": "https://hackerone.com/uber",
       "bounty": true,
@@ -7083,11 +7266,37 @@
       ]
     },
     {
+      "name": "UK Ministry of Defence",
+      "url": "https://www.gov.uk/guidance/report-a-vulnerability-on-an-mod-system",
+      "bounty": false,
+      "swag": true,
+      "domains": [
+        "mod.uk",
+        "mod.gov.uk"
+      ]
+    },
+    {
       "name": "Umbraco",
       "url": "https://umbraco.com/about-us/trust-center/security-and-umbraco/how-to-report-a-vulnerability-in-umbraco/",
       "bounty": false,
       "domains": [
         "umbraco.com"
+      ]
+    },
+    {
+      "name": "UNDER ARMOUR",
+      "url": "https://bugcrowd.com/underarmour",
+      "bounty": false,
+      "domains": [
+        "myfitnesspal.com",
+        "underarmour.com",
+        "endomondo.com",
+        "mapmyfitness.com",
+        "mapmyride.com",
+        "mapmyrun.com",
+        "mapmywalk.com",
+        "underarmour.co.uk",
+        "ua.com"
       ]
     },
     {
@@ -7126,6 +7335,14 @@
       ]
     },
     {
+      "name": "Upgrade",
+      "url": "https://hackerone.com/upgrade",
+      "bounty": false,
+      "domains": [
+        "upgrade.com"
+      ]
+    },
+    {
       "name": "UpHabit",
       "url": "https://hackerone.com/uphabit",
       "bounty": false,
@@ -7134,11 +7351,11 @@
       ]
     },
     {
-      "name": "Upgrade",
-      "url": "https://hackerone.com/upgrade",
+      "name": "UPS VDP",
+      "url": "https://hackerone.com/ups",
       "bounty": false,
       "domains": [
-        "upgrade.com"
+        "ups.com"
       ]
     },
     {
@@ -7159,14 +7376,6 @@
       "bounty": true,
       "domains": [
         "upstox.com"
-      ]
-    },
-    {
-      "name": "UPS VDP",
-      "url": "https://hackerone.com/ups",
-      "bounty": false,
-      "domains": [
-        "ups.com"
       ]
     },
     {
@@ -7204,61 +7413,11 @@
       ]
     },
     {
-      "name": "Veeam",
-      "url": "https://hackerone.com/veeam",
-      "bounty": false,
-      "domains": [
-        "veeam.com",
-        "kasten.io",
-        "veeamgov.com"
-      ]
-    },
-    {
-      "name": "VGZ",
-      "url": "https://app.zerocopter.com/nl/rd/bda542d5-c421-49f8-8e9c-5e70f5525673",
-      "bounty": false,
-      "domains": [
-        "vgz.nl"
-      ]
-    },
-    {
-      "name": "VHX",
-      "url": "https://hackerone.com/vhx",
+      "name": "USAA",
+      "url": "https://bugcrowd.com/usaa",
       "bounty": true,
       "domains": [
-        "vhx.tv",
-        "roku.com"
-      ]
-    },
-    {
-      "name": "VK.com",
-      "url": "https://hackerone.com/vkcom",
-      "bounty": true,
-      "domains": [
-        "vk.cc",
-        "vk.com",
-        "vk.link",
-        "vk.me",
-        "vkpay.io",
-        "vk.im"
-      ]
-    },
-    {
-      "name": "VRT",
-      "url": "https://app.intigriti.com/programs/vrtnv/vrt/",
-      "bounty": false,
-      "domains": [
-        "canvas.be",
-        "dewarmsteweek.be",
-        "ketnet.be",
-        "klara.be",
-        "mnm.be",
-        "radio1.be",
-        "radio2.be",
-        "radioplus.be",
-        "sporza.be",
-        "stubru.be",
-        "vrt.be"
+        "usaa.com"
       ]
     },
     {
@@ -7285,6 +7444,16 @@
         "vanillacommunities.com",
         "vanillaforums.com",
         "vanillastaging.com"
+      ]
+    },
+    {
+      "name": "Veeam",
+      "url": "https://hackerone.com/veeam",
+      "bounty": false,
+      "domains": [
+        "veeam.com",
+        "kasten.io",
+        "veeamgov.com"
       ]
     },
     {
@@ -7349,6 +7518,23 @@
       ]
     },
     {
+      "name": "VGZ",
+      "url": "https://app.zerocopter.com/nl/rd/bda542d5-c421-49f8-8e9c-5e70f5525673",
+      "bounty": false,
+      "domains": [
+        "vgz.nl"
+      ]
+    },
+    {
+      "name": "VHX",
+      "url": "https://hackerone.com/vhx",
+      "bounty": true,
+      "domains": [
+        "vhx.tv",
+        "roku.com"
+      ]
+    },
+    {
       "name": "Viator",
       "url": "https://bugcrowd.com/viator",
       "bounty": true,
@@ -7377,11 +7563,45 @@
       ]
     },
     {
+      "name": "Vista",
+      "url": "https://www.vista.co/responsible-disclosure-policy/",
+      "bounty": false,
+      "domains": [
+        "vista.co",
+        "vista.co.nz",
+        "veezi.com",
+        "movieteam.co"
+      ]
+    },
+    {
+      "name": "Vivo",
+      "url": "https://security.vivo.com.cn/#/home",
+      "bounty": true,
+      "domains": [
+        "vivo.com",
+        "vivo.xyz",
+        "vivo.cn"
+      ]
+    },
+    {
       "name": "Vivy",
       "url": "https://hackerone.com/vivy",
       "bounty": false,
       "domains": [
         "vivy.com"
+      ]
+    },
+    {
+      "name": "VK.com",
+      "url": "https://hackerone.com/vkcom",
+      "bounty": true,
+      "domains": [
+        "vk.cc",
+        "vk.com",
+        "vk.link",
+        "vk.me",
+        "vkpay.io",
+        "vk.im"
       ]
     },
     {
@@ -7411,23 +7631,21 @@
       ]
     },
     {
-      "name": "WINNI",
-      "url": "https://www.winni.in/bug-bounty",
-      "bounty": true,
-      "domains": [
-        "winni.in"
-      ]
-    },
-    {
-      "name": "WP Engine",
-      "url": "https://bugcrowd.com/wpengine",
+      "name": "VRT",
+      "url": "https://app.intigriti.com/programs/vrtnv/vrt/",
       "bounty": false,
       "domains": [
-        "studiopress.blog",
-        "wpengine.com",
-        "wpengine.io",
-        "wpesvc.net",
-        "studiopress.com"
+        "canvas.be",
+        "dewarmsteweek.be",
+        "ketnet.be",
+        "klara.be",
+        "mnm.be",
+        "radio1.be",
+        "radio2.be",
+        "radioplus.be",
+        "sporza.be",
+        "stubru.be",
+        "vrt.be"
       ]
     },
     {
@@ -7512,6 +7730,14 @@
       ]
     },
     {
+      "name": "WINNI",
+      "url": "https://www.winni.in/bug-bounty",
+      "bounty": true,
+      "domains": [
+        "winni.in"
+      ]
+    },
+    {
       "name": "Woodpecker",
       "url": "https://woodpecker.co/vulnerability-disclosure-program/",
       "bounty": false,
@@ -7542,6 +7768,18 @@
       ]
     },
     {
+      "name": "WP Engine",
+      "url": "https://bugcrowd.com/wpengine",
+      "bounty": false,
+      "domains": [
+        "studiopress.blog",
+        "wpengine.com",
+        "wpengine.io",
+        "wpesvc.net",
+        "studiopress.com"
+      ]
+    },
+    {
       "name": "Xiaomi",
       "url": "https://hackerone.com/xiaomi",
       "bounty": true,
@@ -7566,11 +7804,19 @@
       ]
     },
     {
-      "name": "YNAB",
-      "url": "https://bugcrowd.com/ynab",
+      "name": "Yandex",
+      "url": "https://yandex.com/bugbounty/index",
       "bounty": true,
       "domains": [
-        "youneedabudget.com"
+        "yandex.ru",
+        "yandex.com",
+        "yandex.com.tr",
+        "yandex.kz",
+        "yandex.ua",
+        "yandex.by",
+        "yandex.st",
+        "yandex.net",
+        "ya.ru"
       ]
     },
     {
@@ -7591,6 +7837,14 @@
         "yelp-support.com",
         "yelpreservations.com",
         "nowait.com"
+      ]
+    },
+    {
+      "name": "YNAB",
+      "url": "https://bugcrowd.com/ynab",
+      "bounty": true,
+      "domains": [
+        "youneedabudget.com"
       ]
     },
     {
@@ -7678,260 +7932,6 @@
         "zynga.com",
         "zyngagames.com"
       ]
-    },
-    {
-      "name": "Bitrue",
-      "url": "https://hackenproof.com/bitrue/bitrue",
-      "bounty": true,
-      "domains": [
-        "bitrue.com"
-      ]
-    },
-    {
-      "name": "Yandex",
-      "url": "https://yandex.com/bugbounty/index",
-      "bounty": true,
-      "domains": [
-        "yandex.ru",
-        "yandex.com",
-        "yandex.com.tr",
-        "yandex.kz",
-        "yandex.ua",
-        "yandex.by",
-        "yandex.st",
-        "yandex.net",
-        "ya.ru"
-      ]
-    },
-    {
-      "name": "HackerRank",
-      "url": "https://www.hackerrank.com/trust/security",
-      "bounty": false,
-      "swag": true,
-      "domains": [
-        "hackerrank.com"
-      ]
-    },
-    {
-      "name": "Arrival",
-      "url": "https://arrival.com/us/en/security",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "arrival.com",
-        "arrival.co"
-      ]
-    },
-    {
-      "name": "Scotts Miracle-Gro",
-      "url": "https://bugcrowd.com/thescottsmiraclerd",
-      "bounty": false,
-      "domains": [
-        "scotts.com",
-        "tomcatbrand.com",
-        "roundup.com",
-        "ortho.com",
-        "miraclegro.com",
-        "hawthorne-gardening.com",
-        "scottsprogram.com",
-        "mygro.com",
-        "myblossom.com",
-        "aerogarden.com",
-        "hawthornegc.com",
-        "naturescare.com",
-        "scottsbrands.com",
-        "scottsrootfactory.com",
-        "tanglefoot.com",
-        "therootfactory.com",
-        "whitneyfarms.com",
-        "bonnieplants.com",
-        "bonniecabbageprogram.com",
-        "bonnieplants.ca",
-        "weedingwisely.com",
-        "rootfarm.com",
-        "rootfarm.ca",
-        "provistaturf.com",
-        "blackmagic.com",
-        "ecoscraps.com",
-        "miraclegrotwelve.com",
-        "justknockknock.com",
-        "getbarkyard.com",
-        "scottsmiraclegro.com",
-        "lunarly.com",
-        "mother-earthproducts.co"
-      ]
-    },
-    {
-      "name": "Tim Brasil",
-      "url": "https://admin.bughunt.com.br/program/detail?6058de165576f62d921fc844",
-      "bounty": true,
-      "domains": [
-        "tim.com.br"
-      ]
-    },
-    {
-      "name": "BitcoinTrade",
-      "url": "https://admin.bughunt.com.br/program/detail?5f98855f51ec4c09107c0534",
-      "bounty": true,
-      "domains": [
-        "bitcointrade.com.br",
-        "bitcoinback.com.br"
-      ]
-    },
-    {
-      "name": "OLX Brasil",
-      "url": "https://admin.bughunt.com.br/program/detail?60ca003869707962894a5b33",
-      "bounty": true,
-      "domains": [
-        "olx.com.br"
-      ]
-    },
-    {
-      "name": "Amon",
-      "url": "https://amon.tech/bug-bounty-program",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "amon.tech"
-      ]
-    },
-    {
-      "name": "Swiggy",
-      "url": "https://www.swiggy.com/bug-bounty",
-      "bounty": true,
-      "domains": [
-        "swiggy.com"
-      ]
-    },
-    {
-      "name": "Baidu",
-      "url": "https://bsrc.baidu.com/v2/#/en",
-      "bounty": true,
-      "domains": [
-        "baidu.com",
-        "hao123.com" 
-      ]
-    },
-    {
-      "name": "Vivo",
-      "url": "https://security.vivo.com.cn/#/home",
-      "bounty": true,
-      "domains": [
-        "vivo.com",
-        "vivo.xyz",
-        "vivo.cn"
-      ]
-    },
-    {
-      "name": "Vista",
-      "url": "https://www.vista.co/responsible-disclosure-policy/",
-      "bounty": false,
-      "domains": [
-        "vista.co",
-        "vista.co.nz",
-        "veezi.com",
-        "movieteam.co"
-      ]
-    },
-    {
-      "name": "MovieXChange",
-      "url": "https://moviexchange.com/responsible-disclosure-policy/",
-      "bounty": false,
-      "domains": [
-        "moviexchange.com"
-      ]
-    },
-    {
-      "name": "Trade Republic",
-      "url": "https://hackerone.com/trade-republic-bbp",
-      "bounty": true,
-      "domains": [
-        "traderepublic.com"
-      ]
-    },
-    {
-      "name": "eToro",
-      "url": "https://hackerone.com/etoro_bbp",
-      "bounty": true,
-      "domains": [
-        "etoro.com",
-        "etoropartners.com",
-        "delta.app"
-      ]
-    },
-    {
-      "name": "Databricks",
-      "url": "https://hackerone.com/databricks",
-      "bounty": true,
-      "domains": [
-        "databricks.com",
-        "spark-summit.org",
-        "delta.io",
-        "spark-portal.org",
-        "spark-summit.com"
-        ]
-    },
-    {
-      "name": "Epic Games",
-      "url": "https://hackerone.com/epicgames",
-      "bounty": true,
-      "domains": [
-        "rocketleague.com",
-        "psynet.gg",
-        "unrealtournament.com",
-        "epicgames.com",
-        "unrealengine.com",
-        "fortnite.com",
-        "epicgames.dev",
-        "psyonix.com",
-        "3lateral.com",
-        "cubicmotion.com",
-        "oncatapult.com",
-        "fallguys.com",
-        "mediatonic.co.uk",
-        "artstation.com",
-        "easy.ac",
-        "sketchfab.com",
-        "quixel.com",
-        "superawesome.tv",
-        "superawesome.com",
-        "popjam.com",
-        "rukkaz.com",
-        "jellychat.com"
-        ]
-    },
-    {
-      "name": "AMERICAN SYSTEMS",
-      "url": "https://hackerone.com/american_systems_bbp",
-      "bounty": true,
-      "domains": [
-        "alexamerican.com",
-        "alexamericansystems.com",
-        "americansystems.com",
-        "ascvpc.com",
-        "ascsites.com",
-        "ascgov.com",
-        "ddlomni.com",
-        "nhaero.com",
-        "americansystems.info",
-        "amsyscorp.com",
-        "2asc.com",
-        "americanalliant.com",
-        "asc.name",
-        "digitalaccess.com",
-        "americansystemsuniversity.com",
-        "americansystems.org",
-        "thoughtmill.com",
-        "american-systems.org",
-        "american-systems.com",
-        "asextranet.com",
-        "emsolutionsinc.com",
-        "emsolve.com",
-        "essworld.net",
-        "nswccd-fbw-scs.com",
-        "asvpc.com",
-        "alex-as.com"
-        ]
     }
   ]
 }
