@@ -7932,6 +7932,17 @@
         "asvpc.com",
         "alex-as.com"
         ]
+    },
+    {
+      "name": "Consumersenergy VDP",
+      "url": "https://www.consumersenergy.com/security",
+      "bounty": true,
+      "domains": [
+        "cmsenergy.com",
+        "consumersenergy.com",
+        "applianceserviceplan.com"
+        "cms-enterprises.com"
+        ]
     }
   ]
 }
