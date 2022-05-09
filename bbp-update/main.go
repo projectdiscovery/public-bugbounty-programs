@@ -87,9 +87,9 @@ func process() error {
 	if err != nil {
 		return err
 	}
-	var chaosList []chaosProgram
+	var chaosSlice []chaosProgram
 	for _, v := range chaosPrograms {
-		chaosList = append(chaosList, v)
+		chaosSlice = append(chaosSlice, v)
 	}
 
 	tempdir, err := ioutil.TempDir("", "bbp-*")
@@ -191,7 +191,7 @@ func process() error {
 			}
 			if len(chaosItem.Domains) > 0 {
 				log.Printf("[INFO] Added program %s [%s]\n", chaosItem.Name, file)
-				chaosList = append(chaosList, chaosItem)
+				chaosSlice = append(chaosSlice, chaosItem)
 			}
 		}
 	}
@@ -202,7 +202,10 @@ func process() error {
 	}
 	defer newFile.Close()
 
-	marshalled, err := json.MarshalIndent(chaosList, " ", "    ")
+	chaosData := chaosList{
+		Programs: chaosSlice,
+	}
+	marshalled, err := json.MarshalIndent(chaosData, " ", "  ")
 	if err != nil {
 		return errors.Wrap(err, "could not marshal chaos bbp data")
 	}
