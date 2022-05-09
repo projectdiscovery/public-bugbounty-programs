@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"encoding/json"
 	"io/ioutil"
 	"log"
@@ -16,6 +17,8 @@ import (
 )
 
 func main() {
+	readExcludeList()
+
 	if err := process(); err != nil {
 		log.Fatalf("[FAIL] %s\n", err)
 	}
@@ -56,6 +59,27 @@ type chaosProgram struct {
 
 type intigritiMaxBounty struct {
 	Value float64 `json:"value"`
+}
+
+var excludeMap map[string]struct{}
+
+func readExcludeList() {
+	excludeMap = make(map[string]struct{})
+
+	f, err := os.Open("exclude.txt")
+	if err != nil {
+		log.Printf("[WARN] Could not read exclude.txt: %s\n", err)
+		return
+	}
+	defer f.Close()
+
+	scanner := bufio.NewScanner(f)
+	for scanner.Scan() {
+		text := scanner.Text()
+		if text != "" {
+			excludeMap[text] = struct{}{}
+		}
+	}
 }
 
 func process() error {
@@ -106,6 +130,10 @@ func process() error {
 		f.Close()
 
 		for _, item := range data {
+			// Exclude if program name is in exclude.txt
+			if _, ok := excludeMap[item.Name]; ok {
+				continue
+			}
 			// Skip if we already have a program with same name
 			if _, ok := chaosPrograms[item.Name]; ok {
 				continue
@@ -168,7 +196,7 @@ func process() error {
 		}
 	}
 
-	newFile, err := os.Create("new-bbp-list.json")
+	newFile, err := os.Create("../chaos-bugbounty-list.json")
 	if err != nil {
 		return errors.Wrap(err, "could not create new bbp file")
 	}
@@ -210,6 +238,10 @@ func readChaosBountyPrograms() (map[string]chaosProgram, error) {
 
 func extractHostname(item string) string {
 	validate := func(value string) string {
+		// Exclude if program name is in exclude.txt
+		if _, ok := excludeMap[value]; ok {
+			return ""
+		}
 		if govalidator.IsDNSName(value) {
 			return value
 		}
