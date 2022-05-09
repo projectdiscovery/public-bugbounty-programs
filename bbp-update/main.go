@@ -14,6 +14,7 @@ import (
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/pkg/errors"
+	"golang.org/x/net/publicsuffix"
 )
 
 func main() {
@@ -77,7 +78,7 @@ func readExcludeList() {
 	for scanner.Scan() {
 		text := scanner.Text()
 		if text != "" {
-			excludeMap[text] = struct{}{}
+			excludeMap[strings.ToLower(text)] = struct{}{}
 		}
 	}
 }
@@ -131,7 +132,7 @@ func process() error {
 
 		for _, item := range data {
 			// Exclude if program name is in exclude.txt
-			if _, ok := excludeMap[item.Name]; ok {
+			if _, ok := excludeMap[strings.ToLower(item.Name)]; ok {
 				continue
 			}
 			// Skip if we already have a program with same name
@@ -143,6 +144,7 @@ func process() error {
 				Name: item.Name,
 				URL:  item.URL,
 			}
+			uniqMap := make(map[string]struct{})
 
 			// Parse the bounty and swag data from item
 			switch file {
@@ -167,26 +169,32 @@ func process() error {
 				}
 			}
 
+			extractDomain := func(hostname string) {
+				if hostname == "" {
+					return
+				}
+				if value := extractHostname(hostname); value != "" {
+					if _, ok := uniqMap[value]; ok {
+						return
+					}
+					uniqMap[value] = struct{}{}
+					chaosItem.Domains = append(chaosItem.Domains, value)
+				}
+			}
 			for _, asset := range item.Targets.InScope {
 				// Handle hackerone and skip hackerone assets which are not URL
 				if asset.AssetType != "" {
 					if asset.AssetType != "URL" {
 						continue
 					}
-					if value := extractHostname(asset.AssetIdentifier); value != "" {
-						chaosItem.Domains = append(chaosItem.Domains, value)
-					}
+					extractDomain(asset.AssetIdentifier)
 				}
 				if asset.Type != "" {
 					if asset.Type != "website" && asset.Type != "api" && asset.Type != "Web" && asset.Type != "url" && asset.Type != "web-application" {
 						continue
 					}
-					if value := extractHostname(asset.Target); value != "" {
-						chaosItem.Domains = append(chaosItem.Domains, value)
-					}
-					if value := extractHostname(asset.Endpoint); value != "" {
-						chaosItem.Domains = append(chaosItem.Domains, value)
-					}
+					extractDomain(asset.Target)
+					extractDomain(asset.Endpoint)
 				}
 			}
 			if len(chaosItem.Domains) > 0 {
@@ -240,13 +248,19 @@ func readChaosBountyPrograms() (map[string]chaosProgram, error) {
 }
 
 func extractHostname(item string) string {
+	item = strings.ToLower(item)
+
 	validate := func(value string) string {
-		// Exclude if program name is in exclude.txt
-		if _, ok := excludeMap[value]; ok {
+		tld, err := publicsuffix.EffectiveTLDPlusOne(value)
+		if err != nil {
 			return ""
 		}
-		if govalidator.IsDNSName(value) {
-			return value
+		// Exclude if program name is in exclude.txt
+		if _, ok := excludeMap[tld]; ok {
+			return ""
+		}
+		if govalidator.IsDNSName(tld) {
+			return tld
 		}
 		return ""
 	}

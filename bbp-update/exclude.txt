@@ -1,2 +1,1 @@
 PrestaShop
-github.com
