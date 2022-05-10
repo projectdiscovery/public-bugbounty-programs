@@ -88,10 +88,6 @@ func process() error {
 	if err != nil {
 		return err
 	}
-	var chaosSlice []chaosProgram
-	for _, v := range chaosPrograms {
-		chaosSlice = append(chaosSlice, v)
-	}
 
 	tempdir, err := ioutil.TempDir("", "bbp-*")
 	if err != nil {
@@ -112,6 +108,7 @@ func process() error {
 		return errors.Wrap(err, "could not clone bounty targets data")
 	}
 
+	var chaosSlice []chaosProgram
 	dataFiles := []string{"bugcrowd_data.json", "hackerone_data.json", "federacy_data.json", "hackenproof_data.json", "intigriti_data.json", "yeswehack_data.json"}
 	for _, file := range dataFiles {
 		log.Printf("[INFO] Reading %s data file\n", file)
@@ -135,8 +132,18 @@ func process() error {
 			if _, ok := excludeMap[strings.ToLower(item.Name)]; ok {
 				continue
 			}
-			// Skip if we already have a program with same name
-			if _, ok := chaosPrograms[item.Name]; ok {
+			// Only update if we get new domains from list if the program is already
+			// in our list.
+			if program, ok := chaosPrograms[item.Name]; ok {
+				domains := extractDomainsFromItem(item)
+				// Dedupe and update the program if we get new domains
+				new := getUniqueDomains(program.Domains, domains)
+				if len(new) > len(program.Domains) {
+					program.Domains = append(program.Domains, new...)
+					log.Printf("[INFO] Updated program %s (%s): %v\n", item.Name, file, new)
+					chaosSlice = append(chaosSlice, program)
+					delete(chaosPrograms, item.Name)
+				}
 				continue
 			}
 
@@ -144,7 +151,6 @@ func process() error {
 				Name: item.Name,
 				URL:  item.URL,
 			}
-			uniqMap := make(map[string]struct{})
 
 			// Parse the bounty and swag data from item
 			switch file {
@@ -169,34 +175,7 @@ func process() error {
 				}
 			}
 
-			extractDomain := func(hostname string) {
-				if hostname == "" {
-					return
-				}
-				if value := extractHostname(hostname); value != "" {
-					if _, ok := uniqMap[value]; ok {
-						return
-					}
-					uniqMap[value] = struct{}{}
-					chaosItem.Domains = append(chaosItem.Domains, value)
-				}
-			}
-			for _, asset := range item.Targets.InScope {
-				// Handle hackerone and skip hackerone assets which are not URL
-				if asset.AssetType != "" {
-					if asset.AssetType != "URL" {
-						continue
-					}
-					extractDomain(asset.AssetIdentifier)
-				}
-				if asset.Type != "" {
-					if asset.Type != "website" && asset.Type != "api" && asset.Type != "Web" && asset.Type != "url" && asset.Type != "web-application" {
-						continue
-					}
-					extractDomain(asset.Target)
-					extractDomain(asset.Endpoint)
-				}
-			}
+			chaosItem.Domains = extractDomainsFromItem(item)
 			if len(chaosItem.Domains) > 0 {
 				log.Printf("[INFO] Added program %s [%s]\n", chaosItem.Name, file)
 				chaosSlice = append(chaosSlice, chaosItem)
@@ -204,6 +183,9 @@ func process() error {
 		}
 	}
 
+	for _, v := range chaosPrograms {
+		chaosSlice = append(chaosSlice, v)
+	}
 	newFile, err := os.Create("../chaos-bugbounty-list.json")
 	if err != nil {
 		return errors.Wrap(err, "could not create new bbp file")
@@ -219,6 +201,41 @@ func process() error {
 	}
 	_, err = newFile.Write(marshalled)
 	return err
+}
+
+func extractDomainsFromItem(item program) []string {
+	uniqMap := make(map[string]struct{})
+	var domains []string
+
+	extractDomain := func(hostname string) {
+		if hostname == "" {
+			return
+		}
+		if value := extractHostname(hostname); value != "" {
+			if _, ok := uniqMap[value]; ok {
+				return
+			}
+			uniqMap[value] = struct{}{}
+			domains = append(domains, value)
+		}
+	}
+	for _, asset := range item.Targets.InScope {
+		// Handle hackerone and skip hackerone assets which are not URL
+		if asset.AssetType != "" {
+			if asset.AssetType != "URL" {
+				continue
+			}
+			extractDomain(asset.AssetIdentifier)
+		}
+		if asset.Type != "" {
+			if asset.Type != "website" && asset.Type != "api" && asset.Type != "Web" && asset.Type != "url" && asset.Type != "web-application" {
+				continue
+			}
+			extractDomain(asset.Target)
+			extractDomain(asset.Endpoint)
+		}
+	}
+	return domains
 }
 
 type chaosList struct {
@@ -275,4 +292,19 @@ func extractHostname(item string) string {
 		return validate(strings.TrimPrefix(item, "*."))
 	}
 	return validate(item)
+}
+
+func getUniqueDomains(first, second []string) []string {
+	uniq := make(map[string]struct{})
+	for _, v := range first {
+		uniq[v] = struct{}{}
+	}
+	var unique []string
+	for _, v := range second {
+		if _, ok := uniq[v]; !ok {
+			unique = append(unique, v)
+			uniq[v] = struct{}{}
+		}
+	}
+	return unique
 }
