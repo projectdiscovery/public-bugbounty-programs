@@ -128,6 +128,9 @@ func process() error {
 		f.Close()
 
 		for _, item := range data {
+			if item.URL == "" {
+				continue
+			}
 			// Exclude if program name is in exclude.txt
 			if _, ok := excludeMap[strings.ToLower(item.Name)]; ok {
 				continue
