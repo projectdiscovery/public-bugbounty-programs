@@ -195,6 +195,7 @@
       "bounty": true,
       "domains": [
         "cainiao.com",
+        "cainiao-inc.com",
         "alibaba.com",
         "aliexpress.com",
         "taobao.com",
@@ -213,7 +214,9 @@
         "etao.com",
         "alibabagroup.com",
         "amap.com",
-        "gaode.com"
+        "gaode.com",
+        "youku.com",
+        "aliyuncs.com"
       ]
     },
     {
@@ -7931,6 +7934,28 @@
         "nswccd-fbw-scs.com",
         "asvpc.com",
         "alex-as.com"
+        ]
+    },
+    {
+      "name": "JD.COM",
+      "url": "https://hackerone.com/jd_com",
+      "bounty": true,
+      "domains": [
+        "jd.com",
+        "360buy.com"
+        ]
+    },
+    {
+      "name": "Ro",
+      "url": "https://hackerone.com/ro",
+      "bounty": false,
+      "domains": [
+        "ro.co",
+        "getroman.com",
+        "ropharmacy.com",
+        "myplenity.com",
+        "hellorory.com",
+        "modernfertility.com"
         ]
     },
     {
