@@ -174,7 +174,7 @@ func process() error {
 					chaosItem.Bounty = true
 				}
 			case "yeswehack_data.json":
-				if value, ok := item.MaxBounty.(int); ok && value > 0 {
+				if value, ok := item.MaxBounty.(float64); ok && value > 0 {
 					chaosItem.Bounty = true
 				}
 			case "intigriti_data.json":
