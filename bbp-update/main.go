@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"net/url"
@@ -27,6 +28,8 @@ func main() {
 
 // program structure for arkadiyt public bbp program data
 type program struct {
+	ID string `json:"id"` // yeswehack ID
+
 	Name    string `json:"name"`
 	URL     string `json:"url"`
 	Targets struct {
@@ -128,9 +131,11 @@ func process() error {
 		f.Close()
 
 		for _, item := range data {
-			if item.URL == "" {
-				continue
+			// Fix for blank yeswehack url field
+			if item.URL == "" && file == "yeswehack_data.json" {
+				item.URL = fmt.Sprintf("https://yeswehack.com/programs/%s", item.ID)
 			}
+
 			// Exclude if program name is in exclude.txt
 			if _, ok := excludeMap[strings.ToLower(item.Name)]; ok {
 				continue
