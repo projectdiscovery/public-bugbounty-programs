@@ -7944,6 +7944,19 @@
         "jd.com",
         "360buy.com"
         ]
+    },
+    {
+      "name": "Ro",
+      "url": "https://hackerone.com/ro",
+      "bounty": false,
+      "domains": [
+        "ro.co",
+        "getroman.com",
+        "ropharmacy.com",
+        "myplenity.com",
+        "hellorory.com",
+        "modernfertility.com"
+        ]
     }
   ]
 }
