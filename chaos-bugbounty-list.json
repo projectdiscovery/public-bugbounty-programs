@@ -456,14 +456,18 @@
     },
     {
       "name": "Bigbank",
-      "url": "https://bugcrowd.com/bigbank",
+      "url": "https://ca.bigbank.eu/security",
       "bounty": false,
       "domains": [
-        "bigbank.lv",
+        "bigbank.at",
+        "bigbank.de",
         "bigbank.ee",
         "bigbank.eu",
         "bigbank.fi",
-        "bigbank.lt"
+        "bigbank.lt",
+        "bigbank.lv",
+        "bigbank.nl",
+        "bigbank.se"
       ]
     },
     {
@@ -1310,7 +1314,7 @@
     },
     {
       "name": "Dell Technologies",
-      "url": "https://bugcrowd.com/dell",
+      "url": "https://bugcrowd.com/dell-com",
       "bounty": false,
       "domains": [
         "dell.com",
