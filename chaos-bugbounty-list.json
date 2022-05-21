@@ -7978,7 +7978,8 @@
       "url": "https://www.cvshealth.com/vulnerability-disclosure-program",
       "bounty": false,
       "domains": [
-        "cvs.com"
+        "cvs.com",
+	"cvshealth.com"
         ]
     }
   ]
