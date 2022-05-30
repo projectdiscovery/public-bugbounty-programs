@@ -7979,7 +7979,16 @@
       "bounty": false,
       "domains": [
         "cvs.com",
-	"cvshealth.com"
+	    "cvshealth.com"
+        ]
+    },
+    {
+      "name": "Wealthsimple",
+      "url": "https://hackerone.com/wealthsimple",
+      "bounty": true,
+      "domains": [
+        "wealthsimple.com",
+	    "simpletax.ca"
         ]
     }
   ]
