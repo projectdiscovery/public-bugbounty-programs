@@ -7979,7 +7979,7 @@
       "bounty": false,
       "domains": [
         "cvs.com",
-	    "cvshealth.com"
+        "cvshealth.com"
         ]
     },
     {
@@ -7988,7 +7988,7 @@
       "bounty": true,
       "domains": [
         "wealthsimple.com",
-	    "simpletax.ca"
+        "simpletax.ca"
         ]
     }
   ]
