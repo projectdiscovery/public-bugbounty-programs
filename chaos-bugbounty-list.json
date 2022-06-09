@@ -7981,6 +7981,15 @@
         "cvs.com",
 	"cvshealth.com"
         ]
-    }
+    },
+    {
+   "name":"Uphold.com",
+   "url":"https://app.intigriti.com/programs/Uphold/upholdcom/detail",
+   "bounty": true,
+   "swag": false,
+   "domains":[
+      "uphold.com"
+   	]
+   }
   ]
 }
