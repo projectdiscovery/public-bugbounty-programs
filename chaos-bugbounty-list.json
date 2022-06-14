@@ -8003,6 +8003,19 @@
       "domains":[
         "uphold.com"
    	]
+    },
+    {
+      "name":"Oanda",
+      "url":"https://hackerone.com/oanda",
+      "bounty": false,
+      "swag": false,
+      "domains":[
+        "oanda.com",
+        "oanda.jp",
+        "tms.pl",
+        "tmsbrokers.com",
+        "investmentuniversity"
+   	]
    }
   ]
 }
