@@ -1408,6 +1408,15 @@
       ]
     },
     {
+   "name":"DPG Media",
+   "url":"https://app.intigriti.com/researcher/programs/dpgm/dpgmedia/detail",
+   "bounty": true,
+   "domains":[
+      "dpgmedia.be",
+      "dpgmedia.nl"
+   ]
+   },
+    {
       "name": "Drive",
       "url": "https://hackerone.com/drive_net_inc",
       "bounty": false,
