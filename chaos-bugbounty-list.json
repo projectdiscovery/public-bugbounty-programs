@@ -1419,6 +1419,15 @@
       ]
     },
     {
+   "name":"DPG Media",
+   "url":"https://app.intigriti.com/researcher/programs/dpgm/dpgmedia/detail",
+   "bounty": true,
+   "domains":[
+      "dpgmedia.be",
+      "dpgmedia.nl"
+   ]
+   },
+    {
       "name": "Drive",
       "url": "https://hackerone.com/drive_net_inc",
       "bounty": false,
@@ -1721,6 +1730,14 @@
       ]
     },
     {
+      "name": "Fidentity",
+      "url": "https://app.gobugfree.com/programs/fidentity",
+      "bounty": true,
+      "domains": [
+        "fidentity.ch"
+      ]
+    },
+    {
       "name": "Fig",
       "url": "https://hackerone.com/fig",
       "bounty": false,
@@ -1924,6 +1941,14 @@
       "bounty": false,
       "domains": [
         "gmelius.com"
+      ]
+    },
+    {
+      "name": "Gobugfree",
+      "url": "https://app.gobugfree.com/programs/bbh",
+      "bounty": true,
+      "domains": [
+        "gobugfree.com"
       ]
     },
     {
@@ -5808,6 +5833,14 @@
       ]
     },
     {
+      "name": "Republik AG",
+      "url": "https://app.gobugfree.com/programs/republik",
+      "bounty": true,
+      "domains": [
+        "republik.ch"
+      ]
+    },
+    {
       "name": "Research Gate",
       "url": "https://explore.researchgate.net/display/support/Security+and+vulnerability",
       "bounty": true,
@@ -6491,7 +6524,9 @@
       "domains": [
         "swisscom.ch",
         "swisscom.com",
-        "wingo.ch"
+        "wingo.ch",
+        "bluewin.ch",
+        "blue.ch"
       ]
     },
     {
@@ -6677,6 +6712,14 @@
         "hotstar.com",
         "fxnetworks.com",
         "abc.com"
+      ]
+    },
+    {
+      "name": "Threema",
+      "url": "https://app.gobugfree.com/programs/threema",
+      "bounty": true,
+      "domains": [
+        "threema.ch"
       ]
     },
     {
@@ -7899,7 +7942,7 @@
         "delta.io",
         "spark-portal.org",
         "spark-summit.com"
-        ]
+      ]
     },
     {
       "name": "Epic Games",
@@ -7928,7 +7971,7 @@
         "popjam.com",
         "rukkaz.com",
         "jellychat.com"
-        ]
+      ]
     },
     {
       "name": "AMERICAN SYSTEMS",
@@ -7961,7 +8004,7 @@
         "nswccd-fbw-scs.com",
         "asvpc.com",
         "alex-as.com"
-        ]
+      ]
     },
     {
       "name": "JD.COM",
@@ -7970,7 +8013,7 @@
       "domains": [
         "jd.com",
         "360buy.com"
-        ]
+      ]
     },
     {
       "name": "Ro",
@@ -7983,7 +8026,7 @@
         "myplenity.com",
         "hellorory.com",
         "modernfertility.com"
-        ]
+      ]
     },
     {
       "name": "Consumersenergy VDP",
@@ -7994,7 +8037,7 @@
         "consumersenergy.com",
         "applianceserviceplan.com",
         "cms-enterprises.com"
-        ]
+      ]
     },
     {
       "name": "CVS Health VDP",
@@ -8003,7 +8046,7 @@
       "domains": [
         "cvs.com",
         "cvshealth.com"
-        ]
+      ]
     },
     {
       "name": "Wealthsimple",
@@ -8012,7 +8055,7 @@
       "domains": [
         "wealthsimple.com",
         "simpletax.ca"
-        ]
+      ]
     },
     {
       "name":"Uphold",
@@ -8022,6 +8065,37 @@
       "domains":[
         "uphold.com"
    	]
+    },
+    {
+      "name":"Epam",
+      "url":"https://hackerone.com/epam-bbp",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+        "epam.com"
+   	  ]
+    },
+    {
+      "name":"Oanda",
+      "url":"https://hackerone.com/oanda",
+      "bounty": false,
+      "swag": false,
+      "domains":[
+        "oanda.com",
+        "oanda.jp",
+        "tms.pl",
+        "tmsbrokers.com",
+        "investmentuniversity.pl"
+      ]
+    },
+    {
+      "name":"Walla! Communication",
+      "url":"https://www.walla.co.il/.well-know/security.txt",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+        "walla.co.il"
+   	  ]
    }
   ]
 }
