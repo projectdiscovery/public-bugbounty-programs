@@ -8067,15 +8067,6 @@
    	]
     },
     {
-      "name":"Epam",
-      "url":"https://hackerone.com/epam-bbp",
-      "bounty": true,
-      "swag": false,
-      "domains":[
-        "epam.com"
-   	  ]
-    },
-    {
       "name":"Oanda",
       "url":"https://hackerone.com/oanda",
       "bounty": false,
