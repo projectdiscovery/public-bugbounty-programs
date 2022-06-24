@@ -7880,7 +7880,7 @@
         "delta.io",
         "spark-portal.org",
         "spark-summit.com"
-        ]
+      ]
     },
     {
       "name": "Epic Games",
@@ -7909,7 +7909,7 @@
         "popjam.com",
         "rukkaz.com",
         "jellychat.com"
-        ]
+      ]
     },
     {
       "name": "AMERICAN SYSTEMS",
@@ -7942,7 +7942,7 @@
         "nswccd-fbw-scs.com",
         "asvpc.com",
         "alex-as.com"
-        ]
+      ]
     },
     {
       "name": "JD.COM",
@@ -7951,7 +7951,7 @@
       "domains": [
         "jd.com",
         "360buy.com"
-        ]
+      ]
     },
     {
       "name": "Ro",
@@ -7964,7 +7964,7 @@
         "myplenity.com",
         "hellorory.com",
         "modernfertility.com"
-        ]
+      ]
     },
     {
       "name": "Consumersenergy VDP",
@@ -7975,7 +7975,7 @@
         "consumersenergy.com",
         "applianceserviceplan.com",
         "cms-enterprises.com"
-        ]
+      ]
     },
     {
       "name": "CVS Health VDP",
@@ -7984,7 +7984,7 @@
       "domains": [
         "cvs.com",
         "cvshealth.com"
-        ]
+      ]
     },
     {
       "name": "Wealthsimple",
@@ -7993,7 +7993,7 @@
       "domains": [
         "wealthsimple.com",
         "simpletax.ca"
-        ]
+      ]
     },
     {
       "name":"Uphold",
@@ -8011,7 +8011,29 @@
       "swag": false,
       "domains":[
         "epam.com"
-        ]
+   	  ]
+    },
+    {
+      "name":"Oanda",
+      "url":"https://hackerone.com/oanda",
+      "bounty": false,
+      "swag": false,
+      "domains":[
+        "oanda.com",
+        "oanda.jp",
+        "tms.pl",
+        "tmsbrokers.com",
+        "investmentuniversity.pl"
+      ]
+    },
+    {
+      "name":"Walla! Communication",
+      "url":"https://www.walla.co.il/.well-know/security.txt",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+        "walla.co.il"
+   	  ]
    }
   ]
 }
