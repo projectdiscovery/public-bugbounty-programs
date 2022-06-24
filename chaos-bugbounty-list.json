@@ -1703,7 +1703,7 @@
     },
     {
       "name": "Fidentity",
-      "url": :"https://app.gobugfree.com/programs/fidentity",
+      "url": "https://app.gobugfree.com/programs/fidentity",
       "bounty": true,
       "domains": [
         "fidentity.ch"
@@ -1917,7 +1917,7 @@
     },
     {
       "name": "Gobugfree",
-      "url": :"https://app.gobugfree.com/programs/bbh",
+      "url": "https://app.gobugfree.com/programs/bbh",
       "bounty": true,
       "domains": [
         "gobugfree.com"
@@ -5806,7 +5806,7 @@
     },
     {
       "name": "Republik AG",
-      "url": :"https://app.gobugfree.com/programs/republik",
+      "url": "https://app.gobugfree.com/programs/republik",
       "bounty": true,
       "domains": [
         "republik.ch"
@@ -6686,7 +6686,7 @@
     },
     {
       "name": "Threema",
-      "url": :"https://app.gobugfree.com/programs/threema",
+      "url": "https://app.gobugfree.com/programs/threema",
       "bounty": true,
       "domains": [
         "threema.ch"
