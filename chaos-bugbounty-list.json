@@ -91,6 +91,17 @@
       ]
     },
     {
+      "name":"Acronis",
+      "url" : "https://hackerone.com/acronis",
+      "bounty" : true,
+      "domains": [
+        "acronis.com",
+        "5nine.com",
+        "devicelock.com",
+        "acronis.work"
+      ]
+    },
+    {
       "name": "Adafruit",
       "url": "https://www.adafruit.com/reportingsecurityissues",
       "bounty": true,
@@ -1576,6 +1587,14 @@
       "bounty": true,
       "domains": [
         "eobot.com"
+      ]
+    },
+    {
+      "name" : "EPAM",
+      "url" : "https://hackerone.com/epam-bbp",
+      "bounty" : true,
+      "domains" : [
+        "epam.com"
       ]
     },
     {
@@ -8046,15 +8065,6 @@
       "domains":[
         "uphold.com"
    	]
-    },
-    {
-      "name":"Epam",
-      "url":"https://hackerone.com/epam-bbp",
-      "bounty": true,
-      "swag": false,
-      "domains":[
-        "epam.com"
-   	  ]
     },
     {
       "name":"Oanda",
