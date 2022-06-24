@@ -8002,6 +8002,15 @@
       "swag": false,
       "domains":[
         "uphold.com"
+   	]
+    },
+    {
+      "name":"Epam",
+      "url":"https://hackerone.com/epam-bbp",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+        "epam.com"
    	  ]
     },
     {
