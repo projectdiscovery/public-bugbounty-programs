@@ -1711,6 +1711,14 @@
       ]
     },
     {
+      "name": "Fidentity",
+      "url": "https://app.gobugfree.com/programs/fidentity",
+      "bounty": true,
+      "domains": [
+        "fidentity.ch"
+      ]
+    },
+    {
       "name": "Fig",
       "url": "https://hackerone.com/fig",
       "bounty": false,
@@ -1914,6 +1922,14 @@
       "bounty": false,
       "domains": [
         "gmelius.com"
+      ]
+    },
+    {
+      "name": "Gobugfree",
+      "url": "https://app.gobugfree.com/programs/bbh",
+      "bounty": true,
+      "domains": [
+        "gobugfree.com"
       ]
     },
     {
@@ -5798,6 +5814,14 @@
       ]
     },
     {
+      "name": "Republik AG",
+      "url": "https://app.gobugfree.com/programs/republik",
+      "bounty": true,
+      "domains": [
+        "republik.ch"
+      ]
+    },
+    {
       "name": "Research Gate",
       "url": "https://explore.researchgate.net/display/support/Security+and+vulnerability",
       "bounty": true,
@@ -6667,6 +6691,14 @@
         "hotstar.com",
         "fxnetworks.com",
         "abc.com"
+      ]
+    },
+    {
+      "name": "Threema",
+      "url": "https://app.gobugfree.com/programs/threema",
+      "bounty": true,
+      "domains": [
+        "threema.ch"
       ]
     },
     {
