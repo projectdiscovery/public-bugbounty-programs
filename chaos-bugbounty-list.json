@@ -8014,7 +8014,15 @@
         "oanda.jp",
         "tms.pl",
         "tmsbrokers.com",
-        "investmentuniversity"
+        "investmentuniversity.pl"
+   },
+    {
+      "name":"Walla! Communication",
+      "url":"https://www.walla.co.il/.well-know/security.txt",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+        "walla.co.il"
    	]
    }
   ]
