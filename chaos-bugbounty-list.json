@@ -8,6 +8,14 @@
         "4chan.org",
         "4cdn.org"
       ]
+    }
+    {
+      "name": "santos",
+      "url": "https://bugcrowd.com/santos-vdp",
+      "bounty": false,
+      "domains": [
+        "santos.com"
+      ]
     },
     {
       "name": "8x8",
