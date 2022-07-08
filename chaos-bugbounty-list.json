@@ -458,14 +458,6 @@
       ]
     },
     {
-      "name": "Better",
-      "url": "https://bugcrowd.com/better",
-      "bounty": true,
-      "domains": [
-        "better.com"
-      ]
-    },
-    {
       "name": "Bigbank",
       "url": "https://ca.bigbank.eu/security",
       "bounty": false,
@@ -571,15 +563,6 @@
       ]
     },
     {
-      "name": "Blend",
-      "url": "https://bugcrowd.com/blend-vdp",
-      "bounty": false,
-      "domains": [
-        "blendlabs.com",
-        "blend.com"
-      ]
-    },
-    {
       "name": "Blockchain",
       "url": "https://hackerone.com/blockchain",
       "bounty": true,
@@ -598,10 +581,11 @@
     },
     {
       "name": "Bluehost",
-      "url": "https://bugcrowd.com/endurance-bluehost",
+      "url": "https://bugcrowd.com/newfold-bluehostindia-vdp",
       "bounty": false,
       "domains": [
-        "bluehost.com"
+        "bluehost.com",
+        "bluehost.in"
       ]
     },
     {
@@ -614,7 +598,7 @@
     },
     {
       "name": "Boozt Fashion",
-      "url": "https://bugcrowd.com/boozt-og",
+      "url": "https://hackerone.com/boozt",
       "bounty": true,
       "domains": [
         "boozt.com",
@@ -1721,8 +1705,8 @@
       ]
     },
     {
-      "name": "Fiat Chrysler Automobiles",
-      "url": "https://bugcrowd.com/fca",
+      "name": "Stellantis",
+      "url": "https://bugcrowd.com/stellantis",
       "bounty": true,
       "domains": [
         "driveuconnect.com",
@@ -1755,7 +1739,7 @@
     },
     {
       "name": "Files.com",
-      "url": "https://bugcrowd.com/files",
+      "url": "https://hackerone.com/files",
       "bounty": true,
       "domains": [
         "files.com"
@@ -1772,7 +1756,7 @@
     },
     {
       "name": "Fitbit",
-      "url": "https://bugcrowd.com/fitbit",
+      "url": "https://hackerone.com/fitbit",
       "bounty": true,
       "domains": [
         "fitbit.com",
@@ -3577,7 +3561,7 @@
     },
     {
       "name": "Host Gator",
-      "url": "https://bugcrowd.com/endurance-hostgatorlatam",
+      "url": "https://bugcrowd.com/hostgator",
       "bounty": false,
       "domains": [
         "hostgator.com.br",
@@ -3585,7 +3569,7 @@
         "hostgator.cl",
         "hostgator.co",
         "hostgator.io",
-        "cliente.hostgator"
+        "hostgator.com"
       ]
     },
     {
@@ -3701,15 +3685,6 @@
       "domains": [
         "irccloud.com",
         "irccloud-cdn.com"
-      ]
-    },
-    {
-      "name": "ISC",
-      "url": "https://bugcrowd.com/isc2",
-      "bounty": false,
-      "domains": [
-        "isc2.org",
-        "iamcybersafe.org"
       ]
     },
     {
@@ -4395,16 +4370,6 @@
       ]
     },
     {
-      "name": "Mailgun",
-      "url": "https://bugcrowd.com/mailgun",
-      "bounty": true,
-      "domains": [
-        "mailgun.net",
-        "mailjet.com",
-        "mailgun.com"
-      ]
-    },
-    {
       "name": "Mailtime Technology",
       "url": "https://hackerone.com/mailtime_technology_inc",
       "bounty": false,
@@ -4804,7 +4769,7 @@
     },
     {
       "name": "NordVPN",
-      "url": "https://hackerone.com/nordvpn",
+      "url": "https://hackerone.com/nordsecurity",
       "bounty": true,
       "domains": [
         "nordvpn.com"
@@ -5531,14 +5496,6 @@
       ]
     },
     {
-      "name": "Prospect.io",
-      "url": "https://hackerone.com/prospect_io_gjk6b",
-      "bounty": false,
-      "domains": [
-        "prospect.io"
-      ]
-    },
-    {
       "name": "ProtonMail",
       "url": "https://protonmail.com/blog/protonmail-bug-bounty-program/",
       "bounty": true,
@@ -5559,7 +5516,7 @@
     },
     {
       "name": "PureVPN",
-      "url": "https://bugcrowd.com/purevpn",
+      "url": "https://www.purevpn.com/bug-bounty-program",
       "bounty": true,
       "domains": [
         "purevpn.com"
@@ -6144,10 +6101,12 @@
     },
     {
       "name": "Simple",
-      "url": "https://bugcrowd.com/simple",
+      "url": "https://hackerone.com/simple",
       "bounty": true,
       "domains": [
-        "simple.com"
+        "simple.com",
+        "bank.simple.com",
+        "api.simple.com"
       ]
     },
     {
@@ -6222,10 +6181,12 @@
     },
     {
       "name": "Socrata",
-      "url": "https://bugcrowd.com/socrata",
+      "url": "https://bugcrowd.com/tyler-tech-data-insights",
       "bounty": true,
       "domains": [
-        "test-socrata.com"
+        "test-socrata.com",
+        "opendata.test-socrata.com",
+        "opendata-demo.test-socrata.com"
       ]
     },
     {
@@ -6813,11 +6774,11 @@
       ]
     },
     {
-      "name": "TransferWise",
-      "url": "https://bugcrowd.com/transferwise",
+      "name": "Wise",
+      "url": "https://bugcrowd.com/wise",
       "bounty": true,
       "domains": [
-        "transferwise.com"
+        "wise.com"
       ]
     },
     {
@@ -7476,14 +7437,6 @@
       ]
     },
     {
-      "name": "Vonage",
-      "url": "https://bugcrowd.com/vonage",
-      "bounty": false,
-      "domains": [
-        "vonage.com"
-      ]
-    },
-    {
       "name": "WINNI",
       "url": "https://www.winni.in/bug-bounty",
       "bounty": true,
@@ -7493,7 +7446,7 @@
     },
     {
       "name": "WP Engine",
-      "url": "https://bugcrowd.com/wpengine",
+      "url": "https://wpengine.com/security/",
       "bounty": false,
       "domains": [
         "studiopress.blog",
@@ -7704,7 +7657,7 @@
     },
     {
       "name": "Zilliqa",
-      "url": "https://bugcrowd.com/zilliqa",
+      "url": "https://hackerone.com/zilliqa",
       "bounty": true,
       "domains": [
         "zilliqa.com",
@@ -7745,7 +7698,7 @@
     },
     {
       "name": "Zynga",
-      "url": "https://bugcrowd.com/zynga-vdp",
+      "url": "https://www.zynga.com/security/whitehats/",
       "bounty": false,
       "domains": [
         "zynga.com",
