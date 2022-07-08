@@ -6104,9 +6104,7 @@
       "url": "https://hackerone.com/simple",
       "bounty": true,
       "domains": [
-        "simple.com",
-        "bank.simple.com",
-        "api.simple.com"
+        "simple.com"
       ]
     },
     {
@@ -6184,9 +6182,7 @@
       "url": "https://bugcrowd.com/tyler-tech-data-insights",
       "bounty": true,
       "domains": [
-        "test-socrata.com",
-        "opendata.test-socrata.com",
-        "opendata-demo.test-socrata.com"
+        "test-socrata.com"
       ]
     },
     {
