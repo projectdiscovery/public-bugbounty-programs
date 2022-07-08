@@ -10,6 +10,14 @@
       ]
     },
     {
+      "name": "santos",
+      "url": "https://bugcrowd.com/santos-vdp",
+      "bounty": false,
+      "domains": [
+        "santos.com"
+      ]
+    },
+    {
       "name": "8x8",
       "url": "https://hackerone.com/8x8",
       "bounty": false,
