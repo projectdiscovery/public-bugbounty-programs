@@ -4592,6 +4592,15 @@
       ]
     },
     {
+      "name": "Monash MBB",
+      "url": "https://bugcrowd.com/monash-mbb",
+      "bounty": true,
+      "domains": [
+        "monash.edu",
+        "monashcollege.edu.au"
+      ]
+    },
+    {
       "name": "Moneybird",
       "url": "https://hackerone.com/moneybird",
       "bounty": false,
