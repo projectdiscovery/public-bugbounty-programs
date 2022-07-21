@@ -8052,6 +8052,15 @@
       "swag": false,
       "domains":[
         "walla.co.il"
+      ]
+    },
+    {
+      "name":"Fidelity VDP",
+      "url":"https://hackerone.com/fidelity",
+      "bounty": false,
+      "swag": false,
+      "domains":[
+        "fidelity.com"
    	  ]
    }
   ]
