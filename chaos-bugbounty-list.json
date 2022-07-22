@@ -8062,6 +8062,16 @@
       "domains":[
         "fidelity.com"
    	  ]
+   },
+   {
+      "name":"Banco BMG",
+      "url":"https://bugbounty.hackaflag.com.br/hempresa.php?id=7",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+        "bancobmg.com.br",
+        "help.com.br"
+   	  ]
    }
   ]
 }
