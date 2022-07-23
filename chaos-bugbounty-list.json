@@ -8072,6 +8072,21 @@
         "bancobmg.com.br",
         "help.com.br"
    	  ]
-   }
+   },
+    {
+      "name":"Windstream",
+      "url":"https://hackerone.com/windstream",
+      "bounty":false,
+      "swag":false,
+      "domains":[
+        "orderwindstream.com",
+        "windstreamoffers.com",
+        "windstreamsmallbusiness.com",
+        "getwindstream.com",
+        "windstreamdeals.com",
+        "Windstreambundledeals.com",
+        "broadviewnet.com"
+        ]
+    }
   ]
 }
