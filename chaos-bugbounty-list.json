@@ -8079,11 +8079,12 @@
      "bounty": true,
      "swag": false,
      "domains":[
-       "silvergoldbull.ca"
-       "silvergoldbull.de"
-       "silvergoldbull.com"
-       "sgb.co"
+       "silvergoldbull.ca",
+       "silvergoldbull.de",
+       "silvergoldbull.com",
+       "sgb.co",
        "alterx.com"
       ]
    }
+  ]
 }
