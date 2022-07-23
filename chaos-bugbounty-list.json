@@ -8072,6 +8072,19 @@
         "bancobmg.com.br",
         "help.com.br"
    	  ]
+   },
+   {
+     "name":"Silvergoldbull",
+     "url":"https://silvergoldbull.se/en/bug-bounty",
+     "bounty": true,
+     "swag": false,
+     "domains":[
+       "silvergoldbull.ca",
+       "silvergoldbull.de",
+       "silvergoldbull.com",
+       "sgb.co",
+       "alterx.com"
+      ]
    }
   ]
 }
