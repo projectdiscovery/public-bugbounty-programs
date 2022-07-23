@@ -8073,20 +8073,33 @@
         "help.com.br"
    	  ]
    },
-    {
-      "name":"Windstream",
-      "url":"https://hackerone.com/windstream",
-      "bounty":false,
-      "swag":false,
-      "domains":[
-        "orderwindstream.com",
-        "windstreamoffers.com",
-        "windstreamsmallbusiness.com",
-        "getwindstream.com",
-        "windstreamdeals.com",
-        "Windstreambundledeals.com",
-        "broadviewnet.com"
-        ]
-    }
+   {
+     "name":"Windstream",
+     "url":"https://hackerone.com/windstream",
+     "bounty":false,
+     "swag":false,
+     "domains":[
+       "orderwindstream.com",
+       "windstreamoffers.com",
+       "windstreamsmallbusiness.com",
+       "getwindstream.com",
+       "windstreamdeals.com",
+       "Windstreambundledeals.com",
+       "broadviewnet.com"
+       ]
+   },
+   {
+     "name":"Silvergoldbull",
+     "url":"https://silvergoldbull.se/en/bug-bounty",
+     "bounty": true,
+     "swag": false,
+     "domains":[
+       "silvergoldbull.ca",
+       "silvergoldbull.de",
+       "silvergoldbull.com",
+       "sgb.co",
+       "alterx.com"
+      ]
+   }
   ]
 }
