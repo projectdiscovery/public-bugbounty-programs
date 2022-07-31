@@ -8100,6 +8100,15 @@
        "sgb.co",
        "alterx.com"
       ]
+   },
+   {
+     "name":"Sidefx",
+     "url":"https://hackerone.com/sidefx",
+     "bounty": true,
+     "swag": false,
+     "domains":[
+       "sidefx.com"
+      ]
    }
   ]
 }
