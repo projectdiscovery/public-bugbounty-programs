@@ -8102,6 +8102,16 @@
       ]
    },
    {
+     "name":"Trellix VDP",
+     "url":"https://hackerone.com/trellix",
+     "bounty": false,
+     "swag": false,
+     "domains":[
+       "trellix.com",
+       "skyhighsecurity.com"
+      ]
+   },
+   {
      "name":"Sidefx",
      "url":"https://hackerone.com/sidefx",
      "bounty": true,
