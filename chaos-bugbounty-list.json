@@ -8110,6 +8110,15 @@
        "trellix.com",
        "skyhighsecurity.com"
       ]
+   },
+   {
+     "name":"Sidefx",
+     "url":"https://hackerone.com/sidefx",
+     "bounty": true,
+     "swag": false,
+     "domains":[
+       "sidefx.com"
+      ]
    }
   ]
 }
