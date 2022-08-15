@@ -4289,7 +4289,7 @@
         "lululemon.com",
         "lululemon.co.uk"
       ]
-    },    
+    },
     {
       "name": "Lyst",
       "url": "https://hackerone.com/lyst",
@@ -5830,6 +5830,15 @@
       ]
     },
     {
+      "name": "Rewind",
+      "url": "https://rewind.com/legal/vulnerability-disclosure-policy",
+      "bounty": false,
+      "domains": [
+        "rewind.com",
+        "replay.sh"
+      ]
+    },
+    {
       "name": "Ribose",
       "url": "https://www.ribose.com/feedback/security",
       "bounty": false,
@@ -6508,7 +6517,7 @@
       "bounty": true,
       "swag": false,
       "domains": [
-        "post.ch"   
+        "post.ch"
       ]
     },
     {
@@ -7848,7 +7857,7 @@
       "bounty": true,
       "domains": [
         "baidu.com",
-        "hao123.com" 
+        "hao123.com"
       ]
     },
     {
