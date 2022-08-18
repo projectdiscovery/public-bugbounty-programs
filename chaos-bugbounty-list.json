@@ -665,6 +665,18 @@
       ]
     },
     {
+      "name": "Bukalapak",
+      "url": "https://bukalapak.github.io/bukabounty/",
+      "bounty": true,
+      "domains": [
+        "www.bukalapak.com",
+        "m.bukalapak.com",
+        "api.bukalapak.com",
+        "seller.bukalapak.com",
+        "mitra.bukalapak.com"
+      ]
+    },
+    {
       "name": "Bullish",
       "url": "https://bugcrowd.com/bullish",
       "bounty": true,
@@ -4805,6 +4817,15 @@
       "bounty": true,
       "domains": [
         "nozbe.com"
+      ]
+    },
+    {
+      "name": "NodeFlux",
+      "url": "https://www.nodeflux.io/bug-bounty",
+      "bounty": true,
+      "domains": [
+        "cloud.nodeflux.io",
+        "identifai.id"
       ]
     },
     {
