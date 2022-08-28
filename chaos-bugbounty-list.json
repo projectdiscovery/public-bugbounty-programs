@@ -4663,8 +4663,8 @@
       "url": "https://n26.com/en-eu/bug-bounty-program",
       "bounty": true,
       "domains": [
-        "api.tech26.de",
-        "app.n26.com"
+        "tech26.de",
+        "n26.com"
       ]
     },
     {
@@ -7951,9 +7951,7 @@
       "url": "https://www.easyname.de/de/support/easyname/253-bug-bounty-programm",
       "bounty": true,
       "domains": [
-        "webmail.easyname.com",
-        "my.easyname.com",
-        "wwww.easyname.com"
+        "easyname.com"
       ]
     },
     {
