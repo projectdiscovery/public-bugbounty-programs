@@ -1,7 +1,12 @@
 name: 🙏🏻 Lint Test
+
 on:
   push:
+    paths:
+      - 'bbp-update/**'
   pull_request:
+    paths:
+      - 'bbp-update/**'
   workflow_dispatch:
 
 jobs:
