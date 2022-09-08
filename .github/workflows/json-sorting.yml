@@ -1,11 +1,9 @@
 name: JSON Sorting
 on:
-  workflow_run:
-    workflows: ["json-syntax-check"]
-    types:
-      - completed
+  push:
+    branches:
+      - master
   workflow_dispatch:
-
 
 jobs:  
   sorting:
