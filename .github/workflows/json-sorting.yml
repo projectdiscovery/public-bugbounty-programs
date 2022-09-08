@@ -1,6 +1,8 @@
 name: JSON Sorting
 on:
   push:
+    paths:
+      - '*.json'
     branches:
       - master
   workflow_dispatch:
@@ -19,7 +21,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Automatic JSON Sorting [$(date)] :robot:" -a
+          git commit --allow-empty -m "Automatic JSON Sorting [$(date)] :robot:" -a
 
       - name: Push changes
         uses: ad-m/github-push-action@master
