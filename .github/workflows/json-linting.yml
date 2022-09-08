@@ -3,10 +3,12 @@ name: json-syntax-check
 on:
   push:
     paths:
-      - '**.json'
+      - '*.json'
   pull_request:
     paths:
-      - '**.json'
+      - '*.json'
+  workflow_dispatch:
+
 jobs:
   test:
     runs-on: ubuntu-latest
