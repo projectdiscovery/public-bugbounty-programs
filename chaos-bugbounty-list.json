@@ -502,6 +502,17 @@
       ]
     },
     {
+      "name": "Banco Pan",
+      "url": "https://bugbounty.hackaflag.com.br/hempresa.php?id=14",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "bancopan.com.br",
+        "panmais.com.br",
+        "pansolucoes.com.br"
+      ]
+    },
+    {
       "name": "BBC",
       "url": "https://www.bbc.com/backstage/security-disclosure-policy/",
       "bounty": false,
@@ -1580,6 +1591,14 @@
       ]
     },
     {
+      "name": "Easyname",
+      "url": "https://www.easyname.de/de/support/easyname/253-bug-bounty-programm",
+      "bounty": true,
+      "domains": [
+        "easyname.com"
+      ]
+    },
+    {
       "name": "Easyprojects",
       "url": "https://www.easyprojects.net/company/vulnerability-reward-program/",
       "bounty": true,
@@ -1661,6 +1680,15 @@
       "bounty": true,
       "domains": [
         "elementor.com"
+      ]
+    },
+    {
+      "name": "ELO",
+      "url": "https://bugbounty.hackaflag.com.br/hempresa.php?id=13",
+      "bounty": false,
+      "swag": false,
+      "domains": [
+        "elo.com.br"
       ]
     },
     {
@@ -3643,6 +3671,17 @@
       ]
     },
     {
+      "name": "Grupo DPSP",
+      "url": "https://bugbounty.hackaflag.com.br/hempresa.php?id=6",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "dpsp.io",
+        "drogariaspacheco.com.br",
+        "drogariasaopaulo.com.br"
+      ]
+    },
+    {
       "name": "Gusto",
       "url": "https://bugcrowd.com/gusto",
       "bounty": true,
@@ -4878,6 +4917,15 @@
       "bounty": false,
       "domains": [
         "myntra.com"
+      ]
+    },
+    {
+      "name": "N26",
+      "url": "https://n26.com/en-eu/bug-bounty-program",
+      "bounty": true,
+      "domains": [
+        "tech26.de",
+        "n26.com"
       ]
     },
     {
@@ -7228,6 +7276,14 @@
       ]
     },
     {
+      "name": "TU Chemniz",
+      "url": "https://www.tu-chemnitz.de/.well-known/security.txt",
+      "bounty": false,
+      "domains": [
+        "tu-chemniz.de"
+      ]
+    },
+    {
       "name": "Tube8",
       "url": "https://hackerone.com/tube8",
       "bounty": true,
@@ -7884,6 +7940,16 @@
       ]
     },
     {
+      "name": "WEB.DE",
+      "url": "https://bugbounty.web.de/english.html",
+      "bounty": true,
+      "domains": [
+        "web.de",
+        "gmx.de",
+        "mail.com"
+      ]
+    },
+    {
       "name": "Weblate",
       "url": "https://hackerone.com/weblate",
       "bounty": false,
@@ -8172,72 +8238,6 @@
       "domains": [
         "zynga.com",
         "zyngagames.com"
-      ]
-    },
-   {
-     "name":"Grupo DPSP",
-     "url":"https://bugbounty.hackaflag.com.br/hempresa.php?id=6",
-     "bounty": true,
-     "swag": false,
-     "domains":[
-       "dpsp.io",
-       "drogariaspacheco.com.br",
-       "drogariasaopaulo.com.br"
-      ]
-   },
-   {
-    "name":"ELO",
-    "url":"https://bugbounty.hackaflag.com.br/hempresa.php?id=13",
-    "bounty": false,
-    "swag": false,
-    "domains":[
-      "elo.com.br"
-     ]
-   },
-   {
-    "name":"Banco Pan",
-    "url":"https://bugbounty.hackaflag.com.br/hempresa.php?id=14",
-    "bounty": true,
-    "swag": false,
-    "domains":[
-      "bancopan.com.br",
-      "panmais.com.br",
-      "pansolucoes.com.br"
-     ]
-   },
-    {
-      "name": "TU Chemniz",
-      "url": "https://www.tu-chemnitz.de/.well-known/security.txt",
-      "bounty": false,
-      "domains": [
-        "tu-chemniz.de"
-      ]
-    },
-    {
-      "name": "WEB.DE",
-      "url": "https://bugbounty.web.de/english.html",
-      "bounty": true,
-      "domains": [
-        "web.de",
-        "gmx.de",
-        "mail.com"
-      ]
-    },
-    {
-      "name": "N26",
-      "url": "https://n26.com/en-eu/bug-bounty-program",
-      "bounty": true,
-      "domains": [
-        "tech26.de",
-        "n26.com"
-      ]
-    },
-    {
-      "name": "Easyname",
-      "url": "https://www.easyname.de/de/support/easyname/253-bug-bounty-programm",
-      "bounty": true,
-      "domains": [
-        "easyname.com"
       ]
     }
   ]
