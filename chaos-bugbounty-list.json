@@ -2,7 +2,7 @@
   "programs": [
     {
       "name": "Swisscom",
-      "url": "https://github.com/swisscom/bugbounty/scope/",
+      "url": "https://github.com/swisscom/bugbounty",
       "bounty": true,
       "domains":[
         "adunit.ch",
