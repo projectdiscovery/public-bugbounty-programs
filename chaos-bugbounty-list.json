@@ -8290,6 +8290,25 @@
         "zynga.com",
         "zyngagames.com"
       ]
+    },
+    {
+      "name": "Linktree",
+      "url": "https://hackerone.com/linktree",
+      "bounty": true,
+      "domains": [
+        "odesli.co",
+        "song.link",
+        "album.link",
+        "artist.link",
+        "pods.link",
+        "playlist.link",
+        "mylink.page",
+        "linktree-extensions.com",
+        "tr.ee",
+        "linktree.com",
+        "odesli.com",
+        "songlink.io"
+      ]
     }
   ]
 }
