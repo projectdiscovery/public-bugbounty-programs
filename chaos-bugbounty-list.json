@@ -4863,8 +4863,8 @@
     },
     {
       "name": "MongoDB",
-      "url": "https://www.mongodb.com/security",
-      "bounty": false,
+      "url": "https://hackerone.com/mongodb",
+      "bounty": true,
       "domains": [
         "mongodb.com"
       ]
@@ -5479,7 +5479,7 @@
     },
     {
       "name": "Paddy Power Betfair",
-      "url": "https://hackerone.com/paddypowerbetfair",
+      "url": "https://hackerone.com/flutteruki",
       "bounty": true,
       "domains": [
         "betfair.ro",
