@@ -1416,14 +1416,6 @@
       ]
     },
     {
-      "name": "Definity Inc",
-      "url": "https://definityinc.com/bug-bounty-program/",
-      "bounty": true,
-      "domains": [
-        "definityinc.com"
-      ]
-    },
-    {
       "name": "Delight.im",
       "url": "https://hackerone.com/delight_im",
       "bounty": false,
@@ -1866,15 +1858,6 @@
         "oculus.com",
         "whatsapp.com",
         "whatsapp.net"
-      ]
-    },
-    {
-      "name": "Fair",
-      "url": "https://www.fair.com/bug-bounty",
-      "bounty": true,
-      "domains": [
-        "fair.com",
-        "fair.engineering"
       ]
     },
     {
