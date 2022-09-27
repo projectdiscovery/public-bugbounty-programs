@@ -8291,6 +8291,15 @@
         "zynga.com",
         "zyngagames.com"
       ]
+    },
+    {
+      "name": "Asana",
+      "url": "https://bugcrowd.com/asana",
+      "bounty":true,
+      "domains": [
+        "asana.plus",
+        "asana.biz"
+      ]
     }
   ]
 }
