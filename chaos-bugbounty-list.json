@@ -8291,6 +8291,30 @@
         "zynga.com",
         "zyngagames.com"
       ]
+    },
+    {
+      "name": "Adobe",
+      "url": "https://hackerone.com/adobe",
+      "bounty": false,
+      "domains": [
+        "acrobat.com",
+        "adobe.io",
+        "adobeaemcloud.com",
+        "adobecqms.net",
+        "bizible.com",
+        "marketo.com",
+        "mixamo.com",
+        "omniture.com",
+        "phonegap.com",
+        "tubemogul.com",
+        "typekit.com",
+        "adobe.com",
+        "scene7.com",
+        "tt.omtrdc.net",
+        "adobeconnect.com",
+        "testdrive.workfront.com",
+        "proofhq.com"
+        ]
     }
   ]
 }
