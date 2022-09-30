@@ -426,6 +426,16 @@
       ]
     },
     {
+      "name": "Asana",
+      "url": "https://bugcrowd.com/asana",
+      "bounty": true,
+      "domains": [
+        "asana.com",
+        "asana.plus",
+        "asana.biz"
+      ]
+    },
+    {
       "name": "AT&T",
       "url": "https://hackerone.com/att",
       "bounty": true,
@@ -8327,16 +8337,6 @@
       "domains": [
         "zynga.com",
         "zyngagames.com"
-      ]
-    },
-    {
-      "name": "Asana",
-      "url": "https://bugcrowd.com/asana",
-      "bounty":true,
-      "domains": [
-        "asana.com",
-        "asana.plus",
-        "asana.biz"
       ]
     }
   ]
