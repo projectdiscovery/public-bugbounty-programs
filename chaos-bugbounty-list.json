@@ -94,6 +94,30 @@
       ]
     },
     {
+      "name": "Adobe",
+      "url": "https://hackerone.com/adobe",
+      "bounty": false,
+      "domains": [
+        "acrobat.com",
+        "adobe.io",
+        "adobeaemcloud.com",
+        "adobecqms.net",
+        "bizible.com",
+        "marketo.com",
+        "mixamo.com",
+        "omniture.com",
+        "phonegap.com",
+        "tubemogul.com",
+        "typekit.com",
+        "adobe.com",
+        "scene7.com",
+        "omtrdc.net",
+        "adobeconnect.com",
+        "workfront.com",
+        "proofhq.com"
+      ]
+    },
+    {
       "name": "AIMS360",
       "url": "https://www.aims360.com/vulnerability-responses/",
       "bounty": false,
@@ -8304,30 +8328,6 @@
         "zynga.com",
         "zyngagames.com"
       ]
-    },
-    {
-      "name": "Adobe",
-      "url": "https://hackerone.com/adobe",
-      "bounty": false,
-      "domains": [
-        "acrobat.com",
-        "adobe.io",
-        "adobeaemcloud.com",
-        "adobecqms.net",
-        "bizible.com",
-        "marketo.com",
-        "mixamo.com",
-        "omniture.com",
-        "phonegap.com",
-        "tubemogul.com",
-        "typekit.com",
-        "adobe.com",
-        "scene7.com",
-        "omtrdc.net",
-        "adobeconnect.com",
-        "workfront.com",
-        "proofhq.com"
-        ]
     }
   ]
 }
