@@ -4647,11 +4647,15 @@
       ]
     },
     {
-      "name": "Maker Ecosystem",
-      "url": "https://hackerone.com/makerdao_bbp",
+      "name": "MakerDAO Ecosystem",
+      "url": [
+        "https://hackerone.com/makerdao_bbp",
+        "https://immunefi.com/bounty/makerdao/"
+        ]
       "bounty": true,
       "domains": [
-        "makerdao.com"
+        "vote.makerdao.com",
+        "chainlog.makerdao.com"
       ]
     },
     {
