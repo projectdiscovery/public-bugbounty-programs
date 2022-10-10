@@ -4639,6 +4639,15 @@
       ]
     },
     {
+      "name": "Make",
+      "url": "https://www.make.com/en/bounty",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "make.com"
+      ]
+    },
+    {
       "name": "MakeMyTrip",
       "url": "https://www.makemytrip.com/pwa-hlp/mmtbb/report",
       "bounty": true,
@@ -4716,15 +4725,6 @@
         "mastercard.ru",
         "mastercard.us",
         "simplify.com"
-      ]
-    },
-    {
-      "name": "Make",
-      "url": "https://www.make.com/en/bounty",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "make.com"
       ]
     },
     {
