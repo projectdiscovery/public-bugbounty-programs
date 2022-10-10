@@ -4719,6 +4719,15 @@
       ]
     },
     {
+      "name": "Make",
+      "url": "https://www.make.com/en/bounty",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "make.com"
+      ]
+    },
+    {
       "name": "MasterCard VDP",
       "url": "https://bugcrowd.com/mastercard-vdp",
       "bounty": false,
