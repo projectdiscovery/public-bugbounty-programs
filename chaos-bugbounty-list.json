@@ -694,6 +694,15 @@
       ]
     },
     {
+      "name": "Blend Labs",
+      "url": "https://hackerone.com/blend-labs",
+      "bounty": true,
+      "domains": [
+        "blendlabs.com",
+        "blend.com"
+      ]
+    },
+    {
       "name": "Blockchain",
       "url": "https://hackerone.com/blockchain",
       "bounty": true,
@@ -5798,6 +5807,14 @@
       "bounty": false,
       "domains": [
         "playtech.com"
+      ]
+    },
+    {
+      "name": "Poloniex",
+      "url": "https://hackerone.com/poloniex",
+      "bounty": true,
+      "domains": [
+        "poloniex.com"
       ]
     },
     {
