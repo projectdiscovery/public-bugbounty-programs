@@ -4651,8 +4651,7 @@
       "url": "https://immunefi.com/bounty/makerdao/",
       "bounty": true,
       "domains": [
-        "vote.makerdao.com",
-        "chainlog.makerdao.com"
+        "makerdao.com"
       ]
     },
     {
