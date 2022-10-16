@@ -4621,28 +4621,6 @@
       ]
     },
     {
-      "name": "Mail.ru",
-      "url": "https://hackerone.com/mailru",
-      "bounty": true,
-      "domains": [
-        "my.games",
-        "icq.net",
-        "youla.ru",
-        "pandao.ru",
-        "relap.io",
-        "my.com",
-        "donationalerts.com",
-        "vseapteki.ru",
-        "mail.ru",
-        "zakazaka.ru",
-        "icq.com",
-        "delivery-club.ru",
-        "am.ru",
-        "donationalerts.ru",
-        "lootdog.io"
-      ]
-    },
-    {
       "name": "Mailtime Technology",
       "url": "https://hackerone.com/mailtime_technology_inc",
       "bounty": false,
