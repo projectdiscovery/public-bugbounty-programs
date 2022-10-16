@@ -6026,6 +6026,14 @@
       ]
     },
     {
+      "name": "Rarible",
+      "url": "https://bugcrowd.com/rarible-ogmbb",
+      "bounty": true,
+      "domains": [
+        "rarible.com"
+      ]
+    },
+    {
       "name": "RATELIMITED",
       "url": "https://hackerone.com/ratelimited",
       "bounty": false,
@@ -8352,14 +8360,6 @@
         "zynga.com",
         "zyngagames.com"
       ]
-    },
-    {
-      "name": "Rarible",
-      "url": "https://bugcrowd.com/rarible-ogmbb",
-      "bounty": true,
-      "domains": [
-        "rarible.com"
-      ]
-    }    
+    }
   ]
 }
