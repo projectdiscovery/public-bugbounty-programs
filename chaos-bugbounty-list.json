@@ -8352,6 +8352,14 @@
         "zynga.com",
         "zyngagames.com"
       ]
-    }
+    },
+    {
+      "name": "Rarible",
+      "url": "https://bugcrowd.com/rarible-ogmbb",
+      "bounty": true,
+      "domains": [
+        "rarible.com"
+      ]
+    }    
   ]
 }
