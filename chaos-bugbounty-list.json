@@ -7964,10 +7964,11 @@
     },
     {
       "name": "United Airlines",
-      "url": "https://www.united.com/ual/en/us/fly/contact/bugbounty.html",
+      "url": "https://bugcrowd.com/united-vdp",
       "bounty": true,
       "domains": [
-        "united.com"
+        "united.com",
+        "ual.com"
       ]
     },
     {
