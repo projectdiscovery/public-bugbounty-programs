@@ -925,12 +925,11 @@
       ]
     },
     {
-      "name": "Celo",
-      "url": "https://hackerone.com/celo",
+      "name": "cLabs",
+      "url": "https://app.intigriti.com/programs/clabs/clabs/detail",
       "bounty": true,
       "swag": false,
       "domains": [
-        "clabs.co",
         "celo.org"
       ]
     },
