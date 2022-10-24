@@ -8266,6 +8266,16 @@
       ]
     },
     {
+      "name": "Web.com VDP",
+      "url": "https://bugcrowd.com/webdotcom-vdp",
+      "bounty": false,
+      "domains": [
+        "web.com",
+        "register.com",
+        "networksolutions.com"
+      ]
+    },
+    {
       "name": "WEB.DE",
       "url": "https://bugbounty.web.de/english.html",
       "bounty": true,
@@ -8564,16 +8574,6 @@
       "domains": [
         "zynga.com",
         "zyngagames.com"
-      ]
-    },
-    {
-      "name": "Web.com VDP",
-      "url": "https://bugcrowd.com/webdotcom-vdp",
-      "bounty": false,
-      "domains": [
-        "web.com",
-        "register.com",
-        "networksolutions.com"
       ]
     }
   ]
