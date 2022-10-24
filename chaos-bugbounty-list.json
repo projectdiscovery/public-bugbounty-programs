@@ -5417,6 +5417,16 @@
       ]
     },
     {
+      "name": "Origin Energy",
+      "url": "https://bugcrowd.com/originenergy-og1",
+      "bounty": true,
+      "domains": [
+        "origindigital-pac.com.au",
+        "odcdn.com.au",
+        "originenergy.com.au"
+      ]
+    },
+    {
       "name": "Orion Labs",
       "url": "https://hackerone.com/orion_labs",
       "bounty": false,
@@ -8585,16 +8595,6 @@
       "domains": [
         "zynga.com",
         "zyngagames.com"
-      ]
-    },
-    {
-      "name": "Origin Energy",
-      "url": "https://bugcrowd.com/originenergy-og1",
-      "bounty": true,
-      "domains": [
-        "origindigital-pac.com.au",	
-        "odcdn.com.au",
-        "originenergy.com.au"
       ]
     }
   ]
