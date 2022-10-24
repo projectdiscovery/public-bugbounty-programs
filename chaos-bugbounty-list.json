@@ -925,15 +925,6 @@
       ]
     },
     {
-      "name": "cLabs",
-      "url": "https://app.intigriti.com/programs/clabs/clabs/detail",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "celo.org"
-      ]
-    },
-    {
       "name": "Central Security Project",
       "url": "https://hackerone.com/central-security-project",
       "bounty": false,
@@ -1029,6 +1020,15 @@
         "meraki.com",
         "network-auth.com",
         "cisco.com"
+      ]
+    },
+    {
+      "name": "cLabs",
+      "url": "https://app.intigriti.com/programs/clabs/clabs/detail",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "celo.org"
       ]
     },
     {
