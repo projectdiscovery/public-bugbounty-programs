@@ -8565,6 +8565,16 @@
         "zynga.com",
         "zyngagames.com"
       ]
+    },
+    {
+      "name": "Web.com VDP",
+      "url": "https://bugcrowd.com/webdotcom-vdp",
+      "bounty": false,
+      "domains": [
+        "web.com",
+        "register.com",
+        "networksolutions.com"
+      ]
     }
   ]
 }
