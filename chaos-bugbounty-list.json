@@ -482,14 +482,6 @@
       ]
     },
     {
-      "name": "Avito",
-      "url": "https://hackerone.com/avito",
-      "bounty": false,
-      "domains": [
-        "avito.ru"
-      ]
-    },
-    {
       "name": "AVROTROS",
       "url": "https://www.avrotros.nl/privacy/responsible-disclosure/",
       "bounty": true,
@@ -1602,15 +1594,6 @@
       "domains": [
         "dpgmedia.be",
         "dpgmedia.nl"
-      ]
-    },
-    {
-      "name": "Drive",
-      "url": "https://hackerone.com/drive_net_inc",
-      "bounty": false,
-      "domains": [
-        "drive2.ru",
-        "d-cd.net"
       ]
     },
     {
@@ -5244,16 +5227,6 @@
       ]
     },
     {
-      "name": "Ok",
-      "url": "https://hackerone.com/ok",
-      "bounty": true,
-      "domains": [
-        "tamtam.chat",
-        "ok.me",
-        "ok.ru"
-      ]
-    },
-    {
       "name": "Okta",
       "url": "https://bugcrowd.com/okta",
       "bounty": true,
@@ -5497,14 +5470,6 @@
       "bounty": true,
       "domains": [
         "oyorooms.com"
-      ]
-    },
-    {
-      "name": "Ozon",
-      "url": "https://hackerone.com/ozon",
-      "bounty": true,
-      "domains": [
-        "ozon.ru"
       ]
     },
     {
@@ -5944,23 +5909,6 @@
       "domains": [
         "cryptography.io",
         "pyopenssl.org"
-      ]
-    },
-    {
-      "name": "QIWI",
-      "url": "https://hackerone.com/qiwi",
-      "bounty": true,
-      "domains": [
-        "qiwi.me",
-        "qiwi.com",
-        "cashier.ru",
-        "ru.mw",
-        "flocktory.com",
-        "rocketbank.ru",
-        "sovest.ru",
-        "rapida.ru",
-        "rocketbank.app",
-        "contact-sys.com"
       ]
     },
     {
