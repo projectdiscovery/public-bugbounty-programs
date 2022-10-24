@@ -8246,19 +8246,6 @@
       ]
     },
     {
-      "name": "VK.com",
-      "url": "https://hackerone.com/vkcom",
-      "bounty": true,
-      "domains": [
-        "vk.cc",
-        "vk.com",
-        "vk.link",
-        "vk.me",
-        "vkpay.io",
-        "vk.im"
-      ]
-    },
-    {
       "name": "VNG",
       "url": "https://vng.nl/kwetsbaarheid-melden",
       "bounty": false,
