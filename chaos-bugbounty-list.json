@@ -8432,6 +8432,15 @@
       ]
     },
     {
+      "name": "Wombat Exchange",
+      "url": "https://immunefi.com/bounty/wombatexchange/",
+      "bounty": true,
+      "domains": [
+        "www.wombat.exchange",
+        "app.wombat.exchange"
+      ]
+    },
+    {
       "name": "WP Engine",
       "url": "https://wpengine.com/security/",
       "bounty": false,
