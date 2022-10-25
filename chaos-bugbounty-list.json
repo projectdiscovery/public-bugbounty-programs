@@ -3781,6 +3781,16 @@
       ]
     },
     {
+      "name": "Hake Finance",
+      "url": "https://immunefi.com/bounty/hakkafinance/",
+      "bounty": true,
+      "domains": [
+        "hakka.finance",
+        "igain.finance",
+        "intelligence.hakka.finance"
+      ]
+    },
+    {
       "name": "Harvard",
       "url": "https://huit.harvard.edu/responsible-vulnerability-reporting-standards#inscope",
       "bounty": false,
