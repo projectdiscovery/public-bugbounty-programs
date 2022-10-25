@@ -4584,6 +4584,16 @@
       ]
     },
     {
+      "name": "Lido Finance",
+      "url": "https://immunefi.com/bounty/lido/",
+      "bounty": true,
+      "domains": [
+        "lido.fi",
+        "stake.lido.fi",
+        "easytrack.lido.fi"
+      ]
+    },
+    {
       "name": "Magento",
       "url": "https://hackerone.com/magento",
       "bounty": true,
