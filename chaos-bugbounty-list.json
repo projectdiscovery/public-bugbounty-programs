@@ -501,6 +501,25 @@
       ]
     },
     {
+      "name": "Avalara VDP",
+      "url": "https://hackerone.com/avalara",
+      "bounty": false,
+      "domains": [
+        "avalara.com",
+        "avalara.net",
+        "avalara.io",
+        "papercrane.io",
+        "inposia.com",
+        "netleglobal.com",
+        "crowdreason.com",
+        "track1099.com",
+        "3ce.com",
+        "davosalestax.com",
+        "ttrus.com",
+        "impendulo.com"
+      ]
+    },
+    {
       "name": "AVROTROS",
       "url": "https://www.avrotros.nl/privacy/responsible-disclosure/",
       "bounty": true,
@@ -8618,25 +8637,6 @@
       "domains": [
         "zynga.com",
         "zyngagames.com"
-      ]
-    },
-    {
-      "name": "Avalara VDP",
-      "url": "https://hackerone.com/avalara",
-      "bounty": false,
-      "domains": [
-        "avalara.com",
-        "avalara.net",
-        "avalara.io",
-        "papercrane.io",
-        "inposia.com",
-        "netleglobal.com",
-        "crowdreason.com",
-        "track1099.com",
-        "3ce.com",
-        "davosalestax.com",
-        "ttrus.com",
-        "impendulo.com"
       ]
     }
   ]
