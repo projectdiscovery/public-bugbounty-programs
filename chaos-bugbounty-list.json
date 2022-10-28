@@ -4926,6 +4926,14 @@
       ]
     },
     {
+      "name": "Monarch Money",
+      "url": "https://hackerone.com/monarch_money",
+      "bounty": false,
+      "domains": [
+        "monarchmoney.com"
+      ]
+    },
+    {
       "name": "Monash MBB",
       "url": "https://bugcrowd.com/monash-mbb",
       "bounty": true,
