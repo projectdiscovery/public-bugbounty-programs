@@ -1532,7 +1532,7 @@
     },
     {
       "name": "Deribit",
-      "url": "https://www.deribit.com/pages/information/bug-bounty-program",
+      "url": "https://hackerone.com/deribit",
       "bounty": true,
       "domains": [
         "deribit.com"
@@ -6983,10 +6983,11 @@
     },
     {
       "name": "StrongDM",
-      "url": "https://www.strongdm.com/security/responsible-disclosure",
+      "url": "https://hackerone.com/strongdm",
       "bounty": false,
       "domains": [
-        "strongdm.com"
+        "strongdm.com",
+        "sdm.network"
       ]
     },
     {
