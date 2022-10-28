@@ -6289,6 +6289,15 @@
       ]
     },
     {
+      "name": "Rivian Automotive",
+      "url": "https://hackerone.com/rivian_automotive",
+      "bounty": false,
+      "domains": [
+        "rivian.com",
+        "rivianservices.com"
+      ]
+    },
+    {
       "name": "Ro",
       "url": "https://hackerone.com/ro",
       "bounty": false,
