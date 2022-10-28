@@ -6639,6 +6639,15 @@
       ]
     },
     {
+      "name": "SHOPLAZZA",
+      "url": "https://hackerone.com/shoplazza",
+      "bounty": false,
+      "domains": [
+        "shoplazza.com",
+        "myshoplaza.com"
+      ]
+    },
+    {
       "name": "Shoppingcart",
       "url": "https://bugcrowd.com/shoppingcart",
       "bounty": true,
