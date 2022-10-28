@@ -6264,6 +6264,34 @@
       ]
     },
     {
+      "name": "ResMed",
+      "url": "https://hackerone.com/resmed",
+      "bounty": false,
+      "domains": [
+        "resmed.com",
+        "u-sleep.umbian.com",
+        "Narval-easy.resmed.eu",
+        "resmed.co.uk",
+        "resmed.mx",
+        "resmed.com.br",
+        "resmed.lat",
+        "resmed.com.au",
+        "resmed.sg",
+        "resmed.hk",
+        "resmed.ph",
+        "resmed.vn",
+        "resmed.de",
+        "resmed.fr",
+        "resmed.nl",
+        "resmed.no",
+        "resmed.pt",
+        "resmed.dk",
+        "resmed.ch",
+        "resmed.la",
+        "resmed.com.cn"
+      ]
+    },
+    {
       "name": "REVE Antivirus",
       "url": "https://www.reveantivirus.com/in/bug-bounty-program",
       "bounty": false,
