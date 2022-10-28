@@ -302,6 +302,15 @@
       ]
     },
     {
+      "name": "Abercrombie & Fitch Management Co.",
+      "url": "https://hackerone.com/abercrombie_fitch",
+      "bounty": false,
+      "domains": [
+        "abercrombie.com",
+        "hollisterco.com"
+      ]
+    },
+    {
       "name": "AMERICAN SYSTEMS",
       "url": "https://hackerone.com/american_systems_bbp",
       "bounty": true,
