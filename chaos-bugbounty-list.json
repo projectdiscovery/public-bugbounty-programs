@@ -2129,6 +2129,14 @@
         "freshping.io"
       ]
     },
+     {
+     "name":"FTX",
+     "url":"https://hackenproof.com/ftx/ftx-exchange",
+     "bounty": true,
+     "domains":[
+        "ftx.com"
+      ]
+    },
     {
       "name": "Genasys Technologies",
       "url": "https://hackerone.com/genasys",
