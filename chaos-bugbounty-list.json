@@ -8436,8 +8436,7 @@
       "url": "https://immunefi.com/bounty/wombatexchange/",
       "bounty": true,
       "domains": [
-        "www.wombat.exchange",
-        "app.wombat.exchange"
+        "wombat.exchange"
       ]
     },
     {
