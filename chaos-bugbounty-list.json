@@ -4528,6 +4528,14 @@
       ]
     },
     {
+      "name": "Lido Finance",
+      "url": "https://immunefi.com/bounty/lido/",
+      "bounty": true,
+      "domains": [
+        "lido.fi"
+      ]
+    },
+    {
       "name": "LifeOmic",
       "url": "https://hackerone.com/lifeomic",
       "bounty": true,
@@ -4677,14 +4685,6 @@
         "lystit.com",
         "lyst.com",
         "lyst.co"
-      ]
-    },
-    {
-      "name": "Lido Finance",
-      "url": "https://immunefi.com/bounty/lido/",
-      "bounty": true,
-      "domains": [
-        "lido.fi"
       ]
     },
     {
