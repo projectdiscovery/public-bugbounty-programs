@@ -7597,6 +7597,15 @@
       ]
     },
     {
+      "name": "Ternoa",
+      "url": "https://hackenproof.com/ternoa/ternoa-web-and-apps",
+      "bounty": true,
+      "domains": [
+        "https://bridge.ternoa.network",
+        "https://indexer-mainnet.ternoa.network/"
+      ]
+    },
+    {
       "name": "The Standard",
       "url": "https://www.standard.com/about-standard/responsible-disclosure-program",
       "bounty": false,
