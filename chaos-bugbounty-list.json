@@ -42,6 +42,15 @@
       ]
     },
     {
+      "name": "Abercrombie & Fitch Management Co.",
+      "url": "https://hackerone.com/abercrombie_fitch",
+      "bounty": false,
+      "domains": [
+        "abercrombie.com",
+        "hollisterco.com"
+      ]
+    },
+    {
       "name": "Achmea",
       "url": "https://www.achmea.nl/en/responsibledisclosure",
       "bounty": true,
@@ -299,15 +308,6 @@
         "amazon.co.jp",
         "amazon.de",
         "amazon.fr"
-      ]
-    },
-    {
-      "name": "Abercrombie & Fitch Management Co.",
-      "url": "https://hackerone.com/abercrombie_fitch",
-      "bounty": false,
-      "domains": [
-        "abercrombie.com",
-        "hollisterco.com"
       ]
     },
     {
