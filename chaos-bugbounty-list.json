@@ -4037,7 +4037,8 @@
       "url": "https://bugcrowd.com/indeed",
       "bounty": true,
       "domains": [
-        "indeed.com"
+        "indeed.com",
+        "indeed.tech"
       ]
     },
     {
@@ -8303,7 +8304,7 @@
       "bounty": true,
       "domains": [
         "viator.com",
-        "toursgds.com"
+        "viatorinc.com"
       ]
     },
     {
