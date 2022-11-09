@@ -4588,9 +4588,7 @@
       "url": "https://immunefi.com/bounty/lido/",
       "bounty": true,
       "domains": [
-        "lido.fi",
-        "stake.lido.fi",
-        "easytrack.lido.fi"
+        "lido.fi"
       ]
     },
     {
