@@ -526,6 +526,17 @@
       ]
     },
     {
+      "name": "Avalanche",
+      "url": "https://hackenproof.com/avalanche",
+      "bounty": true,
+      "domains": [
+        "avalabs.org",
+        "avax.network",
+        "avax-test.network",
+        "avax-dev.network"
+      ]
+    },
+    {
       "name": "Avalara VDP",
       "url": "https://hackerone.com/avalara",
       "bounty": false,
@@ -8783,17 +8794,6 @@
       "domains": [
         "zynga.com",
         "zyngagames.com"
-      ]
-    },
-    {
-      "name": "Avalanche",
-      "url": "https://hackenproof.com/avalanche",
-      "bounty": true,
-      "domains": [
-        "avalabs.org",
-        "avax.network",
-        "avax-test.network",
-        "avax-dev.network"
       ]
     }
   ]
