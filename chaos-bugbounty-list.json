@@ -7523,6 +7523,19 @@
       ]
     },
     {
+      "name": "Teleport",
+      "url": "https://hackerone.com/teleport",
+      "bounty": true,
+      "domains": [
+        "goteleport.com",
+        "gravitational.com",
+        "teleport.dev",
+        "teleportinfra.sh",
+        "gravitational.co",
+        "gravitational.io"
+      ]
+    },
+    {
       "name": "Tencent",
       "url": "https://en.security.tencent.com",
       "bounty": true,
@@ -8745,19 +8758,6 @@
       "domains": [
         "zynga.com",
         "zyngagames.com"
-      ]
-    },
-    {
-      "name": "Teleport",
-      "url": "https://hackerone.com/teleport",
-      "bounty": true,
-      "domains": [
-        "goteleport.com",
-        "gravitational.com",
-        "teleport.dev",
-        "teleportinfra.sh",
-        "gravitational.co",
-        "gravitational.io"
       ]
     }
   ]
