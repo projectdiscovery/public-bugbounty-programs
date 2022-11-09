@@ -4312,6 +4312,17 @@
       ]
     },
     {
+      "name": "Kaleido",
+      "url": "https://bugcrowd.com/kaleido",
+      "bounty": true,
+      "domains": [
+        "remove.bg",
+        "designify.com",
+        "kaleido.ai",
+        "unscreen.com"
+      ]
+    },
+    {
       "name": "Kartpay",
       "url": "https://hackerone.com/kartpay",
       "bounty": false,
@@ -6051,6 +6062,14 @@
         "dynoquant.com",
         "quantopian.com",
         "quantshack.com"
+      ]
+    },
+    {
+      "name": "Quizlet",
+      "url": "https://bugcrowd.com/quizlet",
+      "bounty": true,
+      "domains": [
+        "quizlet.com"
       ]
     },
     {
@@ -8776,25 +8795,6 @@
         "zynga.com",
         "zyngagames.com"
       ]
-    },
-    {
-      "name": "Kaleido",
-      "url": "https://bugcrowd.com/kaleido",
-      "bounty": true,
-      "domains": [
-        "remove.bg",
-        "designify.com",
-        "kaleido.ai",
-        "unscreen.com"
-      ]
-    }, 
-    {
-      "name": "Quizlet",
-      "url": "https://bugcrowd.com/quizlet",
-      "bounty": true,
-      "domains": [
-        "quizlet.com"
-       ]
     }
   ]
 }
