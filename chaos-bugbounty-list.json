@@ -3853,6 +3853,15 @@
       ]
     },
     {
+      "name": "Hake Finance",
+      "url": "https://immunefi.com/bounty/hakkafinance/",
+      "bounty": true,
+      "domains": [
+        "hakka.finance",
+        "igain.finance"
+      ]
+    },
+    {
       "name": "Hanno",
       "url": "https://hackerone.com/hannob",
       "bounty": false,
@@ -3860,15 +3869,6 @@
         "betterscience.org",
         "fuzzing-project.org",
         "hboeck.de"
-      ]
-    },
-    {
-      "name": "Hake Finance",
-      "url": "https://immunefi.com/bounty/hakkafinance/",
-      "bounty": true,
-      "domains": [
-        "hakka.finance",
-        "igain.finance"
       ]
     },
     {
