@@ -42,6 +42,14 @@
       ]
     },
     {
+      "name": "AAX",
+      "url": "https://hackenproof.com/aax/aax",
+      "bounty": true,
+      "domains": [
+        "https://aax.com"
+      ]
+    },
+    {
       "name": "Abercrombie & Fitch Management Co.",
       "url": "https://hackerone.com/abercrombie_fitch",
       "bounty": false,
@@ -646,6 +654,41 @@
       ]
     },
     {
+      "name": "BigONE Global Exchange",
+      "url": "https://hackenproof.com/bigone-global-exchange/bigone-global-exchange",
+      "bounty": true,
+      "domains": [
+        "big.one",
+        "bigone.com"
+      ]
+    },
+    {
+      "name": "BingX Exchange",
+      "url": "https://hackenproof.com/bingx/bingx-exchange",
+      "bounty": true,
+      "domains": [
+        "bingx.com",
+        "bingx.pro"
+      ]
+    },
+    {
+      "name": "Bit.com",
+      "url": "https://hackenproof.com/bit-dot-com/bit-dot-com",
+      "bounty": true,
+      "domains": [
+        "https://www.bit.com/",
+        "https://www.bit.com/legacy/propertyCenter/assets"
+      ]
+    },
+    {
+      "name": "BitMart Exchange",
+      "url": "https://hackenproof.com/bitmart-exchange/bitmart-exchange",
+      "bounty": true,
+      "domains": [
+        "bitmart.com"
+      ]
+    },
+    {
       "name": "Bime",
       "url": "https://hackerone.com/bime",
       "bounty": true,
@@ -719,6 +762,14 @@
       ]
     },
     {
+      "name": "BitForex",
+      "url": "https://hackenproof.com/bitforex/bitforex",
+      "bounty": true,
+      "domains": [
+        "bitforex.com"
+      ]
+    },
+    {
       "name": "BitGo",
       "url": "https://www.bitgo.com/bug-bounty",
       "bounty": true,
@@ -757,6 +808,15 @@
       "bounty": false,
       "domains": [
         "bitwarden.com"
+      ]
+    },
+    {
+      "name": "BKEX",
+      "url": "https://hackenproof.com/bkex/bkex",
+      "bounty": true,
+      "domains": [
+        "http://oss.bkk.fun",
+        "www.bkex.com"
       ]
     },
     {
@@ -1229,6 +1289,25 @@
       ]
     },
     {
+      "name": "CoinGecko",
+      "url": "https://hackenproof.com/coingecko/coingecko",
+      "bounty": true,
+      "domains": [
+        "coingecko.com",
+        "blog.coingecko.com",
+        "landing.coingecko.com",
+        "geckoterminal.com"
+      ]
+    },
+    {
+      "name": "Coinstore",
+      "url": "https://hackenproof.com/coinstore/coinstore",
+      "bounty": true,
+      "domains": [
+        "www.coinstore.com"
+      ]
+    },
+    {
       "name": "Comcast Xfinity",
       "url": "https://bugcrowd.com/comcastvdp",
       "bounty": false,
@@ -1612,6 +1691,14 @@
       "domains": [
         "digitaloceanspaces.com",
         "digitalocean.com"
+      ]
+    },
+    {
+      "name": "DIFX",
+      "url": "https://hackenproof.com/difx/difx",
+      "bounty": true,
+      "domains": [
+        "https://difx.com"
       ]
     },
     {
@@ -2171,6 +2258,14 @@
       "bounty": true,
       "domains": [
         "ftx.com"
+      ]
+    },
+    {
+      "name": "Gate.io",
+      "url": "https://hackenproof.com/gate-dot-io/gate-dot-io-exchange",
+      "bounty": true,
+      "domains": [
+        "https://www.gate.io/"
       ]
     },
     {
@@ -5387,6 +5482,15 @@
         "olaelectric.in",
         "mission-electric.in",
         "ola.institute"
+      ]
+    },
+    {
+      "name": "Okcoin",
+      "url": "https://hackenproof.com/okcoin/okcoin",
+      "bounty": true,
+      "domains": [
+        "https://www.okcoin.com/",
+        "https://www.okcoin.com/docs/en/"
       ]
     },
     {
