@@ -237,6 +237,41 @@
       ]
     },
     {
+      "name": "Allegion",
+      "url": "https://hackerone.com/allegion",
+      "bounty": false,
+      "domains": [
+        "allegion.com",
+        "specadsystems.com",
+        "isonas.com",
+        "krytonitelock.com",
+        "republicdoor.com",
+        "schlage.com",
+        "fireglass.com",
+        "yonomi.co",
+        "trelock.com",
+        "simons-voss.com",
+        "milre.com",
+        "interflex.de",
+        "gainsboroughhardware.com.au",
+        "fshlocking.com.au",
+        "allegion.co.uk",
+        "cisa.com",
+        "brio.com.au",
+        "brionz.com",
+        "briouk.com",
+        "briousa.com",
+        "bricard.com",
+        "axasecurity.com",
+        "ausloc.com",
+        "allegionengage.com",
+        "isonaspureaccesscloud.com",
+        "my-mobilekey.com",
+        "yonomi.com",
+        "nombau.de"
+      ]
+    },
+    {
       "name": "Allegro",
       "url": "https://hackerone.com/allegro",
       "bounty": true,
@@ -264,6 +299,15 @@
         "amazon.co.jp",
         "amazon.de",
         "amazon.fr"
+      ]
+    },
+    {
+      "name": "Abercrombie & Fitch Management Co.",
+      "url": "https://hackerone.com/abercrombie_fitch",
+      "bounty": false,
+      "domains": [
+        "abercrombie.com",
+        "hollisterco.com"
       ]
     },
     {
@@ -4891,6 +4935,14 @@
       ]
     },
     {
+      "name": "Monarch Money",
+      "url": "https://hackerone.com/monarch_money",
+      "bounty": false,
+      "domains": [
+        "monarchmoney.com"
+      ]
+    },
+    {
       "name": "Monash MBB",
       "url": "https://bugcrowd.com/monash-mbb",
       "bounty": true,
@@ -6202,6 +6254,34 @@
       ]
     },
     {
+      "name": "ResMed",
+      "url": "https://hackerone.com/resmed",
+      "bounty": false,
+      "domains": [
+        "resmed.com",
+        "u-sleep.umbian.com",
+        "Narval-easy.resmed.eu",
+        "resmed.co.uk",
+        "resmed.mx",
+        "resmed.com.br",
+        "resmed.lat",
+        "resmed.com.au",
+        "resmed.sg",
+        "resmed.hk",
+        "resmed.ph",
+        "resmed.vn",
+        "resmed.de",
+        "resmed.fr",
+        "resmed.nl",
+        "resmed.no",
+        "resmed.pt",
+        "resmed.dk",
+        "resmed.ch",
+        "resmed.la",
+        "resmed.com.cn"
+      ]
+    },
+    {
       "name": "REVE Antivirus",
       "url": "https://www.reveantivirus.com/in/bug-bounty-program",
       "bounty": false,
@@ -6233,6 +6313,15 @@
       "bounty": false,
       "domains": [
         "ribose.com"
+      ]
+    },
+    {
+      "name": "Rivian Automotive",
+      "url": "https://hackerone.com/rivian_automotive",
+      "bounty": false,
+      "domains": [
+        "rivian.com",
+        "rivianservices.com"
       ]
     },
     {
@@ -6537,6 +6626,15 @@
         "shopify.com",
         "shopifykloud.com",
         "myshopify.com"
+      ]
+    },
+    {
+      "name": "SHOPLAZZA",
+      "url": "https://hackerone.com/shoplazza",
+      "bounty": false,
+      "domains": [
+        "shoplazza.com",
+        "myshoplaza.com"
       ]
     },
     {
