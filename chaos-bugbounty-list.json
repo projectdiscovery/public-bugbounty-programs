@@ -6049,16 +6049,6 @@
       ]
     },
     {
-      "name": "RBK.money",
-      "url": "https://rbk.money/en/bug-bounty/",
-      "bounty": true,
-      "domains": [
-        "rbk.money",
-        "rbk.mn",
-        "rbkmoney.com"
-      ]
-    },
-    {
       "name": "Realogy",
       "url": "https://hackerone.com/realogy",
       "bounty": false,
