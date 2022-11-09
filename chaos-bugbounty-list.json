@@ -8776,6 +8776,16 @@
         "zynga.com",
         "zyngagames.com"
       ]
-    }
+    },
+    {
+   "name":"Kucoin",
+   "url":"https://hackenproof.com/kucoin",
+   "bounty": true,
+   "domains":[
+      "kucoin.com"
+   ]
+  }
   ]
 }
+
+
