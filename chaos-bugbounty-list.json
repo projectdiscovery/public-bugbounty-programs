@@ -8573,6 +8573,14 @@
       ]
     },
     {
+      "name": "Wombat Exchange",
+      "url": "https://immunefi.com/bounty/wombatexchange/",
+      "bounty": true,
+      "domains": [
+        "wombat.exchange"
+      ]
+    },
+    {
       "name": "Woodpecker",
       "url": "https://woodpecker.co/vulnerability-disclosure-program/",
       "bounty": false,
@@ -8600,14 +8608,6 @@
       "bounty": false,
       "domains": [
         "worklytics.co"
-      ]
-    },
-    {
-      "name": "Wombat Exchange",
-      "url": "https://immunefi.com/bounty/wombatexchange/",
-      "bounty": true,
-      "domains": [
-        "wombat.exchange"
       ]
     },
     {
