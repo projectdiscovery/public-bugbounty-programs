@@ -8776,6 +8776,25 @@
         "zynga.com",
         "zyngagames.com"
       ]
+    },
+    {
+      "name": "Kaleido",
+      "url": "https://bugcrowd.com/kaleido",
+      "bounty": true,
+      "domains": [
+        "remove.bg",
+        "designify.com",
+        "kaleido.ai",
+        "unscreen.com"
+      ]
+    }, 
+    {
+      "name": "Quizlet",
+      "url": "https://bugcrowd.com/quizlet",
+      "bounty": true,
+      "domains": [
+        "quizlet.com"
+       ]
     }
   ]
 }
