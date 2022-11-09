@@ -5205,6 +5205,16 @@
       ]
     },
     {
+     "name":"Nodeflux",
+     "url":"https://www.nodeflux.io/bug-bounty",
+     "bounty": true,
+     "swag": false,
+     "domains":[
+        "nodeflux.io",
+        "identifai.id"
+      ]
+    },
+    {
       "name": "Nokia",
       "url": "https://www.nokia.com/responsible-disclosure/",
       "bounty": false,
