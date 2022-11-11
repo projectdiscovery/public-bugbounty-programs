@@ -246,6 +246,14 @@
       ]
     },
     {
+      "name": "Allbridge",
+      "url": "https://hackenproof.com/allbridge/allbridge",
+      "bounty": true,
+      "domains": [
+        "app.allbridge.io"
+      ]
+    },
+    {
       "name": "Allegion",
       "url": "https://hackerone.com/allegion",
       "bounty": false,
@@ -727,6 +735,14 @@
       ]
     },
     {
+      "name": "Bitkub",
+      "url": "https://hackenproof.com/bitkub/bitkub",
+      "bounty": true,
+      "domains": [
+        "bitkub.com"
+      ]
+    },
+    {
       "name": "BitMEX",
       "url": "https://hackerone.com/bitmex",
       "bounty": true,
@@ -837,6 +853,14 @@
       "swag": false,
       "domains": [
         "btcturk.com"
+      ]
+    },
+    {
+      "name": "BTSE",
+      "url": "https://hackenproof.com/btse/btse-bug-bounty-program",
+      "bounty": true,
+      "domains": [
+        "btse.com"
       ]
     },
     {
@@ -1229,6 +1253,22 @@
       ]
     },
     {
+      "name": "CoinMetro",
+      "url": "https://bugcrowd.com/coindcx-og",
+      "bounty": true,
+      "domains": [
+        "coinmetro.com"
+      ]
+    },
+    {
+      "name": "Coinsbit",
+      "url": "https://hackenproof.com/coinsbit/coinsbit",
+      "bounty": true,
+      "domains": [
+        "coinsbit.io"
+      ]
+    },
+    {
       "name": "Comcast Xfinity",
       "url": "https://bugcrowd.com/comcastvdp",
       "bounty": false,
@@ -1384,6 +1424,16 @@
         "mona.co",
         "monaco.mobile",
         "crypto.com"
+      ]
+    },
+    {
+      "name": "Cryptology",
+      "url": "https://hackenproof.com/cryptology/cryptology",
+      "bounty": true,
+      "domains": [
+        "cryptology.com",
+        "prod.cryptology.com",
+        "affiliate.cryptology.com"
       ]
     },
     {
@@ -1591,6 +1641,14 @@
         "telekom.net",
         "telekom.com",
         "t-systems.com"
+      ]
+    },
+    {
+      "name": "Dex-Trade",
+      "url": "https://hackenproof.com/dex-trade/dex-trade",
+      "bounty": true,
+      "domains": [
+        "dex-trade.com"
       ]
     },
     {
@@ -1947,6 +2005,15 @@
       "domains": [
         "exodus.io",
         "exodus.com"
+      ]
+    },
+    {
+      "name": "EXMO",
+      "url": "https://hackerone.com/exodus",
+      "bounty": true,
+      "domains": [
+        "exmo.com",
+        "exmo.me"
       ]
     },
     {
@@ -3832,6 +3899,14 @@
       ]
     },
     {
+      "name": "HackenProof",
+      "url": "https://hackenproof.com/hacken/hackenproof",
+      "bounty": true,
+      "domains": [
+        "hackenproof.com"
+      ]
+    },
+    {
       "name": "HackerOne",
       "url": "https://hackerone.com/security",
       "bounty": true,
@@ -3927,6 +4002,14 @@
         "hostinger.com",
         "zyro.com",
         "hosting24.com"
+      ]
+    },
+    {
+      "name": "Hotbit",
+      "url": "https://hackenproof.com/hotbit/hotbit",
+      "bounty": true,
+      "domains": [
+        "hotbit.io"
       ]
     },
     {
@@ -4455,6 +4538,24 @@
       ]
     },
     {
+      "name": "Kuna Crypto Exchange",
+      "url": "https://hackenproof.com/kuna/kuna-crypto-exchange",
+      "bounty": true,
+      "domains": [
+        "kuna.io",
+        "money.kuna.io"
+      ]
+    },
+    {
+      "name": "LANCHAIN.IO",
+      "url": "https://hackenproof.com/latoken/lachain-dot-io",
+      "bounty": true,
+      "domains": [
+        "app.lachain.io",
+        "ladex.exchange"
+      ]
+    },
+    {
       "name": "Larksuite",
       "url": "https://hackerone.com/lark_technologies",
       "bounty": true,
@@ -4469,6 +4570,14 @@
       "bounty": true,
       "domains": [
         "lastpass.com"
+      ]
+    },
+    {
+      "name": "Latoken",
+      "url": "https://hackenproof.com/latoken/latoken-exchange",
+      "bounty": true,
+      "domains": [
+        "latoken.com"
       ]
     },
     {
@@ -4499,6 +4608,14 @@
         "pickmee.ph",
         "pickmee.my",
         "pickmee.sg"
+      ]
+    },
+    {
+      "name": "LCX",
+      "url": "https://hackenproof.com/lcx/lcx",
+      "bounty": true,
+      "domains": [
+        "LCX.com"
       ]
     },
     {
@@ -5376,6 +5493,14 @@
       ]
     },
     {
+      "name": "OKX",
+      "url": "https://hackenproof.com/okx-1/okx",
+      "bounty": true,
+      "domains": [
+        "okx.com"
+      ]
+    },
+    {
       "name": "Ola",
       "url": "https://whitehat.olacabs.com",
       "bounty": true,
@@ -5506,6 +5631,14 @@
       ]
     },
     {
+      "name": "Openware",
+      "url": "https://hackenproof.com/openware/openware",
+      "bounty": true,
+      "domains": [
+        "alpha.yellow.org"
+      ]
+    },
+    {
       "name": "Opera Public Bug Bounty",
       "url": "https://bugcrowd.com/opera",
       "bounty": true,
@@ -5624,6 +5757,14 @@
       ]
     },
     {
+      "name": "P2B Exchange",
+      "url": "https://hackenproof.com/p2b-exchange/p2b-exchange",
+      "bounty": true,
+      "domains": [
+        "p2pb2b.com"
+      ]
+    },
+    {
       "name": "Paddy Power Betfair",
       "url": "https://hackerone.com/flutteruki",
       "bounty": true,
@@ -5677,6 +5818,14 @@
         "mplans.com",
         "paloalto.com",
         "teamoutpost.com"
+      ]
+    },
+    {
+      "name": "Pandora",
+      "url": "https://hackenproof.com/pandora/pandora-web",
+      "bounty": true,
+      "domains": [
+        "pandora.digital"
       ]
     },
     {
@@ -5918,6 +6067,14 @@
       "bounty": true,
       "domains": [
         "poloniex.com"
+      ]
+    },
+    {
+      "name": "Polkalokr",
+      "url": "https://hackenproof.com/polkalokr/polkalokr-1",
+      "bounty": true,
+      "domains": [
+        "bridgr-testnet.polkalokr.com"
       ]
     },
     {
@@ -8558,6 +8715,14 @@
         "westernunion.be",
         "westernunion.lu",
         "wuedge.com"
+      ]
+    },
+    {
+      "name": "WhiteBIT",
+      "url": "https://hackenproof.com/whitebit/whitebit",
+      "bounty": true,
+      "domains": [
+        "whitebit.com"
       ]
     },
     {
