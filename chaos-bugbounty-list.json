@@ -1325,6 +1325,9 @@
       "bounty": true,
       "domains": [
         "coinsbit.io"
+      ]
+    },
+    {
       "name": "CoinGecko",
       "url": "https://hackenproof.com/coingecko/coingecko",
       "bounty": true,
