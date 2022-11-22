@@ -6676,6 +6676,14 @@
       ]
     },
     {
+      "name": "ShapeShift",
+      "url": "https://hackenproof.com/fox-foundation/shapeshift",
+      "bounty": true,
+      "domains": [
+        "shapeshift.com"
+      ]
+    },
+    {
       "name": "SHEIN",
       "url": "https://hackerone.com/shein",
       "bounty": true,
@@ -6690,14 +6698,6 @@
         "shein.co.uk",
         "romwe.com",
         "romwe.co.in"
-      ]
-    },
-    {
-      "name": "ShapeShift",
-      "url": "https://hackenproof.com/fox-foundation/shapeshift",
-      "bounty": true,
-      "domains": [
-        "shapeshift.com"          
       ]
     },
     {
