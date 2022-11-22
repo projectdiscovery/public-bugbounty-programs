@@ -46,7 +46,7 @@
       "url": "https://hackenproof.com/aax/aax",
       "bounty": true,
       "domains": [
-        "https://aax.com"
+        "aax.com"
       ]
     },
     {
@@ -676,8 +676,7 @@
       "url": "https://hackenproof.com/bit-dot-com/bit-dot-com",
       "bounty": true,
       "domains": [
-        "https://www.bit.com/",
-        "https://www.bit.com/legacy/propertyCenter/assets"
+        "bit.com"
       ]
     },
     {
@@ -815,8 +814,8 @@
       "url": "https://hackenproof.com/bkex/bkex",
       "bounty": true,
       "domains": [
-        "http://oss.bkk.fun",
-        "www.bkex.com"
+        "bkk.fun",
+        "bkex.com"
       ]
     },
     {
@@ -1294,8 +1293,6 @@
       "bounty": true,
       "domains": [
         "coingecko.com",
-        "blog.coingecko.com",
-        "landing.coingecko.com",
         "geckoterminal.com"
       ]
     },
@@ -1304,7 +1301,7 @@
       "url": "https://hackenproof.com/coinstore/coinstore",
       "bounty": true,
       "domains": [
-        "www.coinstore.com"
+        "coinstore.com"
       ]
     },
     {
@@ -1698,7 +1695,7 @@
       "url": "https://hackenproof.com/difx/difx",
       "bounty": true,
       "domains": [
-        "https://difx.com"
+        "difx.com"
       ]
     },
     {
@@ -2265,7 +2262,7 @@
       "url": "https://hackenproof.com/gate-dot-io/gate-dot-io-exchange",
       "bounty": true,
       "domains": [
-        "https://www.gate.io/"
+        "gate.io"
       ]
     },
     {
@@ -5489,8 +5486,7 @@
       "url": "https://hackenproof.com/okcoin/okcoin",
       "bounty": true,
       "domains": [
-        "https://www.okcoin.com/",
-        "https://www.okcoin.com/docs/en/"
+        "okcoin.com"
       ]
     },
     {
