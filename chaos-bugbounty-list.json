@@ -7601,8 +7601,7 @@
       "url": "https://hackenproof.com/ternoa/ternoa-web-and-apps",
       "bounty": true,
       "domains": [
-        "https://bridge.ternoa.network",
-        "https://indexer-mainnet.ternoa.network/"
+        "ternoa.network"
       ]
     },
     {
