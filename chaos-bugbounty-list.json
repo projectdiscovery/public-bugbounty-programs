@@ -1303,7 +1303,7 @@
       "url": "https://hackenproof.com/avalanche/core",
       "bounty": true,
       "domains": [
-        "https://core.app/"
+        "core.app"
       ]
     },
     {
@@ -4199,11 +4199,11 @@
       "url": "https://hackenproof.com/iotex/iotex",
       "bounty": true,
       "domains": [
-        "https://iotex.io/",
-        "https://iotexscan.io/",
-        "https://iotexscout.io/",
-        "https://machinefi.com/",
-        "https://iopay.me/"
+        "iotex.io",
+        "iotexscan.io",
+        "iotexscout.io",
+        "machinefi.com",
+        "iopay.me"
       ]
     },
     {
@@ -6460,8 +6460,7 @@
       "url": "https://hackenproof.com/router/router-web",
       "bounty": true,
       "domains": [
-        "https://www.routerprotocol.com/",
-        "https://app.routerprotocol.com/"
+        "routerprotocol.com"
       ]
     },
     {
@@ -6698,7 +6697,6 @@
       "url": "https://hackenproof.com/fox-foundation/shapeshift",
       "bounty": true,
       "domains": [
-        "app.shapeshift.com",
         "shapeshift.com"          
       ]
     },
