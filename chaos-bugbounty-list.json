@@ -258,7 +258,7 @@
       "url": "https://hackenproof.com/allbridge/allbridge",
       "bounty": true,
       "domains": [
-        "app.allbridge.io"
+        "allbridge.io"
       ]
     },
     {
@@ -1515,9 +1515,7 @@
       "url": "https://hackenproof.com/cryptology/cryptology",
       "bounty": true,
       "domains": [
-        "cryptology.com",
-        "prod.cryptology.com",
-        "affiliate.cryptology.com"
+        "cryptology.com"
       ]
     },
     {
@@ -4662,8 +4660,7 @@
       "url": "https://hackenproof.com/kuna/kuna-crypto-exchange",
       "bounty": true,
       "domains": [
-        "kuna.io",
-        "money.kuna.io"
+        "kuna.io"
       ]
     },
     {
@@ -4671,7 +4668,7 @@
       "url": "https://hackenproof.com/latoken/lachain-dot-io",
       "bounty": true,
       "domains": [
-        "app.lachain.io",
+        "lachain.io",
         "ladex.exchange"
       ]
     },
@@ -4735,7 +4732,7 @@
       "url": "https://hackenproof.com/lcx/lcx",
       "bounty": true,
       "domains": [
-        "LCX.com"
+        "lcx.com"
       ]
     },
     {
@@ -5763,7 +5760,7 @@
       "url": "https://hackenproof.com/openware/openware",
       "bounty": true,
       "domains": [
-        "alpha.yellow.org"
+        "yellow.org"
       ]
     },
     {
@@ -6202,7 +6199,7 @@
       "url": "https://hackenproof.com/polkalokr/polkalokr-1",
       "bounty": true,
       "domains": [
-        "bridgr-testnet.polkalokr.com"
+        "polkalokr.com"
       ]
     },
     {
