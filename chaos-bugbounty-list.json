@@ -42,6 +42,14 @@
       ]
     },
     {
+      "name": "AAX",
+      "url": "https://hackenproof.com/aax/aax",
+      "bounty": true,
+      "domains": [
+        "aax.com"
+      ]
+    },
+    {
       "name": "Abercrombie & Fitch Management Co.",
       "url": "https://hackerone.com/abercrombie_fitch",
       "bounty": false,
@@ -654,6 +662,15 @@
       ]
     },
     {
+      "name": "BigONE Global Exchange",
+      "url": "https://hackenproof.com/bigone-global-exchange/bigone-global-exchange",
+      "bounty": true,
+      "domains": [
+        "big.one",
+        "bigone.com"
+      ]
+    },
+    {
       "name": "Bime",
       "url": "https://hackerone.com/bime",
       "bounty": true,
@@ -681,6 +698,23 @@
       "bounty": true,
       "domains": [
         "binary.com"
+      ]
+    },
+    {
+      "name": "BingX Exchange",
+      "url": "https://hackenproof.com/bingx/bingx-exchange",
+      "bounty": true,
+      "domains": [
+        "bingx.com",
+        "bingx.pro"
+      ]
+    },
+    {
+      "name": "Bit.com",
+      "url": "https://hackenproof.com/bit-dot-com/bit-dot-com",
+      "bounty": true,
+      "domains": [
+        "bit.com"
       ]
     },
     {
@@ -727,6 +761,14 @@
       ]
     },
     {
+      "name": "BitForex",
+      "url": "https://hackenproof.com/bitforex/bitforex",
+      "bounty": true,
+      "domains": [
+        "bitforex.com"
+      ]
+    },
+    {
       "name": "BitGo",
       "url": "https://www.bitgo.com/bug-bounty",
       "bounty": true,
@@ -740,6 +782,14 @@
       "bounty": true,
       "domains": [
         "bitkub.com"
+      ]
+    },
+    {
+      "name": "BitMart Exchange",
+      "url": "https://hackenproof.com/bitmart-exchange/bitmart-exchange",
+      "bounty": true,
+      "domains": [
+        "bitmart.com"
       ]
     },
     {
@@ -773,6 +823,15 @@
       "bounty": false,
       "domains": [
         "bitwarden.com"
+      ]
+    },
+    {
+      "name": "BKEX",
+      "url": "https://hackenproof.com/bkex/bkex",
+      "bounty": true,
+      "domains": [
+        "bkk.fun",
+        "bkex.com"
       ]
     },
     {
@@ -1266,6 +1325,20 @@
       "bounty": true,
       "domains": [
         "coinsbit.io"
+      "name": "CoinGecko",
+      "url": "https://hackenproof.com/coingecko/coingecko",
+      "bounty": true,
+      "domains": [
+        "coingecko.com",
+        "geckoterminal.com"
+      ]
+    },
+    {
+      "name": "Coinstore",
+      "url": "https://hackenproof.com/coinstore/coinstore",
+      "bounty": true,
+      "domains": [
+        "coinstore.com"
       ]
     },
     {
@@ -1336,6 +1409,14 @@
         "consumersenergy.com",
         "applianceserviceplan.com",
         "cms-enterprises.com"
+      ]
+    },
+    {
+      "name": "Core",
+      "url": "https://hackenproof.com/avalanche/core",
+      "bounty": true,
+      "domains": [
+        "core.app"
       ]
     },
     {
@@ -1661,6 +1742,14 @@
         "didiglobal.com",
         "udache.com",
         "didiyun.com"
+      ]
+    },
+    {
+      "name": "DIFX",
+      "url": "https://hackenproof.com/difx/difx",
+      "bounty": true,
+      "domains": [
+        "difx.com"
       ]
     },
     {
@@ -2238,6 +2327,14 @@
       "bounty": true,
       "domains": [
         "ftx.com"
+      ]
+    },
+    {
+      "name": "Gate.io",
+      "url": "https://hackenproof.com/gate-dot-io/gate-dot-io-exchange",
+      "bounty": true,
+      "domains": [
+        "gate.io"
       ]
     },
     {
@@ -4052,6 +4149,14 @@
       ]
     },
     {
+      "name": "Huobi",
+      "url": "https://hackenproof.com/huobi-global/huobi",
+      "bounty": true,
+      "domains": [
+        "huobi.com"
+      ]
+    },
+    {
       "name": "Hy-Vee",
       "url": "https://hackerone.com/hy-vee",
       "bounty": false,
@@ -4259,6 +4364,18 @@
       "domains": [
         "muz.li",
         "invisionapp.com"
+      ]
+    },
+    {
+      "name": "IoTeX",
+      "url": "https://hackenproof.com/iotex/iotex",
+      "bounty": true,
+      "domains": [
+        "iotex.io",
+        "iotexscan.io",
+        "iotexscout.io",
+        "machinefi.com",
+        "iopay.me"
       ]
     },
     {
@@ -5485,6 +5602,14 @@
       ]
     },
     {
+      "name": "Okcoin",
+      "url": "https://hackenproof.com/okcoin/okcoin",
+      "bounty": true,
+      "domains": [
+        "okcoin.com"
+      ]
+    },
+    {
       "name": "Okta",
       "url": "https://bugcrowd.com/okta",
       "bounty": true,
@@ -6585,6 +6710,14 @@
       ]
     },
     {
+      "name": "Router",
+      "url": "https://hackenproof.com/router/router-web",
+      "bounty": true,
+      "domains": [
+        "routerprotocol.com"
+      ]
+    },
+    {
       "name": "Royal Bank of Scotland",
       "url": "http://personal.rbs.co.uk/personal/security-centre/responsible-disclosure.html",
       "bounty": false,
@@ -6794,6 +6927,14 @@
       "swag": false,
       "domains": [
         "shakepay.com"
+      ]
+    },
+    {
+      "name": "ShapeShift",
+      "url": "https://hackenproof.com/fox-foundation/shapeshift",
+      "bounty": true,
+      "domains": [
+        "shapeshift.com"
       ]
     },
     {
@@ -7266,7 +7407,6 @@
         "indiehackers.com",
         "payable.com",
         "getbouncer.com",
-        "getbouncer.com",
         "recko.io",
         "reckoproduction.com",
         "reckostaging.com",
@@ -7738,6 +7878,14 @@
         "tenpay.com",
         "dnspod.cn",
         "weiyun.com"
+      ]
+    },
+    {
+      "name": "Ternoa",
+      "url": "https://hackenproof.com/ternoa/ternoa-web-and-apps",
+      "bounty": true,
+      "domains": [
+        "ternoa.network"
       ]
     },
     {
