@@ -1312,6 +1312,15 @@
       ]
     },
     {
+      "name": "CoinGecko",
+      "url": "https://hackenproof.com/coingecko/coingecko",
+      "bounty": true,
+      "domains": [
+        "coingecko.com",
+        "geckoterminal.com"
+      ]
+    },
+    {
       "name": "CoinMetro",
       "url": "https://bugcrowd.com/coindcx-og",
       "bounty": true,
@@ -1325,15 +1334,6 @@
       "bounty": true,
       "domains": [
         "coinsbit.io"
-      ]
-    },
-    {
-      "name": "CoinGecko",
-      "url": "https://hackenproof.com/coingecko/coingecko",
-      "bounty": true,
-      "domains": [
-        "coingecko.com",
-        "geckoterminal.com"
       ]
     },
     {
@@ -2089,21 +2089,21 @@
       ]
     },
     {
-      "name": "Exodus",
-      "url": "https://hackerone.com/exodus",
-      "bounty": true,
-      "domains": [
-        "exodus.io",
-        "exodus.com"
-      ]
-    },
-    {
       "name": "EXMO",
       "url": "https://hackerone.com/exodus",
       "bounty": true,
       "domains": [
         "exmo.com",
         "exmo.me"
+      ]
+    },
+    {
+      "name": "Exodus",
+      "url": "https://hackerone.com/exodus",
+      "bounty": true,
+      "domains": [
+        "exodus.io",
+        "exodus.com"
       ]
     },
     {
@@ -6187,19 +6187,19 @@
       ]
     },
     {
-      "name": "Poloniex",
-      "url": "https://hackerone.com/poloniex",
-      "bounty": true,
-      "domains": [
-        "poloniex.com"
-      ]
-    },
-    {
       "name": "Polkalokr",
       "url": "https://hackenproof.com/polkalokr/polkalokr-1",
       "bounty": true,
       "domains": [
         "polkalokr.com"
+      ]
+    },
+    {
+      "name": "Poloniex",
+      "url": "https://hackerone.com/poloniex",
+      "bounty": true,
+      "domains": [
+        "poloniex.com"
       ]
     },
     {
