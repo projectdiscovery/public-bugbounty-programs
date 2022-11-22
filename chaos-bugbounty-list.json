@@ -663,31 +663,6 @@
       ]
     },
     {
-      "name": "BingX Exchange",
-      "url": "https://hackenproof.com/bingx/bingx-exchange",
-      "bounty": true,
-      "domains": [
-        "bingx.com",
-        "bingx.pro"
-      ]
-    },
-    {
-      "name": "Bit.com",
-      "url": "https://hackenproof.com/bit-dot-com/bit-dot-com",
-      "bounty": true,
-      "domains": [
-        "bit.com"
-      ]
-    },
-    {
-      "name": "BitMart Exchange",
-      "url": "https://hackenproof.com/bitmart-exchange/bitmart-exchange",
-      "bounty": true,
-      "domains": [
-        "bitmart.com"
-      ]
-    },
-    {
       "name": "Bime",
       "url": "https://hackerone.com/bime",
       "bounty": true,
@@ -715,6 +690,23 @@
       "bounty": true,
       "domains": [
         "binary.com"
+      ]
+    },
+    {
+      "name": "BingX Exchange",
+      "url": "https://hackenproof.com/bingx/bingx-exchange",
+      "bounty": true,
+      "domains": [
+        "bingx.com",
+        "bingx.pro"
+      ]
+    },
+    {
+      "name": "Bit.com",
+      "url": "https://hackenproof.com/bit-dot-com/bit-dot-com",
+      "bounty": true,
+      "domains": [
+        "bit.com"
       ]
     },
     {
@@ -774,6 +766,14 @@
       "bounty": true,
       "domains": [
         "bitgo.com"
+      ]
+    },
+    {
+      "name": "BitMart Exchange",
+      "url": "https://hackenproof.com/bitmart-exchange/bitmart-exchange",
+      "bounty": true,
+      "domains": [
+        "bitmart.com"
       ]
     },
     {
@@ -1690,20 +1690,20 @@
       ]
     },
     {
+      "name": "DIFX",
+      "url": "https://hackenproof.com/difx/difx",
+      "bounty": true,
+      "domains": [
+        "difx.com"
+      ]
+    },
+    {
       "name": "DigitalOcean",
       "url": "https://hackerone.com/digitalocean",
       "bounty": false,
       "domains": [
         "digitaloceanspaces.com",
         "digitalocean.com"
-      ]
-    },
-    {
-      "name": "DIFX",
-      "url": "https://hackenproof.com/difx/difx",
-      "bounty": true,
-      "domains": [
-        "difx.com"
       ]
     },
     {
@@ -5488,6 +5488,14 @@
       ]
     },
     {
+      "name": "Okcoin",
+      "url": "https://hackenproof.com/okcoin/okcoin",
+      "bounty": true,
+      "domains": [
+        "okcoin.com"
+      ]
+    },
+    {
       "name": "Okta",
       "url": "https://bugcrowd.com/okta",
       "bounty": true,
@@ -5507,14 +5515,6 @@
         "olaelectric.in",
         "mission-electric.in",
         "ola.institute"
-      ]
-    },
-    {
-      "name": "Okcoin",
-      "url": "https://hackenproof.com/okcoin/okcoin",
-      "bounty": true,
-      "domains": [
-        "okcoin.com"
       ]
     },
     {
