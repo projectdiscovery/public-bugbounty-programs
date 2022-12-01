@@ -9116,6 +9116,43 @@
         "zynga.com",
         "zyngagames.com"
       ]
+    },
+    {
+      "name": "Expedia Group",
+      "url": "https://hackerone.com/expediagroup",
+      "bounty": false,
+      "domains": [
+        "expedia.com",
+        "hotwire.com",
+        "orbitz.com",
+        "hotels.com",
+        "homeaway.com",
+        "cheaptickets.com",
+        "travelocity.com",
+        "wotif.com",
+        "cruiseshipcenters.com",
+        "lastminute.com.au",
+        "carrentals.com",
+        "expediapartnercentral.com",
+        "abritel.fr",
+        "bookabach.co.nz",
+        "fewo-direkt.de",
+        "stayz.com.au",
+        "expediagroup.com",
+        "egadvertising.com",
+        "flights.com",
+        "hoteles.com",
+        "hoteis.com",
+        "vrbo.com",
+        "hotwirepartnercentral.com",
+        "ebookers.com",
+        "mrjet.se",
+        "expediapartnersolutions.com",
+        "ean.com",
+        "lastminute.co.nz",
+        "travelocity.ca",
+        "expediaagents.com"
+      ]
     }
   ]
 }
