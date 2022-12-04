@@ -521,6 +521,19 @@
       ]
     },
     {
+      "name": "Automata Network",
+      "url": "https://www.ata.network/bugbounty",
+      "bounty": true,
+      "domains": [
+        "ata.network",
+        "1rpc.io",
+        "2fa.guru",
+        "nftfair.app",
+        "anydao.app",
+        "www.xata.fi"
+      ]
+    },
+    {
       "name": "Automattic",
       "url": "https://hackerone.com/automattic",
       "bounty": true,
