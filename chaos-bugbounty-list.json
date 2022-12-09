@@ -4080,6 +4080,16 @@
       ]
     },
     {
+       "name":"Hootsuite",
+       "url":"https://hootsuite.com/security",
+       "bounty": true,
+       "swag": true,
+       "domains":[
+          "hootsuite.com",
+          "ow.ly"
+       ]
+    },
+    {
       "name": "Host Gator",
       "url": "https://bugcrowd.com/hostgator",
       "bounty": false,
