@@ -5140,6 +5140,17 @@
       ]
     },
     {
+      "name": "Meituan",
+      "url": "https://security.meituan.com/",
+      "bounty": true,
+      "domains": [
+        "meituan.com",
+        "meituan.net",
+        "dianping.com",
+        "neixin.cn"
+      ]
+    },
+    {
       "name": "Mendix",
       "url": "https://hackerone.com/mendix",
       "bounty": false,
