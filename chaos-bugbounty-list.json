@@ -4080,14 +4080,14 @@
       ]
     },
     {
-       "name":"Hootsuite",
-       "url":"https://hootsuite.com/security",
-       "bounty": true,
-       "swag": true,
-       "domains":[
-          "hootsuite.com",
-          "ow.ly"
-       ]
+      "name": "Hootsuite",
+      "url": "https://hootsuite.com/security",
+      "bounty": true,
+      "swag": true,
+      "domains": [
+        "hootsuite.com",
+        "ow.ly"
+      ]
     },
     {
       "name": "Host Gator",
