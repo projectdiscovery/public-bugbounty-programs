@@ -8574,6 +8574,15 @@
       ]
     },
     {
+      "name": "Varonis VDP",
+      "url": "https://hackerone.com/varonis",
+      "bounty": false,
+      "domains": [
+        "varonis.com",
+        "varonis.io"
+      ]
+    },
+    {
       "name": "Veeam",
       "url": "https://hackerone.com/veeam",
       "bounty": false,
@@ -9115,15 +9124,6 @@
       "domains": [
         "zynga.com",
         "zyngagames.com"
-      ]
-    },
-    {
-      "name": "Varonis VDP",
-      "url": "https://hackerone.com/varonis",
-      "bounty": false,
-      "domains": [
-        "varonis.com",
-        "varonis.io"
       ]
     }
   ]
