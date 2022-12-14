@@ -1,5 +1,16 @@
 {
   "programs": [
+    
+    {
+      "name": "Net+",
+      "url": "https://gobugfree.com/programs/netplus",
+      "bounty": true,
+      "domains": [
+        "my.dev.netplus.ch",
+        "dev.netplus.tv",
+        "caius.dev.netplus.ch"
+      ]
+    },
     {
       "name": "GObugfree",
       "url": "https://gobugfree.com/programs/bbh",
