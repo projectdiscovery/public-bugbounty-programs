@@ -1,6 +1,20 @@
 {
   "programs": [
-    
+    {
+      "name": "Threema",
+      "url": "https://gobugfree.com/programs/threema",
+      "bounty": true,
+      "domains": [
+        "g-00.0.threema.ch",
+        "apip.threema.ch",
+        "safe-00.threema.ch",
+        "work.threema.ch",
+        "broadcast.threema.ch",
+        "gateway.threema.ch",
+        "shop.threema.ch",
+        "billing.threema.ch"
+      ]
+    },
     {
       "name": "Net+",
       "url": "https://gobugfree.com/programs/netplus",
