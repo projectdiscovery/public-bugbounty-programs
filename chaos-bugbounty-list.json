@@ -1,37 +1,11 @@
 {
   "programs": [
     {
-      "name": "Threema",
-      "url": "https://gobugfree.com/programs/threema",
-      "bounty": true,
-      "domains": [
-        "g-00.0.threema.ch",
-        "apip.threema.ch",
-        "safe-00.threema.ch",
-        "work.threema.ch",
-        "broadcast.threema.ch",
-        "gateway.threema.ch",
-        "shop.threema.ch",
-        "billing.threema.ch"
-      ]
-    },
-    {
       "name": "Net+",
       "url": "https://gobugfree.com/programs/netplus",
       "bounty": true,
       "domains": [
-        "my.dev.netplus.ch",
-        "dev.netplus.tv",
-        "caius.dev.netplus.ch"
-      ]
-    },
-    {
-      "name": "GObugfree",
-      "url": "https://gobugfree.com/programs/bbh",
-      "bounty": true,
-      "domains": [
-        "gobugfree.com",
-        "app.gobugfree.com"
+        "netplus.ch"
       ]
     },
     {
@@ -2284,8 +2258,8 @@
       ]
     },
     {
-      "name": "Fidentity",
-      "url": "https://app.gobugfree.com/programs/fidentity",
+      "name": "fidentity",
+      "url": "https://gobugfree.com/programs/fidentity",
       "bounty": true,
       "domains": [
         "fidentity.ch"
@@ -2527,8 +2501,8 @@
       ]
     },
     {
-      "name": "Gobugfree",
-      "url": "https://app.gobugfree.com/programs/bbh",
+      "name": "GObugfree",
+      "url": "https://gobugfree.com/programs/bbh",
       "bounty": true,
       "domains": [
         "gobugfree.com"
@@ -6696,7 +6670,7 @@
     },
     {
       "name": "Republik AG",
-      "url": "https://app.gobugfree.com/programs/republik",
+      "url": "https://gobugfree.com/programs/republik",
       "bounty": true,
       "domains": [
         "republik.ch"
@@ -8061,7 +8035,7 @@
     },
     {
       "name": "Threema",
-      "url": "https://app.gobugfree.com/programs/threema",
+      "url": "https://gobugfree.com/programs/threema",
       "bounty": true,
       "domains": [
         "threema.ch"
