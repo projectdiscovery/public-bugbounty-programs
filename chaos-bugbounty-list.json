@@ -4362,20 +4362,6 @@
       ]
     },
     {
-      "name": "InnoGames",
-      "url": "https://hackerone.com/innogames",
-      "bounty": true,
-      "domains": [
-        "tribalwars.cash",
-        "innogames.com",
-        "elvenar.com",
-        "forgeofempires.com",
-        "innogames.de",
-        "igpayment.com",
-        "grepolis.com"
-      ]
-    },
-    {
       "name": "Insolar",
       "url": "https://hackerone.com/insolar",
       "bounty": true,
