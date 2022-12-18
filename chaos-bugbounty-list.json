@@ -2412,14 +2412,6 @@
       ]
     },
     {
-      "name": "FTX",
-      "url": "https://hackenproof.com/ftx/ftx-exchange",
-      "bounty": true,
-      "domains": [
-        "ftx.com"
-      ]
-    },
-    {
       "name": "Gate.io",
       "url": "https://hackenproof.com/gate-dot-io/gate-dot-io-exchange",
       "bounty": true,
