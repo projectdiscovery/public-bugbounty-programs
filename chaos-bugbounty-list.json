@@ -431,6 +431,16 @@
       ]
     },
     {
+      "name":"Apple",
+      "url":"https://security.apple.com",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+        "apple.com",
+        "icloud.com"
+      ]
+    },
+    {
       "name": "Apsis",
       "url": "https://www.apsis.com/bug-bounty",
       "bounty": true,
