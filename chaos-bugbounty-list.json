@@ -1689,17 +1689,19 @@
     {
       "name": "Datto VDP",
       "url": "https://www.datto.com/legal/vulnerability-disclosure-program",
-      "bounty": false,
+      "bounty": true,
       "swag": true,
       "domains": [
         "autotask.net",
         "backupify.com",
+        "bitdam.com",
         "centrastage.net",
         "cloudtrax.com",
         "datto.com",
         "dattobackup.com",
         "gluh.co",
         "openmesh.com",
+        "infocyte.com",
         "soonr.com"
       ]
     },
@@ -1720,7 +1722,9 @@
         "devolksbank.nl",
         "asnbank.nl",
         "blgwonen.nl",
-        "regiobank.nl"
+        "regiobank.nl",
+        "snsbank.nl",
+        "sns.nl"
       ]
     },
     {
@@ -5798,7 +5802,11 @@
         "oneplus.net",
         "oneplus.cn",
         "oneplusbbs.com",
-        "h2os.com"
+        "h2os.com",
+        "onepl.us",
+        "1plus.io",
+        "oxygenos.com",
+        "onepluscorp.cn"
       ]
     },
     {
