@@ -9270,6 +9270,15 @@
         "zyngagames.com"
       ]
     },
+        {
+      "name": "Smartling",
+      "url": "https://help.smartling.com/hc/en-us/articles/360008147833-Bug-Bounty-Policy",
+      "bounty": true,
+      "domains": [
+        "smartling.com",
+        "verbalizeit.com"
+      ]
+    },
     {
    "name":"Razer",
    "url":"https://www.razer.com/security/bug-bounty-program",
