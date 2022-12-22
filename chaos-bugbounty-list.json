@@ -9275,15 +9275,17 @@
       "url": "https://help.smartling.com/hc/en-us/articles/360008147833-Bug-Bounty-Policy",
       "bounty": true,
       "domains": [
-        "www.smartling.com",
-        "dashboard.smartling.com",
-        "sso.smartling.com",
-        "api.smartling.com",
-        "support.smartling.com",
-        "www.verbalizeit.com",
-        "customers.verbalizeit.com",
-        "ti.smartling.com"
+        "smartling.com",
+        "verbalizeit.com"
       ]
-    }
+    },
+    {
+   "name":"Razer",
+   "url":"https://www.razer.com/security/bug-bounty-program",
+   "bounty": true,
+   "domains":[
+      "razer.com"
+    ]
+  }
   ]
 }
