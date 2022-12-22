@@ -10,6 +10,58 @@
       ]
     },
     {
+      "name":"Contentsquare",
+      "url":"https://yeswehack.com/programs/contentsquare-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "contentsquare.com"
+      ]
+    },
+    {
+      "name":"Doctolib",
+      "url":"https://yeswehack.com/programs/doctolib-public-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "doctolib.fr",
+         "doctolib.de",
+         "doctolib.it",
+         "doctolib.com",
+         "doctolib.net"
+      ]
+    },
+    {
+      "name": "Muslim Pro",
+      "url": "https://yeswehack.com/programs/muslim-pro",
+      "bounty": true,
+      "domains": [
+        "muslimpro.com"
+      ]
+    },
+    {
+      "name":"OVO",
+      "url":"https://yeswehack.com/programs/ovo-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "ovo.id",
+         "taralite.com"
+      ]
+    },
+    {
+      "name":"Telenor",
+      "url":"https://yeswehack.com/programs/telenor-sweden-public-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "telenor.se",
+         "bredbandsbolaget.se",
+         "europolitan.se",
+         "ownit.se"
+      ]
+    },
+    {
       "name": "84codes",
       "url": "https://www.84codes.com/security",
       "bounty": true,
@@ -1633,7 +1685,9 @@
         "dailymotion.com",
         "dmcdn.net",
         "dailymotionadvertising.com",
-        "dm.gg"
+        "dm.gg",
+        "dmxleo.com",
+        "api.dailymotion.com"
       ]
     },
     {
@@ -4811,7 +4865,14 @@
         "pickmee.in.th",
         "pickmee.ph",
         "pickmee.my",
-        "pickmee.sg"
+        "pickmee.sg",
+        "lazlogistics.co.id",
+        "lazlogistics.in.th",
+        "lazlogistics.sg",
+        "lazlogistics.vn",
+        "lazlogistics.my",
+        "lazlogistics.ph",
+        "lel.asia"
       ]
     },
     {
