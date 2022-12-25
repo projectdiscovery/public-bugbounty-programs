@@ -8333,8 +8333,8 @@
     },
     {
       "name": "Tumblr",
-      "url": "https://hackerone.com/tumblr",
-      "bounty": false,
+      "url": "https://hackerone.com/automattic",
+      "bounty": true,
       "domains": [
         "tumblr.com",
         "txmblr.com",
