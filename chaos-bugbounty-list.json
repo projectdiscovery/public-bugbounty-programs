@@ -9340,7 +9340,7 @@
         "zyngagames.com"
       ]
     },
-        {
+    {
       "name": "Smartling",
       "url": "https://help.smartling.com/hc/en-us/articles/360008147833-Bug-Bounty-Policy",
       "bounty": true,
@@ -9350,12 +9350,37 @@
       ]
     },
     {
-   "name":"Razer",
-   "url":"https://www.razer.com/security/bug-bounty-program",
-   "bounty": true,
-   "domains":[
-      "razer.com"
-    ]
-  }
+      "name": "Zoom",
+      "url": "https://explore.zoom.us/docs/ent/h1.html",
+      "bounty": true,
+      "domains": [
+        "smartling.com",
+        "zoomtopia.com",
+        "meetzoom.us",
+        "zoom.com",
+        "vartopia.com",
+        "zoomdev.us",
+        "dev-zoom.us",
+        "zoomus.cn",
+        "keybase.io",
+        "zoomgov.com",
+        "wistia.com",
+        "zoompso.com",
+        "zoomasiaresourcehub.com",
+        "vartopia.info",
+        "zoomonprem.com",
+        "zoomsvr.com",
+        "zoomtopiastore.com",
+        "zoom.us"
+      ]
+    },
+    {
+      "name":"Razer",
+      "url":"https://www.razer.com/security/bug-bounty-program",
+      "bounty": true,
+      "domains":[
+        "razer.com"
+      ]
+    }
   ]
 }
