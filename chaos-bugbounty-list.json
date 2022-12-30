@@ -2009,14 +2009,6 @@
       ]
     },
     {
-      "name": "Edmodo",
-      "url": "https://support.edmodo.com/hc/en-us/articles/360035475733-Bug-Bounty-Guidelines",
-      "bounty": true,
-      "domains": [
-        "edmodo.com"
-      ]
-    },
-    {
       "name": "Eerste Kamer",
       "url": "https://www.eerstekamer.nl/begrip/responsible_disclosure",
       "bounty": false,
