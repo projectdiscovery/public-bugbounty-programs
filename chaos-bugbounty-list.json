@@ -6564,6 +6564,14 @@
       ]
     },
     {
+      "name": "Qwant",
+      "url": "https://yeswehack.com/programs/qwant",
+      "bounty": true,
+      "domains": [
+        "qwant.com"
+      ]
+    },
+    {
       "name": "Rabobank",
       "url": "https://hackerone.com/rabobank",
       "bounty": true,
