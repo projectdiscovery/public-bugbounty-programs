@@ -29,6 +29,15 @@
       ]
     },
     {
+      "name":"Swapcard",
+      "url":"https://yeswehack.com/programs/swapcard",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "swapcard.com"
+      ]
+    },
+    {
       "name":"Doctolib",
       "url":"https://yeswehack.com/programs/doctolib-public-bug-bounty-program",
       "bounty": true,
