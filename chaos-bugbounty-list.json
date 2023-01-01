@@ -8871,15 +8871,6 @@
       ]
     },
     {
-      "name": "VHX",
-      "url": "https://hackerone.com/vhx",
-      "bounty": true,
-      "domains": [
-        "vhx.tv",
-        "roku.com"
-      ]
-    },
-    {
       "name": "Viator",
       "url": "https://bugcrowd.com/viator",
       "bounty": true,
@@ -8894,7 +8885,10 @@
       "bounty": true,
       "domains": [
         "vimeopro.com",
-        "vimeo.com"
+        "vimeo.com",
+        "vhx.tv",
+        "livestream.com",
+        "magisto.com"
       ]
     },
     {
