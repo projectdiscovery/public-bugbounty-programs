@@ -38,6 +38,15 @@
       ]
     },
     {
+      "name":"MON ESPACE SANTÉ",
+      "url":"https://yeswehack.com/programs/mon-espace-sante-mes",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "monespacesante.fr"
+      ]
+    },
+    {
       "name":"Doctolib",
       "url":"https://yeswehack.com/programs/doctolib-public-bug-bounty-program",
       "bounty": true,
