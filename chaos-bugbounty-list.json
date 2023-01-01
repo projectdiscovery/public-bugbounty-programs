@@ -2606,7 +2606,8 @@
         "projectbaseline.com",
         "onduo.com",
         "verily.com",
-        "blogger.com"
+        "blogger.com",
+        "signalpath.com"
       ]
     },
     {
@@ -5964,7 +5965,22 @@
         "keke.cn",
         "myoas.com",
         "oppoer.me",
-        "wanyol.com"
+        "wanyol.com",
+        "heytapmobile.com",
+        "heytapdownload.com",
+        "heytapimage.com",
+        "finzfin.com",
+        "realmeservice.com",
+        "realmemobile.com",
+        "realmebbs.com",
+        "myoas.net",
+        "realmepaysa.com",
+        "realme.com.tw",
+        "oppodigital.com",
+        "oppodigital.pl",
+        "oppothai.com",
+        "oppostore.com",
+        "oppodvd.com"
       ]
     },
     {
@@ -8325,8 +8341,8 @@
     },
     {
       "name": "Tumblr",
-      "url": "https://hackerone.com/tumblr",
-      "bounty": false,
+      "url": "https://hackerone.com/automattic",
+      "bounty": true,
       "domains": [
         "tumblr.com",
         "txmblr.com",
@@ -8811,52 +8827,39 @@
       ]
     },
     {
-      "name": "Verizon Media",
-      "url": "https://hackerone.com/verizonmedia",
+      "name": "Yahoo!",
+      "url": "https://hackerone.com/yahoo",
       "bounty": true,
       "domains": [
-        "huffpost.it",
-        "huffpostmaghreb.com",
-        "huffpost.ca",
-        "huffpostbrasil.com",
-        "huffingtonpost.es",
-        "huffpost.gr",
         "techcrunch.com",
-        "huffingtonpost.gr",
-        "huffpost.jp",
-        "huffingtonpost.de",
-        "huffpost.com.au",
-        "huffpost.co.uk",
-        "huffingtonpost.it",
-        "huffingtonpost.co.za",
-        "huffingtonpost.com.au",
-        "huffpost.com.mx",
         "makers.com",
-        "huffingtonpost.jp",
-        "huffingtonpost.kr",
-        "huffpost.kr",
-        "huffpost.es",
-        "huffpost.fr",
-        "huffpost.de",
         "engadget.com",
-        "huffingtonpost.co.uk",
-        "huffingtonpost.com.mx",
-        "huffpost.co.za",
-        "huffpost.com",
-        "huffpostarabi.com",
-        "huffpo.net",
         "rivals.com",
-        "huffingtonpost.in",
         "buildseries.com",
-        "yahooapis.com",
         "yahoo.com",
-        "huffingtonpost.com",
-        "huffingtonpost.ca",
-        "huffpost.in",
-        "huffingtonpost.fr",
         "protrade.com",
-        "huffpost.net",
-        "builtbygirls.com"
+        "builtbygirls.com",
+        "yimg.com",
+        "flurry.com",
+        "ryot.org",
+        "autoblog.com",
+        "aol.com",
+        "verizondigitalmedia.com",
+        "aol.fr",
+        "aol.de",
+        "aol.co.uk",
+        "aol.jp",
+        "aol.in",
+        "aol.ca",
+        "aolpublishers.com",
+        "compuserve.com",
+        "netscape.com",
+        "wmconnect.com",
+        "getnetscape.com",
+        "vzbuilders.com",
+        "oath.cloud",
+        "yahoo.cloud",
+        "yahooapis.com"
       ]
     },
     {
@@ -9215,7 +9218,10 @@
         "yandex.by",
         "yandex.st",
         "yandex.net",
-        "ya.ru"
+        "ya.ru",
+        "yandex-bank.net",
+        "kinopoisk.ru",
+        "auto.ru"
       ]
     },
     {
@@ -9332,7 +9338,7 @@
         "zyngagames.com"
       ]
     },
-        {
+    {
       "name": "Smartling",
       "url": "https://help.smartling.com/hc/en-us/articles/360008147833-Bug-Bounty-Policy",
       "bounty": true,
@@ -9342,12 +9348,36 @@
       ]
     },
     {
-   "name":"Razer",
-   "url":"https://www.razer.com/security/bug-bounty-program",
-   "bounty": true,
-   "domains":[
-      "razer.com"
-    ]
-  }
+      "name": "Zoom",
+      "url": "https://explore.zoom.us/docs/ent/h1.html",
+      "bounty": true,
+      "domains": [
+        "zoomtopia.com",
+        "meetzoom.us",
+        "zoom.com",
+        "vartopia.com",
+        "zoomdev.us",
+        "dev-zoom.us",
+        "zoomus.cn",
+        "keybase.io",
+        "zoomgov.com",
+        "wistia.com",
+        "zoompso.com",
+        "zoomasiaresourcehub.com",
+        "vartopia.info",
+        "zoomonprem.com",
+        "zoomsvr.com",
+        "zoomtopiastore.com",
+        "zoom.us"
+      ]
+    },
+    {
+      "name":"Razer",
+      "url":"https://www.razer.com/security/bug-bounty-program",
+      "bounty": true,
+      "domains":[
+        "razer.com"
+      ]
+    }
   ]
 }
