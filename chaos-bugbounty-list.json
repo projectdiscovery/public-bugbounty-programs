@@ -47,6 +47,15 @@
       ]
     },
     {
+      "name":"Deezer",
+      "url":"https://yeswehack.com/programs/deezer-bug-bounty-program-2019",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "deezer.com"
+      ]
+    },
+    {
       "name":"Doctolib",
       "url":"https://yeswehack.com/programs/doctolib-public-bug-bounty-program",
       "bounty": true,
