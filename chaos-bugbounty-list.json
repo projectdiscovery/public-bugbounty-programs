@@ -9275,6 +9275,14 @@
       ]
     },
     {
+      "name": "YesWeHack",
+      "url": "https://yeswehack.com/programs/yes-we-hack",
+      "bounty": true,
+      "domains": [
+        "yeswehack.com"
+      ]
+    },
+    {
       "name": "YNAB",
       "url": "https://bugcrowd.com/ynab",
       "bounty": true,
