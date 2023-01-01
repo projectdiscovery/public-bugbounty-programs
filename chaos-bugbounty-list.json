@@ -20,6 +20,15 @@
       ]
     },
     {
+      "name":"ATG",
+      "url":"https://yeswehack.com/programs/atg-public-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "atg.se"
+      ]
+    },
+    {
       "name":"Doctolib",
       "url":"https://yeswehack.com/programs/doctolib-public-bug-bounty-program",
       "bounty": true,
