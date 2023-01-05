@@ -5413,6 +5413,17 @@
       ]
     },
     {
+        "name": "MoonPay",
+        "url": "https://hackerone.com/moonpay",
+        "bounty": true,
+        "swag": false,
+        "domains": [
+          "moonpaycloud.com",
+          "hypermint.com",
+          "moonpay.com"
+        ]
+    },
+    {
       "name": "Mount Sinai Health",
       "url": "https://hackerone.com/mount-sinai-health",
       "bounty": false,
@@ -7615,12 +7626,21 @@
       ]
     },
     {
-      "name": "Surf",
-      "url": "https://www.surf.nl/en/responsible-disclosure-surf",
-      "bounty": false,
-      "swag": true,
+        "name": "Surf",
+        "url": "https://www.surf.nl/en/responsible-disclosure-surf",
+        "bounty": false,
+        "swag": true,
+        "domains": [
+          "surf.nl"
+        ]
+    },
+    {
+      "name": "Superbet",
+      "url": "https://hackerone.com/superbet",
+      "bounty": true,
+      "swag": false,
       "domains": [
-        "surf.nl"
+        "superbet.ro"
       ]
     },
     {
