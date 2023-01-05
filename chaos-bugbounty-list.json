@@ -7626,6 +7626,15 @@
       ]
     },
     {
+        "name": "Superbet",
+        "url": "https://hackerone.com/superbet",
+        "bounty": true,
+        "swag": false,
+        "domains": [
+          "superbet.ro"
+        ]
+    },
+    {
         "name": "Surf",
         "url": "https://www.surf.nl/en/responsible-disclosure-surf",
         "bounty": false,
@@ -7633,15 +7642,6 @@
         "domains": [
           "surf.nl"
         ]
-    },
-    {
-      "name": "Superbet",
-      "url": "https://hackerone.com/superbet",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "superbet.ro"
-      ]
     },
     {
       "name": "Sweatco Ltd",
