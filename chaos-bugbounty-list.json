@@ -7201,6 +7201,42 @@
       ]
     },
     {
+      "name": "SlideShare",
+      "url": "https://app.inspectiv.com/#/programs/7AYpM2mTsFqUmbAzNEzapT",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "slideshare.net"
+      ]
+    },
+    {
+      "name": "Scribd",
+      "url": "https://app.inspectiv.com/#/programs/Xf5bRH4ZxfjimoeRvAvCPc",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "scribd.com"
+      ]
+    },
+    {
+      "name": "chewy",
+      "url": "https://app.inspectiv.com/#/programs/RBZwjFvUyBTqpkZBzcujph",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "chewy.com"
+      ]
+    },
+    {
+      "name": "minehut",
+      "url": "https://app.inspectiv.com/#/programs/pDDJKtfaHLAT2AbGZZJFFb",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "minehut.com"
+      ]
+    },
+    {
       "name": "Silvergoldbull",
       "url": "https://silvergoldbull.se/en/bug-bounty",
       "bounty": true,
