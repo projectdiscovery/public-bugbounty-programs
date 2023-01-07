@@ -9378,6 +9378,15 @@
       "domains":[
         "razer.com"
       ]
+    },
+    {
+      "name":"Mckesson",
+      "url":"https://hackerone.com/mckesson",
+      "bounty": false,
+      "domains":[
+        "mckesson.com",
+        "covermymeds.com"
+      ]
     }
   ]
 }
