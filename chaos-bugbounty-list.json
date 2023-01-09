@@ -1404,6 +1404,14 @@
       ]
     },
     {
+      "name": "Coin98",
+      "url": "https://hackenproof.com/coin98/coin98",
+      "bounty": true,
+      "domains": [
+        "coin98.com"
+      ]
+    },
+    {
       "name": "Coinbase",
       "url": "https://hackerone.com/coinbase",
       "bounty": true,
@@ -1842,6 +1850,13 @@
         "telekom.net",
         "telekom.com",
         "t-systems.com"
+      ]
+    },
+    {
+      "name": "Dexalot",
+      "url": "https://hackenproof.com/dexalot/dexalot-smart-contracts",
+      "bounty": true,
+      "domains": [
       ]
     },
     {
@@ -4640,6 +4655,14 @@
       "domains": [
         "jooki.rocks",
         "muuselabs.com"
+      ]
+    },
+    {
+      "name": "JOJO",
+      "url": "https://hackenproof.com/jojo/jojo-web",
+      "bounty": true,
+      "domains": [
+        "jojo.exchange"        
       ]
     },
     {
@@ -8895,6 +8918,14 @@
       "domains": [
         "vimeopro.com",
         "vimeo.com"
+      ]
+    },
+    {
+      "name": "VirtuSwap",
+      "url": "https://hackenproof.com/virtuswap/virtuswap-dex-app-1",
+      "bounty": true,
+      "domains": [
+        "virtuswap.io"
       ]
     },
     {
