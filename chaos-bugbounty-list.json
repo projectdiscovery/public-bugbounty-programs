@@ -20,6 +20,42 @@
       ]
     },
     {
+      "name":"ATG",
+      "url":"https://yeswehack.com/programs/atg-public-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "atg.se"
+      ]
+    },
+    {
+      "name":"Swapcard",
+      "url":"https://yeswehack.com/programs/swapcard",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "swapcard.com"
+      ]
+    },
+    {
+      "name":"MON ESPACE SANTÉ",
+      "url":"https://yeswehack.com/programs/mon-espace-sante-mes",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "monespacesante.fr"
+      ]
+    },
+    {
+      "name":"Deezer",
+      "url":"https://yeswehack.com/programs/deezer-bug-bounty-program-2019",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "deezer.com"
+      ]
+    },
+    {
       "name":"Doctolib",
       "url":"https://yeswehack.com/programs/doctolib-public-bug-bounty-program",
       "bounty": true,
@@ -911,6 +947,34 @@
       ]
     },
     {
+      "name": "BlaBlaCar",
+      "url": "https://yeswehack.com/programs/bug-bounty-program-blablacar",
+      "bounty": true,
+      "domains": [
+        "blablacar.fr",
+        "blablacar.de",
+        "blablacar.co.uk",
+        "blablacar.in",
+        "blablacar.es",
+        "blablacar.mx",
+        "blablacar.be",
+        "blablacar.hr",
+        "blablacar.hu",
+        "blablacar.it",
+        "blablacar.nl",
+        "blablacar.pl",
+        "blablacar.com.br",
+        "blablacar.pt",
+        "blablacar.ro",
+        "blablacar.ru",
+        "blablacar.com",
+        "blablacar.com.tr",
+        "blablacar.com.ua",
+        "blablalines.com",
+        "blablacardaily.com"
+      ]
+    },
+    {
       "name": "Blend Labs",
       "url": "https://hackerone.com/blend-labs",
       "bounty": true,
@@ -1731,6 +1795,14 @@
         "delta.io",
         "spark-portal.org",
         "spark-summit.com"
+      ]
+    },
+    {
+      "name": "DATADOME",
+      "url": "https://yeswehack.com/programs/datadome-bug-bounty",
+      "bounty": true,
+      "domains": [
+        "datadome.co"
       ]
     },
     {
@@ -4845,6 +4917,7 @@
         "lazada.sg",
         "lazada.vn",
         "lazada.co.id",
+        "lazada.co.th",
         "lazada.com",
         "lazada.com.ph",
         "lazada.com.my",
@@ -4869,8 +4942,7 @@
         "lazlogistics.sg",
         "lazlogistics.vn",
         "lazlogistics.my",
-        "lazlogistics.ph",
-        "lel.asia"
+        "lazlogistics.ph"
       ]
     },
     {
@@ -6572,6 +6644,14 @@
       "domains": [
         "app.mobile",
         "quora.com"
+      ]
+    },
+    {
+      "name": "Qwant",
+      "url": "https://yeswehack.com/programs/qwant",
+      "bounty": true,
+      "domains": [
+        "qwant.com"
       ]
     },
     {
@@ -8891,15 +8971,6 @@
       ]
     },
     {
-      "name": "VHX",
-      "url": "https://hackerone.com/vhx",
-      "bounty": true,
-      "domains": [
-        "vhx.tv",
-        "roku.com"
-      ]
-    },
-    {
       "name": "Viator",
       "url": "https://bugcrowd.com/viator",
       "bounty": true,
@@ -8914,7 +8985,10 @@
       "bounty": true,
       "domains": [
         "vimeopro.com",
-        "vimeo.com"
+        "vimeo.com",
+        "vhx.tv",
+        "livestream.com",
+        "magisto.com"
       ]
     },
     {
@@ -9262,6 +9336,14 @@
         "yelp-support.com",
         "yelpreservations.com",
         "nowait.com"
+      ]
+    },
+    {
+      "name": "YesWeHack",
+      "url": "https://yeswehack.com/programs/yes-we-hack",
+      "bounty": true,
+      "domains": [
+        "yeswehack.com"
       ]
     },
     {
