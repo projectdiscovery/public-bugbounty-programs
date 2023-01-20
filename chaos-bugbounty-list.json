@@ -20,6 +20,42 @@
       ]
     },
     {
+      "name":"ATG",
+      "url":"https://yeswehack.com/programs/atg-public-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "atg.se"
+      ]
+    },
+    {
+      "name":"Swapcard",
+      "url":"https://yeswehack.com/programs/swapcard",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "swapcard.com"
+      ]
+    },
+    {
+      "name":"MON ESPACE SANTÉ",
+      "url":"https://yeswehack.com/programs/mon-espace-sante-mes",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "monespacesante.fr"
+      ]
+    },
+    {
+      "name":"Deezer",
+      "url":"https://yeswehack.com/programs/deezer-bug-bounty-program-2019",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "deezer.com"
+      ]
+    },
+    {
       "name":"Doctolib",
       "url":"https://yeswehack.com/programs/doctolib-public-bug-bounty-program",
       "bounty": true,
@@ -911,6 +947,34 @@
       ]
     },
     {
+      "name": "BlaBlaCar",
+      "url": "https://yeswehack.com/programs/bug-bounty-program-blablacar",
+      "bounty": true,
+      "domains": [
+        "blablacar.fr",
+        "blablacar.de",
+        "blablacar.co.uk",
+        "blablacar.in",
+        "blablacar.es",
+        "blablacar.mx",
+        "blablacar.be",
+        "blablacar.hr",
+        "blablacar.hu",
+        "blablacar.it",
+        "blablacar.nl",
+        "blablacar.pl",
+        "blablacar.com.br",
+        "blablacar.pt",
+        "blablacar.ro",
+        "blablacar.ru",
+        "blablacar.com",
+        "blablacar.com.tr",
+        "blablacar.com.ua",
+        "blablalines.com",
+        "blablacardaily.com"
+      ]
+    },
+    {
       "name": "Blend Labs",
       "url": "https://hackerone.com/blend-labs",
       "bounty": true,
@@ -1734,6 +1798,14 @@
       ]
     },
     {
+      "name": "DATADOME",
+      "url": "https://yeswehack.com/programs/datadome-bug-bounty",
+      "bounty": true,
+      "domains": [
+        "datadome.co"
+      ]
+    },
+    {
       "name": "DataStax",
       "url": "https://hackerone.com/datastax",
       "bounty": true,
@@ -2006,14 +2078,6 @@
         "edoverflow.com",
         "securitytxt.org",
         "wewriteyour.report"
-      ]
-    },
-    {
-      "name": "Edmodo",
-      "url": "https://support.edmodo.com/hc/en-us/articles/360035475733-Bug-Bounty-Guidelines",
-      "bounty": true,
-      "domains": [
-        "edmodo.com"
       ]
     },
     {
@@ -2614,7 +2678,8 @@
         "projectbaseline.com",
         "onduo.com",
         "verily.com",
-        "blogger.com"
+        "blogger.com",
+        "signalpath.com"
       ]
     },
     {
@@ -4852,6 +4917,7 @@
         "lazada.sg",
         "lazada.vn",
         "lazada.co.id",
+        "lazada.co.th",
         "lazada.com",
         "lazada.com.ph",
         "lazada.com.my",
@@ -4876,8 +4942,7 @@
         "lazlogistics.sg",
         "lazlogistics.vn",
         "lazlogistics.my",
-        "lazlogistics.ph",
-        "lel.asia"
+        "lazlogistics.ph"
       ]
     },
     {
@@ -5418,6 +5483,17 @@
       "domains": [
         "tkn.zone"
       ]
+    },
+    {
+        "name": "MoonPay",
+        "url": "https://hackerone.com/moonpay",
+        "bounty": true,
+        "swag": false,
+        "domains": [
+          "moonpaycloud.com",
+          "hypermint.com",
+          "moonpay.com"
+        ]
     },
     {
       "name": "Mount Sinai Health",
@@ -5972,7 +6048,22 @@
         "keke.cn",
         "myoas.com",
         "oppoer.me",
-        "wanyol.com"
+        "wanyol.com",
+        "heytapmobile.com",
+        "heytapdownload.com",
+        "heytapimage.com",
+        "finzfin.com",
+        "realmeservice.com",
+        "realmemobile.com",
+        "realmebbs.com",
+        "myoas.net",
+        "realmepaysa.com",
+        "realme.com.tw",
+        "oppodigital.com",
+        "oppodigital.pl",
+        "oppothai.com",
+        "oppostore.com",
+        "oppodvd.com"
       ]
     },
     {
@@ -6553,6 +6644,14 @@
       "domains": [
         "app.mobile",
         "quora.com"
+      ]
+    },
+    {
+      "name": "Qwant",
+      "url": "https://yeswehack.com/programs/qwant",
+      "bounty": true,
+      "domains": [
+        "qwant.com"
       ]
     },
     {
@@ -7607,13 +7706,22 @@
       ]
     },
     {
-      "name": "Surf",
-      "url": "https://www.surf.nl/en/responsible-disclosure-surf",
-      "bounty": false,
-      "swag": true,
-      "domains": [
-        "surf.nl"
-      ]
+        "name": "Superbet",
+        "url": "https://hackerone.com/superbet",
+        "bounty": true,
+        "swag": false,
+        "domains": [
+          "superbet.ro"
+        ]
+    },
+    {
+        "name": "Surf",
+        "url": "https://www.surf.nl/en/responsible-disclosure-surf",
+        "bounty": false,
+        "swag": true,
+        "domains": [
+          "surf.nl"
+        ]
     },
     {
       "name": "Sweatco Ltd",
@@ -8333,8 +8441,8 @@
     },
     {
       "name": "Tumblr",
-      "url": "https://hackerone.com/tumblr",
-      "bounty": false,
+      "url": "https://hackerone.com/automattic",
+      "bounty": true,
       "domains": [
         "tumblr.com",
         "txmblr.com",
@@ -8819,52 +8927,39 @@
       ]
     },
     {
-      "name": "Verizon Media",
-      "url": "https://hackerone.com/verizonmedia",
+      "name": "Yahoo!",
+      "url": "https://hackerone.com/yahoo",
       "bounty": true,
       "domains": [
-        "huffpost.it",
-        "huffpostmaghreb.com",
-        "huffpost.ca",
-        "huffpostbrasil.com",
-        "huffingtonpost.es",
-        "huffpost.gr",
         "techcrunch.com",
-        "huffingtonpost.gr",
-        "huffpost.jp",
-        "huffingtonpost.de",
-        "huffpost.com.au",
-        "huffpost.co.uk",
-        "huffingtonpost.it",
-        "huffingtonpost.co.za",
-        "huffingtonpost.com.au",
-        "huffpost.com.mx",
         "makers.com",
-        "huffingtonpost.jp",
-        "huffingtonpost.kr",
-        "huffpost.kr",
-        "huffpost.es",
-        "huffpost.fr",
-        "huffpost.de",
         "engadget.com",
-        "huffingtonpost.co.uk",
-        "huffingtonpost.com.mx",
-        "huffpost.co.za",
-        "huffpost.com",
-        "huffpostarabi.com",
-        "huffpo.net",
         "rivals.com",
-        "huffingtonpost.in",
         "buildseries.com",
-        "yahooapis.com",
         "yahoo.com",
-        "huffingtonpost.com",
-        "huffingtonpost.ca",
-        "huffpost.in",
-        "huffingtonpost.fr",
         "protrade.com",
-        "huffpost.net",
-        "builtbygirls.com"
+        "builtbygirls.com",
+        "yimg.com",
+        "flurry.com",
+        "ryot.org",
+        "autoblog.com",
+        "aol.com",
+        "verizondigitalmedia.com",
+        "aol.fr",
+        "aol.de",
+        "aol.co.uk",
+        "aol.jp",
+        "aol.in",
+        "aol.ca",
+        "aolpublishers.com",
+        "compuserve.com",
+        "netscape.com",
+        "wmconnect.com",
+        "getnetscape.com",
+        "vzbuilders.com",
+        "oath.cloud",
+        "yahoo.cloud",
+        "yahooapis.com"
       ]
     },
     {
@@ -8873,15 +8968,6 @@
       "bounty": false,
       "domains": [
         "vgz.nl"
-      ]
-    },
-    {
-      "name": "VHX",
-      "url": "https://hackerone.com/vhx",
-      "bounty": true,
-      "domains": [
-        "vhx.tv",
-        "roku.com"
       ]
     },
     {
@@ -8899,7 +8985,10 @@
       "bounty": true,
       "domains": [
         "vimeopro.com",
-        "vimeo.com"
+        "vimeo.com",
+        "vhx.tv",
+        "livestream.com",
+        "magisto.com"
       ]
     },
     {
@@ -9223,7 +9312,10 @@
         "yandex.by",
         "yandex.st",
         "yandex.net",
-        "ya.ru"
+        "ya.ru",
+        "yandex-bank.net",
+        "kinopoisk.ru",
+        "auto.ru"
       ]
     },
     {
@@ -9244,6 +9336,14 @@
         "yelp-support.com",
         "yelpreservations.com",
         "nowait.com"
+      ]
+    },
+    {
+      "name": "YesWeHack",
+      "url": "https://yeswehack.com/programs/yes-we-hack",
+      "bounty": true,
+      "domains": [
+        "yeswehack.com"
       ]
     },
     {
@@ -9340,7 +9440,7 @@
         "zyngagames.com"
       ]
     },
-        {
+    {
       "name": "Smartling",
       "url": "https://help.smartling.com/hc/en-us/articles/360008147833-Bug-Bounty-Policy",
       "bounty": true,
@@ -9350,40 +9450,64 @@
       ]
     },
     {
-   "name":"Razer",
-   "url":"https://www.razer.com/security/bug-bounty-program",
-   "bounty": true,
-   "domains":[
-      "razer.com"
-    ]
-  },
-        {
-   "name":"Standard Bank",
-   "url":"https://hackerone.com/standardbank",
-   "bounty": false,
-   "swag": false,
-   "domains":[
-     "standardbank.co.za",
-     "standardbank.com",
-     "standardbank.co.ao",
-     "stanbicbank.co.bw",
-     "stanbicbank.com.ci",
-     "standardbank.cd",
-     "standardbank.co.sz",
-     "stanbicbank.com.gh",
-     "stanbicbank.co.ke",
-     "standardlesothobank.co.ls",
-     "standardbank.co.mw",
-     "standardbank.mu",
-     "standardbank.co.mz",
-     "standardbank.com.na",
-     "stanbicibtcbank.com",
-     "stanbicbank.co.tz",
-     "stanbicbank.co.ug",
-     "stanbicbank.co.zm",
-     "stanbicbank.co.zw",
-     "standardbank.com.br"
-    ]
-  }
+      "name": "Zoom",
+      "url": "https://explore.zoom.us/docs/ent/h1.html",
+      "bounty": true,
+      "domains": [
+        "zoomtopia.com",
+        "meetzoom.us",
+        "zoom.com",
+        "vartopia.com",
+        "zoomdev.us",
+        "dev-zoom.us",
+        "zoomus.cn",
+        "keybase.io",
+        "zoomgov.com",
+        "wistia.com",
+        "zoompso.com",
+        "zoomasiaresourcehub.com",
+        "vartopia.info",
+        "zoomonprem.com",
+        "zoomsvr.com",
+        "zoomtopiastore.com",
+        "zoom.us"
+      ]
+    },
+    {
+      "name":"Razer",
+      "url":"https://www.razer.com/security/bug-bounty-program",
+      "bounty": true,
+      "domains":[
+        "razer.com"
+      ]
+      },
+    {
+      "name":"Standard Bank",
+      "url":"https://hackerone.com/standardbank",
+      "bounty": false,
+      "swag": false,
+      "domains":[
+        "standardbank.co.za",
+        "standardbank.com",
+        "standardbank.co.ao",
+        "stanbicbank.co.bw",
+        "stanbicbank.com.ci",
+        "standardbank.cd",
+        "standardbank.co.sz",
+        "stanbicbank.com.gh",
+        "stanbicbank.co.ke",
+        "standardlesothobank.co.ls",
+        "standardbank.co.mw",
+        "standardbank.mu",
+        "standardbank.co.mz",
+        "standardbank.com.na",
+        "stanbicibtcbank.com",
+        "stanbicbank.co.tz",
+        "stanbicbank.co.ug",
+        "stanbicbank.co.zm",
+        "stanbicbank.co.zw",
+        "standardbank.com.br"
+      ]
+      }
   ]
 }
