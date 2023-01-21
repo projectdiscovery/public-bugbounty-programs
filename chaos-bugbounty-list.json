@@ -9480,6 +9480,34 @@
       "domains":[
         "razer.com"
       ]
-    }
+      },
+    {
+      "name":"Standard Bank",
+      "url":"https://hackerone.com/standardbank",
+      "bounty": false,
+      "swag": false,
+      "domains":[
+        "standardbank.co.za",
+        "standardbank.com",
+        "standardbank.co.ao",
+        "stanbicbank.co.bw",
+        "stanbicbank.com.ci",
+        "standardbank.cd",
+        "standardbank.co.sz",
+        "stanbicbank.com.gh",
+        "stanbicbank.co.ke",
+        "standardlesothobank.co.ls",
+        "standardbank.co.mw",
+        "standardbank.mu",
+        "standardbank.co.mz",
+        "standardbank.com.na",
+        "stanbicibtcbank.com",
+        "stanbicbank.co.tz",
+        "stanbicbank.co.ug",
+        "stanbicbank.co.zm",
+        "stanbicbank.co.zw",
+        "standardbank.com.br"
+      ]
+      }
   ]
 }
