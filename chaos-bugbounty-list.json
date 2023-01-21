@@ -9494,6 +9494,39 @@
       "domains":[
         "razer.com"
       ]
+    },
+    {
+      "name": "AMERICAN SYSTEMS",
+      "url": "https://hackerone.com/american_systems_bbp",
+      "bounty": true,
+      "domains": [
+        "alexamerican.com",
+        "alexamericansystems.com",
+        "americansystems.com",
+        "ascvpc.com",
+        "ascsites.com",
+        "ascgov.com",
+        "ddlomni.com",
+        "nhaero.com",
+        "americansystems.info",
+        "amsyscorp.com",
+        "2asc.com",
+        "americanalliant.com",
+        "asc.name",
+        "digitalaccess.com",
+        "americansystemsuniversity.com",
+        "americansystems.org",
+        "thoughtmill.com",
+        "american-systems.org",
+        "american-systems.com",
+        "asextranet.com",
+        "emsolutionsinc.com",
+        "emsolve.com",
+        "essworld.net",
+        "nswccd-fbw-scs.com",
+        "asvpc.com",
+        "alex-as.com"
+      ]
       },
     {
       "name":"Standard Bank",
