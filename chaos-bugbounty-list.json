@@ -648,14 +648,14 @@
       ]
     },
     {
-   "name":"Avail Carsharing",
-   "url":"https://availcarsharing.com/bug-bounty",
-   "bounty": true,
-   "swag": false,
-   "domains":[
-     "dev.availcarsharing.com "
-   ]
-},
+      "name":"Avail Carsharing",
+      "url":"https://availcarsharing.com/bug-bounty",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+        "dev.availcarsharing.com"
+      ]
+    },
     {
       "name": "AVROTROS",
       "url": "https://www.avrotros.nl/privacy/responsible-disclosure/",
