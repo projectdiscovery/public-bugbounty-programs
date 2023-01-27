@@ -5359,7 +5359,7 @@
     },
     {
       "name": "MediaMarktSaturn",
-      "url": "https://hackerone.com/mediamarktsaturn",
+      "url": "https://vdp.mediamarktsaturn.com/p/Submission-Form",
       "bounty": false,
       "domains": [
         "mediamarkt.at",
