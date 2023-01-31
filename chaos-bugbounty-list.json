@@ -9588,6 +9588,16 @@
         "stanbicbank.co.zw",
         "standardbank.com.br"
       ]
-      }
+      },
+    {
+       "name":"Trendyol",
+       "url":"https://hackerone.com/trendyol",
+       "bounty": true,
+       "swag": false,
+       "domains":[
+          "trendyol.com",
+          "dolap.com"
+       ]
+    }
   ]
 }
