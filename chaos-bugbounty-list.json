@@ -2017,7 +2017,7 @@
     },
     {
       "name": "DPG Media",
-      "url": "https://app.intigriti.com/researcher/programs/dpgm/dpgmedia/detail",
+      "url": "https://app.intigriti.com/programs/dpgm/dpgmedia/detail",
       "bounty": true,
       "domains": [
         "dpgmedia.be",
@@ -4556,7 +4556,7 @@
     },
     {
       "name": "Intigriti",
-      "url": "https://www.intigriti.com/programs/intigriti/intigriti/detail",
+      "url": "https://app.intigriti.com/programs/intigriti/intigriti/detail",
       "bounty": true,
       "domains": [
         "intigriti.com"
@@ -4722,7 +4722,7 @@
     },
     {
       "name": "Jooki",
-      "url": "https://www.intigriti.com/programs/muuselabs/jooki/detail",
+      "url": "https://app.intigriti.com/programs/muuselabs/jooki/detail",
       "bounty": false,
       "domains": [
         "jooki.rocks",
@@ -6382,14 +6382,6 @@
       ]
     },
     {
-      "name": "Phished",
-      "url": "https://www.intigriti.com/programs/phished/phished/detail",
-      "bounty": false,
-      "domains": [
-        "phished.be"
-      ]
-    },
-    {
       "name": "Picky Assist",
       "url": "https://pickyassist.com/blog/bug-bounty-program-bug-beacon/",
       "bounty": true,
@@ -6529,7 +6521,7 @@
     },
     {
       "name": "Port of Antwerp",
-      "url": "https://www.intigriti.com/programs/portofantwerp/portofantwerp/detail",
+      "url": "https://app.intigriti.com/programs/portofantwerp/portofantwerp/detail",
       "bounty": false,
       "domains": [
         "c-point.be",
@@ -6785,7 +6777,7 @@
     },
     {
       "name": "Redbull",
-      "url": "https://www.intigriti.com/programs/redbull/redbull/detail",
+      "url": "https://app.intigriti.com/programs/redbull/redbull/detail",
       "bounty": false,
       "domains": [
         "redbull.com",
@@ -8151,7 +8143,7 @@
     },
     {
       "name": "Telenet",
-      "url": "https://www.intigriti.com/researcher/programs/telenet/telenetgroup/detail",
+      "url": "https://app.intigriti.com/programs/telenet/telenetgroup/detail",
       "bounty": true,
       "domains": [
         "9lives.be",
@@ -8315,7 +8307,7 @@
     },
     {
       "name": "Torfs",
-      "url": "https://www.intigriti.com/programs/torfs/torfs/detail",
+      "url": "https://app.intigriti.com/programs/torfs/torfs/detail",
       "bounty": true,
       "domains": [
         "torfs.be",
@@ -8487,7 +8479,7 @@
     },
     {
       "name": "Tweakers",
-      "url": "https://www.intigriti.com/programs/depersgroep/tweakers/detail",
+      "url": "https://app.intigriti.com/programs/dpgm/tweakers/detail",
       "bounty": true,
       "domains": [
         "tweakblogs.net",
@@ -9117,7 +9109,7 @@
     },
     {
       "name": "Warren Brasil",
-      "url": "https://admin.bughunt.com.br/p/warren-brasil-bug-bounty-program",
+      "url": "https://admin.bughunt.com.br/program/detail?5eeb6b1b660ac82f7cdaf7e0",
       "bounty": true,
       "domains": [
         "warren.com.br"
