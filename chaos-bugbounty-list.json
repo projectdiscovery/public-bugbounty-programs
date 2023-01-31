@@ -29,6 +29,16 @@
       ]
     },
     {
+      "name":"Alasco GmbH",
+      "url":"https://yeswehack.com/programs/alasco-gmbh-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "alasco.de",
+         "alasco.rocks"
+      ]
+    },
+    {
       "name":"Swapcard",
       "url":"https://yeswehack.com/programs/swapcard",
       "bounty": true,
