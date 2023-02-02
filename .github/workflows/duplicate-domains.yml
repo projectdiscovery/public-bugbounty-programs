@@ -1,0 +1,23 @@
+name: Check for duplicate domains
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-for-duplicates:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Find duplicate domains
+      run: |
+        set -e
+        jq -r '.programs[].domains[]' chaos-bugbounty-list.json | sort | uniq -c | awk '$1 > 1 { print $2 }' > duplicates.txt
+        if [[ -s duplicates.txt ]]; then
+            echo "Duplicate domains found: $(cat duplicates.txt)"
+            exit 1
+        else
+            echo "No duplicate domains found."
+        fi
