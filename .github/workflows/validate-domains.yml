@@ -19,11 +19,11 @@ jobs:
         jq -r '.programs[].domains[]' chaos-bugbounty-list.json > "$tmpfile"
         while IFS= read -r tld; do
             if [[ "$tld" != $(echo "$tld" | awk -F . '{print $(NF-1)"."$NF}') ]]; then
-            invalid_domains+=("$tld\n")
+            echo $tld >> invalid_domains.txt
             fi
         done < "$tmpfile"
 
-        if [[ ${#invalid_domains[@]} -gt 0 ]]; then
-            echo "Invalid domains found:\n\n\n${invalid_domains[@]}"
+        if [[ -s invalid_domains.txt ]]; then
+            echo "Invalid domains found: $(cat invalid_domains.txt)"
             exit 1
         fi
