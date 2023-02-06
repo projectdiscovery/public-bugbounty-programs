@@ -1,0 +1,29 @@
+name: Validate domains
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  check-for-duplicates:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Find duplicate domains
+      run: |
+        invalid_domains=()
+        tmpfile=$(mktemp)
+        jq -r '.programs[].domains[]' chaos-bugbounty-list.json > "$tmpfile"
+        while IFS= read -r tld; do
+            if [[ "$tld" != $(echo "$tld" | awk -F . '{print $(NF-1)"."$NF}') ]]; then
+            invalid_domains+=("$tld\n")
+            fi
+        done < "$tmpfile"
+
+        if [[ ${#invalid_domains[@]} -gt 0 ]]; then
+            echo "Invalid domains found:\n\n\n${invalid_domains[@]}"
+            exit 1
+        fi
