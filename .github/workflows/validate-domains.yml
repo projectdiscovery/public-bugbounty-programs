@@ -12,17 +12,19 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-    - name: Validate domains
-      run: |
-        invalid_domains=()
-        tmpfile=$(mktemp)
-        jq -r '.programs[].domains[]' chaos-bugbounty-list.json > "$tmpfile"
-        while IFS= read -r tld; do
-            if [[ "$tld" != $(echo "$tld" | awk -F . '{print $(NF-1)"."$NF}') ]]; then
-            echo $tld >> invalid_domains.txt
-            fi
-        done < "$tmpfile"
 
+    - name: Installing Validate domains binary
+      run: |
+        go install github.com/projectdiscovery/public-bugbounty-programs/cmd/validate-domains
+      shell: bash
+
+    - name: Check domains validation
+      run: |
+        validate-domains -file chaos-bugbounty-list.json
+      shell: bash
+
+    - name: Return invalid if present
+    run: |
         if [[ -s invalid_domains.txt ]]; then
             echo "Invalid domains found: $(cat invalid_domains.txt)"
             exit 1
