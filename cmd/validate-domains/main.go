@@ -44,6 +44,10 @@ func main() {
 			if !govalidator.IsDNSName(domain) || !govalidator.IsURL(domain) {
 				invalidDomains = append(invalidDomains, domain)
 			}
+
+			if strings.Count(domain, ".") > 1 {
+				invalidDomains = append(invalidDomains, domain)
+			}
 		}
 	}
 
