@@ -24,8 +24,9 @@ jobs:
       shell: bash
 
     - name: Return invalid if present
-    run: |
+      run: |
         if [[ -s invalid_domains.txt ]]; then
             echo "Invalid domains found: $(cat invalid_domains.txt)"
             exit 1
         fi
+        
