@@ -9,6 +9,7 @@ import (
 
 	"github.com/asaskevich/govalidator"
 	"github.com/tidwall/gjson"
+	"golang.org/x/net/publicsuffix"
 )
 
 var bbListFile = flag.String("file", "../../chaos-bugbounty-list.json", "Chaos bugbounty list json file")
@@ -43,7 +44,11 @@ func main() {
 	gdata := gjson.ParseBytes(rawJSON)
 	gdata.Get("programs.#.domains|@flatten").ForEach(func(key, value gjson.Result) bool {
 		domain := value.String()
-		if !govalidator.IsDNSName(domain) || strings.Count(domain, ".") > 1 {
+		tld, err := publicsuffix.EffectiveTLDPlusOne(domain)
+		if err != nil {
+			invalidDomains = append(invalidDomains, domain)
+		}
+		if (!govalidator.IsDNSName(domain) || tld != domain) && err == nil {
 			invalidDomains = append(invalidDomains, domain)
 		}
 		return true
