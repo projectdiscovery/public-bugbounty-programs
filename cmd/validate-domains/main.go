@@ -45,10 +45,7 @@ func main() {
 	gdata.Get("programs.#.domains|@flatten").ForEach(func(key, value gjson.Result) bool {
 		domain := value.String()
 		tld, err := publicsuffix.EffectiveTLDPlusOne(domain)
-		if err != nil {
-			invalidDomains = append(invalidDomains, domain)
-		}
-		if (!govalidator.IsDNSName(domain) || tld != domain) && err == nil {
+		if err != nil || (!govalidator.IsDNSName(domain) || tld != domain) {
 			invalidDomains = append(invalidDomains, domain)
 		}
 		return true
