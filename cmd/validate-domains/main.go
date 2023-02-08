@@ -3,11 +3,12 @@ package main
 import (
 	"encoding/json"
 	"flag"
-	"io/ioutil"
 	"log"
+	"os"
 	"strings"
 
 	"github.com/asaskevich/govalidator"
+	"github.com/tidwall/gjson"
 )
 
 var bbListFile = flag.String("file", "../../chaos-bugbounty-list.json", "Chaos bugbounty list json file")
@@ -27,7 +28,7 @@ type programs struct {
 func main() {
 	flag.Parse()
 
-	rawJSON, err := ioutil.ReadFile(*bbListFile)
+	rawJSON, err := os.ReadFile(*bbListFile)
 	if err != nil {
 		log.Fatalf("Failed to read initial JSON file: %v", err)
 	}
@@ -39,21 +40,18 @@ func main() {
 	}
 
 	var invalidDomains []string
-	for _, p := range ps.Programs {
-		for _, domain := range p.Domains {
-			if !govalidator.IsDNSName(domain) || !govalidator.IsURL(domain) {
-				invalidDomains = append(invalidDomains, domain)
-			}
-
-			if strings.Count(domain, ".") > 1 {
-				invalidDomains = append(invalidDomains, domain)
-			}
+	gdata := gjson.ParseBytes(rawJSON)
+	gdata.Get("programs.#.domains|@flatten").ForEach(func(key, value gjson.Result) bool {
+		domain := value.String()
+		if !govalidator.IsDNSName(domain) || strings.Count(domain, ".") > 1 {
+			invalidDomains = append(invalidDomains, domain)
 		}
-	}
+		return true
+	})
 
 	output := strings.Join(invalidDomains, "\n")
 
-	err = ioutil.WriteFile("invalid_domains.txt", []byte(output), 0644)
+	err = os.WriteFile("invalid_domains.txt", []byte(output), 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
