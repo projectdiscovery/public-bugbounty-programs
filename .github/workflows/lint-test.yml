@@ -3,10 +3,10 @@ name: 🙏🏻 Lint Test
 on:
   push:
     paths:
-      - 'bbp-update/**'
+      - 'cmd/**'
   pull_request:
     paths:
-      - 'bbp-update/**'
+      - 'cmd/**'
   workflow_dispatch:
 
 jobs:

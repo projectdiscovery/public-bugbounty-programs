@@ -1,4 +1,4 @@
-package main
+package core
 
 import (
 	"bufio"
@@ -18,22 +18,14 @@ import (
 	"golang.org/x/net/publicsuffix"
 )
 
-func main() {
-	readExcludeList()
-
-	if err := process(); err != nil {
-		log.Fatalf("[FAIL] %s\n", err)
-	}
-}
-
-// program structure for arkadiyt public bbp program data
-type program struct {
+// Program structure for arkadiyt public bbp Program data
+type Program struct {
 	ID string `json:"id"` // yeswehack ID
 
 	Name    string `json:"name"`
 	URL     string `json:"url"`
 	Targets struct {
-		InScope []programAsset `json:"in_scope"`
+		InScope []ProgramAsset `json:"in_scope"`
 	} `json:"targets"`
 
 	MaxPayout int         `json:"max_payout"` // bugcrowd payout
@@ -43,7 +35,7 @@ type program struct {
 	OffersSwag     bool `json:"offers_swag"`     // hackerone payout
 }
 
-type programAsset struct {
+type ProgramAsset struct {
 	AssetType       string `json:"asset_type"`       // hackerone (URL)
 	AssetIdentifier string `json:"asset_identifier"` // hackerone
 
@@ -52,8 +44,8 @@ type programAsset struct {
 	Endpoint string `json:"endpoint"` // intigriti
 }
 
-// chaosProgram json data item struct
-type chaosProgram struct {
+// ChaosProgram json data item struct
+type ChaosProgram struct {
 	Name    string   `json:"name"`
 	URL     string   `json:"url"`
 	Bounty  bool     `json:"bounty"`
@@ -61,14 +53,14 @@ type chaosProgram struct {
 	Domains []string `json:"domains"`
 }
 
-type intigritiMaxBounty struct {
+type IntigritiMaxBounty struct {
 	Value float64 `json:"value"`
 }
 
-var excludeMap map[string]struct{}
+var ExcludeMap map[string]struct{}
 
-func readExcludeList() {
-	excludeMap = make(map[string]struct{})
+func ReadExcludeList() {
+	ExcludeMap = make(map[string]struct{})
 
 	f, err := os.Open("exclude.txt")
 	if err != nil {
@@ -81,13 +73,13 @@ func readExcludeList() {
 	for scanner.Scan() {
 		text := scanner.Text()
 		if text != "" {
-			excludeMap[strings.ToLower(text)] = struct{}{}
+			ExcludeMap[strings.ToLower(text)] = struct{}{}
 		}
 	}
 }
 
-func process() error {
-	chaosPrograms, err := readChaosBountyPrograms()
+func Process() error {
+	chaosPrograms, err := ReadChaosBountyPrograms()
 	if err != nil {
 		return err
 	}
@@ -111,7 +103,7 @@ func process() error {
 		return errors.Wrap(err, "could not clone bounty targets data")
 	}
 
-	var chaosSlice []chaosProgram
+	var chaosSlice []ChaosProgram
 	dataFiles := []string{"bugcrowd_data.json", "hackerone_data.json", "federacy_data.json", "hackenproof_data.json", "intigriti_data.json", "yeswehack_data.json"}
 	for _, file := range dataFiles {
 		log.Printf("[INFO] Reading %s data file\n", file)
@@ -122,7 +114,7 @@ func process() error {
 			log.Printf("[WARN] Could not read %s file: %s\n", file, err)
 			continue
 		}
-		var data []program
+		var data []Program
 		if err := json.NewDecoder(f).Decode(&data); err != nil {
 			log.Printf("[WARN] Could not decode %s file: %s\n", file, err)
 			f.Close()
@@ -137,15 +129,15 @@ func process() error {
 			}
 
 			// Exclude if program name is in exclude.txt
-			if _, ok := excludeMap[strings.ToLower(item.Name)]; ok {
+			if _, ok := ExcludeMap[strings.ToLower(item.Name)]; ok {
 				continue
 			}
 			// Only update if we get new domains from list if the program is already
 			// in our list.
 			if program, ok := chaosPrograms[item.Name]; ok {
-				domains := extractDomainsFromItem(item)
+				domains := ExtractDomainsFromItem(item)
 				// Dedupe and update the program if we get new domains
-				new := getUniqueDomains(program.Domains, domains)
+				new := GetUniqueDomains(program.Domains, domains)
 				if len(new) > len(program.Domains) {
 					program.Domains = append(program.Domains, new...)
 					log.Printf("[INFO] Updated program %s (%s): %v\n", item.Name, file, new)
@@ -155,7 +147,7 @@ func process() error {
 				continue
 			}
 
-			chaosItem := chaosProgram{
+			chaosItem := ChaosProgram{
 				Name: item.Name,
 				URL:  item.URL,
 			}
@@ -178,12 +170,12 @@ func process() error {
 					chaosItem.Bounty = true
 				}
 			case "intigriti_data.json":
-				if value, ok := item.MaxBounty.(intigritiMaxBounty); ok && value.Value > 0.0 {
+				if value, ok := item.MaxBounty.(IntigritiMaxBounty); ok && value.Value > 0.0 {
 					chaosItem.Bounty = true
 				}
 			}
 
-			chaosItem.Domains = extractDomainsFromItem(item)
+			chaosItem.Domains = ExtractDomainsFromItem(item)
 			if len(chaosItem.Domains) > 0 {
 				log.Printf("[INFO] Added program %s [%s]\n", chaosItem.Name, file)
 				chaosSlice = append(chaosSlice, chaosItem)
@@ -200,7 +192,7 @@ func process() error {
 	}
 	defer newFile.Close()
 
-	chaosData := chaosList{
+	chaosData := ChaosList{
 		Programs: chaosSlice,
 	}
 	marshalled, err := json.MarshalIndent(chaosData, " ", "  ")
@@ -211,7 +203,7 @@ func process() error {
 	return err
 }
 
-func extractDomainsFromItem(item program) []string {
+func ExtractDomainsFromItem(item Program) []string {
 	uniqMap := make(map[string]struct{})
 	var domains []string
 
@@ -219,7 +211,7 @@ func extractDomainsFromItem(item program) []string {
 		if hostname == "" {
 			return
 		}
-		if value := extractHostname(hostname); value != "" {
+		if value := ExtractHostname(hostname); value != "" {
 			if _, ok := uniqMap[value]; ok {
 				return
 			}
@@ -246,11 +238,11 @@ func extractDomainsFromItem(item program) []string {
 	return domains
 }
 
-type chaosList struct {
-	Programs []chaosProgram `json:"programs"`
+type ChaosList struct {
+	Programs []ChaosProgram `json:"programs"`
 }
 
-func readChaosBountyPrograms() (map[string]chaosProgram, error) {
+func ReadChaosBountyPrograms() (map[string]ChaosProgram, error) {
 	log.Printf("[INFO] Reading chaos-bugbounty-list.json\n")
 
 	file, err := os.Open("../chaos-bugbounty-list.json")
@@ -259,12 +251,12 @@ func readChaosBountyPrograms() (map[string]chaosProgram, error) {
 	}
 	defer file.Close()
 
-	var list chaosList
+	var list ChaosList
 	if err := json.NewDecoder(file).Decode(&list); err != nil {
 		return nil, errors.Wrap(err, "could not decode chaos list")
 	}
 
-	chaosMap := make(map[string]chaosProgram)
+	chaosMap := make(map[string]ChaosProgram)
 	for _, value := range list.Programs {
 		chaosMap[value.Name] = value
 	}
@@ -272,7 +264,7 @@ func readChaosBountyPrograms() (map[string]chaosProgram, error) {
 	return chaosMap, nil
 }
 
-func extractHostname(item string) string {
+func ExtractHostname(item string) string {
 	item = strings.ToLower(item)
 
 	validate := func(value string) string {
@@ -281,7 +273,7 @@ func extractHostname(item string) string {
 			return ""
 		}
 		// Exclude if program name is in exclude.txt
-		if _, ok := excludeMap[tld]; ok {
+		if _, ok := ExcludeMap[tld]; ok {
 			return ""
 		}
 		if govalidator.IsDNSName(tld) {
@@ -302,7 +294,7 @@ func extractHostname(item string) string {
 	return validate(item)
 }
 
-func getUniqueDomains(first, second []string) []string {
+func GetUniqueDomains(first, second []string) []string {
 	uniq := make(map[string]struct{})
 	for _, v := range first {
 		uniq[v] = struct{}{}

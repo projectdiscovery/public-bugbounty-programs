@@ -7,24 +7,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/asaskevich/govalidator"
+	"github.com/projectdiscovery/public-bugbounty-programs/pkg/core"
 	"github.com/tidwall/gjson"
-	"golang.org/x/net/publicsuffix"
 )
 
 var bbListFile = flag.String("file", "../../chaos-bugbounty-list.json", "Chaos bugbounty list json file")
-
-type program struct {
-	Name    string   `json:"name"`
-	URL     string   `json:"url"`
-	Bounty  bool     `json:"bounty"`
-	Swag    bool     `json:"swag"`
-	Domains []string `json:"domains"`
-}
-
-type programs struct {
-	Programs []program `json:"programs"`
-}
 
 func main() {
 	flag.Parse()
@@ -34,7 +21,7 @@ func main() {
 		log.Fatalf("Failed to read initial JSON file: %v", err)
 	}
 
-	var ps programs
+	var ps core.ChaosList
 	err = json.Unmarshal(rawJSON, &ps)
 	if err != nil {
 		log.Fatalf("Failed to parse initial JSON file: %v", err)
@@ -44,8 +31,8 @@ func main() {
 	gdata := gjson.ParseBytes(rawJSON)
 	gdata.Get("programs.#.domains|@flatten").ForEach(func(key, value gjson.Result) bool {
 		domain := value.String()
-		tld, err := publicsuffix.EffectiveTLDPlusOne(domain)
-		if err != nil || (!govalidator.IsDNSName(domain) || tld != domain) {
+		tld := core.ExtractHostname(domain)
+		if tld != domain {
 			invalidDomains = append(invalidDomains, domain)
 		}
 		return true
