@@ -1,11 +1,12 @@
 module github.com/projectdiscovery/public-bugbounty-programs
 
-go 1.17
+go 1.18
 
 require (
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d
 	github.com/go-git/go-git/v5 v5.5.2
 	github.com/pkg/errors v0.9.1
+	github.com/tidwall/gjson v1.14.4
 	golang.org/x/net v0.5.0
 )
 
@@ -23,6 +24,8 @@ require (
 	github.com/pjbgf/sha1cd v0.2.3 // indirect
 	github.com/sergi/go-diff v1.1.0 // indirect
 	github.com/skeema/knownhosts v1.1.0 // indirect
+	github.com/tidwall/match v1.1.1 // indirect
+	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	golang.org/x/crypto v0.3.0 // indirect
 	golang.org/x/sys v0.4.0 // indirect
