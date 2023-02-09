@@ -1,4 +1,4 @@
-package core
+package dns
 
 import (
 	"bufio"
@@ -264,34 +264,35 @@ func ReadChaosBountyPrograms() (map[string]ChaosProgram, error) {
 	return chaosMap, nil
 }
 
+func ValidateFQDN(value string) string {
+	tld, err := publicsuffix.EffectiveTLDPlusOne(value)
+	if err != nil {
+		return ""
+	}
+	// Exclude if program name is in exclude.txt
+	if _, ok := ExcludeMap[tld]; ok {
+		return ""
+	}
+	if govalidator.IsDNSName(tld) {
+		return tld
+	}
+	return ""
+}
+
 func ExtractHostname(item string) string {
 	item = strings.ToLower(item)
 
-	validate := func(value string) string {
-		tld, err := publicsuffix.EffectiveTLDPlusOne(value)
-		if err != nil {
-			return ""
-		}
-		// Exclude if program name is in exclude.txt
-		if _, ok := ExcludeMap[tld]; ok {
-			return ""
-		}
-		if govalidator.IsDNSName(tld) {
-			return tld
-		}
-		return ""
-	}
 	if strings.HasPrefix(item, "http") {
 		parsed, err := url.Parse(item)
 		if err != nil {
 			return ""
 		}
-		return validate(strings.TrimPrefix(parsed.Hostname(), "*."))
+		return ValidateFQDN(strings.TrimPrefix(parsed.Hostname(), "*."))
 	}
 	if strings.HasPrefix(item, "*.") {
-		return validate(strings.TrimPrefix(item, "*."))
+		return ValidateFQDN(strings.TrimPrefix(item, "*."))
 	}
-	return validate(item)
+	return ValidateFQDN(item)
 }
 
 func GetUniqueDomains(first, second []string) []string {

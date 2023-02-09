@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/projectdiscovery/public-bugbounty-programs/pkg/core"
+	"github.com/projectdiscovery/public-bugbounty-programs/pkg/dns"
 	"github.com/tidwall/gjson"
 )
 
@@ -21,7 +21,7 @@ func main() {
 		log.Fatalf("Failed to read initial JSON file: %v", err)
 	}
 
-	var ps core.ChaosList
+	var ps dns.ChaosList
 	err = json.Unmarshal(rawJSON, &ps)
 	if err != nil {
 		log.Fatalf("Failed to parse initial JSON file: %v", err)
@@ -31,8 +31,8 @@ func main() {
 	gdata := gjson.ParseBytes(rawJSON)
 	gdata.Get("programs.#.domains|@flatten").ForEach(func(key, value gjson.Result) bool {
 		domain := value.String()
-		tld := core.ExtractHostname(domain)
-		if tld != domain {
+		tld := dns.ValidateFQDN(domain)
+		if tld != domain || domain == "" {
 			invalidDomains = append(invalidDomains, domain)
 		}
 		return true
