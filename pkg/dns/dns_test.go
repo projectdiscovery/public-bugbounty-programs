@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-func TestProcess(t *testing.T) {
+func TestValidateFQDN(t *testing.T) {
 	tests := []struct {
 		name      string
 		input     string
