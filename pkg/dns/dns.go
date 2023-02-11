@@ -2,7 +2,6 @@ package dns
 
 import (
 	"net/url"
-	"regexp"
 	"strings"
 
 	"github.com/asaskevich/govalidator"
@@ -27,11 +26,6 @@ type ChaosList struct {
 func ValidateFQDN(value string) string {
 	tld, err := publicsuffix.EffectiveTLDPlusOne(value)
 	if err != nil {
-		return ""
-	}
-
-	re := regexp.MustCompile(`^[a-zA-Z0-9.*-]+$`)
-	if !re.MatchString(tld) {
 		return ""
 	}
 
