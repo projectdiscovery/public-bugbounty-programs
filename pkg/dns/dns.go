@@ -1,7 +1,9 @@
 package dns
 
 import (
+	"fmt"
 	"net/url"
+	"regexp"
 	"strings"
 
 	"github.com/asaskevich/govalidator"
@@ -28,6 +30,13 @@ func ValidateFQDN(value string) string {
 	if err != nil {
 		return ""
 	}
+
+	re := regexp.MustCompile(`^[a-zA-Z0-9.*]+$`)
+	if !re.MatchString(tld) {
+		fmt.Println(re, tld)
+		return ""
+	}
+
 	if govalidator.IsDNSName(tld) {
 		return tld
 	}

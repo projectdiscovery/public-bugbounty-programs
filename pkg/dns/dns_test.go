@@ -85,6 +85,30 @@ func TestValidateFQDN(t *testing.T) {
 			want:      "",
 			isInvalid: true,
 		},
+		{
+			name:      "InvalidRegexDomain",
+			input:     "exa$mple.com",
+			want:      "",
+			isInvalid: true,
+		},
+		{
+			name:      "InvalidRegexDomain2",
+			input:     "ex@$mpl&.com",
+			want:      "",
+			isInvalid: true,
+		},
+		{
+			name:      "InvalidRegexSubomain",
+			input:     "some$$thing.example.com",
+			want:      "example.com",
+			isInvalid: true,
+		},
+		{
+			name:      "InvalidRegexSubomain2",
+			input:     "some$$thing.examp%&le.com",
+			want:      "",
+			isInvalid: true,
+		},
 	}
 
 	for _, tt := range tests {
