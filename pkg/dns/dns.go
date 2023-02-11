@@ -24,14 +24,21 @@ type ChaosList struct {
 }
 
 func ValidateFQDN(value string) string {
+	// with publicsuffix package, it gets the top-level
+	// domain of the input value
 	tld, err := publicsuffix.EffectiveTLDPlusOne(value)
+
 	if err != nil {
 		return ""
 	}
 
+	// with govalidator package, it checks if value provided is a
+	// valid domain name system (DNS) name
 	if govalidator.IsDNSName(tld) {
 		return tld
 	}
+
+	// If the value is not a valid DNS name, it returns an empty string
 	return ""
 }
 
