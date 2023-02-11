@@ -1,7 +1,6 @@
 package dns
 
 import (
-	"fmt"
 	"net/url"
 	"regexp"
 	"strings"
@@ -31,9 +30,8 @@ func ValidateFQDN(value string) string {
 		return ""
 	}
 
-	re := regexp.MustCompile(`^[a-zA-Z0-9.*]+$`)
+	re := regexp.MustCompile(`^[a-zA-Z0-9.*-]+$`)
 	if !re.MatchString(tld) {
-		fmt.Println(re, tld)
 		return ""
 	}
 
