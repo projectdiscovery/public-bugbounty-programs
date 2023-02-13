@@ -6,7 +6,7 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d
 	github.com/go-git/go-git/v5 v5.5.2
 	github.com/pkg/errors v0.9.1
-	golang.org/x/net v0.5.0
+	golang.org/x/net v0.6.0
 )
 
 require (
@@ -25,6 +25,6 @@ require (
 	github.com/skeema/knownhosts v1.1.0 // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	golang.org/x/crypto v0.3.0 // indirect
-	golang.org/x/sys v0.4.0 // indirect
+	golang.org/x/sys v0.5.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
