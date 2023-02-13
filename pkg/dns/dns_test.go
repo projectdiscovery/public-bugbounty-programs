@@ -8,106 +8,89 @@ import (
 
 func TestValidateFQDN(t *testing.T) {
 	tests := []struct {
-		name      string
-		input     string
-		want      string
-		isInvalid bool
+		name  string
+		input string
+		want  bool
 	}{
 		{
-			name:      "CorrectDomain",
-			input:     "example.com",
-			want:      "example.com",
-			isInvalid: false,
+			name:  "CorrectDomain",
+			input: "example.com",
+			want:  true,
 		},
 		{
-			name:      "CorrectDomainSecondLevelDomain",
-			input:     "example.co.uk",
-			want:      "example.co.uk",
-			isInvalid: false,
+			name:  "CorrectDomainSecondLevelDomain",
+			input: "example.co.uk",
+			want:  true,
 		},
 		{
-			name:      "IncorrectDomainSecondLevelDomain",
-			input:     "docs.example.com",
-			want:      "example.com",
-			isInvalid: true,
+			name:  "IncorrectDomainSecondLevelDomain",
+			input: "docs.example.com",
+			want:  false,
 		},
 		{
-			name:      "ThirdLevelDomain",
-			input:     "a.a.example.com",
-			want:      "example.com",
-			isInvalid: true,
+			name:  "ThirdLevelDomain",
+			input: "a.a.example.com",
+			want:  false,
 		},
 		{
-			name:      "multiLevelDomain",
-			input:     "a.a.a.a.a.a.a.example.com",
-			want:      "example.com",
-			isInvalid: true,
+			name:  "multiLevelDomain",
+			input: "a.a.a.a.a.a.a.example.com",
+			want:  false,
 		},
 		{
-			name:      "WildcardDomain",
-			input:     "*.example.com",
-			want:      "example.com",
-			isInvalid: true,
+			name:  "WildcardDomain",
+			input: "*.example.com",
+			want:  false,
 		},
 		{
-			name:      "MultiWildcardDomain",
-			input:     "*.aaaaa.*.example.com",
-			want:      "example.com",
-			isInvalid: true,
+			name:  "MultiWildcardDomain",
+			input: "*.aaaaa.*.example.com",
+			want:  false,
 		},
 		{
-			name:      "HttpUrlDomain",
-			input:     "http://example.com",
-			want:      "",
-			isInvalid: true,
+			name:  "HttpUrlDomain",
+			input: "http://example.com",
+			want:  false,
 		},
 		{
-			name:      "HttpsUrlDomain",
-			input:     "https://example.com",
-			want:      "",
-			isInvalid: true,
+			name:  "HttpsUrlDomain",
+			input: "https://example.com",
+			want:  false,
 		},
 		{
-			name:      "EmptyDomain",
-			input:     "",
-			want:      "",
-			isInvalid: true,
+			name:  "EmptyDomain",
+			input: "",
+			want:  false,
 		},
 		{
-			name:      "SpaceDomain",
-			input:     " ",
-			want:      "",
-			isInvalid: true,
+			name:  "SpaceDomain",
+			input: " ",
+			want:  false,
 		},
 		{
-			name:      "MultiSpaceDomain",
-			input:     "        ",
-			want:      "",
-			isInvalid: true,
+			name:  "MultiSpaceDomain",
+			input: "        ",
+			want:  false,
 		},
 		{
-			name:      "InvalidRegexDomain",
-			input:     "exa$mple.com",
-			want:      "",
-			isInvalid: true,
+			name:  "InvalidRegexDomain",
+			input: "exa$mple.com",
+			want:  false,
 		},
 		{
-			name:      "InvalidRegexDomain2",
-			input:     "ex@$mpl&.com",
-			want:      "",
-			isInvalid: true,
+			name:  "InvalidRegexDomain2",
+			input: "ex@$mpl&.com",
+			want:  false,
 		},
 		{
-			name:      "InvalidRegexSubomain",
-			input:     "some$$thing.example.com",
-			want:      "example.com",
-			isInvalid: true,
+			name:  "InvalidRegexSubomain",
+			input: "some$$thing.example.com",
+			want:  false,
 		},
 		{
-			name:      "InvalidRegexSubomain2",
-			input:     "some$$thing.examp%&le.com",
-			want:      "",
-			isInvalid: true,
+			name:  "InvalidRegexSubomain2",
+			input: "some$$thing.examp%&le.com",
+			want:  false,
 		},
 	}
 
@@ -115,9 +98,7 @@ func TestValidateFQDN(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 			got := ValidateFQDN(tt.input)
 			// compare output
-			require.Equal(t, got, tt.want, tt.name)
-			invalid := got != tt.input || tt.input == ""
-			require.Equal(t, invalid, tt.isInvalid)
+			require.Equal(t, tt.want, got, tt.name)
 		})
 
 	}

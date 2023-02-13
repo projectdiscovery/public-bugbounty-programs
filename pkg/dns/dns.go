@@ -1,10 +1,11 @@
 package dns
 
 import (
-	"net/url"
 	"strings"
 
 	"github.com/asaskevich/govalidator"
+	sliceutil "github.com/projectdiscovery/utils/slice"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 	"golang.org/x/net/publicsuffix"
 )
 
@@ -23,23 +24,17 @@ type ChaosList struct {
 	Programs []ChaosProgram `json:"programs"`
 }
 
-func ValidateFQDN(value string) string {
+func ValidateFQDN(value string) bool {
 	// with publicsuffix package, it gets the top-level
 	// domain of the input value
 	tld, err := publicsuffix.EffectiveTLDPlusOne(value)
-
 	if err != nil {
-		return ""
+		return false
 	}
 
 	// with govalidator package, it checks if value provided is a
 	// valid domain name system (DNS) name
-	if govalidator.IsDNSName(tld) {
-		return tld
-	}
-
-	// If the value is not a valid DNS name, it returns an empty string
-	return ""
+	return tld == value && govalidator.IsDNSName(tld)
 }
 
 func ExtractHostname(item string) string {
@@ -50,30 +45,16 @@ func ExtractHostname(item string) string {
 		return ""
 	}
 
-	if strings.HasPrefix(item, "http") {
-		parsed, err := url.Parse(item)
-		if err != nil {
-			return ""
-		}
-		return ValidateFQDN(strings.TrimPrefix(parsed.Hostname(), "*."))
+	trimmedStr := stringsutil.TrimPrefixAny(item, "http://", "https://", "*.")
+
+	if ValidateFQDN(trimmedStr) {
+		return trimmedStr
 	}
-	if strings.HasPrefix(item, "*.") {
-		return ValidateFQDN(strings.TrimPrefix(item, "*."))
-	}
-	return ValidateFQDN(item)
+
+	return ""
 }
 
 func GetUniqueDomains(first, second []string) []string {
-	uniq := make(map[string]struct{})
-	for _, v := range first {
-		uniq[v] = struct{}{}
-	}
-	var unique []string
-	for _, v := range second {
-		if _, ok := uniq[v]; !ok {
-			unique = append(unique, v)
-			uniq[v] = struct{}{}
-		}
-	}
-	return unique
+	_, diff := sliceutil.Diff(first, second)
+	return sliceutil.Dedupe(diff)
 }
