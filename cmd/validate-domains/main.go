@@ -31,8 +31,7 @@ func main() {
 	gdata := gjson.ParseBytes(rawJSON)
 	gdata.Get("programs.#.domains|@flatten").ForEach(func(key, value gjson.Result) bool {
 		domain := value.String()
-		tld := dns.ValidateFQDN(domain)
-		if tld != domain || domain == "" {
+		if dns.ValidateFQDN(domain) {
 			invalidDomains = append(invalidDomains, domain)
 		}
 		return true
