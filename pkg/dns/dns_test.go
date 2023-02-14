@@ -97,8 +97,7 @@ func TestValidateFQDN(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			got := ValidateFQDN(tt.input)
-			// compare output
-			require.Equal(t, tt.want, got, tt.name)
+			require.Equalf(t, tt.want, got, "test %s => wanted %v but got %v", tt.name, tt.want, got)
 		})
 
 	}
