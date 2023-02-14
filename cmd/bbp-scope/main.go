@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
@@ -79,7 +78,7 @@ func Process() error {
 		return err
 	}
 
-	tempdir, err := ioutil.TempDir("", "bbp-*")
+	tempdir, err := os.MkdirTemp("", "bbp-*")
 	if err != nil {
 		return errors.Wrap(err, "could not create temporary directory")
 	}
