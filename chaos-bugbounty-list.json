@@ -2649,19 +2649,25 @@
       "url": "https://hackerone.com/goldmansachs",
       "bounty": true,
       "domains": [
-        "gspublishing.com",
-        "claritymoney.com",
         "ayco.com",
-        "gsselect.com",
-        "gsam.com",
+        "claritymoney.com",
+        "finlife.com",
+        "finlifepartners.com",
+        "genesiscapital.com",
         "goldman.com",
-        "marcus.com",
-        "goldmansachsindices.com",
-        "marcus.co.uk",
+        "goldmanpfm.com",
         "goldmansachs.com",
         "gs.com",
+        "gs.de",
+        "gsam.com",
+        "gspublishing.com",
+        "gsselect.com",
+        "honestdollar.com",
+        "marcus.co.uk",
+        "marcus.com",
         "rocaton.com",
-        "honestdollar.com"
+        "unitedcp.com",
+        "goldmansachsindices.com"
       ]
     },
     {
