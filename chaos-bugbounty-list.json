@@ -5405,14 +5405,6 @@
       ]
     },
     {
-      "name": "Mobikwik",
-      "url": "https://www.mobikwik.com/bug-bounty/guidelines",
-      "bounty": true,
-      "domains": [
-        "mobikwik.com"
-      ]
-    },
-    {
       "name": "Mobile DE",
       "url": "https://app.zerocopter.com/de/rd/aef29c56-5295-4789-b848-3f121eeca350",
       "bounty": true,
@@ -9539,6 +9531,77 @@
         "stanbicbank.co.zw",
         "standardbank.com.br"
       ]
+      },
+      {
+        "name":"H&M Group",
+        "url":"https://www2.hm.com/security.txt",
+        "bounty": true,
+        "swag": false,
+        "domains":[
+          "hm.com",
+          "cos.com",
+          "weekday.com",
+          "monki.com",
+          "arket.com",
+          "afound.com",
+          "stories.com"
+        ]
+      },
+      {
+        "name":"Scholar Fund",
+        "url":"https://www.scholarfundwa.org/bug-bounty",
+        "bounty": true,
+        "swag": false,
+        "domains":[
+          "scholarfundwa.org",
+          "scholarfund.io"
+        ]
+      },
+      {
+        "name":"INDmoney",
+        "url":"https://www.indmoney.com/page/bug-bounty",
+        "bounty": true,
+        "swag": false,
+        "domains":[
+          "indmoney.com",
+          "indiawealth.in"
+        ]
+      },
+      {
+        "name":"CodeChef",
+        "url":"https://www.codechef.com/bug-bounty-program",
+        "bounty": true,
+        "swag": false,
+        "domains":[
+          "codechef.com"
+        ]
+      },
+      {
+        "name":"MobiKwik",
+        "url":"https://www.mobikwik.com/bug-bounty/guidelines",
+        "bounty": true,
+        "swag": false,
+        "domains":[
+          "mobikwik.com"
+        ]
+      },
+      {
+        "name":"Agicap",
+        "url":"https://agicap.com/en/bug-bounty/",
+        "bounty": true,
+        "swag": false,
+        "domains":[
+          "agicap.com"
+        ]
+      },
+      {
+        "name":"Sendcloud",
+        "url":"https://www.sendcloud.com/bug-bounty-program/",
+        "bounty": true,
+        "swag": false,
+        "domains":[
+          "sendcloud.com"
+        ]
       },
     {
        "name":"Trendyol",
