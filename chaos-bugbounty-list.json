@@ -39,7 +39,7 @@
     },
     {
       "name":"Alasco GmbH",
-      "url":"https://yeswehack.com/programs/alasco-gmbh-bug-bounty-program",
+      "url":"https://www.alasco.de/security/bug-bounty/",
       "bounty": true,
       "swag": false,
       "domains":[
@@ -631,7 +631,7 @@
     },
     {
       "name": "Auvik",
-      "url": "https://www.auvik.com/disclosure-policy.html",
+      "url": "https://www.auvik.com/vulnerability-disclosure-program/",
       "bounty": false,
       "domains": [
         "auvik.com"
@@ -744,7 +744,7 @@
     },
     {
       "name": "Bentley",
-      "url": "https://www.bentley.com/responsible_disclosure.pdf",
+      "url": "https://www.bentley.com/wp-content/uploads/responsible-disclosure.pdf",
       "bounty": true,
       "domains": [
         "bentley.com"
@@ -875,7 +875,7 @@
     },
     {
       "name": "BitGo",
-      "url": "https://www.bitgo.com/bug-bounty",
+      "url": "https://hackerone.com/bitgo",
       "bounty": true,
       "domains": [
         "bitgo.com"
@@ -4635,7 +4635,7 @@
     },
     {
       "name": "Ivanti",
-      "url": "https://www.ivanti.com/support/contact-security",
+      "url": "https://hackerone.com/ivanti",
       "bounty": false,
       "swag": true,
       "domains": [
@@ -9181,7 +9181,7 @@
     },
     {
       "name": "Wickr",
-      "url": "https://wickr.com/security/bug-bounty/",
+      "url": "https://hackerone.com/wickr",
       "bounty": true,
       "domains": [
         "wickr.com"
