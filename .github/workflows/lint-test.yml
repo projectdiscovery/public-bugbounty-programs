@@ -3,10 +3,10 @@ name: 🙏🏻 Lint Test
 on:
   push:
     paths:
-      - 'bbp-update/**'
+      - 'cmd/**'
   pull_request:
     paths:
-      - 'bbp-update/**'
+      - 'cmd/**'
   workflow_dispatch:
 
 jobs:
@@ -19,9 +19,9 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v3
         with:
-          go-version: 1.18
+          go-version: 1.19
       - name: Run golangci-lint
-        uses: golangci/golangci-lint-action@v3.3.1
+        uses: golangci/golangci-lint-action@v3.4.0
         with:
           version: latest
           args: --timeout 5m

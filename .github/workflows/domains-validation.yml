@@ -1,0 +1,52 @@
+name: Domains validation
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  check-for-duplicates:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Find duplicate domains
+      run: |
+        set -e
+        jq -r '.programs[].domains[]' chaos-bugbounty-list.json | sort | uniq -c | awk '$1 > 1 { print $2 }' > duplicates.txt
+        if [[ -s duplicates.txt ]]; then
+            echo "Duplicate domains found: $(cat duplicates.txt)"
+            exit 1
+        else
+            echo "No duplicate domains found."
+        fi
+
+  check-invalid-domains:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup golang
+      uses: actions/setup-go@v3
+      with:
+        go-version: 1.19
+
+    - name: Installing Validate domains binary
+      run: |
+        go install github.com/projectdiscovery/public-bugbounty-programs/cmd/validate-domains
+      shell: bash
+
+    - name: Check domains validation
+      run: |
+        validate-domains -file chaos-bugbounty-list.json
+      shell: bash
+
+    - name: Return invalid if present
+      run: |
+        if [[ -s invalid_domains.txt ]]; then
+            echo "Invalid domains found: $(cat invalid_domains.txt)"
+            exit 1
+        fi

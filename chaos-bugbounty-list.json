@@ -29,6 +29,16 @@
       ]
     },
     {
+      "name":"Alasco GmbH",
+      "url":"https://yeswehack.com/programs/alasco-gmbh-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+         "alasco.de",
+         "alasco.rocks"
+      ]
+    },
+    {
       "name":"Swapcard",
       "url":"https://yeswehack.com/programs/swapcard",
       "bounty": true,
@@ -206,7 +216,6 @@
       "domains": [
         "acrobat.com",
         "adobe.io",
-        "adobeaemcloud.com",
         "adobecqms.net",
         "bizible.com",
         "marketo.com",
@@ -290,8 +299,7 @@
       "url": "https://hackerone.com/aiven_ltd",
       "bounty": true,
       "domains": [
-        "aiven.io",
-        "aivencloud.com"
+        "aiven.io"
       ]
     },
     {
@@ -413,39 +421,6 @@
         "amazon.co.jp",
         "amazon.de",
         "amazon.fr"
-      ]
-    },
-    {
-      "name": "AMERICAN SYSTEMS",
-      "url": "https://hackerone.com/american_systems_bbp",
-      "bounty": true,
-      "domains": [
-        "alexamerican.com",
-        "alexamericansystems.com",
-        "americansystems.com",
-        "ascvpc.com",
-        "ascsites.com",
-        "ascgov.com",
-        "ddlomni.com",
-        "nhaero.com",
-        "americansystems.info",
-        "amsyscorp.com",
-        "2asc.com",
-        "americanalliant.com",
-        "asc.name",
-        "digitalaccess.com",
-        "americansystemsuniversity.com",
-        "americansystems.org",
-        "thoughtmill.com",
-        "american-systems.org",
-        "american-systems.com",
-        "asextranet.com",
-        "emsolutionsinc.com",
-        "emsolve.com",
-        "essworld.net",
-        "nswccd-fbw-scs.com",
-        "asvpc.com",
-        "alex-as.com"
       ]
     },
     {
@@ -681,6 +656,15 @@
         "davosalestax.com",
         "ttrus.com",
         "impendulo.com"
+      ]
+    },
+    {
+      "name":"Avail Carsharing",
+      "url":"https://availcarsharing.com/bug-bounty",
+      "bounty": true,
+      "swag": false,
+      "domains":[
+        "availcarsharing.com"
       ]
     },
     {
@@ -1759,8 +1743,7 @@
         "dmcdn.net",
         "dailymotionadvertising.com",
         "dm.gg",
-        "dmxleo.com",
-        "api.dailymotion.com"
+        "dmxleo.com"      
       ]
     },
     {
@@ -1857,9 +1840,7 @@
         "devolksbank.nl",
         "asnbank.nl",
         "blgwonen.nl",
-        "regiobank.nl",
-        "snsbank.nl",
-        "sns.nl"
+        "regiobank.nl"
       ]
     },
     {
@@ -2017,7 +1998,7 @@
     },
     {
       "name": "DPG Media",
-      "url": "https://app.intigriti.com/researcher/programs/dpgm/dpgmedia/detail",
+      "url": "https://app.intigriti.com/programs/dpgm/dpgmedia/detail",
       "bounty": true,
       "domains": [
         "dpgmedia.be",
@@ -2603,7 +2584,6 @@
         "githubapp.com",
         "semmle.net",
         "githubassets.com",
-        "githubusercontent.com",
         "githubwebhooks.net",
         "lgtm.com"
       ]
@@ -3209,7 +3189,6 @@
         "golfhoogte.nl",
         "gordelsom.nl",
         "gov-dns.nl",
-        "gov.nl",
         "gov4nano.eu",
         "govbox.nl",
         "govdns.nl",
@@ -4556,7 +4535,7 @@
     },
     {
       "name": "Intigriti",
-      "url": "https://www.intigriti.com/programs/intigriti/intigriti/detail",
+      "url": "https://app.intigriti.com/programs/intigriti/intigriti/detail",
       "bounty": true,
       "domains": [
         "intigriti.com"
@@ -4722,7 +4701,7 @@
     },
     {
       "name": "Jooki",
-      "url": "https://www.intigriti.com/programs/muuselabs/jooki/detail",
+      "url": "https://app.intigriti.com/programs/muuselabs/jooki/detail",
       "bounty": false,
       "domains": [
         "jooki.rocks",
@@ -5359,7 +5338,7 @@
     },
     {
       "name": "MediaMarktSaturn",
-      "url": "https://hackerone.com/mediamarktsaturn",
+      "url": "https://vdp.mediamarktsaturn.com/p/Submission-Form",
       "bounty": false,
       "domains": [
         "mediamarkt.at",
@@ -5542,7 +5521,6 @@
         "sarcoidosis.org",
         "medicalconciergenyc.com",
         "healthandhealingny.com",
-        "carelink.mountsinaiconnect.org",
         "usmgny.org",
         "slrortho.com",
         "nycepilepsyteam.com",
@@ -6382,14 +6360,6 @@
       ]
     },
     {
-      "name": "Phished",
-      "url": "https://www.intigriti.com/programs/phished/phished/detail",
-      "bounty": false,
-      "domains": [
-        "phished.be"
-      ]
-    },
-    {
       "name": "Picky Assist",
       "url": "https://pickyassist.com/blog/bug-bounty-program-bug-beacon/",
       "bounty": true,
@@ -6529,7 +6499,7 @@
     },
     {
       "name": "Port of Antwerp",
-      "url": "https://www.intigriti.com/programs/portofantwerp/portofantwerp/detail",
+      "url": "https://app.intigriti.com/programs/portofantwerp/portofantwerp/detail",
       "bounty": false,
       "domains": [
         "c-point.be",
@@ -6615,14 +6585,6 @@
       "bounty": true,
       "domains": [
         "purevpn.com"
-      ]
-    },
-    {
-      "name": "Python Anywhere",
-      "url": "https://help.pythonanywhere.com/pages/BugBounty",
-      "bounty": true,
-      "domains": [
-        "pythonanywhere.com"
       ]
     },
     {
@@ -6752,7 +6714,6 @@
         "trgc.com",
         "leadrouter.com",
         "cartus.com",
-        "mycbdeskcom",
         "cbintouch.com",
         "myzap.com"
       ]
@@ -6785,7 +6746,7 @@
     },
     {
       "name": "Redbull",
-      "url": "https://www.intigriti.com/programs/redbull/redbull/detail",
+      "url": "https://app.intigriti.com/programs/redbull/redbull/detail",
       "bounty": false,
       "domains": [
         "redbull.com",
@@ -6894,8 +6855,6 @@
       "bounty": false,
       "domains": [
         "resmed.com",
-        "u-sleep.umbian.com",
-        "Narval-easy.resmed.eu",
         "resmed.co.uk",
         "resmed.mx",
         "resmed.com.br",
@@ -7275,8 +7234,7 @@
       "domains": [
         "exchangemarketplace.com",
         "shopify.com",
-        "shopifykloud.com",
-        "myshopify.com"
+        "shopifykloud.com"
       ]
     },
     {
@@ -7982,7 +7940,6 @@
         "bestattungsvergleich.ch",
         "bijouterie-vergleich.ch",
         "bodenlegervergleich.ch",
-        "bäckereivergleich.ch",
         "cateringvergleich.ch",
         "coaching-vergleich.ch",
         "coiffeurvergleich.ch",
@@ -7996,7 +7953,6 @@
         "ernaehrungsberatungsvergleich.ch",
         "etv.ch",
         "fahrlehrervergleich.ch",
-        "fenster-türe-vergleich.ch",
         "fitnessstudio-vergleich.ch",
         "floristvergleich.ch",
         "fondue-vergleich.ch",
@@ -8151,7 +8107,7 @@
     },
     {
       "name": "Telenet",
-      "url": "https://www.intigriti.com/researcher/programs/telenet/telenetgroup/detail",
+      "url": "https://app.intigriti.com/programs/telenet/telenetgroup/detail",
       "bounty": true,
       "domains": [
         "9lives.be",
@@ -8315,7 +8271,7 @@
     },
     {
       "name": "Torfs",
-      "url": "https://www.intigriti.com/programs/torfs/torfs/detail",
+      "url": "https://app.intigriti.com/programs/torfs/torfs/detail",
       "bounty": true,
       "domains": [
         "torfs.be",
@@ -8487,7 +8443,7 @@
     },
     {
       "name": "Tweakers",
-      "url": "https://www.intigriti.com/programs/depersgroep/tweakers/detail",
+      "url": "https://app.intigriti.com/programs/dpgm/tweakers/detail",
       "bounty": true,
       "domains": [
         "tweakblogs.net",
@@ -9009,9 +8965,7 @@
       "domains": [
         "vimeopro.com",
         "vimeo.com",
-        "vhx.tv",
-        "livestream.com",
-        "magisto.com"
+        "vhx.tv"
       ]
     },
     {
@@ -9117,7 +9071,7 @@
     },
     {
       "name": "Warren Brasil",
-      "url": "https://admin.bughunt.com.br/p/warren-brasil-bug-bounty-program",
+      "url": "https://admin.bughunt.com.br/program/detail?5eeb6b1b660ac82f7cdaf7e0",
       "bounty": true,
       "domains": [
         "warren.com.br"
@@ -9235,7 +9189,6 @@
         "windstreamsmallbusiness.com",
         "getwindstream.com",
         "windstreamdeals.com",
-        "Windstreambundledeals.com",
         "broadviewnet.com"
       ]
     },
@@ -9657,6 +9610,16 @@
         "domains":[
           "sendcloud.com"
         ]
-      }
+      },
+    {
+       "name":"Trendyol",
+       "url":"https://hackerone.com/trendyol",
+       "bounty": true,
+       "swag": false,
+       "domains":[
+          "trendyol.com",
+          "dolap.com"
+       ]
+    }
   ]
 }
