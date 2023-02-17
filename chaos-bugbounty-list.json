@@ -9521,6 +9521,15 @@
         "alex-as.com"
       ]
       },
+      {
+        "name":"Riot Games",
+        "url":"https://hackerone.com/riot/",
+        "bounty": true,
+        "swag": false,
+        "domains":[
+           "riotgames.com"
+        ]
+     },
     {
       "name":"Standard Bank",
       "url":"https://hackerone.com/standardbank",
