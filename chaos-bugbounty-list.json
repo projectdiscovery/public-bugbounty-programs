@@ -216,7 +216,6 @@
       "domains": [
         "acrobat.com",
         "adobe.io",
-        "adobeaemcloud.com",
         "adobecqms.net",
         "bizible.com",
         "marketo.com",
@@ -300,8 +299,7 @@
       "url": "https://hackerone.com/aiven_ltd",
       "bounty": true,
       "domains": [
-        "aiven.io",
-        "aivencloud.com"
+        "aiven.io"
       ]
     },
     {
@@ -1745,8 +1743,7 @@
         "dmcdn.net",
         "dailymotionadvertising.com",
         "dm.gg",
-        "dmxleo.com",
-        "api.dailymotion.com"
+        "dmxleo.com"      
       ]
     },
     {
@@ -2587,7 +2584,6 @@
         "githubapp.com",
         "semmle.net",
         "githubassets.com",
-        "githubusercontent.com",
         "githubwebhooks.net",
         "lgtm.com"
       ]
@@ -3193,7 +3189,6 @@
         "golfhoogte.nl",
         "gordelsom.nl",
         "gov-dns.nl",
-        "gov.nl",
         "gov4nano.eu",
         "govbox.nl",
         "govdns.nl",
@@ -5526,7 +5521,6 @@
         "sarcoidosis.org",
         "medicalconciergenyc.com",
         "healthandhealingny.com",
-        "carelink.mountsinaiconnect.org",
         "usmgny.org",
         "slrortho.com",
         "nycepilepsyteam.com",
@@ -6594,14 +6588,6 @@
       ]
     },
     {
-      "name": "Python Anywhere",
-      "url": "https://help.pythonanywhere.com/pages/BugBounty",
-      "bounty": true,
-      "domains": [
-        "pythonanywhere.com"
-      ]
-    },
-    {
       "name": "Python Cryptographic",
       "url": "https://hackerone.com/pyca",
       "bounty": false,
@@ -6728,7 +6714,6 @@
         "trgc.com",
         "leadrouter.com",
         "cartus.com",
-        "mycbdeskcom",
         "cbintouch.com",
         "myzap.com"
       ]
@@ -6870,8 +6855,6 @@
       "bounty": false,
       "domains": [
         "resmed.com",
-        "u-sleep.umbian.com",
-        "Narval-easy.resmed.eu",
         "resmed.co.uk",
         "resmed.mx",
         "resmed.com.br",
@@ -7251,8 +7234,7 @@
       "domains": [
         "exchangemarketplace.com",
         "shopify.com",
-        "shopifykloud.com",
-        "myshopify.com"
+        "shopifykloud.com"
       ]
     },
     {
@@ -7958,7 +7940,6 @@
         "bestattungsvergleich.ch",
         "bijouterie-vergleich.ch",
         "bodenlegervergleich.ch",
-        "bäckereivergleich.ch",
         "cateringvergleich.ch",
         "coaching-vergleich.ch",
         "coiffeurvergleich.ch",
@@ -7972,7 +7953,6 @@
         "ernaehrungsberatungsvergleich.ch",
         "etv.ch",
         "fahrlehrervergleich.ch",
-        "fenster-türe-vergleich.ch",
         "fitnessstudio-vergleich.ch",
         "floristvergleich.ch",
         "fondue-vergleich.ch",
@@ -9209,7 +9189,6 @@
         "windstreamsmallbusiness.com",
         "getwindstream.com",
         "windstreamdeals.com",
-        "Windstreambundledeals.com",
         "broadviewnet.com"
       ]
     },
