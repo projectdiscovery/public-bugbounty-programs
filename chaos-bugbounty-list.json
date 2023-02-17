@@ -5405,14 +5405,6 @@
       ]
     },
     {
-      "name": "Mobikwik",
-      "url": "https://www.mobikwik.com/bug-bounty/guidelines",
-      "bounty": true,
-      "domains": [
-        "mobikwik.com"
-      ]
-    },
-    {
       "name": "Mobile DE",
       "url": "https://app.zerocopter.com/de/rd/aef29c56-5295-4789-b848-3f121eeca350",
       "bounty": true,
