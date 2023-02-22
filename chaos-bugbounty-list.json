@@ -9092,6 +9092,15 @@
       ]
     },
     {
+      "name":"Walmart Corporation",
+      "url":"https://corporate.walmart.com/article/responsible-disclosure-policy",
+      "bounty": false,
+      "swag": false,
+      "domains":[
+         "walmart.com"
+      ]
+    },
+    {
       "name": "Warren Brasil",
       "url": "https://admin.bughunt.com.br/program/detail?5eeb6b1b660ac82f7cdaf7e0",
       "bounty": true,
