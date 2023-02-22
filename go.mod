@@ -9,7 +9,7 @@ require (
 	github.com/projectdiscovery/utils v0.0.10
 	github.com/stretchr/testify v1.8.1
 	github.com/tidwall/gjson v1.14.4
-	golang.org/x/net v0.6.0
+	golang.org/x/net v0.7.0
 )
 
 require (
