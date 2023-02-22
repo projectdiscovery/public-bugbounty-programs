@@ -9660,6 +9660,17 @@
           "trendyol.com",
           "dolap.com"
        ]
+    },
+    {
+       "name":"U.S Social Security Administration",
+       "url":"https://www.ssa.gov/vulnerability-disclosure-policy/",
+       "bounty": false,
+       "swag": false,
+       "domains":[
+          "ssa.gov",
+          "segurosocial.gov",
+          "socialsecurity.gov"
+       ]
     }
   ]
 }
