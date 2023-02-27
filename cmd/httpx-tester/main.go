@@ -14,6 +14,8 @@ import (
 var bbListFile = flag.String("file", "../../chaos-bugbounty-list.json", "Chaos bugbounty list json file")
 
 func main() {
+	flag.Parse()
+
 	rawJSON, err := os.ReadFile(*bbListFile)
 	if err != nil {
 		log.Fatalf("Failed to read initial JSON file: %v", err)
