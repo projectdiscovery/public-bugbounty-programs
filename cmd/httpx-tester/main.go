@@ -27,15 +27,15 @@ func main() {
 		log.Fatalf("Failed to parse initial JSON file: %v", err)
 	}
 
-	allDomains := goflags.StringSlice{}
+	allUrls := goflags.StringSlice{}
 
 	for _, programs := range chaosList.Programs {
-		allDomains = append(allDomains, programs.Domains...)
+		allUrls = append(allUrls, programs.URL)
 	}
 
 	options := runner.Options{
 		Methods:                "GET",
-		InputTargetHost:        allDomains,
+		InputTargetHost:        allUrls,
 		Output:                 "invalid.txt",
 		OutputFilterStatusCode: "200",
 		StatusCode:             true,

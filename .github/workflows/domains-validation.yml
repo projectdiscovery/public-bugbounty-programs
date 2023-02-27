@@ -23,6 +23,7 @@ jobs:
           else
               echo "No duplicate domains found."
           fi
+          
   check-invalid-domains:
     runs-on: ubuntu-latest
     steps:
@@ -47,6 +48,7 @@ jobs:
               echo "Invalid domains found: $(cat invalid_domains.txt)"
               exit 1
           fi
+
   httpx-check:
     runs-on: ubuntu-latest
     steps:
