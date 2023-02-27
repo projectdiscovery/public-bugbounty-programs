@@ -50,3 +50,15 @@ jobs:
             echo "Invalid domains found: $(cat invalid_domains.txt)"
             exit 1
         fi
+      
+  check-for-duplicates:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: 
+      run: |
+        if [[ -s invalid.txt ]]; then
+            echo "Invalid domains found: $(cat invalid.txt)"
+            exit 1
+        fi

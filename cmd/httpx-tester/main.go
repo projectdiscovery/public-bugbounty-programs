@@ -34,7 +34,7 @@ func main() {
 	options := runner.Options{
 		Methods:                "GET",
 		InputTargetHost:        allDomains,
-		Output:                 "valid.txt",
+		Output:                 "invalid.txt",
 		OutputFilterStatusCode: "200",
 		StatusCode:             true,
 		NoColor:                true,
