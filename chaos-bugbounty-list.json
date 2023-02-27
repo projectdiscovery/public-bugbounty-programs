@@ -1123,15 +1123,6 @@
       ]
     },
     {
-      "name": "Carbon Black",
-      "url": "https://www.carbonblack.com/legal/reporting-security-vulnerability/",
-      "bounty": false,
-      "swag": true,
-      "domains": [
-        "carbonblack.com"
-      ]
-    },
-    {
       "name": "Casper",
       "url": "https://hackerone.com/casper",
       "bounty": true,
@@ -1576,14 +1567,6 @@
         "superpal.com",
         "cornershop.io",
         "superpal.io"
-      ]
-    },
-    {
-      "name": "CoRover",
-      "url": "https://corover.ai/bug-bounty-program/",
-      "bounty": true,
-      "domains": [
-        "corover.ai"
       ]
     },
     {
@@ -2480,15 +2463,6 @@
       "domains": [
         "forescoutcloud.net",
         "forescout.com"
-      ]
-    },
-    {
-      "name": "Fortmatic Inc",
-      "url": "https://hackerone.com/fortmatic_inc",
-      "bounty": true,
-      "domains": [
-        "fortmatic.com",
-        "magic.link"
       ]
     },
     {
@@ -4252,7 +4226,7 @@
     },
     {
       "name": "Hootsuite",
-      "url": "https://hootsuite.com/security",
+      "url": "https://www.hootsuite.com/security",
       "bounty": true,
       "swag": true,
       "domains": [
@@ -6612,14 +6586,6 @@
       ]
     },
     {
-      "name": "RealSelf",
-      "url": "https://bugcrowd.com/realself",
-      "bounty": true,
-      "domains": [
-        "realself.com"
-      ]
-    },
-    {
       "name": "RecargaPay",
       "url": "https://hackerone.com/recargapay",
       "bounty": true,
@@ -6779,7 +6745,7 @@
     },
     {
       "name": "Rewind",
-      "url": "https://rewind.com/legal/vulnerability-disclosure-policy",
+      "url": "https://rewind.com/legal/vulnerability-disclosure-policy/",
       "bounty": false,
       "domains": [
         "rewind.com",
@@ -6986,15 +6952,6 @@
         "aips-services.com",
         "jobapi.io",
         "sol-data.com"
-      ]
-    },
-    {
-      "name": "Segment",
-      "url": "https://bugcrowd.com/segment",
-      "bounty": true,
-      "domains": [
-        "segment.io",
-        "segment.com"
       ]
     },
     {
@@ -8168,19 +8125,6 @@
       ]
     },
     {
-      "name": "Tripadvisor",
-      "url": "https://bugcrowd.com/tripadvisor-vdp",
-      "bounty": true,
-      "domains": [
-        "tripadvisor.com",
-        "tapayments.com",
-        "cruisecritic.com",
-        "bokun.com",
-        "tripadvisorwifi.com",
-        "tripadvisormediamanager.com"
-      ]
-    },
-    {
       "name": "Trustpilot",
       "url": "https://hackerone.com/trustpilot",
       "bounty": true,
@@ -8546,15 +8490,6 @@
       "domains": [
         "united.com",
         "ual.com"
-      ]
-    },
-    {
-      "name": "Unity",
-      "url": "https://bugcrowd.com/unity",
-      "bounty": true,
-      "domains": [
-        "unity3d.com",
-        "unity.com"
       ]
     },
     {

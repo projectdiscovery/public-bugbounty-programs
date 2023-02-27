@@ -34,13 +34,13 @@ func main() {
 	}
 
 	options := runner.Options{
-		Methods:                "GET",
-		InputTargetHost:        allUrls,
-		Output:                 "invalid.txt",
-		OutputFilterStatusCode: "200,429,302",
-		StatusCode:             true,
-		NoColor:                true,
-		Timeout:                10,
+		Methods:               "GET",
+		InputTargetHost:       allUrls,
+		Output:                "invalid.txt",
+		OutputMatchStatusCode: "404",
+		StatusCode:            true,
+		NoColor:               true,
+		Timeout:               10,
 	}
 
 	if err := options.ValidateOptions(); err != nil {
