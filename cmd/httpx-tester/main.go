@@ -37,7 +37,7 @@ func main() {
 		Methods:                "GET",
 		InputTargetHost:        allUrls,
 		Output:                 "invalid.txt",
-		OutputFilterStatusCode: "200",
+		OutputFilterStatusCode: "200,429,302",
 		StatusCode:             true,
 		NoColor:                true,
 		Timeout:                10,
