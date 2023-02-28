@@ -62,10 +62,7 @@ jobs:
         with:
           go-version: 1.19
       - name: Get all urls
-        run: |
-          ls -la
-          git status
-          git diff --name-only ${{ github.event.pull_request.base.ref }} ${{ github.event.pull_request.head.ref }} | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf <(git --no-pager show <branch_name>:chaos-bugbounty-list.json | jq -r '.programs[].url') > urls.txt
+        run: git diff --name-only origin/main ${{ github.event.pull_request.head.ref }} | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf <(git --no-pager show origin/main:chaos-bugbounty-list.json | jq -r '.programs[].url') > urls.txt
       - name: Installing Validate domains binary
         run: >
           go install
