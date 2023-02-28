@@ -1,0 +1,39 @@
+name: httpx check cron
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+
+jobs:
+  daily-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with: 
+          fetch-depth: 0
+          ref: ${{ github.head_ref }}
+      - name: Setup golang
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.19
+      - name: Get all urls
+        run: jq -r '.programs[].url' chaos-bugbounty-list.json > urls.txt 
+      -- name: Installing Validate domains binary
+        run: >
+          go install
+          github.com/projectdiscovery/public-bugbounty-programs/cmd/httpx-tester
+        shell: bash
+      - name: Check domains validation
+        run: |
+          httpx-tester -file urls.txt
+        shell: bash
+      - name: null
+        run: |
+          if [[ -s invalid.txt ]]; then
+              echo "Invalid domains found: $(cat invalid.txt)"
+              exit 1
+          fi
