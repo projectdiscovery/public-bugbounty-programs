@@ -52,23 +52,22 @@ jobs:
   httpx-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
       - name: Setup golang
         uses: actions/setup-go@v3
         with:
           go-version: 1.19
+      - name: Get all urls
+        run: |
+          git pull 
+          git diff --name-only ${{ github.event.pull_request.base.ref }} ${{ github.event.pull_request.head.ref }} | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf <(git --no-pager show <branch_name>:chaos-bugbounty-list.json | jq -r '.programs[].url') > urls.txt
       - name: Installing Validate domains binary
         run: >
           go install
           github.com/projectdiscovery/public-bugbounty-programs/cmd/httpx-tester
         shell: bash
-      - name: Get all urls
-        run: |
-          git pull 
-          git diff --name-only ${{ github.event.pull_request.base.ref }} ${{ github.event.pull_request.head.ref }} | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf <(git --no-pager show <branch_name>:chaos-bugbounty-list.json | jq -r '.programs[].url') > urls.txt
       - name: Check domains validation
         run: |
           httpx-tester -file urls.txt
