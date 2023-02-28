@@ -52,8 +52,10 @@ jobs:
   httpx-check:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
       - name: Setup golang
         uses: actions/setup-go@v3
         with:
