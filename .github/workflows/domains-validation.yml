@@ -58,14 +58,13 @@ jobs:
         uses: actions/setup-go@v3
         with:
           go-version: 1.19
-      - name: Get all urls
-        run: git diff --name-only main ${{github.event.pull_request.head.ref}} | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf <(git show main:chaos-bugbounty-list.json | jq -r '.programs[].url') > urls.txt
-        working-directory: .
       - name: Installing Validate domains binary
         run: >
           go install
           github.com/projectdiscovery/public-bugbounty-programs/cmd/httpx-tester
         shell: bash
+      - name: Get all urls
+        run: git diff --name-only main ${{github.event.pull_request.head.ref}} | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf <(git show main:chaos-bugbounty-list.json | jq -r '.programs[].url') > urls.txt
       - name: Check domains validation
         run: |
           httpx-tester -file urls.txt
