@@ -61,6 +61,11 @@ jobs:
         uses: actions/setup-go@v3
         with:
           go-version: 1.19
+          
+      # This command compares the changes made in a pull request with the main branch, 
+      # and filters out the JSON files containing URLs of bug bounty programs. It then 
+      # extracts the URLs from the changed JSON files, compares them with the URLs in the main branch, 
+      # and saves the unique URLs in a text file named "urls.txt".
       - name: Get all urls
         run: git diff --name-only origin/main ${{ github.event.pull_request.head.ref }} | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf <(git --no-pager show origin/main:chaos-bugbounty-list.json | jq -r '.programs[].url') > urls.txt
       - name: Installing Validate domains binary
