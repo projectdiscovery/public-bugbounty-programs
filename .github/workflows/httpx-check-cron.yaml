@@ -27,7 +27,7 @@ jobs:
           go install
           github.com/projectdiscovery/public-bugbounty-programs/cmd/httpx-tester
         shell: bash
-      - name: Check domains validation
+      - name: Checking URL availability
         run: |
           httpx-tester -file urls.txt
         shell: bash
