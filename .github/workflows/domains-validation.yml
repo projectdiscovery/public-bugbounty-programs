@@ -80,6 +80,6 @@ jobs:
       - name: null
         run: |
           if [[ -s invalid.txt ]]; then
-              echo "Invalid domains found: $(cat invalid.txt)"
+              echo "programs with not accessible URL policy found: $(cat invalid.txt)"
               exit 1
           fi
