@@ -7,9 +7,8 @@ require (
 	github.com/go-git/go-git/v5 v5.5.2
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/goflags v0.1.7
-	github.com/projectdiscovery/gologger v1.1.8
 	github.com/projectdiscovery/httpx v1.2.7
-	github.com/projectdiscovery/utils v0.0.10
+	github.com/projectdiscovery/utils v0.0.13
 	github.com/stretchr/testify v1.8.1
 	github.com/tidwall/gjson v1.14.4
 	golang.org/x/net v0.7.0
@@ -79,6 +78,7 @@ require (
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.4 // indirect
 	github.com/projectdiscovery/goconfig v0.0.0-20210804090219-f893ccd0c69c // indirect
+	github.com/projectdiscovery/gologger v1.1.8 // indirect
 	github.com/projectdiscovery/hmap v0.0.7 // indirect
 	github.com/projectdiscovery/iputil v0.0.2 // indirect
 	github.com/projectdiscovery/mapcidr v1.0.3 // indirect
