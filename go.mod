@@ -7,7 +7,7 @@ require (
 	github.com/go-git/go-git/v5 v5.5.2
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/utils v0.0.13
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.2
 	github.com/tidwall/gjson v1.14.4
 	golang.org/x/net v0.7.0
 )
