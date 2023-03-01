@@ -42,7 +42,7 @@ jobs:
         run: |
           validate-domains -file chaos-bugbounty-list.json
         shell: bash
-      - name: Return invalid if present
+      - name: Checking domains validity
         run: |
           if [[ -s invalid_domains.txt ]]; then
               echo "Invalid domains found: $(cat invalid_domains.txt)"
@@ -77,7 +77,7 @@ jobs:
         run: |
           httpx-tester -file urls.txt
         shell: bash
-      - name: null
+      - name: checking programs with unaccessible policy URL
         run: |
           if [[ -s invalid.txt ]]; then
               echo "programs with not accessible URL policy found: $(cat invalid.txt)"

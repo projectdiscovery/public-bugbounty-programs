@@ -20,9 +20,9 @@ jobs:
         uses: actions/setup-go@v3
         with:
           go-version: 1.19
-      - name: Get all urls
+      - name: Get all bbp policy URLs
         run: jq -r '.programs[].url' chaos-bugbounty-list.json > urls.txt 
-      -- name: Installing Validate domains binary
+      - name: Installing Validate domains binary
         run: >
           go install
           github.com/projectdiscovery/public-bugbounty-programs/cmd/httpx-tester
@@ -31,7 +31,7 @@ jobs:
         run: |
           httpx-tester -file urls.txt
         shell: bash
-      - name: null
+      - name: checking programs with unaccessible policy URL
         run: |
           if [[ -s invalid.txt ]]; then
               echo "programs with not accessible URL policy found: $(cat invalid.txt)"
