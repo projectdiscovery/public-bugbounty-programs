@@ -9671,6 +9671,27 @@
           "segurosocial.gov",
           "socialsecurity.gov"
        ]
+    },
+    {
+       "name":"Fastly VDP",
+       "url":"https://hackerone.com/fastly-vdp",
+       "bounty": false,
+       "swag": false,
+       "domains":[
+          "signalsciences.com",
+          "fanout.io"
+       ]
+    },
+    {
+       "name":"Grindr",
+       "url":"https://hackerone.com/grindr",
+       "bounty": true,
+       "swag": false,
+       "domains":[
+          "grindr.io",
+          "grindr.com",
+          "grindr.mobi"
+       ]
     }
   ]
 }
