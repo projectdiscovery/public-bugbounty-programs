@@ -1,9 +1,6 @@
 name: json-syntax-check
 
 on:
-  push:
-    paths:
-      - '*.json'
   pull_request:
     paths:
       - '*.json'
@@ -11,7 +8,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest-16-cores
     steps:
       - uses: actions/checkout@v3
       - name: json-syntax-check

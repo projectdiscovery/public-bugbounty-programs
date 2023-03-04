@@ -1,12 +1,16 @@
 name: Domains validation
+
 on:
   pull_request:
     branches:
       - main
+    paths:
+      - '**.json'
   workflow_dispatch:
+
 jobs:
   check-for-duplicates:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest-16-cores
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -25,23 +29,28 @@ jobs:
           fi
           
   check-invalid-domains:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest-16-cores
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+
       - name: Setup golang
         uses: actions/setup-go@v3
         with:
           go-version: 1.19
+          cache: true
+
       - name: Installing Validate domains binary
         run: >
           go install
           github.com/projectdiscovery/public-bugbounty-programs/cmd/validate-domains
         shell: bash
+
       - name: Check domains validation
         run: |
           validate-domains -file chaos-bugbounty-list.json
         shell: bash
+
       - name: Checking domains validity
         run: |
           if [[ -s invalid_domains.txt ]]; then
@@ -50,34 +59,40 @@ jobs:
           fi
 
   httpx-check:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest-16-cores
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
         with: 
           fetch-depth: 0
           ref: ${{ github.head_ref }}
+
       - name: Setup golang
         uses: actions/setup-go@v3
         with:
           go-version: 1.19
+          cache: true
           
-      # This command compares the changes made in a pull request with the main branch, 
+      # This command compares the changes made in a pull request with the main branch, 
       # and filters out the JSON files containing URLs of bug bounty programs. It then 
       # extracts the URLs from the changed JSON files, compares them with the URLs in the main branch, 
       # and saves the unique URLs in a text file named "urls.txt".
+
       - name: Get all urls
         run: git diff --name-only origin/main ${{ github.event.pull_request.head.ref }} | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf <(git --no-pager show origin/main:chaos-bugbounty-list.json | jq -r '.programs[].url') > urls.txt
+
       - name: Installing Validate domains binary
         run: >
           go install
           github.com/projectdiscovery/public-bugbounty-programs/cmd/httpx-tester
         shell: bash
+
       - name: Checking URL availability
         run: |
           httpx-tester -file urls.txt
         shell: bash
-      - name: checking programs with unaccessible policy URL
+
+      - name: Checking programs with unaccessible policy URL
         run: |
           if [[ -s invalid.txt ]]; then
               echo "programs with not accessible URL policy found: $(cat invalid.txt)"
