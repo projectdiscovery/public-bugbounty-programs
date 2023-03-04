@@ -1,10 +1,11 @@
 name: JSON Sorting
+
 on:
   push:
     paths:
       - '*.json'
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:  
