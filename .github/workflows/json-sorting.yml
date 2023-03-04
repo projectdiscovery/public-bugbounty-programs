@@ -1,16 +1,17 @@
 name: JSON Sorting
+
 on:
   push:
     paths:
       - '*.json'
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:  
   sorting:
     name: JSON Sorting
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest-16-cores
     steps:
       - uses: actions/checkout@v3
       - name: JSON Sorting
