@@ -9371,6 +9371,15 @@
         "zynga.com",
         "zyngagames.com"
       ]
+    },
+    {
+      "name": "City of Los Angeles VDP",
+      "url": "https://hackerone.com/city_of_los_angeles_vdp",
+      "bounty": false,
+      "domains": [
+        "lacity.org",
+        "lacity.gov"
+      ]
     }
   ]
 }
