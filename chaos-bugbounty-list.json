@@ -4128,21 +4128,6 @@
       ]
     },
     {
-      "name": "H&M Group",
-      "url": "https://www2.hm.com/security.txt",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "hm.com",
-        "cos.com",
-        "weekday.com",
-        "monki.com",
-        "arket.com",
-        "afound.com",
-        "stories.com"
-      ]
-    },
-    {
       "name": "H1-CTF",
       "url": "https://hackerone.com/h1-ctf",
       "bounty": false,
@@ -7536,14 +7521,6 @@
       ]
     },
     {
-      "name": "Starleaf",
-      "url": "https://www.starleaf.com/c/bug-bounty-program/",
-      "bounty": true,
-      "domains": [
-        "starleaf.com"
-      ]
-    },
-    {
       "name": "Starling Bank Limited",
       "url": "https://hackerone.com/starling_bank",
       "bounty": false,
@@ -9394,16 +9371,6 @@
           "arket.com",
           "afound.com",
           "stories.com"
-        ]
-      },
-      {
-        "name":"Scholar Fund",
-        "url":"https://www.scholarfundwa.org/bug-bounty",
-        "bounty": true,
-        "swag": false,
-        "domains":[
-          "scholarfundwa.org",
-          "scholarfund.io"
         ]
       },
       {
