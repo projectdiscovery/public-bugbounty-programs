@@ -135,15 +135,6 @@
       ]
     },
     {
-      "name": "Agicap",
-      "url": "https://agicap.com/en/bug-bounty/",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "agicap.com"
-      ]
-    },
-    {
       "name": "AIMS360",
       "url": "https://www.aims360.com/vulnerability-responses/",
       "bounty": false,
