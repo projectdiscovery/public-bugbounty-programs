@@ -1,15 +1,6 @@
 {
   "programs": [
     {
-      "name": "sidn",
-      "url": "https://www.sidn.nl/en/cybersecurity/reporting-a-security-breach",
-      "bounty": false,
-      "swag": true,
-      "domains": [
-        "sidn.nl"
-      ]
-    },
-    {
       "name": "4chan",
       "url": "https://www.4chan.org/security",
       "bounty": false,
@@ -17,104 +8,6 @@
       "domains": [
         "4chan.org",
         "4cdn.org"
-      ]
-    },
-    {
-      "name":"Contentsquare",
-      "url":"https://yeswehack.com/programs/contentsquare-bug-bounty-program",
-      "bounty": true,
-      "swag": false,
-      "domains":[
-         "contentsquare.com"
-      ]
-    },
-    {
-      "name":"ATG",
-      "url":"https://yeswehack.com/programs/atg-public-bug-bounty-program",
-      "bounty": true,
-      "swag": false,
-      "domains":[
-         "atg.se"
-      ]
-    },
-    {
-      "name":"Alasco GmbH",
-      "url":"https://www.alasco.de/security/bug-bounty/",
-      "bounty": true,
-      "swag": false,
-      "domains":[
-         "alasco.de",
-         "alasco.rocks"
-      ]
-    },
-    {
-      "name":"Swapcard",
-      "url":"https://yeswehack.com/programs/swapcard",
-      "bounty": true,
-      "swag": false,
-      "domains":[
-         "swapcard.com"
-      ]
-    },
-    {
-      "name":"MON ESPACE SANTÉ",
-      "url":"https://yeswehack.com/programs/mon-espace-sante-mes",
-      "bounty": true,
-      "swag": false,
-      "domains":[
-         "monespacesante.fr"
-      ]
-    },
-    {
-      "name":"Deezer",
-      "url":"https://yeswehack.com/programs/deezer-bug-bounty-program-2019",
-      "bounty": true,
-      "swag": false,
-      "domains":[
-         "deezer.com"
-      ]
-    },
-    {
-      "name":"Doctolib",
-      "url":"https://yeswehack.com/programs/doctolib-public-bug-bounty-program",
-      "bounty": true,
-      "swag": false,
-      "domains":[
-         "doctolib.fr",
-         "doctolib.de",
-         "doctolib.it",
-         "doctolib.com",
-         "doctolib.net"
-      ]
-    },
-    {
-      "name": "Muslim Pro",
-      "url": "https://yeswehack.com/programs/muslim-pro",
-      "bounty": true,
-      "domains": [
-        "muslimpro.com"
-      ]
-    },
-    {
-      "name":"OVO",
-      "url":"https://yeswehack.com/programs/ovo-bug-bounty-program",
-      "bounty": true,
-      "swag": false,
-      "domains":[
-         "ovo.id",
-         "taralite.com"
-      ]
-    },
-    {
-      "name":"Telenor",
-      "url":"https://yeswehack.com/programs/telenor-sweden-public-bug-bounty-program",
-      "bounty": true,
-      "swag": false,
-      "domains":[
-         "telenor.se",
-         "bredbandsbolaget.se",
-         "europolitan.se",
-         "ownit.se"
       ]
     },
     {
@@ -242,6 +135,15 @@
       ]
     },
     {
+      "name": "Agicap",
+      "url": "https://agicap.com/en/bug-bounty/",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "agicap.com"
+      ]
+    },
+    {
       "name": "AIMS360",
       "url": "https://www.aims360.com/vulnerability-responses/",
       "bounty": false,
@@ -275,7 +177,7 @@
     },
     {
       "name": "AirMap",
-      "url": "https://www.airmap.com/responsible-disclosure-policy/",
+      "url": "https://www.airmap.com/legal#responsible-disclosure-notice",
       "bounty": false,
       "domains": [
         "airmap.com"
@@ -309,6 +211,16 @@
       "bounty": true,
       "domains": [
         "aiven.io"
+      ]
+    },
+    {
+      "name": "Alasco GmbH",
+      "url": "https://www.alasco.de/security/bug-bounty/",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "alasco.de",
+        "alasco.rocks"
       ]
     },
     {
@@ -446,6 +358,39 @@
       ]
     },
     {
+      "name": "AMERICAN SYSTEMS",
+      "url": "https://hackerone.com/american_systems_bbp",
+      "bounty": true,
+      "domains": [
+        "alexamerican.com",
+        "alexamericansystems.com",
+        "americansystems.com",
+        "ascvpc.com",
+        "ascsites.com",
+        "ascgov.com",
+        "ddlomni.com",
+        "nhaero.com",
+        "americansystems.info",
+        "amsyscorp.com",
+        "2asc.com",
+        "americanalliant.com",
+        "asc.name",
+        "digitalaccess.com",
+        "americansystemsuniversity.com",
+        "americansystems.org",
+        "thoughtmill.com",
+        "american-systems.org",
+        "american-systems.com",
+        "asextranet.com",
+        "emsolutionsinc.com",
+        "emsolve.com",
+        "essworld.net",
+        "nswccd-fbw-scs.com",
+        "asvpc.com",
+        "alex-as.com"
+      ]
+    },
+    {
       "name": "Amex",
       "url": "https://bugcrowd.com/amexgbt-vdp",
       "bounty": false,
@@ -517,11 +462,11 @@
       ]
     },
     {
-      "name":"Apple",
-      "url":"https://security.apple.com",
+      "name": "Apple",
+      "url": "https://security.apple.com",
       "bounty": true,
       "swag": false,
-      "domains":[
+      "domains": [
         "apple.com",
         "icloud.com"
       ]
@@ -535,14 +480,6 @@
       ]
     },
     {
-      "name": "Arkose Labs",
-      "url": "https://bugcrowd.com/arkose-labs",
-      "bounty": true,
-      "domains": [
-        "arkoselabs.com"
-      ]
-    },
-    {
       "name": "Arlo Cash Rewards",
       "url": "https://bugcrowd.com/arlo",
       "bounty": true,
@@ -552,7 +489,7 @@
     },
     {
       "name": "Arrival",
-      "url": "https://arrival.com/us/en/security",
+      "url": "https://arrival.com/legal/security#purpose",
       "bounty": true,
       "swag": false,
       "domains": [
@@ -597,6 +534,15 @@
       "bounty": true,
       "domains": [
         "att.com"
+      ]
+    },
+    {
+      "name": "ATG",
+      "url": "https://yeswehack.com/programs/atg-public-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "atg.se"
       ]
     },
     {
@@ -651,6 +597,15 @@
       ]
     },
     {
+      "name": "Avail Carsharing",
+      "url": "https://availcarsharing.com/bug-bounty",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "availcarsharing.com"
+      ]
+    },
+    {
       "name": "Avalanche",
       "url": "https://hackenproof.com/avalanche",
       "bounty": true,
@@ -678,15 +633,6 @@
         "davosalestax.com",
         "ttrus.com",
         "impendulo.com"
-      ]
-    },
-    {
-      "name":"Avail Carsharing",
-      "url":"https://availcarsharing.com/bug-bounty",
-      "bounty": true,
-      "swag": false,
-      "domains":[
-        "availcarsharing.com"
       ]
     },
     {
@@ -723,27 +669,6 @@
       "domains": [
         "baidu.com",
         "hao123.com"
-      ]
-    },
-    {
-      "name": "Banco BMG",
-      "url": "https://bugbounty.hackaflag.com.br/hempresa.php?id=7",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "bancobmg.com.br",
-        "help.com.br"
-      ]
-    },
-    {
-      "name": "Banco Pan",
-      "url": "https://bugbounty.hackaflag.com.br/hempresa.php?id=14",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "bancopan.com.br",
-        "panmais.com.br",
-        "pansolucoes.com.br"
       ]
     },
     {
@@ -845,15 +770,6 @@
       ]
     },
     {
-      "name": "BitcoinTrade",
-      "url": "https://admin.bughunt.com.br/program/detail?5f98855f51ec4c09107c0534",
-      "bounty": true,
-      "domains": [
-        "bitcointrade.com.br",
-        "bitcoinback.com.br"
-      ]
-    },
-    {
       "name": "BitDefender",
       "url": "https://bugcrowd.com/bitdefender",
       "bounty": true,
@@ -924,15 +840,6 @@
       "bounty": true,
       "domains": [
         "bitrue.com"
-      ]
-    },
-    {
-      "name": "Bitwala",
-      "url": "https://hackerone.com/bitwala",
-      "bounty": false,
-      "domains": [
-        "bitwala.com",
-        "bitwala.app"
       ]
     },
     {
@@ -1170,15 +1077,6 @@
       ]
     },
     {
-      "name": "Carbon Black",
-      "url": "https://www.carbonblack.com/legal/reporting-security-vulnerability/",
-      "bounty": false,
-      "swag": true,
-      "domains": [
-        "carbonblack.com"
-      ]
-    },
-    {
       "name": "Casper",
       "url": "https://hackerone.com/casper",
       "bounty": true,
@@ -1315,6 +1213,15 @@
         "meraki.com",
         "network-auth.com",
         "cisco.com"
+      ]
+    },
+    {
+      "name": "City of Los Angeles VDP",
+      "url": "https://hackerone.com/city_of_los_angeles_vdp",
+      "bounty": false,
+      "domains": [
+        "lacity.org",
+        "lacity.gov"
       ]
     },
     {
@@ -1455,6 +1362,15 @@
       "bounty": true,
       "domains": [
         "coda.io"
+      ]
+    },
+    {
+      "name": "CodeChef",
+      "url": "https://www.codechef.com/bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "codechef.com"
       ]
     },
     {
@@ -1606,6 +1522,15 @@
       ]
     },
     {
+      "name": "Contentsquare",
+      "url": "https://yeswehack.com/programs/contentsquare-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "contentsquare.com"
+      ]
+    },
+    {
       "name": "Core",
       "url": "https://hackenproof.com/avalanche/core",
       "bounty": true,
@@ -1623,14 +1548,6 @@
         "superpal.com",
         "cornershop.io",
         "superpal.io"
-      ]
-    },
-    {
-      "name": "CoRover",
-      "url": "https://corover.ai/bug-bounty-program/",
-      "bounty": true,
-      "domains": [
-        "corover.ai"
       ]
     },
     {
@@ -1765,7 +1682,7 @@
         "dmcdn.net",
         "dailymotionadvertising.com",
         "dm.gg",
-        "dmxleo.com"      
+        "dmxleo.com"
       ]
     },
     {
@@ -1866,6 +1783,15 @@
       ]
     },
     {
+      "name": "Deezer",
+      "url": "https://yeswehack.com/programs/deezer-bug-bounty-program-2019",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "deezer.com"
+      ]
+    },
+    {
       "name": "Delight.im",
       "url": "https://hackerone.com/delight_im",
       "bounty": false,
@@ -1928,19 +1854,18 @@
       ]
     },
     {
-      "name": "Dexalot",
-      "url": "https://hackenproof.com/dexalot/dexalot-smart-contracts",
-      "bounty": true,
-      "domains": [
-      ]
-    },
-    {
       "name": "Dex-Trade",
       "url": "https://hackenproof.com/dex-trade/dex-trade",
       "bounty": true,
       "domains": [
         "dex-trade.com"
       ]
+    },
+    {
+      "name": "Dexalot",
+      "url": "https://hackenproof.com/dexalot/dexalot-smart-contracts",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Didi",
@@ -2002,6 +1927,19 @@
       ]
     },
     {
+      "name": "Doctolib",
+      "url": "https://yeswehack.com/programs/doctolib-public-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "doctolib.fr",
+        "doctolib.de",
+        "doctolib.it",
+        "doctolib.com",
+        "doctolib.net"
+      ]
+    },
+    {
       "name": "Doist",
       "url": "https://todoist.com/help/articles/doist-bug-bounty-policy",
       "bounty": true,
@@ -2048,7 +1986,7 @@
     },
     {
       "name": "Dutch Tax Office",
-      "url": "https://belastingdienst.nl/security",
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/standaard_functies/prive/contact/fraude_misdaad_en_misstanden_melden/datalek-beveiligingslek-misbruik-computersystemen/datalek-beveiligingslek-misbruik-computersystemen",
       "bounty": false,
       "domains": [
         "belastingdienst.nl"
@@ -2444,7 +2382,7 @@
     },
     {
       "name": "FireEye",
-      "url": "https://www.fireeye.com/company/security.html",
+      "url": "https://kcm.trellix.com/corporate/index?page=content&id=KB95563",
       "bounty": false,
       "swag": false,
       "domains": [
@@ -2527,15 +2465,6 @@
       "domains": [
         "forescoutcloud.net",
         "forescout.com"
-      ]
-    },
-    {
-      "name": "Fortmatic Inc",
-      "url": "https://hackerone.com/fortmatic_inc",
-      "bounty": true,
-      "domains": [
-        "fortmatic.com",
-        "magic.link"
       ]
     },
     {
@@ -4190,31 +4119,27 @@
       ]
     },
     {
-      "name": "Grupo DPSP",
-      "url": "https://bugbounty.hackaflag.com.br/hempresa.php?id=6",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "dpsp.io",
-        "drogariaspacheco.com.br",
-        "drogariasaopaulo.com.br"
-      ]
-    },
-    {
-      "name": "Gusto",
-      "url": "https://bugcrowd.com/gusto",
-      "bounty": true,
-      "domains": [
-        "gusto-demo.com"
-      ]
-    },
-    {
       "name": "Gymshark",
       "url": "https://hackerone.com/gymshark",
       "bounty": false,
       "domains": [
         "gymshark.com",
         "gymshark.io"
+      ]
+    },
+    {
+      "name": "H&M Group",
+      "url": "https://www2.hm.com/security.txt",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "hm.com",
+        "cos.com",
+        "weekday.com",
+        "monki.com",
+        "arket.com",
+        "afound.com",
+        "stories.com"
       ]
     },
     {
@@ -4255,7 +4180,7 @@
     },
     {
       "name": "HackerRank",
-      "url": "https://www.hackerrank.com/trust/security",
+      "url": "https://www.hackerrank.com/trust/security/",
       "bounty": false,
       "swag": true,
       "domains": [
@@ -4318,7 +4243,7 @@
     },
     {
       "name": "Hootsuite",
-      "url": "https://hootsuite.com/security",
+      "url": "https://www.hootsuite.com/security",
       "bounty": true,
       "swag": true,
       "domains": [
@@ -4446,14 +4371,6 @@
       ]
     },
     {
-      "name": "IFood",
-      "url": "https://www.ifood.com.br/bugbounty/",
-      "bounty": true,
-      "domains": [
-        "ifood.com.br"
-      ]
-    },
-    {
       "name": "IKEA",
       "url": "https://bugs.ikea.com/",
       "bounty": false,
@@ -4484,6 +4401,16 @@
       "domains": [
         "indeed.com",
         "indeed.tech"
+      ]
+    },
+    {
+      "name": "INDmoney",
+      "url": "https://www.indmoney.com/page/bug-bounty",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "indmoney.com",
+        "indiawealth.in"
       ]
     },
     {
@@ -4728,20 +4655,20 @@
       ]
     },
     {
+      "name": "JOJO",
+      "url": "https://hackenproof.com/jojo/jojo-web",
+      "bounty": true,
+      "domains": [
+        "jojo.exchange"
+      ]
+    },
+    {
       "name": "Jooki",
       "url": "https://app.intigriti.com/programs/muuselabs/jooki/detail",
       "bounty": false,
       "domains": [
         "jooki.rocks",
         "muuselabs.com"
-      ]
-    },
-    {
-      "name": "JOJO",
-      "url": "https://hackenproof.com/jojo/jojo-web",
-      "bounty": true,
-      "domains": [
-        "jojo.exchange"        
       ]
     },
     {
@@ -4998,17 +4925,6 @@
       "bounty": false,
       "domains": [
         "lemlist.com"
-      ]
-    },
-    {
-      "name": "LendingHome",
-      "url": "https://hackerone.com/lendinghome",
-      "bounty": false,
-      "domains": [
-        "lhcapitalmanagement.com",
-        "lhcapital-matrix.com",
-        "lendinghome.com",
-        "lh-matrix.com"
       ]
     },
     {
@@ -5417,7 +5333,7 @@
     },
     {
       "name": "Microsoft Online Services",
-      "url": "https://www.microsoft.com/en-us/msrc/bounty-microsoft-cloud",
+      "url": "https://www.microsoft.com/en-us/msrc/bounty-online-services",
       "bounty": true,
       "domains": [
         "office.com",
@@ -5431,6 +5347,15 @@
         "microsoft.com",
         "live.net",
         "skype.com"
+      ]
+    },
+    {
+      "name": "MobiKwik",
+      "url": "https://www.mobikwik.com/bug-bounty/guidelines",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "mobikwik.com"
       ]
     },
     {
@@ -5451,10 +5376,19 @@
     },
     {
       "name": "Mollie",
-      "url": "https://www.mollie.com/en/responsible-disclosure",
+      "url": "https://www.mollie.com/responsible-disclosure",
       "bounty": true,
       "domains": [
         "mollie.com"
+      ]
+    },
+    {
+      "name": "MON ESPACE SANTÉ",
+      "url": "https://yeswehack.com/programs/mon-espace-sante-mes",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "monespacesante.fr"
       ]
     },
     {
@@ -5508,15 +5442,15 @@
       ]
     },
     {
-        "name": "MoonPay",
-        "url": "https://hackerone.com/moonpay",
-        "bounty": true,
-        "swag": false,
-        "domains": [
-          "moonpaycloud.com",
-          "hypermint.com",
-          "moonpay.com"
-        ]
+      "name": "MoonPay",
+      "url": "https://hackerone.com/moonpay",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "moonpaycloud.com",
+        "hypermint.com",
+        "moonpay.com"
+      ]
     },
     {
       "name": "Mount Sinai Health",
@@ -5605,6 +5539,14 @@
       ]
     },
     {
+      "name": "Muslim Pro",
+      "url": "https://yeswehack.com/programs/muslim-pro",
+      "bounty": true,
+      "domains": [
+        "muslimpro.com"
+      ]
+    },
+    {
       "name": "Myndr",
       "url": "https://hackerone.com/myndr",
       "bounty": false,
@@ -5667,14 +5609,6 @@
       "bounty": false,
       "domains": [
         "ncsc.gov.uk"
-      ]
-    },
-    {
-      "name": "Net+",
-      "url": "https://gobugfree.com/programs/netplus",
-      "bounty": true,
-      "domains": [
-        "netplus.ch"
       ]
     },
     {
@@ -5743,16 +5677,6 @@
         "battles.tv",
         "nkstatic.com",
         "ninja.kiwi"
-      ]
-    },
-    {
-      "name": "Nodeflux",
-      "url": "https://www.nodeflux.io/bug-bounty",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "nodeflux.io",
-        "identifai.id"
       ]
     },
     {
@@ -5918,14 +5842,6 @@
         "olx.co.za",
         "olx.co.id",
         "olx.com.pk"
-      ]
-    },
-    {
-      "name": "OLX Brasil",
-      "url": "https://admin.bughunt.com.br/program/detail?60ca003869707962894a5b33",
-      "bounty": true,
-      "domains": [
-        "olx.com.br"
       ]
     },
     {
@@ -6149,6 +6065,16 @@
       ]
     },
     {
+      "name": "OVO",
+      "url": "https://yeswehack.com/programs/ovo-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "ovo.id",
+        "taralite.com"
+      ]
+    },
+    {
       "name": "OWASP ZAP",
       "url": "https://bugcrowd.com/owaspzap",
       "bounty": true,
@@ -6240,14 +6166,6 @@
       "bounty": true,
       "domains": [
         "pandora.digital"
-      ]
-    },
-    {
-      "name": "Pantheon",
-      "url": "https://bugcrowd.com/pantheon",
-      "bounty": true,
-      "domains": [
-        "pantheon.io"
       ]
     },
     {
@@ -6484,15 +6402,6 @@
       ]
     },
     {
-      "name": "Polymail",
-      "url": "https://hackerone.com/polymail_inc",
-      "bounty": false,
-      "domains": [
-        "polymail.app",
-        "polymail.io"
-      ]
-    },
-    {
       "name": "Pon-Cat",
       "url": "https://www.pon-cat.com/nl/responsible-disclosure",
       "bounty": true,
@@ -6602,7 +6511,7 @@
     },
     {
       "name": "PureVPN",
-      "url": "https://www.purevpn.com/bug-bounty-program",
+      "url": "https://www.purevpn.com/vulnerability-disclosure-policy",
       "bounty": true,
       "domains": [
         "purevpn.com"
@@ -6711,6 +6620,14 @@
       ]
     },
     {
+      "name": "Razer",
+      "url": "https://www.razer.com/security/bug-bounty-program",
+      "bounty": true,
+      "domains": [
+        "razer.com"
+      ]
+    },
+    {
       "name": "Razorpay",
       "url": "https://razorpay.com/responsible-disclosure/",
       "bounty": false,
@@ -6737,14 +6654,6 @@
         "cartus.com",
         "cbintouch.com",
         "myzap.com"
-      ]
-    },
-    {
-      "name": "RealSelf",
-      "url": "https://bugcrowd.com/realself",
-      "bounty": true,
-      "domains": [
-        "realself.com"
       ]
     },
     {
@@ -6907,7 +6816,7 @@
     },
     {
       "name": "Rewind",
-      "url": "https://rewind.com/legal/vulnerability-disclosure-policy",
+      "url": "https://rewind.com/legal/vulnerability-disclosure-policy/",
       "bounty": false,
       "domains": [
         "rewind.com",
@@ -6923,11 +6832,12 @@
       ]
     },
     {
-      "name": "Ribose",
-      "url": "https://www.ribose.com/feedback/security",
-      "bounty": false,
+      "name": "Riot Games",
+      "url": "https://hackerone.com/riot/",
+      "bounty": true,
+      "swag": false,
       "domains": [
-        "ribose.com"
+        "riotgames.com"
       ]
     },
     {
@@ -7070,6 +6980,16 @@
       ]
     },
     {
+      "name": "Scholar Fund",
+      "url": "https://www.scholarfundwa.org/bug-bounty",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "scholarfundwa.org",
+        "scholarfund.io"
+      ]
+    },
+    {
       "name": "Scopely",
       "url": "https://hackerone.com/scopely",
       "bounty": true,
@@ -7080,47 +7000,8 @@
       ]
     },
     {
-      "name": "Scotts Miracle-Gro",
-      "url": "https://bugcrowd.com/thescottsmiraclerd",
-      "bounty": false,
-      "domains": [
-        "scotts.com",
-        "tomcatbrand.com",
-        "roundup.com",
-        "ortho.com",
-        "miraclegro.com",
-        "hawthorne-gardening.com",
-        "scottsprogram.com",
-        "mygro.com",
-        "myblossom.com",
-        "aerogarden.com",
-        "hawthornegc.com",
-        "naturescare.com",
-        "scottsbrands.com",
-        "scottsrootfactory.com",
-        "tanglefoot.com",
-        "therootfactory.com",
-        "whitneyfarms.com",
-        "bonnieplants.com",
-        "bonniecabbageprogram.com",
-        "bonnieplants.ca",
-        "weedingwisely.com",
-        "rootfarm.com",
-        "rootfarm.ca",
-        "provistaturf.com",
-        "blackmagic.com",
-        "ecoscraps.com",
-        "miraclegrotwelve.com",
-        "justknockknock.com",
-        "getbarkyard.com",
-        "scottsmiraclegro.com",
-        "lunarly.com",
-        "mother-earthproducts.co"
-      ]
-    },
-    {
       "name": "Scraping Hub",
-      "url": "https://www.scrapinghub.com/resp-disc-policy/",
+      "url": "https://www.zyte.com/terms-policies/responsible-disclosure-policy/",
       "bounty": false,
       "domains": [
         "scrapinghub.com",
@@ -7133,14 +7014,6 @@
       "bounty": true,
       "domains": [
         "secnews.gr"
-      ]
-    },
-    {
-      "name": "Second Street",
-      "url": "https://www.secondstreet.com/product-security-responsible-disclosure-policy",
-      "bounty": false,
-      "domains": [
-        "secondstreetapp.com"
       ]
     },
     {
@@ -7172,15 +7045,6 @@
       ]
     },
     {
-      "name": "Segment",
-      "url": "https://bugcrowd.com/segment",
-      "bounty": true,
-      "domains": [
-        "segment.io",
-        "segment.com"
-      ]
-    },
-    {
       "name": "SEMrush",
       "url": "https://hackerone.com/semrush",
       "bounty": true,
@@ -7196,6 +7060,15 @@
         "sellerly.com",
         "seoab.io",
         "scatec.io"
+      ]
+    },
+    {
+      "name": "Sendcloud",
+      "url": "https://www.sendcloud.com/bug-bounty-program/",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "sendcloud.com"
       ]
     },
     {
@@ -7294,6 +7167,15 @@
       ]
     },
     {
+      "name": "sidn",
+      "url": "https://www.sidn.nl/en/cybersecurity/reporting-a-security-breach",
+      "bounty": false,
+      "swag": true,
+      "domains": [
+        "sidn.nl"
+      ]
+    },
+    {
       "name": "Silvergoldbull",
       "url": "https://silvergoldbull.se/en/bug-bounty",
       "bounty": true,
@@ -7339,6 +7221,15 @@
         "slackb.com",
         "slack.com",
         "quip.com"
+      ]
+    },
+    {
+      "name": "Smartling",
+      "url": "https://help.smartling.com/hc/en-us/articles/360008147833-Bug-Bounty-Policy",
+      "bounty": true,
+      "domains": [
+        "smartling.com",
+        "verbalizeit.com"
       ]
     },
     {
@@ -7391,15 +7282,6 @@
         "bitmoji.com",
         "bitstrips.com",
         "scan.me"
-      ]
-    },
-    {
-      "name": "SNS Bank",
-      "url": "https://hackerone.com/sns_bank",
-      "bounty": true,
-      "domains": [
-        "snsbank.nl",
-        "sns.nl"
       ]
     },
     {
@@ -7595,6 +7477,34 @@
       ]
     },
     {
+      "name": "Standard Bank",
+      "url": "https://hackerone.com/standardbank",
+      "bounty": false,
+      "swag": false,
+      "domains": [
+        "standardbank.co.za",
+        "standardbank.com",
+        "standardbank.co.ao",
+        "stanbicbank.co.bw",
+        "stanbicbank.com.ci",
+        "standardbank.cd",
+        "standardbank.co.sz",
+        "stanbicbank.com.gh",
+        "stanbicbank.co.ke",
+        "standardlesothobank.co.ls",
+        "standardbank.co.mw",
+        "standardbank.mu",
+        "standardbank.co.mz",
+        "standardbank.com.na",
+        "stanbicibtcbank.com",
+        "stanbicbank.co.tz",
+        "stanbicbank.co.ug",
+        "stanbicbank.co.zm",
+        "stanbicbank.co.zw",
+        "standardbank.com.br"
+      ]
+    },
+    {
       "name": "Stanford University",
       "url": "https://uit.stanford.edu/security/bug-bounty",
       "bounty": true,
@@ -7659,14 +7569,6 @@
       ]
     },
     {
-      "name": "Stox",
-      "url": "https://www.stox.com/bounty/",
-      "bounty": true,
-      "domains": [
-        "stox.com"
-      ]
-    },
-    {
       "name": "Streak",
       "url": "https://hackerone.com/streak_com",
       "bounty": false,
@@ -7709,22 +7611,31 @@
       ]
     },
     {
-        "name": "Superbet",
-        "url": "https://hackerone.com/superbet",
-        "bounty": true,
-        "swag": false,
-        "domains": [
-          "superbet.ro"
-        ]
+      "name": "Superbet",
+      "url": "https://hackerone.com/superbet",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "superbet.ro"
+      ]
     },
     {
-        "name": "Surf",
-        "url": "https://www.surf.nl/en/responsible-disclosure-surf",
-        "bounty": false,
-        "swag": true,
-        "domains": [
-          "surf.nl"
-        ]
+      "name": "Surf",
+      "url": "https://www.surf.nl/en/responsible-disclosure",
+      "bounty": false,
+      "swag": true,
+      "domains": [
+        "surf.nl"
+      ]
+    },
+    {
+      "name": "Swapcard",
+      "url": "https://yeswehack.com/programs/swapcard",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "swapcard.com"
+      ]
     },
     {
       "name": "Sweatco Ltd",
@@ -8081,7 +7992,7 @@
     },
     {
       "name": "TD Bank",
-      "url": "https://www.td.com/privacy-and-security/privacy-and-security/report-vulnerability/reportvulnerability.jsp",
+      "url": "https://www.td.com/ca/en/about-td/privacy-and-security/report-vulnerability",
       "bounty": true,
       "domains": [
         "td.com"
@@ -8138,6 +8049,18 @@
         "telenethotspot.be",
         "yelo.be",
         "yeloplay.be"
+      ]
+    },
+    {
+      "name": "Telenor",
+      "url": "https://yeswehack.com/programs/telenor-sweden-public-bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "telenor.se",
+        "bredbandsbolaget.se",
+        "europolitan.se",
+        "ownit.se"
       ]
     },
     {
@@ -8234,14 +8157,6 @@
       ]
     },
     {
-      "name": "Tim Brasil",
-      "url": "https://admin.bughunt.com.br/program/detail?6058de165576f62d921fc844",
-      "bounty": true,
-      "domains": [
-        "tim.com.br"
-      ]
-    },
-    {
       "name": "Tinder",
       "url": "https://hackerone.com/tinder",
       "bounty": true,
@@ -8304,7 +8219,7 @@
     },
     {
       "name": "Touch Incentive Marketing",
-      "url": "https://www.touchincentive.com/responsible-disclosure/",
+      "url": "https://touchincentive.com/responsible-disclosure/",
       "bounty": true,
       "domains": [
         "touchincentive.com"
@@ -8368,6 +8283,16 @@
       ]
     },
     {
+      "name": "Trendyol",
+      "url": "https://hackerone.com/trendyol",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "trendyol.com",
+        "dolap.com"
+      ]
+    },
+    {
       "name": "Trint Ltd",
       "url": "https://hackerone.com/trint",
       "bounty": false,
@@ -8376,33 +8301,11 @@
       ]
     },
     {
-      "name": "Tripadvisor",
-      "url": "https://bugcrowd.com/tripadvisor-vdp",
-      "bounty": true,
-      "domains": [
-        "tripadvisor.com",
-        "tapayments.com",
-        "cruisecritic.com",
-        "bokun.com",
-        "tripadvisorwifi.com",
-        "tripadvisormediamanager.com"
-      ]
-    },
-    {
       "name": "Trustpilot",
       "url": "https://hackerone.com/trustpilot",
       "bounty": true,
       "domains": [
         "trustpilot.com"
-      ]
-    },
-    {
-      "name": "TryHackMe",
-      "url": "https://help.tryhackme.com/miscellaneous/the-bug-bounty-programme",
-      "bounty": true,
-      "swag": true,
-      "domains": [
-        "tryhackme.com"
       ]
     },
     {
@@ -8505,6 +8408,17 @@
       "bounty": true,
       "domains": [
         "tyk.io"
+      ]
+    },
+    {
+      "name": "U.S Social Security Administration",
+      "url": "https://www.ssa.gov/vulnerability-disclosure-policy/",
+      "bounty": false,
+      "swag": false,
+      "domains": [
+        "ssa.gov",
+        "segurosocial.gov",
+        "socialsecurity.gov"
       ]
     },
     {
@@ -8766,15 +8680,6 @@
       ]
     },
     {
-      "name": "Unity",
-      "url": "https://bugcrowd.com/unity",
-      "bounty": true,
-      "domains": [
-        "unity3d.com",
-        "unity.com"
-      ]
-    },
-    {
       "name": "Upgrade",
       "url": "https://hackerone.com/upgrade",
       "bounty": false,
@@ -8928,44 +8833,8 @@
       ]
     },
     {
-      "name": "Yahoo!",
-      "url": "https://hackerone.com/yahoo",
-      "bounty": true,
-      "domains": [
-        "techcrunch.com",
-        "makers.com",
-        "engadget.com",
-        "rivals.com",
-        "buildseries.com",
-        "yahoo.com",
-        "protrade.com",
-        "builtbygirls.com",
-        "yimg.com",
-        "flurry.com",
-        "ryot.org",
-        "autoblog.com",
-        "aol.com",
-        "verizondigitalmedia.com",
-        "aol.fr",
-        "aol.de",
-        "aol.co.uk",
-        "aol.jp",
-        "aol.in",
-        "aol.ca",
-        "aolpublishers.com",
-        "compuserve.com",
-        "netscape.com",
-        "wmconnect.com",
-        "getnetscape.com",
-        "vzbuilders.com",
-        "oath.cloud",
-        "yahoo.cloud",
-        "yahooapis.com"
-      ]
-    },
-    {
       "name": "VGZ",
-      "url": "https://app.zerocopter.com/nl/rd/bda542d5-c421-49f8-8e9c-5e70f5525673",
+      "url": "https://app.zerocopter.com/nl/cvd/bda542d5-c421-49f8-8e9c-5e70f5525673",
       "bounty": false,
       "domains": [
         "vgz.nl"
@@ -9074,15 +8943,6 @@
       ]
     },
     {
-      "name": "Wageningen University",
-      "url": "https://www.wur.nl/en/Value-Creation-Cooperation/Information-security.htm",
-      "bounty": false,
-      "swag": true,
-      "domains": [
-        "wur.nl"
-      ]
-    },
-    {
       "name": "Walla! Communication",
       "url": "https://www.walla.co.il/.well-know/security.txt",
       "bounty": true,
@@ -9092,20 +8952,12 @@
       ]
     },
     {
-      "name":"Walmart Corporation",
-      "url":"https://corporate.walmart.com/article/responsible-disclosure-policy",
+      "name": "Walmart Corporation",
+      "url": "https://corporate.walmart.com/article/responsible-disclosure-policy",
       "bounty": false,
       "swag": false,
-      "domains":[
-         "walmart.com"
-      ]
-    },
-    {
-      "name": "Warren Brasil",
-      "url": "https://admin.bughunt.com.br/program/detail?5eeb6b1b660ac82f7cdaf7e0",
-      "bounty": true,
       "domains": [
-        "warren.com.br"
+        "walmart.com"
       ]
     },
     {
@@ -9315,6 +9167,42 @@
       ]
     },
     {
+      "name": "Yahoo!",
+      "url": "https://hackerone.com/yahoo",
+      "bounty": true,
+      "domains": [
+        "techcrunch.com",
+        "makers.com",
+        "engadget.com",
+        "rivals.com",
+        "buildseries.com",
+        "yahoo.com",
+        "protrade.com",
+        "builtbygirls.com",
+        "yimg.com",
+        "flurry.com",
+        "ryot.org",
+        "autoblog.com",
+        "aol.com",
+        "verizondigitalmedia.com",
+        "aol.fr",
+        "aol.de",
+        "aol.co.uk",
+        "aol.jp",
+        "aol.in",
+        "aol.ca",
+        "aolpublishers.com",
+        "compuserve.com",
+        "netscape.com",
+        "wmconnect.com",
+        "getnetscape.com",
+        "vzbuilders.com",
+        "oath.cloud",
+        "yahoo.cloud",
+        "yahooapis.com"
+      ]
+    },
+    {
       "name": "Yandex",
       "url": "https://yandex.com/bugbounty/index",
       "bounty": true,
@@ -9461,24 +9349,6 @@
       ]
     },
     {
-      "name": "Zynga",
-      "url": "https://www.zynga.com/security/whitehats/",
-      "bounty": false,
-      "domains": [
-        "zynga.com",
-        "zyngagames.com"
-      ]
-    },
-    {
-      "name": "Smartling",
-      "url": "https://help.smartling.com/hc/en-us/articles/360008147833-Bug-Bounty-Policy",
-      "bounty": true,
-      "domains": [
-        "smartling.com",
-        "verbalizeit.com"
-      ]
-    },
-    {
       "name": "Zoom",
       "url": "https://explore.zoom.us/docs/ent/h1.html",
       "bounty": true,
@@ -9503,81 +9373,12 @@
       ]
     },
     {
-      "name":"Razer",
-      "url":"https://www.razer.com/security/bug-bounty-program",
-      "bounty": true,
-      "domains":[
-        "razer.com"
-      ]
-    },
-    {
-      "name": "AMERICAN SYSTEMS",
-      "url": "https://hackerone.com/american_systems_bbp",
-      "bounty": true,
-      "domains": [
-        "alexamerican.com",
-        "alexamericansystems.com",
-        "americansystems.com",
-        "ascvpc.com",
-        "ascsites.com",
-        "ascgov.com",
-        "ddlomni.com",
-        "nhaero.com",
-        "americansystems.info",
-        "amsyscorp.com",
-        "2asc.com",
-        "americanalliant.com",
-        "asc.name",
-        "digitalaccess.com",
-        "americansystemsuniversity.com",
-        "americansystems.org",
-        "thoughtmill.com",
-        "american-systems.org",
-        "american-systems.com",
-        "asextranet.com",
-        "emsolutionsinc.com",
-        "emsolve.com",
-        "essworld.net",
-        "nswccd-fbw-scs.com",
-        "asvpc.com",
-        "alex-as.com"
-      ]
-      },
-      {
-        "name":"Riot Games",
-        "url":"https://hackerone.com/riot/",
-        "bounty": true,
-        "swag": false,
-        "domains":[
-           "riotgames.com"
-        ]
-     },
-    {
-      "name":"Standard Bank",
-      "url":"https://hackerone.com/standardbank",
+      "name": "Zynga",
+      "url": "https://www.zynga.com/security/whitehats/",
       "bounty": false,
-      "swag": false,
-      "domains":[
-        "standardbank.co.za",
-        "standardbank.com",
-        "standardbank.co.ao",
-        "stanbicbank.co.bw",
-        "stanbicbank.com.ci",
-        "standardbank.cd",
-        "standardbank.co.sz",
-        "stanbicbank.com.gh",
-        "stanbicbank.co.ke",
-        "standardlesothobank.co.ls",
-        "standardbank.co.mw",
-        "standardbank.mu",
-        "standardbank.co.mz",
-        "standardbank.com.na",
-        "stanbicibtcbank.com",
-        "stanbicbank.co.tz",
-        "stanbicbank.co.ug",
-        "stanbicbank.co.zm",
-        "stanbicbank.co.zw",
-        "standardbank.com.br"
+      "domains": [
+        "zynga.com",
+        "zyngagames.com"
       ]
       },
       {
