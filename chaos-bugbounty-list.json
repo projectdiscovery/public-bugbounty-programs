@@ -135,6 +135,15 @@
       ]
     },
     {
+      "name": "Agicap",
+      "url": "https://agicap.com/en/bug-bounty/",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "agicap.com"
+      ]
+    },
+    {
       "name": "AIMS360",
       "url": "https://www.aims360.com/vulnerability-responses/",
       "bounty": false,
@@ -1356,6 +1365,15 @@
       ]
     },
     {
+      "name": "CodeChef",
+      "url": "https://www.codechef.com/bug-bounty-program",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "codechef.com"
+      ]
+    },
+    {
       "name": "Codefi",
       "url": "https://hackerone.com/codefi_bbp",
       "bounty": true,
@@ -2303,6 +2321,16 @@
         "fdbox.net",
         "fanduel.com",
         "fanduel.design"
+      ]
+    },
+    {
+      "name": "Fastly VDP",
+      "url": "https://hackerone.com/fastly-vdp",
+      "bounty": false,
+      "swag": false,
+      "domains": [
+        "signalsciences.com",
+        "fanout.io"
       ]
     },
     {
@@ -4085,6 +4113,17 @@
       ]
     },
     {
+      "name": "Grindr",
+      "url": "https://hackerone.com/grindr",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "grindr.io",
+        "grindr.com",
+        "grindr.mobi"
+      ]
+    },
+    {
       "name": "Grofers",
       "url": "https://grofers.com/bug-bounty",
       "bounty": true,
@@ -4107,6 +4146,21 @@
       "domains": [
         "gymshark.com",
         "gymshark.io"
+      ]
+    },
+    {
+      "name": "H&M Group",
+      "url": "https://www2.hm.com/security.txt",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "hm.com",
+        "cos.com",
+        "weekday.com",
+        "monki.com",
+        "arket.com",
+        "afound.com",
+        "stories.com"
       ]
     },
     {
@@ -8242,6 +8296,16 @@
       ]
     },
     {
+      "name": "Trendyol",
+      "url": "https://hackerone.com/trendyol",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "trendyol.com",
+        "dolap.com"
+      ]
+    },
+    {
       "name": "Trint Ltd",
       "url": "https://hackerone.com/trint",
       "bounty": false,
@@ -8357,6 +8421,17 @@
       "bounty": true,
       "domains": [
         "tyk.io"
+      ]
+    },
+    {
+      "name": "U.S Social Security Administration",
+      "url": "https://www.ssa.gov/vulnerability-disclosure-policy/",
+      "bounty": false,
+      "swag": false,
+      "domains": [
+        "ssa.gov",
+        "segurosocial.gov",
+        "socialsecurity.gov"
       ]
     },
     {
@@ -9318,81 +9393,6 @@
         "zynga.com",
         "zyngagames.com"
       ]
-      },
-      {
-        "name":"H&M Group",
-        "url":"https://www2.hm.com/security.txt",
-        "bounty": true,
-        "swag": false,
-        "domains":[
-          "hm.com",
-          "cos.com",
-          "weekday.com",
-          "monki.com",
-          "arket.com",
-          "afound.com",
-          "stories.com"
-        ]
-      },
-      {
-        "name":"CodeChef",
-        "url":"https://www.codechef.com/bug-bounty-program",
-        "bounty": true,
-        "swag": false,
-        "domains":[
-          "codechef.com"
-        ]
-      },
-      {
-        "name":"Agicap",
-        "url":"https://agicap.com/en/bug-bounty/",
-        "bounty": true,
-        "swag": false,
-        "domains":[
-          "agicap.com"
-        ]
-      },
-    {
-       "name":"Trendyol",
-       "url":"https://hackerone.com/trendyol",
-       "bounty": true,
-       "swag": false,
-       "domains":[
-          "trendyol.com",
-          "dolap.com"
-       ]
-    },
-    {
-       "name":"U.S Social Security Administration",
-       "url":"https://www.ssa.gov/vulnerability-disclosure-policy/",
-       "bounty": false,
-       "swag": false,
-       "domains":[
-          "ssa.gov",
-          "segurosocial.gov",
-          "socialsecurity.gov"
-       ]
-    },
-    {
-       "name":"Fastly VDP",
-       "url":"https://hackerone.com/fastly-vdp",
-       "bounty": false,
-       "swag": false,
-       "domains":[
-          "signalsciences.com",
-          "fanout.io"
-       ]
-    },
-    {
-       "name":"Grindr",
-       "url":"https://hackerone.com/grindr",
-       "bounty": true,
-       "swag": false,
-       "domains":[
-          "grindr.io",
-          "grindr.com",
-          "grindr.mobi"
-       ]
     }
   ]
 }
