@@ -1365,15 +1365,6 @@
       ]
     },
     {
-      "name": "CodeChef",
-      "url": "https://www.codechef.com/bug-bounty-program",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "codechef.com"
-      ]
-    },
-    {
       "name": "Codefi",
       "url": "https://hackerone.com/codefi_bbp",
       "bounty": true,
@@ -8260,16 +8251,6 @@
       ]
     },
     {
-      "name": "Trendyol",
-      "url": "https://hackerone.com/trendyol",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "trendyol.com",
-        "dolap.com"
-      ]
-    },
-    {
       "name": "Trint Ltd",
       "url": "https://hackerone.com/trint",
       "bounty": false,
@@ -8385,17 +8366,6 @@
       "bounty": true,
       "domains": [
         "tyk.io"
-      ]
-    },
-    {
-      "name": "U.S Social Security Administration",
-      "url": "https://www.ssa.gov/vulnerability-disclosure-policy/",
-      "bounty": false,
-      "swag": false,
-      "domains": [
-        "ssa.gov",
-        "segurosocial.gov",
-        "socialsecurity.gov"
       ]
     },
     {
@@ -9374,16 +9344,6 @@
         ]
       },
       {
-        "name":"INDmoney",
-        "url":"https://www.indmoney.com/page/bug-bounty",
-        "bounty": true,
-        "swag": false,
-        "domains":[
-          "indmoney.com",
-          "indiawealth.in"
-        ]
-      },
-      {
         "name":"CodeChef",
         "url":"https://www.codechef.com/bug-bounty-program",
         "bounty": true,
@@ -9393,30 +9353,12 @@
         ]
       },
       {
-        "name":"MobiKwik",
-        "url":"https://www.mobikwik.com/bug-bounty/guidelines",
-        "bounty": true,
-        "swag": false,
-        "domains":[
-          "mobikwik.com"
-        ]
-      },
-      {
         "name":"Agicap",
         "url":"https://agicap.com/en/bug-bounty/",
         "bounty": true,
         "swag": false,
         "domains":[
           "agicap.com"
-        ]
-      },
-      {
-        "name":"Sendcloud",
-        "url":"https://www.sendcloud.com/bug-bounty-program/",
-        "bounty": true,
-        "swag": false,
-        "domains":[
-          "sendcloud.com"
         ]
       },
     {
