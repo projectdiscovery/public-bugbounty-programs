@@ -9393,6 +9393,15 @@
         "zynga.com",
         "zyngagames.com"
       ]
+    },
+    {
+      "name": "FloQast",
+      "url": "https://hackerone.com/floqast",
+      "bounty": true,
+      "domains": [
+        "eu.floqast.app",
+        "floqast.app"
+      ]
     }
   ]
 }
