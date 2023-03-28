@@ -9393,6 +9393,19 @@
         "zynga.com",
         "zyngagames.com"
       ]
+    },
+    {
+      "name": "Hilton Bounty",
+      "url": "https://hackerone.com/hilton",
+      "bounty": true,
+      "domains": [
+        "hilton.com",
+        "hilton.io",
+        "hilton.com.tr",
+        "hiltonbusinessonline.com",
+        "hiltonjapan.co.jp",
+        "hiltonmanage.com"
+      ]
     }
   ]
 }
