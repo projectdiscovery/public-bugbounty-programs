@@ -9414,6 +9414,14 @@
         "zynga.com",
         "zyngagames.com"
       ]
-    }
+    },
+    {
+      "name":"inDrive",
+      "url":"https://hackerone.com/indrive",
+      "bounty": true,
+      "domains":[
+         "indriver.com"
+      ]
+   }
   ]
 }
