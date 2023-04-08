@@ -4456,6 +4456,14 @@
       ]
     },
     {
+      "name": "inDrive",
+      "url": "https://hackerone.com/indrive",
+      "bounty": true,
+      "domains": [
+        "indriver.com"
+      ]
+    },
+    {
       "name": "Infogram",
       "url": "https://hackerone.com/infogram",
       "bounty": false,
@@ -9414,14 +9422,6 @@
         "zynga.com",
         "zyngagames.com"
       ]
-    },
-    {
-      "name":"inDrive",
-      "url":"https://hackerone.com/indrive",
-      "bounty": true,
-      "domains":[
-         "indriver.com"
-      ]
-   }
+    }
   ]
 }
