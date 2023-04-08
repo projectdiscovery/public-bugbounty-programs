@@ -2443,6 +2443,14 @@
       ]
     },
     {
+      "name": "FloQast",
+      "url": "https://hackerone.com/floqast",
+      "bounty": true,
+      "domains": [
+        "floqast.app"
+      ]
+    },
+    {
       "name": "Fondy",
       "url": "https://docs.fondy.eu/en/docs/page/bug-bounty-program",
       "bounty": true,
@@ -4260,6 +4268,19 @@
       "domains": [
         "helium.systems",
         "helium.com"
+      ]
+    },
+    {
+      "name": "Hilton Bounty",
+      "url": "https://hackerone.com/hilton",
+      "bounty": true,
+      "domains": [
+        "hilton.com",
+        "hilton.io",
+        "hilton.com.tr",
+        "hiltonbusinessonline.com",
+        "hiltonjapan.co.jp",
+        "hiltonmanage.com"
       ]
     },
     {
