@@ -9395,6 +9395,14 @@
       ]
     },
     {
+      "name": "FloQast",
+      "url": "https://hackerone.com/floqast",
+      "bounty": true,
+      "domains": [
+        "floqast.app"
+      ]
+    },
+    {
       "name": "Hilton Bounty",
       "url": "https://hackerone.com/hilton",
       "bounty": true,
