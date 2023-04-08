@@ -8,7 +8,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/goflags v0.1.8
 	github.com/projectdiscovery/httpx v1.2.9
-	github.com/projectdiscovery/utils v0.0.16
+	github.com/projectdiscovery/utils v0.0.19
 	github.com/stretchr/testify v1.8.2
 	github.com/tidwall/gjson v1.14.4
 	golang.org/x/net v0.8.0
