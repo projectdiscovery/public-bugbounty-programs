@@ -9399,17 +9399,7 @@
       "url":"https://hackerone.com/indrive",
       "bounty": true,
       "domains":[
-         "new-order.eu-east-1.indriverapp.com",
-         "watchdocs.indriverapp.com",
-         "super-services.indriverapp.com",
-         "intercity-3.eu-east-1.indriverapp.com",
-         "truck-api.eu-east-1.indriverapp.com",
-         "profile-api.eu-east-1.indriverapp.com",
-         "file-storage-front.eu-east-1.indriverapp.com",
-         "ab-platform-api.eu-east-1.indriverapp.com",
-         "priority.eu-east-1.indriverapp.com",
-         "messenger.eu-east-1.indriverapp.com",
-         "injob.indriver.com"
+         "indriver.com"
       ]
    }
   ]
