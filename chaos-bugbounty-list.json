@@ -9056,6 +9056,15 @@
       ]
     },
     {
+      "name": "Western Digital",
+      "url": "https://www.westerndigital.com/en-ap/support/product-security/vulnerability-disclosure-policy",
+      "bounty": false,
+      "domains": [
+        "westerndigital.com",
+        "wd.com"
+      ]
+    },
+    {
       "name": "Western Union",
       "url": "https://bugcrowd.com/westernunion",
       "bounty": true,
