@@ -5708,6 +5708,19 @@
       ]
     },
     {
+      "name": "ngrok",
+      "url": "https://ngrok.com/security/disclosure-and-reward-program",
+      "bounty": true,
+      "domains": [
+        "ngrok.com",
+        "ngrok.io",
+        "ngrok-free.app",
+        "ngrok-free.dev",
+        "ngrok.app",
+        "ngrok.dev"
+      ]
+    },
+    {
       "name": "Nike",
       "url": "https://www.nike.com/help/a/responsible-disclosure",
       "bounty": false,
