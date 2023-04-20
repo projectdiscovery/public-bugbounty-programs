@@ -5713,8 +5713,6 @@
       "bounty": true,
       "domains": [
         "ngrok.com",
-        "dashboard.ngrok.com",
-        "corp.ngrok.com",
         "ngrok.io",
         "ngrok-free.app",
         "ngrok-free.dev",
