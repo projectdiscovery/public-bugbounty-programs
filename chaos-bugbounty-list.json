@@ -1463,7 +1463,7 @@
     {
       "name": "Comcast Xfinity",
       "url": "https://bugcrowd.com/comcastvdp",
-      "bounty": false,
+      "bounty": true,
       "domains": [
         "comcast.com",
         "xfinity.com"
