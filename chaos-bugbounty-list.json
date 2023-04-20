@@ -1444,6 +1444,15 @@
       ]
     },
     {
+      "name": "Coinspot",
+      "url": "https://hackerone.com/coinspot?type=team",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "coinspot.com.au"
+      ]
+    },
+    {
       "name": "Coinstore",
       "url": "https://hackenproof.com/coinstore/coinstore",
       "bounty": true,
