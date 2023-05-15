@@ -11,7 +11,7 @@ require (
 	github.com/projectdiscovery/utils v0.0.30
 	github.com/stretchr/testify v1.8.2
 	github.com/tidwall/gjson v1.14.4
-	golang.org/x/net v0.9.0
+	golang.org/x/net v0.10.0
 )
 
 require (
