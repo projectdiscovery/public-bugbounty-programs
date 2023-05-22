@@ -8,10 +8,10 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/goflags v0.1.8
 	github.com/projectdiscovery/httpx v1.2.9
-	github.com/projectdiscovery/utils v0.0.30
+	github.com/projectdiscovery/utils v0.0.32
 	github.com/stretchr/testify v1.8.2
 	github.com/tidwall/gjson v1.14.4
-	golang.org/x/net v0.9.0
+	golang.org/x/net v0.10.0
 )
 
 require (
@@ -76,7 +76,7 @@ require (
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/projectdiscovery/asnmap v1.0.2 // indirect
-	github.com/projectdiscovery/blackrock v0.0.0-20221025011524-9e4efe804fb4 // indirect
+	github.com/projectdiscovery/blackrock v0.0.1 // indirect
 	github.com/projectdiscovery/cdncheck v0.0.4-0.20220413175814-b47bc2d578b1 // indirect
 	github.com/projectdiscovery/clistats v0.0.12 // indirect
 	github.com/projectdiscovery/dsl v0.0.3 // indirect
@@ -84,7 +84,7 @@ require (
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.4 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
-	github.com/projectdiscovery/gologger v1.1.9 // indirect
+	github.com/projectdiscovery/gologger v1.1.10 // indirect
 	github.com/projectdiscovery/hmap v0.0.10 // indirect
 	github.com/projectdiscovery/iputil v0.0.2 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.0 // indirect
@@ -127,7 +127,7 @@ require (
 	golang.org/x/crypto v0.7.0 // indirect
 	golang.org/x/exp v0.0.0-20230224173230-c95f2b4c22f2 // indirect
 	golang.org/x/mod v0.8.0 // indirect
-	golang.org/x/oauth2 v0.7.0 // indirect
+	golang.org/x/oauth2 v0.8.0 // indirect
 	golang.org/x/sys v0.8.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 	golang.org/x/tools v0.6.0 // indirect
