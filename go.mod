@@ -9,7 +9,7 @@ require (
 	github.com/projectdiscovery/goflags v0.1.8
 	github.com/projectdiscovery/httpx v1.2.9
 	github.com/projectdiscovery/utils v0.0.30
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.3
 	github.com/tidwall/gjson v1.14.4
 	golang.org/x/net v0.9.0
 )
