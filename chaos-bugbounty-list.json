@@ -5008,7 +5008,7 @@
     },
     {
       "name": "Linktree",
-      "url": "https://hackerone.com/linktree",
+      "url": "https://bugcrowd.com/linktree-mbb-og",
       "bounty": true,
       "domains": [
         "odesli.co",
@@ -5022,7 +5022,8 @@
         "tr.ee",
         "linktree.com",
         "odesli.com",
-        "songlink.io"
+        "songlink.io",
+        "tr.ee"
       ]
     },
     {
