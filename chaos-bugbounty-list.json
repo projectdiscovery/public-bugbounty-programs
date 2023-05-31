@@ -7970,8 +7970,7 @@
         "united-security-providers.ch",
         "worklink.ch",
         "cablex.ch",
-        "itnetx.ch",
-        "cablex-toolbox.ch"
+        "itnetx.ch"
       ]
     },
     {
@@ -9434,7 +9433,7 @@
     {
         "name": "IMDB",
         "url": "https://help.imdb.com/article/imdb/general-information/how-to-report-security-issues-and-vulnerabilities/G99J5YVB8SBBMJ73?ref_=helpart_nav_14#",
-        "bounty": true,
+        "bounty": false,
         "domains": [
           "imdb.com"
         ]
