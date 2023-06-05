@@ -4100,6 +4100,12 @@
       ]
     },
     {
+      "name": "Grafana Labs",
+      "url": "https://github.com/grafana/bugbounty",
+      "bounty": true,
+      "domains": []
+    },
+    {
       "name": "Grammarly",
       "url": "https://hackerone.com/grammarly",
       "bounty": true,
