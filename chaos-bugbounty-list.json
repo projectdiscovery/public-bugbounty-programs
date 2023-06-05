@@ -1627,6 +1627,14 @@
       ]
     },
     {
+      "name": "Custellence",
+      "url": "https://custellence.com/responsible-disclosure.html",
+      "bounty": true,
+      "domains": [
+        "custellence.com"
+      ]
+    },
+    {
       "name": "Cuvva",
       "url": "https://hackerone.com/cuvva",
       "bounty": false,
@@ -4403,6 +4411,14 @@
       ]
     },
     {
+      "name": "IMDB",
+      "url": "https://help.imdb.com/article/imdb/general-information/how-to-report-security-issues-and-vulnerabilities/G99J5YVB8SBBMJ73?ref_=helpart_nav_14#",
+      "bounty": false,
+      "domains": [
+        "imdb.com"
+      ]
+    },
+    {
       "name": "Imgur",
       "url": "https://hackerone.com/imgur",
       "bounty": true,
@@ -5662,6 +5678,16 @@
       "bounty": true,
       "domains": [
         "newrelic.com"
+      ]
+    },
+    {
+      "name": "Newegg",
+      "url": "https://hackerone.com/newegg",
+      "bounty": true,
+      "domains": [
+        "newegg.com",
+        "newegg.ca",
+        "neweggbusiness.com"
       ]
     },
     {
@@ -9419,32 +9445,6 @@
         "zynga.com",
         "zyngagames.com"
       ]
-    },
-    {
-        "name": "Newegg",
-        "url": "https://hackerone.com/newegg",
-        "bounty": true,
-        "domains": [
-          "newegg.com",
-          "newegg.ca",
-          "neweggbusiness.com"
-        ]
-    },
-    {
-        "name": "IMDB",
-        "url": "https://help.imdb.com/article/imdb/general-information/how-to-report-security-issues-and-vulnerabilities/G99J5YVB8SBBMJ73?ref_=helpart_nav_14#",
-        "bounty": false,
-        "domains": [
-          "imdb.com"
-        ]
-    },
-    {
-        "name": "Custellence",
-        "url": "https://custellence.com/responsible-disclosure.html",
-        "bounty": true,
-        "domains": [
-          "custellence.com"
-        ]
     }
   ]
 }
