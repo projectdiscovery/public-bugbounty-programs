@@ -1243,14 +1243,6 @@
       ]
     },
     {
-      "name": "Clause",
-      "url": "https://clause.io/security",
-      "bounty": true,
-      "domains": [
-        "clausestaging.com"
-      ]
-    },
-    {
       "name": "Clickup",
       "url": "https://clickup.com/bug-bounty",
       "bounty": true,
