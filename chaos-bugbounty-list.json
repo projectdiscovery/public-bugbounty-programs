@@ -9053,14 +9053,6 @@
       ]
     },
     {
-      "name": "Wedbio",
-      "url": "https://wedbio.com/report-incident",
-      "bounty": false,
-      "domains": [
-        "wedbio.com"
-      ]
-    },
-    {
       "name": "Wells Fargo",
       "url": "https://hackerone.com/wellsfargo",
       "bounty": false,
