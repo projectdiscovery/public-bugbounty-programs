@@ -6,9 +6,9 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/go-git/go-git/v5 v5.7.0
 	github.com/pkg/errors v0.9.1
-	github.com/projectdiscovery/goflags v0.1.8
+	github.com/projectdiscovery/goflags v0.1.10
 	github.com/projectdiscovery/httpx v1.3.1
-	github.com/projectdiscovery/utils v0.0.30
+	github.com/projectdiscovery/utils v0.0.35
 	github.com/stretchr/testify v1.8.4
 	github.com/tidwall/gjson v1.14.4
 	golang.org/x/net v0.10.0
@@ -71,7 +71,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.14 // indirect
 	github.com/mfonda/simhash v0.0.0-20151007195837-79f94a1100d6 // indirect
 	github.com/mholt/archiver v3.1.1+incompatible // indirect
-	github.com/microcosm-cc/bluemonday v1.0.23 // indirect
+	github.com/microcosm-cc/bluemonday v1.0.24 // indirect
 	github.com/miekg/dns v1.1.54 // indirect
 	github.com/minio/selfupdate v0.6.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
@@ -144,7 +144,7 @@ require (
 	golang.org/x/crypto v0.9.0 // indirect
 	golang.org/x/exp v0.0.0-20230420155640-133eef4313cb // indirect
 	golang.org/x/mod v0.10.0 // indirect
-	golang.org/x/oauth2 v0.7.0 // indirect
+	golang.org/x/oauth2 v0.8.0 // indirect
 	golang.org/x/sys v0.8.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 	golang.org/x/tools v0.8.0 // indirect
