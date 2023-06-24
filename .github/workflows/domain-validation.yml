@@ -77,10 +77,12 @@ jobs:
       # and saves the unique URLs in a text file named "urls.txt".
 
       - name: Diff and save URLs
-        shell: bash
         run: |
           git fetch origin main:main
-          git diff --name-only origin/main HEAD | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf <(git --no-pager show origin/main:chaos-bugbounty-list.json | jq -r '.programs[].url') > urls.txt
+          tmpfile=$(mktemp)
+          git --no-pager show origin/main:chaos-bugbounty-list.json | jq -r '.programs[].url' > "$tmpfile"
+          git diff --name-only origin/main HEAD | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf "$tmpfile" > urls.txt
+          rm "$tmpfile"
 
       - name: Installing Validate domains binary
         run: >
