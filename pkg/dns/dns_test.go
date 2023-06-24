@@ -92,6 +92,11 @@ func TestValidateFQDN(t *testing.T) {
 			input: "some$$thing.examp%&le.com",
 			want:  false,
 		},
+		{
+			name:  "IgnorePrivateSuffix",
+			input: "ngrok.io",
+			want:  true,
+		},
 	}
 
 	for _, tt := range tests {

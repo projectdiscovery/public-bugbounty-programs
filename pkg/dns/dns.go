@@ -1,12 +1,12 @@
 package dns
 
 import (
+	"github.com/weppos/publicsuffix-go/publicsuffix"
 	"strings"
 
 	"github.com/asaskevich/govalidator"
 	sliceutil "github.com/projectdiscovery/utils/slice"
 	stringsutil "github.com/projectdiscovery/utils/strings"
-	"golang.org/x/net/publicsuffix"
 )
 
 var ExcludeMap map[string]struct{}
@@ -25,13 +25,17 @@ type ChaosList struct {
 }
 
 func ValidateFQDN(value string) bool {
-	// check if domain can can be parsed
-	tld, err := publicsuffix.EffectiveTLDPlusOne(value)
+	dl := publicsuffix.DefaultList
+
+	// Check if domain can be parsed, ignore private domains
+	tld, err := publicsuffix.DomainFromListWithOptions(dl, value, &publicsuffix.FindOptions{
+		IgnorePrivate: true,
+	})
 	if err != nil {
 		return false
 	}
 
-	// check if top level domain is equal to original and it's a valid domain name
+	// Check if top-level domain is equal to the original value and it's a valid domain name
 	return tld == value && govalidator.IsDNSName(tld)
 }
 
