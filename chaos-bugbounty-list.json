@@ -1126,14 +1126,6 @@
       ]
     },
     {
-      "name": "Centrify",
-      "url": "https://bugcrowd.com/centrify",
-      "bounty": true,
-      "domains": [
-        "centrify.com"
-      ]
-    },
-    {
       "name": "CFP Time",
       "url": "https://hackerone.com/cfptime",
       "bounty": false,
