@@ -1096,7 +1096,7 @@
     },
     {
       "name": "CBS",
-      "url": "https://www.cbs.nl/nl-nl/over-ons/website/responsible-disclosure",
+      "url": "https://www.cbs.nl/en-gb/about-us/website/coordinated-vulnerability-disclosure--cvd--",
       "bounty": false,
       "domains": [
         "cbs.nl"
