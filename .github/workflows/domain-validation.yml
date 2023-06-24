@@ -1,4 +1,4 @@
-name: Domains validation
+name: duplicate check
 
 on:
   pull_request:
@@ -9,8 +9,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  check-for-duplicates:
-    runs-on: ubuntu-latest-16-cores
+  duplicate-domain:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -28,8 +28,8 @@ jobs:
               echo "No duplicate domains found."
           fi
           
-  check-invalid-domains:
-    runs-on: ubuntu-latest-16-cores
+  invalid-domain:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -49,7 +49,6 @@ jobs:
       - name: Check domains validation
         run: |
           validate-domains -file chaos-bugbounty-list.json
-        shell: bash
 
       - name: Checking domains validity
         run: |
@@ -58,14 +57,13 @@ jobs:
               exit 1
           fi
 
-  httpx-check:
-    runs-on: ubuntu-latest-16-cores
+  url-status:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
         with: 
           fetch-depth: 0
-          ref: ${{ github.head_ref }}
 
       - name: Setup golang
         uses: actions/setup-go@v4
@@ -78,19 +76,22 @@ jobs:
       # extracts the URLs from the changed JSON files, compares them with the URLs in the main branch, 
       # and saves the unique URLs in a text file named "urls.txt".
 
-      - name: Get all urls
-        run: git diff --name-only origin/main ${{ github.event.pull_request.head.ref }} | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf <(git --no-pager show origin/main:chaos-bugbounty-list.json | jq -r '.programs[].url') > urls.txt
+      - name: Diff and save URLs
+        run: |
+          git fetch origin main:main
+          tmpfile=$(mktemp)
+          git --no-pager show origin/main:chaos-bugbounty-list.json | jq -r '.programs[].url' > "$tmpfile"
+          git diff --name-only origin/main HEAD | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf "$tmpfile" > urls.txt
+          rm "$tmpfile"
 
       - name: Installing Validate domains binary
         run: >
           go install
           github.com/projectdiscovery/public-bugbounty-programs/cmd/httpx-tester
-        shell: bash
 
       - name: Checking URL availability
         run: |
           httpx-tester -file urls.txt
-        shell: bash
 
       - name: Checking programs with unaccessible policy URL
         run: |
