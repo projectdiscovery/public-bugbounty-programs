@@ -1,13 +1,18 @@
-# Public BugBounty Programs
+<h1 align="center"> Public BugBounty Programs </h1>
 
-[![License](https://img.shields.io/badge/license-MIT-_red.svg)](https://opensource.org/licenses/MIT)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/projectdiscovery/public-bugbounty-programs/issues)
-[![Follow on Twitter](https://img.shields.io/twitter/follow/pdchaos.svg?logo=twitter)](https://twitter.com/pdchaos)
-[![Chat on Discord](https://img.shields.io/discord/695645237418131507.svg?logo=discord)](https://discord.gg/projectdiscovery)
 
-[This](chaos-bugbounty-list.json) JSON file controls the public bug bounty programs listed on [chaos.projectdiscovery.io](https://chaos.projectdiscovery.io/). Please create a pull-request with the programs for which you'd like to see recon data. 
+<h4 align="center"> Community curated list of public bug bounty and responsible disclosure programs. </h4>
 
-We are currently accepting entries in JSON format. See an example below:
+<p align="center">
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-_red.svg"></a>
+<a href="https://github.com/projectdiscovery/public-bugbounty-programs/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://twitter.com/pdiscoveryio"><img src="https://img.shields.io/twitter/follow/pdiscoveryio.svg?logo=twitter"></a>
+<a href="https://discord.gg/projectdiscovery"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
+</p>
+
+The [chaos-bugbounty-list.json](chaos-bugbounty-list.json) file serves as the central management system for the public bug bounty programs displayed on [chaos.projectdiscovery.io](https://chaos.projectdiscovery.io/). We welcome your contributions to this list. If there are specific programs for which you'd like to see reconnaissance data, please submit a pull request.
+
+We are currently accepting submissions in JSON format. Here's an example of the structure we require:
 
 ```json
 {
@@ -24,26 +29,27 @@ We are currently accepting entries in JSON format. See an example below:
 }
 ```
 
+Your contributions will help us to continually improve and expand the range of public bug bounty programs we feature.
+
 
 💬 Discussions
 -----
 
-If you have any questions/doubts/ideas to discuss, please create a "Discussion" using the [GitHub Discussions](https://github.com/projectdiscovery/public-bugbounty-programs/discussions) board.
+For any inquiries, suggestions, or topics you'd like to discuss, we encourage you to initiate a "Discussion" using our [GitHub Discussions](https://github.com/projectdiscovery/public-bugbounty-programs/discussions) platform.
 
 👨‍💻 Community
 -----
 
-Join our [Discord Community](https://discord.gg/projectdiscovery).  
-Follow [@PDChaos](https://twitter.com/pdchaos) and [PDiscoveryIO](https://twitter.com/pdiscoveryio) on Twitter.  
-You can also contact us at [chaos@projectdiscovery.io](mailto:chaos@projectdiscovery.io).
+We invite you to join our [Discord Community](https://discord.gg/projectdiscovery) for more interactive discussions.  
+Stay updated with our latest news and activities by following [ProjectDiscovery](https://twitter.com/pdiscoveryio) on Twitter.  
+For direct communication, feel free to reach us at [contact@projectdiscovery.io](mailto:contact@projectdiscovery.io).
 
-📋 Notes
+📋 Guidelines
 -----
-- Only domain name values are accepted in the `domains` field.
-- We do not support wildcard input like `*.tld` or `*.tld.*`.
-- **domains** field includes TLD names associated with the target program, not based on scope of the program.
-- Subdomains are populated using **Passive API** (chaos dataset).
-
+- Please note that only domain name values are accepted in the `domains` field.
+- We do not support wildcard inputs such as `*.tld` or `*.tld.*`.
+- The **domains** field should include TLD names associated with the target program, not necessarily based on the scope of the program.
+- Subdomains are populated using our dataset **Passive API**
 
 📌 References
 -----
@@ -52,4 +58,4 @@ You can also contact us at [chaos@projectdiscovery.io](mailto:chaos@projectdisco
 - https://github.com/disclose/diodb/blob/master/program-list.json
 - https://firebounty.com
 
-Thank you for your contribution and for keeping the community vibrant. :heart:
+We greatly appreciate your contributions and your efforts in keeping our community dynamic and engaging. :heart:

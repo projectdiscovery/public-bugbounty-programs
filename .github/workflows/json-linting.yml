@@ -1,4 +1,4 @@
-name: json-syntax-check
+name: ✅ json-syntax-check
 
 on:
   pull_request:

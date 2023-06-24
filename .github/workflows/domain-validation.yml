@@ -1,4 +1,4 @@
-name: duplicate check
+name: ✅ domain validation
 
 on:
   pull_request:

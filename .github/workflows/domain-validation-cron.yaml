@@ -1,4 +1,4 @@
-name: httpx check cron
+name: ✅ domain validation cron
 
 on:
   schedule:
