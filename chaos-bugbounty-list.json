@@ -5392,7 +5392,7 @@
     },
     {
       "name": "Mobile DE",
-      "url": "https://app.zerocopter.com/de/rd/aef29c56-5295-4789-b848-3f121eeca350",
+      "url": "https://app.zerocopter.com/de/cvd/aef29c56-5295-4789-b848-3f121eeca350",
       "bounty": true,
       "domains": [
         "mobile.de"
@@ -6264,7 +6264,7 @@
       "domains": [
         "passit.io"
       ]
-    }, 
+    },
     {
       "name": "Payoneer",
       "url": "https://hackerone.com/payoneer",
@@ -6953,7 +6953,7 @@
     },
     {
       "name": "Royal Bank of Scotland",
-      "url": "http://personal.rbs.co.uk/personal/security-centre/responsible-disclosure.html",
+      "url": "https://bugcrowd.com/natwest-vdp",
       "bounty": false,
       "domains": [
         "rbs.com",
@@ -8365,7 +8365,7 @@
     },
     {
       "name": "TU Chemniz",
-      "url": "https://www.tu-chemnitz.de/.well-known/security.txt",
+      "url": "https://openbugbounty.org/bugbounty/TucWebmaster",
       "bounty": false,
       "domains": [
         "tu-chemniz.de"
@@ -9171,7 +9171,7 @@
     },
     {
       "name": "WP Engine",
-      "url": "https://wpengine.com/security/",
+      "url": "https://app.intigriti.com/programs/wpengine/wpengine/detail",
       "bounty": false,
       "domains": [
         "studiopress.blog",
