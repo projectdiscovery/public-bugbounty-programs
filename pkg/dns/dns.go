@@ -27,9 +27,9 @@ type ChaosList struct {
 func ValidateFQDN(value string) bool {
 	dl := publicsuffix.DefaultList
 
-	// Check if domain can be parsed, ignore private domains
+	// Check if domain can be parsed, do not ignore private tld
 	tld, err := publicsuffix.DomainFromListWithOptions(dl, value, &publicsuffix.FindOptions{
-		IgnorePrivate: true,
+		IgnorePrivate: false,
 	})
 	if err != nil {
 		return false
