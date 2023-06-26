@@ -5703,7 +5703,12 @@
       "url": "https://ngrok.com/security/disclosure-and-reward-program",
       "bounty": true,
       "domains": [
-        "ngrok.com"
+        "ngrok.com",
+        "ngrok.io",
+        "ngrok-free.app",
+        "ngrok-free.dev",
+        "ngrok.app",
+        "ngrok.dev"
       ]
     },
     {
