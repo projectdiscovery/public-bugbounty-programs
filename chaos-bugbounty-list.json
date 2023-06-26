@@ -682,7 +682,7 @@
     },
     {
       "name": "Bentley",
-      "url": "https://www.bentley.com/wp-content/uploads/responsible-disclosure.pdf",
+      "url": "https://www.bentley.com/legal/common-vulnerability-exposure-program/",
       "bounty": true,
       "domains": [
         "bentley.com"
