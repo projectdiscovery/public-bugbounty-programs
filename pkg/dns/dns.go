@@ -1,6 +1,7 @@
 package dns
 
 import (
+	"github.com/projectdiscovery/retryabledns"
 	"strings"
 
 	"github.com/asaskevich/govalidator"
@@ -28,7 +29,15 @@ func ValidateFQDN(value string) bool {
 	// check if domain can can be parsed
 	tld, err := publicsuffix.EffectiveTLDPlusOne(value)
 	if err != nil {
-		return false
+		// If the domain can't be parsed by publicsuffix,
+		// then we attempt to resolve a DNS A record to determine if it's valid.
+		client, err := retryabledns.New([]string{"8.8.8.8", "8.8.4.4"}, 3)
+		resp, err := client.Resolve(value)
+		if err != nil || (resp.A == nil && resp.AAAA == nil) {
+			// DNS resolution also failed, so we conclude that the domain isn't valid.
+			return false
+		}
+		return true
 	}
 
 	// check if top level domain is equal to original and it's a valid domain name
