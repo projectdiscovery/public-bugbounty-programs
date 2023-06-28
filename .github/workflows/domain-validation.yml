@@ -40,22 +40,17 @@ jobs:
           go-version: 1.19
           cache: true
 
-      - name: Installing Validate domains binary
-        run: >
-          go install
-          github.com/projectdiscovery/public-bugbounty-programs/cmd/validate-domains
-        shell: bash
+      - name: Validate domains
+        run: go run .
+        working-directory: cmd/validate-domains
 
-      - name: Check domains validation
-        run: |
-          validate-domains -file chaos-bugbounty-list.json
-
-      - name: Checking domains validity
+      - name: Check if invalid domains found
         run: |
           if [[ -s invalid_domains.txt ]]; then
               echo "Invalid domains found: $(cat invalid_domains.txt)"
               exit 1
           fi
+        working-directory: cmd/validate-domains
 
   url-status:
     runs-on: ubuntu-latest
