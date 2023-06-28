@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"flag"
+	"fmt"
 	"log"
 	"os"
 	"strings"
@@ -11,12 +12,12 @@ import (
 	"github.com/tidwall/gjson"
 )
 
-var bbListFile = flag.String("file", "../../chaos-bugbounty-list.json", "Chaos bugbounty list json file")
-
 func main() {
+	var bbListFile string
+	flag.StringVar(&bbListFile, "file", "../../chaos-bugbounty-list.json", "Chaos bugbounty list json file")
 	flag.Parse()
 
-	rawJSON, err := os.ReadFile(*bbListFile)
+	rawJSON, err := os.ReadFile(bbListFile)
 	if err != nil {
 		log.Fatalf("Failed to read initial JSON file: %v", err)
 	}
@@ -36,6 +37,11 @@ func main() {
 		}
 		return true
 	})
+
+	if len(invalidDomains) == 0 {
+		fmt.Println("No invalid domains found")
+		return
+	}
 
 	output := strings.Join(invalidDomains, "\n")
 
