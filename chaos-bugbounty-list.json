@@ -2373,15 +2373,6 @@
       ]
     },
     {
-      "name": "FireEye",
-      "url": "https://hackerone.com/Trellix",
-      "bounty": false,
-      "swag": false,
-      "domains": [
-        "fireeye.com"
-      ]
-    },
-    {
       "name": "FIRST",
       "url": "https://www.first.org/about/bugs",
       "bounty": false,
@@ -8305,6 +8296,7 @@
       "bounty": false,
       "swag": false,
       "domains": [
+        "fireeye.com",
         "trellix.com",
         "skyhighsecurity.com"
       ]
@@ -8364,7 +8356,7 @@
     },
     {
       "name": "TU Chemniz",
-      "url": "https://openbugbounty.org/bugbounty/TucWebmaster",
+      "url": "https://www.openbugbounty.org/bugbounty/TucWebmaster/",
       "bounty": false,
       "domains": [
         "tu-chemniz.de"
@@ -8382,7 +8374,7 @@
     },
     {
       "name": "Tumblr",
-      "url": "https://hackerone.com/automattic",
+      "url": "https://hackerone.com/tumblr",
       "bounty": true,
       "domains": [
         "tumblr.com",
