@@ -5643,6 +5643,19 @@
       ]
     },
     {
+      "name": "NEAR",
+      "url": "https://hackenproof.com/near",
+      "bounty": true,
+      "domains": [
+        "near.org",
+        "docs.near.org",
+        "wiki.near.org",
+        "gov.near.org",
+        "wallet.near.org",
+        "near.foundation"
+      ]
+    },
+    {
       "name": "Netflix",
       "url": "https://bugcrowd.com/netflix",
       "bounty": true,
@@ -6569,6 +6582,14 @@
       "domains": [
         "cryptography.io",
         "pyopenssl.org"
+      ]
+    },
+    {
+      "name": "P2B Exchange",
+      "url": "https://hackenproof.com/p2b-exchange",
+      "bounty": true,
+      "domains": [
+        "p2pb2b.com",
       ]
     },
     {
@@ -8848,6 +8869,14 @@
       ]
     },
     {
+      "name": "VeChain",
+      "url": "https://hackenproof.com/vechain",
+      "bounty": true,
+      "domains": [
+        "vechain.org"
+      ]
+    },
+    {
       "name": "Veeam",
       "url": "https://hackerone.com/veeam",
       "bounty": false,
@@ -8977,6 +9006,13 @@
         "sporza.be",
         "stubru.be",
         "vrt.be"
+      ]
+    },
+    {
+      "name": "Waku",
+      "url": "https://hackenproof.com/status-dot-im/waku",
+      "bounty": true,
+      "domains": [
       ]
     },
     {
