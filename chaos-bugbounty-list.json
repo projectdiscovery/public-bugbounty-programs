@@ -984,6 +984,15 @@
       ]
     },
     {
+      "name": "BugBase",
+      "url": "https://bugbase.in/programs/bugbase",
+      "bounty": true,
+      "swag": true,
+      "domains": [
+        "bugbase.in"
+      ]
+    },
+    {
       "name": "Bugcrowd",
       "url": "https://bugcrowd.com/bugcrowd",
       "bounty": true,
@@ -9418,15 +9427,6 @@
         "zynga.com",
         "zyngagames.com"
       ]
-    },
-    {
-   "name":"BugBase",
-   "url":"https://bugbase.in/programs/bugbase",
-   "bounty": true,
-   "swag": true,
-   "domains":[
-      "bugbase.in"
-   ]
-}
+    }
   ]
 }
