@@ -2284,6 +2284,17 @@
       ]
     },
     {
+      "name": "Exness",
+      "url": "https://hackerone.com/exness",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "exness.com",
+        "exness.asia",
+        "exnessaffiliates.com"
+      ]
+    },
+    {
       "name": "Facebook",
       "url": "https://www.facebook.com/whitehat",
       "bounty": true,
