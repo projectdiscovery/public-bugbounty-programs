@@ -2228,6 +2228,17 @@
       ]
     },
     {
+      "name": "Exness",
+      "url": "https://hackerone.com/exness",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "exness.com",
+        "exness.asia",
+        "exnessaffiliates.com"
+      ]
+    },
+    {
       "name": "Exodus",
       "url": "https://hackerone.com/exodus",
       "bounty": true,
@@ -2281,17 +2292,6 @@
         "expressvpn.com",
         "xvservice.net",
         "expressobutiolem.onion"
-      ]
-    },
-    {
-      "name": "Exness",
-      "url": "https://hackerone.com/exness",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "exness.com",
-        "exness.asia",
-        "exnessaffiliates.com"
       ]
     },
     {
