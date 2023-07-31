@@ -787,6 +787,15 @@
       ]
     },
     {
+      "name": "Bitexen",
+      "url": "https://hackenproof.com/bitexen",
+      "bounty": true,
+      "domains": [
+        "bitexen.com",
+        "global.bitexen.com"
+      ]
+    },
+    {
       "name": "Bitfinex",
       "url": "https://www.bitfinex.com/bug-bounty/",
       "bounty": true,
@@ -1451,6 +1460,14 @@
       "bounty": true,
       "domains": [
         "coinstore.com"
+      ]
+    },
+    {
+      "name": "CoinW",
+      "url": "https://hackenproof.com/coinw/coinw-web-and-mobile",
+      "bounty": true,
+      "domains": [
+        "coinw.com"
       ]
     },
     {
