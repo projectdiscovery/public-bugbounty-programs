@@ -10,7 +10,7 @@ require (
 	github.com/projectdiscovery/gologger v1.1.11
 	github.com/projectdiscovery/httpx v1.3.3
 	github.com/projectdiscovery/retryabledns v1.0.31
-	github.com/projectdiscovery/utils v0.0.43
+	github.com/projectdiscovery/utils v0.0.45
 	github.com/stretchr/testify v1.8.4
 	github.com/tidwall/gjson v1.14.4
 	golang.org/x/net v0.12.0
@@ -76,7 +76,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.14 // indirect
 	github.com/mfonda/simhash v0.0.0-20151007195837-79f94a1100d6 // indirect
 	github.com/mholt/archiver v3.1.1+incompatible // indirect
-	github.com/microcosm-cc/bluemonday v1.0.24 // indirect
+	github.com/microcosm-cc/bluemonday v1.0.25 // indirect
 	github.com/miekg/dns v1.1.55 // indirect
 	github.com/minio/selfupdate v0.6.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect

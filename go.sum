@@ -175,8 +175,8 @@ github.com/mfonda/simhash v0.0.0-20151007195837-79f94a1100d6/go.mod h1:WVJJvUw/p
 github.com/mholt/archiver v3.1.1+incompatible h1:1dCVxuqs0dJseYEhi5pl7MYPH9zDa1wBi7mF09cbNkU=
 github.com/mholt/archiver v3.1.1+incompatible/go.mod h1:Dh2dOXnSdiLxRiPoVfIr/fI1TwETms9B8CTWfeh7ROU=
 github.com/microcosm-cc/bluemonday v1.0.21/go.mod h1:ytNkv4RrDrLJ2pqlsSI46O6IVXmZOBBD4SaJyDwwTkM=
-github.com/microcosm-cc/bluemonday v1.0.24 h1:NGQoPtwGVcbGkKfvyYk1yRqknzBuoMiUrO6R7uFTPlw=
-github.com/microcosm-cc/bluemonday v1.0.24/go.mod h1:ArQySAMps0790cHSkdPEJ7bGkF2VePWH773hsJNSHf8=
+github.com/microcosm-cc/bluemonday v1.0.25 h1:4NEwSfiJ+Wva0VxN5B8OwMicaJvD8r9tlJWm9rtloEg=
+github.com/microcosm-cc/bluemonday v1.0.25/go.mod h1:ZIOjCQp1OrzBBPIJmfX4qDYFuhU02nx4bn030ixfHLE=
 github.com/miekg/dns v1.1.35/go.mod h1:KNUDUusw/aVsxyTYZM1oqvCicbwhgbNgztCETuNZ7xM=
 github.com/miekg/dns v1.1.55 h1:GoQ4hpsj0nFLYe+bWiCToyrBEJXkQfOOIvFGFy0lEgo=
 github.com/miekg/dns v1.1.55/go.mod h1:uInx36IzPl7FYnDcMeVWxj9byh7DutNykX4G9Sj60FY=
@@ -258,8 +258,8 @@ github.com/projectdiscovery/retryablehttp-go v1.0.17/go.mod h1:zJh8bQdxhIsaEGnxs
 github.com/projectdiscovery/stringsutil v0.0.2 h1:uzmw3IVLJSMW1kEg8eCStG/cGbYYZAja8BH3LqqJXMA=
 github.com/projectdiscovery/tlsx v1.1.0 h1:6L5VKpHaoqvIHN6lH9zi7jIvph1JwYMYZOIpWBJBG6I=
 github.com/projectdiscovery/tlsx v1.1.0/go.mod h1:C9xTbU2t54Anmvuq+4jxevR5rzqpp6XUUtV7G9J5CTE=
-github.com/projectdiscovery/utils v0.0.43 h1:KjZ17rffipb32ti7IQUS7oOXDUqilPw7dMGAmBvZayI=
-github.com/projectdiscovery/utils v0.0.43/go.mod h1:HtUI1pyNCgQUuwZuxDILQ4NSUaFcfBh0TuCK/ZQTS6Q=
+github.com/projectdiscovery/utils v0.0.45 h1:i0xwdpaGrTIw8hVtutjpVXvPCMcKKwb9VbqWxlwL08M=
+github.com/projectdiscovery/utils v0.0.45/go.mod h1:kJu+OqAWsoilLto06ajSp4U3gWuz51GEVLL/PogJXPk=
 github.com/projectdiscovery/wappalyzergo v0.0.101 h1:g3vEDqdsfIvsbp1YsXCdVMGurucdK+j72trncROMVjo=
 github.com/projectdiscovery/wappalyzergo v0.0.101/go.mod h1:4Z3DKhi75zIPMuA+qSDDWxZvnhL4qTLmDx4dxNMu7MA=
 github.com/refraction-networking/utls v1.3.2 h1:o+AkWB57mkcoW36ET7uJ002CpBWHu0KPxi6vzxvPnv8=
