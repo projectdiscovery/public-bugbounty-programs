@@ -12,7 +12,7 @@ require (
 	github.com/projectdiscovery/retryabledns v1.0.31
 	github.com/projectdiscovery/utils v0.0.43
 	github.com/stretchr/testify v1.8.4
-	github.com/tidwall/gjson v1.14.4
+	github.com/tidwall/gjson v1.15.0
 	golang.org/x/net v0.12.0
 )
 
