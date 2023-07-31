@@ -1042,6 +1042,12 @@
       ]
     },
     {
+      "name": "Camino Network",
+      "url": "https://hackenproof.com/camino-network/camino-protocol",
+      "bounty": true,
+      "domains": []
+    },
+    {
       "name": "Canon",
       "url": "https://canon.a.bigcontent.io/v1/static/canon_vdp_program-policy",
       "bounty": false,
@@ -1152,6 +1158,19 @@
       ]
     },
     {
+      "name": "Chainstack",
+      "url": "https://hackenproof.com/chainstack/chainstack",
+      "bounty": true,
+      "domains": [
+        "chainstack.com",
+        "console.chainstack.com",
+        "p2pify.com",
+        "prod-networks.chainstack.com",
+        "chainstacklabs.com",
+        "docs.chainstack.com"
+      ]
+    },
+    {
       "name": "Chargezoom",
       "url": "https://chargezoom.com/bugbounty/",
       "bounty": true,
@@ -1214,6 +1233,15 @@
         "meraki.com",
         "network-auth.com",
         "cisco.com"
+      ]
+    },
+     {
+      "name": "CITEX Exchange",
+      "url": "https://hackenproof.com/citex-exchange/citex-web-and-api",
+      "bounty": true,
+      "domains": [
+        "citex.info",
+        "citex.io"
       ]
     },
     {
@@ -1817,6 +1845,12 @@
         "secureworks.com"
       ]
     },
+     {
+      "name": "DeltaPrime",
+      "url": "https://hackenproof.com/deltaprime/deltaprime-smart-contracts",
+      "bounty": true,
+      "domains": []
+    },
     {
       "name": "Deribit",
       "url": "https://hackerone.com/deribit",
@@ -1852,11 +1886,13 @@
         "dex-trade.com"
       ]
     },
-    {
+   {
       "name": "Dexalot",
-      "url": "https://hackenproof.com/dexalot/dexalot-smart-contracts",
+      "url": "https://hackenproof.com/dexalot",
       "bounty": true,
-      "domains": []
+      "domains": [
+        "dexalot.com"
+      ]
     },
     {
       "name": "Didi",
@@ -1929,6 +1965,12 @@
         "doctolib.com",
         "doctolib.net"
       ]
+    },
+    {
+      "name": "DODOEX",
+      "url": "https://hackenproof.com/dodoex",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Doist",
@@ -2103,6 +2145,12 @@
       ]
     },
     {
+      "name": "ENVELOP",
+      "url": "https://hackenproof.com/envelop/envelop-smart-contracts",
+      "bounty": true,
+      "domains": []
+    },
+    {
       "name": "Eobot",
       "url": "https://hackerone.com/eobotcom",
       "bounty": true,
@@ -2191,6 +2239,14 @@
       "bounty": false,
       "domains": [
         "europa.eu"
+      ]
+    },
+     {
+      "name": "EVAA",
+      "url": "https://hackenproof.com/evaa",
+      "bounty": true,
+      "domains": [
+        "app.evaa.finance"
       ]
     },
     {
@@ -2384,6 +2440,14 @@
         "filezilla-project.org"
       ]
     },
+     {
+      "name": "Filmio",
+      "url": "https://hackenproof.com/filmio"
+      "bounty": true,
+      "domains": [
+        "app.film.io"
+      ]
+    },
     {
       "name": "FINRA Response",
       "url": "https://hackerone.com/finra",
@@ -2416,6 +2480,14 @@
       "domains": [
         "fitbit.com",
         "fitstar.com"
+      ]
+    },
+      {
+      "name": "FitBurn",
+      "url": "https://hackenproof.com/fitburn/fitburn-web-and-mobile",
+      "bounty": true,
+      "domains": [
+        "fitburn.ai"
       ]
     },
     {
@@ -4986,6 +5058,14 @@
         "lemlist.com"
       ]
     },
+      {
+      "name": "LetsExchange",
+      "url": "https://hackenproof.com/letsexchange/letsexchange-web-and-api",
+      "bounty": true,
+      "domains": [
+        "letsexchange.io"
+      ]
+    },
     {
       "name": "Liberapay",
       "url": "https://hackerone.com/liberapay",
@@ -5136,6 +5216,12 @@
       "domains": [
         "logmeonce.com"
       ]
+    },
+    {
+      "name": "Local Traders",
+      "url": "https://hackenproof.com/local-traders/local-traders-smart-contracts",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Lululemon",
@@ -5597,6 +5683,14 @@
         "muslimpro.com"
       ]
     },
+     {
+      "name": "MyEtherWallet",
+      "url": "https://hackenproof.com/myetherwallet",
+      "bounty": true,
+      "domains": [
+        "myetherwallet.com"
+      ]
+    },
     {
       "name": "Myndr",
       "url": "https://hackerone.com/myndr",
@@ -5732,6 +5826,17 @@
       ]
     },
     {
+      "name": "NiceHash",
+      "url": "https://hackenproof.com/nicehash",
+      "bounty": true,
+      "domains": [
+        "test.nicehash.com/shop",
+        "test.nicehash.com/my",
+        "test.nicehash.com",
+        "test.nicex.com/my"
+      ]
+    },
+    {
       "name": "Nike",
       "url": "https://www.nike.com/help/a/responsible-disclosure",
       "bounty": false,
@@ -5794,6 +5899,12 @@
       "domains": [
         "nozbe.com"
       ]
+    },
+    {
+      "name": "NXT Technologies",
+      "url": "https://hackenproof.com/nxt-technologies/nxt-permission-smart-contract",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Nubank",
@@ -6450,6 +6561,14 @@
         "playtech.com"
       ]
     },
+     {
+      "name": "Plisio",
+      "url": "https://hackenproof.com/plisio/plisio",
+      "bounty": true,
+      "domains": [
+        "plisio.net"
+      ]
+    },
     {
       "name": "Polkalokr",
       "url": "https://hackenproof.com/polkalokr/polkalokr-1",
@@ -6572,6 +6691,14 @@
       "domains": [
         "pubg.com",
         "pubgesports.com"
+      ]
+    },
+    {
+      "name": "PUMB.UA",
+      "url": "https://hackenproof.com/pumb-dot-ua",
+      "bounty": true,
+      "domains": [
+        "pumb.ua",
       ]
     },
     {
@@ -7609,6 +7736,14 @@
       ]
     },
     {
+      "name": "Status",
+      "url": "https://hackenproof.com/status-dot-im/status",
+      "bounty": true,
+      "domains": [
+        "status.im"
+      ]
+    },
+    {
       "name": "Statuspage",
       "url": "https://bugcrowd.com/statuspage",
       "bounty": true,
@@ -7675,6 +7810,12 @@
       "domains": [
         "superbet.ro"
       ]
+    },
+     {
+      "name": "Superfluid",
+      "url": "https://hackenproof.com/superfluid/superfluid-super-token-smart-contracts",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Surf",
@@ -8166,6 +8307,12 @@
         "solarcity.com"
       ]
     },
+     {
+      "name": "TETU",
+      "url": "https://hackenproof.com/tetu/tetu-smart-contracts",
+      "bounty": true,
+      "domains": []
+    },
     {
       "name": "The Standard",
       "url": "https://www.standard.com/about-standard/responsible-disclosure-program",
@@ -8202,6 +8349,18 @@
       "bounty": true,
       "domains": [
         "threema.ch"
+      ]
+    },
+    {
+      "name": "Tickets Travel Network",
+      "https://hackenproof.com/tickets-travel-network/tickets-travel-network-slash-updated-ui",
+      "bounty": true,
+      "domains": [
+        "tickets.kz",
+        "tickets.kz/my",
+        "tickets.ua",
+        "kissandfly.com",
+        "travelfrom.fr"
       ]
     },
     {
@@ -8650,6 +8809,14 @@
         "womenshealth.gov"
       ]
     },
+     {
+      "name": "UACatsDivision",
+      "url": "https://hackenproof.com/uacatsdivision",
+      "bounty": true,
+      "domains": [
+        "uacatsdivision.com"
+      ]
+    },
     {
       "name": "Uber",
       "url": "https://hackerone.com/uber",
@@ -8889,6 +9056,14 @@
         "zeit.sh"
       ]
     },
+     {
+      "name": "Vertex Protocol",
+      "url": "https://hackenproof.com/vertex-protocol",
+      "bounty": true,
+      "domains": [
+        "vertexprotocol.com"
+      ]
+    },
     {
       "name": "VGZ",
       "url": "https://app.zerocopter.com/nl/cvd/bda542d5-c421-49f8-8e9c-5e70f5525673",
@@ -9112,6 +9287,14 @@
       ]
     },
     {
+      "name": "WhiteMarket",
+      "url": "https://hackenproof.com/whitemarket/whitemarket-web",
+      "bounty": true,
+      "domains": [
+        "white.market"
+      ]
+    },
+    {
       "name": "Wickr",
       "url": "https://hackerone.com/wickr",
       "bounty": true,
@@ -9212,6 +9395,14 @@
         "global.shop",
         "xiaomi.market",
         "xiaomi.com"
+      ]
+    },
+     {
+      "name": "XT",
+      "url": "https://hackenproof.com/xt/xt",
+      "bounty": true,
+      "domains": [
+        "xt.com"
       ]
     },
     {
