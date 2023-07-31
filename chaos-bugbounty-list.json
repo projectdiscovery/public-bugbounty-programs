@@ -5663,6 +5663,19 @@
       ]
     },
     {
+      "name": "NEAR",
+      "url": "https://hackenproof.com/near",
+      "bounty": true,
+      "domains": [
+        "near.org",
+        "docs.near.org",
+        "wiki.near.org",
+        "gov.near.org",
+        "wallet.near.org",
+        "near.foundation"
+      ]
+    },
+    {
       "name": "Netflix",
       "url": "https://bugcrowd.com/netflix",
       "bounty": true,
@@ -8867,6 +8880,14 @@
         "varonis.io"
       ]
     },
+     {
+      "name": "VeChain",
+      "url": "https://hackenproof.com/vechain",
+      "bounty": true,
+      "domains": [
+        "vechain.org"
+      ]
+    },
     {
       "name": "Veeam",
       "url": "https://hackerone.com/veeam",
@@ -8998,6 +9019,12 @@
         "stubru.be",
         "vrt.be"
       ]
+    },
+    {
+      "name": "Waku",
+      "url": "https://hackenproof.com/status-dot-im/waku",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Walla! Communication",
