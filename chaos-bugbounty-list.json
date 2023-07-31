@@ -528,6 +528,20 @@
         "asana.biz"
       ]
     },
+     {
+      "name": "AssetMantle",
+      "url": "https://hackenproof.com/assetmantle/assetmantle",
+      "bounty": true,
+      "domains": []
+    },
+     {
+      "name": "Asymetrix",
+      "url": "https://hackenproof.com/asymetrix",
+      "bounty": true,
+      "domains": [
+        "asymetrix.io"
+      ]
+    },
     {
       "name": "AT&T",
       "url": "https://hackerone.com/att",
@@ -552,6 +566,14 @@
       "domains": [
         "atlassian.net",
         "atlassian.com"
+      ]
+    },
+    {
+      "name": "Aurora",
+      "url": "https://hackenproof.com/aurora",
+      "bounty": true,
+      "domains": [
+        "aurora.plus"
       ]
     },
     {
@@ -784,6 +806,14 @@
       "bounty": true,
       "domains": [
         "bitdiscovery.com"
+      ]
+    },
+    {
+      "name": "Bitcastle",
+      "url": "https://hackenproof.com/bitcastle/bitcastle-web",
+      "bounty": true,
+      "domains": [
+        "bitcastle.io/en"
       ]
     },
     {
