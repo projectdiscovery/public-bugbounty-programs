@@ -8092,6 +8092,15 @@
       ]
     },
     {
+      "name": "TryHackMe",
+      "url": "https://help.tryhackme.com/en/articles/6495946-the-bug-bounty-program",
+      "bounty": true,
+      "swag": true,
+      "domains": [
+        "tryhackme.com"
+      ]
+    },
+    {
       "name": "TTS Bug Bounty",
       "url": "https://hackerone.com/tts",
       "bounty": true,
