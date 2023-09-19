@@ -806,7 +806,7 @@
       "url":"https://hackenproof.com/bitcastle/bitcastle-web",
       "bounty":true,
       "domains":[
-        "bitcastle.io/en"
+        "bitcastle.io"
       ]
     },
     {
@@ -895,12 +895,7 @@
       "url":"https://hackenproof.com/bittrex/bittrex",
       "bounty":true,
       "domains":[
-        "bittrex.com",
-        "auth.bittrex.com",
-        "global.bittrex.com",
-        "static.bittrex.com",
-        "web.bittrex.com",
-        "stage.bittrex.com"
+        "bittrex.com"
       ]
     },
     {
