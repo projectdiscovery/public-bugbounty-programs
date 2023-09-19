@@ -532,11 +532,9 @@
       "name": "AssetMantle",
       "url": "https://hackenproof.com/assetmantle/assetmantle",
       "bounty": true,
-      "domains": [
-        
-      ]
+      "domains": []
     },
-     {
+    {
       "name": "Asymetrix",
       "url": "https://hackenproof.com/asymetrix",
       "bounty": true,
@@ -794,6 +792,14 @@
       ]
     },
     {
+      "name": "Bitcastle",
+      "url": "https://hackenproof.com/bitcastle/bitcastle-web",
+      "bounty": true,
+      "domains": [
+        "bitcastle.io"
+      ]
+    },
+    {
       "name": "BitDefender",
       "url": "https://bugcrowd.com/bitdefender",
       "bounty": true,
@@ -816,6 +822,14 @@
       "bounty": true,
       "domains": [
         "bitcastle.io/en"
+      ]
+    },
+    {
+      "name": "Bitexen",
+      "url": "https://hackenproof.com/bitexen",
+      "bounty": true,
+      "domains": [
+        "bitexen.com"
       ]
     },
     {
@@ -1029,6 +1043,15 @@
       ]
     },
     {
+      "name": "BugBase",
+      "url": "https://bugbase.in/programs/bugbase",
+      "bounty": true,
+      "swag": true,
+      "domains": [
+        "bugbase.in"
+      ]
+    },
+    {
       "name": "Bugcrowd",
       "url": "https://bugcrowd.com/bugcrowd",
       "bounty": true,
@@ -1078,6 +1101,12 @@
       ]
     },
       {
+      "name": "Camino Network",
+      "url": "https://hackenproof.com/camino-network/camino-protocol",
+      "bounty": true,
+      "domains": []
+    },
+    {
       "name": "Camino Network",
       "url": "https://hackenproof.com/camino-network/camino-protocol",
       "bounty": true,
@@ -1204,6 +1233,16 @@
         "prod-networks.chainstack.com",
         "chainstacklabs.com",
         "docs.chainstack.com"
+      ]
+    },
+    {
+      "name": "Chainstack",
+      "url": "https://hackenproof.com/chainstack/chainstack",
+      "bounty": true,
+      "domains": [
+        "chainstack.com",
+        "p2pify.com",
+        "chainstacklabs.com"
       ]
     },
     {
@@ -1515,6 +1554,14 @@
       "bounty": true,
       "domains": [
         "coinstore.com"
+      ]
+    },
+    {
+      "name": "CoinW",
+      "url": "https://hackenproof.com/coinw/coinw-web-and-mobile",
+      "bounty": true,
+      "domains": [
+        "coinw.com"
       ]
     },
     {
@@ -2010,6 +2057,12 @@
       ]
     },
     {
+      "name": "DODOEX",
+      "url": "https://hackenproof.com/dodoex",
+      "bounty": true,
+      "domains": []
+    },
+    {
       "name": "Doist",
       "url": "https://todoist.com/help/articles/doist-bug-bounty-policy",
       "bounty": true,
@@ -2283,7 +2336,7 @@
       "url": "https://hackenproof.com/evaa",
       "bounty": true,
       "domains": [
-        "app.evaa.finance"
+        "evaa.finance"
       ]
     },
     {
@@ -2318,6 +2371,17 @@
       "domains": [
         "exmo.com",
         "exmo.me"
+      ]
+    },
+    {
+      "name": "Exness",
+      "url": "https://hackerone.com/exness",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "exness.com",
+        "exness.asia",
+        "exnessaffiliates.com"
       ]
     },
     {
@@ -2460,7 +2524,7 @@
     },
     {
       "name": "FileZilla",
-      "url": "https://hackenproof.com/filmio",
+      "url": "https://hackerone.com/filezilla",
       "bounty": true,
       "domains": [
         "filezilla-project.org"
@@ -2468,10 +2532,10 @@
     },
     {
       "name": "Filmio",
-      "url": "https://hackerone.com/filezilla",
+      "url": "https://hackenproof.com/filmio",
       "bounty": true,
       "domains": [
-        "app.film.io"
+        "film.io"
       ]
     },
     {
@@ -2513,7 +2577,8 @@
       "url": "https://hackenproof.com/fitburn/fitburn-web-and-mobile",
       "bounty": true,
       "domains": [
-        "fitburn.ai"      ]
+        "fitburn.ai"
+      ]
     },
     {
       "name": "Flexport VDP",
@@ -5092,6 +5157,14 @@
       ]
     },
     {
+      "name": "LetsExchange",
+      "url": "https://hackenproof.com/letsexchange/letsexchange-web-and-api",
+      "bounty": true,
+      "domains": [
+        "letsexchange.io"
+      ]
+    },
+    {
       "name": "Liberapay",
       "url": "https://hackerone.com/liberapay",
       "bounty": true,
@@ -5181,6 +5254,12 @@
         "lob.com",
         "lob-assets.com"
       ]
+    },
+    {
+      "name": "Local Traders",
+      "url": "https://hackenproof.com/local-traders/local-traders-smart-contracts",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Localize",
@@ -5782,6 +5861,15 @@
       ]
     },
     {
+      "name": "NEAR",
+      "url": "https://hackenproof.com/near",
+      "bounty": true,
+      "domains": [
+        "near.org",
+        "near.foundation"
+      ]
+    },
+    {
       "name": "Netflix",
       "url": "https://bugcrowd.com/netflix",
       "bounty": true,
@@ -5855,10 +5943,7 @@
       "url": "https://hackenproof.com/nicehash",
       "bounty": true,
       "domains": [
-        "test.nicehash.com/shop/",
-        "test.nicehash.com/my/",
-        "test.nicehash.com",
-        "test.nicex.com/my/"
+        "nicehash.com"
       ]
     },
     {
@@ -5947,6 +6032,12 @@
       "domains": [
         "nutanix.com"
       ]
+    },
+    {
+      "name": "NXT Technologies",
+      "url": "https://hackenproof.com/nxt-technologies/nxt-permission-smart-contract",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Oanda",
@@ -6725,6 +6816,14 @@
       "bounty": true,
       "domains": [
         "pumb.ua",
+      ]
+    },
+    {
+      "name": "PUMB.UA",
+      "url": "https://hackenproof.com/pumb-dot-ua",
+      "bounty": true,
+      "domains": [
+        "pumb.ua"
       ]
     },
     {
@@ -7888,284 +7987,10 @@
     },
     {
       "name": "Swisscom",
-      "url": "https://www.swisscom.ch/en/about/security/bug-bounty.html",
+      "url": "https://github.com/swisscom/bugbounty",
       "bounty": true,
       "swag": false,
-      "domains": [
-        "adunit.ch",
-        "adunit.tech",
-        "ajila.com",
-        "digital.deals",
-        "autosense.ch",
-        "blue-action.ch",
-        "blue-app.ch",
-        "blue-app.com",
-        "blue-cinema.ch",
-        "blue-cinemas.ch",
-        "blue-cinemas.com",
-        "blue-doku.ch",
-        "blue-doku.com",
-        "blue-entertainment.ch",
-        "blue-entertainment.com",
-        "blue-extra.ch",
-        "blue-extra.com",
-        "blue-family.ch",
-        "blue-family.com",
-        "blue-games.ch",
-        "blue-gaming.ch",
-        "blue-gaming.com",
-        "blue-goal.ch",
-        "blue-goal.com",
-        "blue-info.ch",
-        "blue-kino.ch",
-        "blue-kino.com",
-        "blue-league.ch",
-        "blue-league.com",
-        "blue-live.ch",
-        "blue-member.ch",
-        "blue-member.com",
-        "blue-news.ch",
-        "blue-ondemand.ch",
-        "blue-ondemand.com",
-        "blue-packages.com",
-        "blue-play.ch",
-        "blue-player.ch",
-        "blue-plus.ch",
-        "blue-ppv.ch",
-        "blue-ppv.com",
-        "blue-premium.ch",
-        "blue-serie.ch",
-        "blue-series.ch",
-        "blue-smarttv.ch",
-        "blue-smarttv.com",
-        "blue-sport.ch",
-        "blue-sports.ch",
-        "blue-streaming.ch",
-        "blue-streaming.com",
-        "blue-tv.ch",
-        "blue-vision.ch",
-        "blue-vod.ch",
-        "blue-xtra.ch",
-        "blue-xtra.com",
-        "blue-zoom.ch",
-        "blue.ch",
-        "blueaction.ch",
-        "bluecinema.ch",
-        "bluecinemas.ch",
-        "bluedoku.ch",
-        "blueentertainment.ch",
-        "bluefamily.ch",
-        "bluegames.ch",
-        "bluegaming.ch",
-        "bluegoal.ch",
-        "blueinfo.ch",
-        "bluekino.ch",
-        "blueleague.ch",
-        "bluemember.ch",
-        "bluenews.ch",
-        "blueondemand.ch",
-        "bluepackages.ch",
-        "blueplay.ch",
-        "blueplayer.ch",
-        "blueplus.ch",
-        "blueppv.ch",
-        "blueppv.com",
-        "bluepremium.ch",
-        "blueprodukte.com",
-        "blueretro.ch",
-        "blueserie.ch",
-        "blueserie.com",
-        "blueseries.ch",
-        "bluesmarttv.ch",
-        "bluesmarttv.com",
-        "bluesport.ch",
-        "bluesports.ch",
-        "bluestreaming.ch",
-        "bluetv.ch",
-        "bluevod.ch",
-        "cinebowling.ch",
-        "cinebowling.com",
-        "cinebowling.events",
-        "cinetrade.ch",
-        "first-lounge-cinema.ch",
-        "first-lounge.ch",
-        "firstlounge.ch",
-        "firstloungecinema.ch",
-        "jassfederal.ch",
-        "kino.movie",
-        "kinotheater.ch",
-        "kinotheaterag.ch",
-        "kit.ag",
-        "kitag.ch",
-        "kitag.com",
-        "kitagcinema.ch",
-        "kitagcinema.com",
-        "kitagcinemas.ch",
-        "kitagcinemas.com",
-        "sporttv.ch",
-        "sporttv.hockey",
-        "teleclub-sport.ch",
-        "teleclub-zoom.ch",
-        "teleclub.ch",
-        "teleclubnow.ch",
-        "teleclubplay.ch",
-        "teleclubsport.ch",
-        "teleclubsports.ch",
-        "teleclubzoom.ch",
-        "daura.ch",
-        "globalipaction.ch",
-        "glipac.ch",
-        "i-web.ch",
-        "jls.ch",
-        "jls.digital",
-        "ngti.nl",
-        "bluewin.ch",
-        "conextrade.com",
-        "curabill.ch",
-        "cura-med.ch",
-        "digitalassessment.ch",
-        "ealarm-safemode.ch",
-        "ealarmstarter.ch",
-        "evita.ch",
-        "h-net.ch",
-        "hcard.ch",
-        "helloclass.ch",
-        "idisign.ch",
-        "intswisscom.com",
-        "jlr-connect.ch",
-        "labnet.ch",
-        "mccip.ch",
-        "mdm-mobile.ch",
-        "medicalconnector.ch",
-        "medicalexchange.ch",
-        "medicalshare.ch",
-        "mucc-services.ch",
-        "mycloud.ch",
-        "paybillag.com",
-        "pwlan.ch",
-        "scbs.ch",
-        "scsstatic.ch",
-        "sctv.ch",
-        "securepop.ch",
-        "sinso.ch",
-        "smeoffer.ch",
-        "swisscloud.io",
-        "swisscom-alarm.ch",
-        "swisscom-flaechen.ch",
-        "swisscom-health.ch",
-        "swisscom-immobilien.ch",
-        "swisscom-learningcenter.ch",
-        "swisscom-printshop.ch",
-        "swisscom-sharespace.com",
-        "swisscom-tv.com",
-        "swisscomcloud.com",
-        "swisscom-mcc.ch",
-        "swisscom.ai",
-        "swisscom.ch",
-        "swisscom.com",
-        "swisscomras.ch",
-        "swissdigicert.ch",
-        "swisstrustdir.ch",
-        "swisstrustroom.ch",
-        "swisstrustroom.com",
-        "triamed.ch",
-        "volvo-online.ch",
-        "webtiser.ch",
-        "webtiser.com",
-        "wingo.ch",
-        "sbcdc.ch",
-        "sbcnms.ch",
-        "sbc-nms.ch",
-        "sbc-ticketing.ch",
-        "sbcstreams.ch",
-        "sbctv.ch",
-        "swisscombroadcast.com",
-        "swisscombroadcast.ch",
-        "viaas.ch",
-        "videoinsider.ch",
-        "openwt.com",
-        "openwt.io",
-        "openwt.net",
-        "swisscomdigital.tech",
-        "swisscomdigital.technology",
-        "swisscomdigitaltechnologies.com",
-        "swisscomdigitaltechnology.ch",
-        "swisscomdt.com",
-        "akupunkturvergleich.ch",
-        "apotheken-vergleich.ch",
-        "augenarztvergleich.ch",
-        "bestattungsvergleich.ch",
-        "bijouterie-vergleich.ch",
-        "bodenlegervergleich.ch",
-        "cateringvergleich.ch",
-        "coaching-vergleich.ch",
-        "coiffeurvergleich.ch",
-        "consultingvergleich.ch",
-        "digitalone.ch",
-        "directories.ch",
-        "directoriesdata.ch",
-        "druckereien-vergleich.ch",
-        "e-directories.ch",
-        "elektrikervergleich.ch",
-        "ernaehrungsberatungsvergleich.ch",
-        "etv.ch",
-        "fahrlehrervergleich.ch",
-        "fitnessstudio-vergleich.ch",
-        "floristvergleich.ch",
-        "fondue-vergleich.ch",
-        "fotografvergleich.ch",
-        "garage-vergleich.ch",
-        "gartenbauvergleich.ch",
-        "gu-vergleich.ch",
-        "hautarztvergleich.ch",
-        "immoverwaltungsvergleich.ch",
-        "informatikervergleich.ch",
-        "innenarchitektvergleich.ch",
-        "kinderarztvergleich.ch",
-        "kinderkrippen-vergleich.ch",
-        "kosmetikvergleich.ch",
-        "local.ch",
-        "localcities.ch",
-        "localsearch.ch",
-        "maler-gipser-vergleich.ch",
-        "massagevergleich.ch",
-        "metzgereivergleich.ch",
-        "multisource.ch",
-        "mycommerce.shop",
-        "nachhilfevergleich.ch",
-        "nagelstudiovergleich.ch",
-        "oeffentliches-verzeichnis.ch",
-        "optiker-vergleich.ch",
-        "osteopathievergleich.ch",
-        "pannenhilfevergleich.ch",
-        "pflegeheimvergleich.ch",
-        "physiotherapievergleich.ch",
-        "reinigungsfirmavergleich.ch",
-        "reisebuerovergleich.ch",
-        "renovero.ch",
-        "sanitaervergleich.ch",
-        "scdag.net",
-        "schreinervergleich.ch",
-        "search.ch",
-        "sospos.ch",
-        "sitefree.ch",
-        "swisslist.ch",
-        "tanzschulvergleich.ch",
-        "tennisclubvergleich.ch",
-        "tierarztvergleich.ch",
-        "umzugsfirma-vergleich.ch",
-        "veloshop-vergleich.ch",
-        "wellness-spa-vergleich.ch",
-        "websheep.com",
-        "yoga-pilates-vergleich.ch",
-        "swisscomstream.ch",
-        "zoon.ch",
-        "u-s-p.ch",
-        "united-security-providers.ch",
-        "worklink.ch",
-        "cablex.ch",
-        "itnetx.ch"
-      ]
+      "domains": []
     },
     {
       "name": "Synack",
@@ -8334,7 +8159,7 @@
       ]
     },
     {
-      "name": "Tesla",
+      "name": "TETU",
       "url": "https://hackenproof.com/tetu/tetu-smart-contracts",
       "bounty": true,
       "domains": []
@@ -8384,6 +8209,17 @@
       "domains": [
         "tickets.kz",
         "tickets.kz/my",
+        "tickets.ua",
+        "kissandfly.com",
+        "travelfrom.fr"
+      ]
+    },
+    {
+      "name": "Tickets Travel Network",
+      "url": "https://hackenproof.com/tickets-travel-network/tickets-travel-network-slash-updated-ui",
+      "bounty": true,
+      "domains": [
+        "tickets.kz",
         "tickets.ua",
         "kissandfly.com",
         "travelfrom.fr"
@@ -8548,6 +8384,15 @@
       "bounty": true,
       "domains": [
         "trustpilot.com"
+      ]
+    },
+    {
+      "name": "TryHackMe",
+      "url": "https://help.tryhackme.com/en/articles/6495946-the-bug-bounty-program",
+      "bounty": true,
+      "swag": true,
+      "domains": [
+        "tryhackme.com"
       ]
     },
     {
@@ -9061,6 +8906,14 @@
       ]
     },
     {
+      "name": "VeChain",
+      "url": "https://hackenproof.com/vechain",
+      "bounty": true,
+      "domains": [
+        "vechain.org"
+      ]
+    },
+    {
       "name": "Veeam",
       "url": "https://hackerone.com/veeam",
       "bounty": false,
@@ -9199,6 +9052,12 @@
         "stubru.be",
         "vrt.be"
       ]
+    },
+    {
+      "name": "Waku",
+      "url": "https://hackenproof.com/status-dot-im/waku",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Walla! Communication",
