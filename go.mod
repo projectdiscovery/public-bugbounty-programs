@@ -23,7 +23,6 @@ require (
 	github.com/Microsoft/go-winio v0.5.2 // indirect
 	github.com/Mzack9999/gcache v0.0.0-20230410081825-519e28eab057 // indirect
 	github.com/Mzack9999/go-http-digest-auth-client v0.6.1-0.20220414142836-eb8883508809 // indirect
-	github.com/Mzack9999/gostruct v0.0.0-20230415193108-30b70932da81 // indirect
 	github.com/ProtonMail/go-crypto v0.0.0-20230518184743-7afd39499903 // indirect
 	github.com/PuerkitoBio/goquery v1.8.1 // indirect
 	github.com/VividCortex/ewma v1.2.0 // indirect
@@ -96,11 +95,12 @@ require (
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
 	github.com/projectdiscovery/cdncheck v1.0.9 // indirect
 	github.com/projectdiscovery/clistats v0.0.19 // indirect
-	github.com/projectdiscovery/dsl v0.0.14 // indirect
+	github.com/projectdiscovery/dsl v0.0.22 // indirect
 	github.com/projectdiscovery/fastdialer v0.0.36 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.5 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
+	github.com/projectdiscovery/gostruct v0.0.1 // indirect
 	github.com/projectdiscovery/hmap v0.0.19 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.2 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.6 // indirect
@@ -115,7 +115,7 @@ require (
 	github.com/rivo/uniseg v0.4.4 // indirect
 	github.com/rs/xid v1.5.0 // indirect
 	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d // indirect
-	github.com/sashabaranov/go-openai v1.13.0 // indirect
+	github.com/sashabaranov/go-openai v1.14.2 // indirect
 	github.com/sergi/go-diff v1.2.0 // indirect
 	github.com/shirou/gopsutil/v3 v3.23.7 // indirect
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
