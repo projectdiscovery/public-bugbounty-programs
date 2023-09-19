@@ -108,7 +108,7 @@ require (
 	github.com/projectdiscovery/rawhttp v0.1.18 // indirect
 	github.com/projectdiscovery/retryablehttp-go v1.0.24 // indirect
 	github.com/projectdiscovery/tlsx v1.1.4 // indirect
-	github.com/projectdiscovery/wappalyzergo v0.0.105 // indirect
+	github.com/projectdiscovery/wappalyzergo v0.0.109 // indirect
 	github.com/quic-go/quic-go v0.37.0 // indirect
 	github.com/refraction-networking/utls v1.4.2 // indirect
 	github.com/remeh/sizedwaitgroup v1.0.0 // indirect
