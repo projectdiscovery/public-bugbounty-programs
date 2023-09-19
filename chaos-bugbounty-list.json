@@ -8373,16 +8373,6 @@
       ]
     },
     {
-      "name": "Tumblr",
-      "url": "https://hackerone.com/tumblr",
-      "bounty": true,
-      "domains": [
-        "tumblr.com",
-        "txmblr.com",
-        "umblr.com"
-      ]
-    },
-    {
       "name": "Tutanota",
       "url": "https://tutanota.com/faq/#report-vulnerability",
       "bounty": false,
