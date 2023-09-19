@@ -6593,14 +6593,6 @@
       ]
     },
     {
-      "name":"P2B Exchange",
-      "url":"https://hackenproof.com/p2b-exchange",
-      "bounty":true,
-      "domains":[
-        "p2pb2b.com"
-      ]
-    },
-    {
       "name":"Quantopian",
       "url":"https://hackerone.com/quantopian",
       "bounty":true,
