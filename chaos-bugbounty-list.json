@@ -802,14 +802,6 @@
       ]
     },
     {
-      "name":"Bitcastle",
-      "url":"https://hackenproof.com/bitcastle/bitcastle-web",
-      "bounty":true,
-      "domains":[
-        "bitcastle.io"
-      ]
-    },
-    {
       "name":"BitDefender",
       "url":"https://bugcrowd.com/bitdefender",
       "bounty":true,
