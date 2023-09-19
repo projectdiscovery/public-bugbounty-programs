@@ -1163,11 +1163,8 @@
       "bounty": true,
       "domains": [
         "chainstack.com",
-        "console.chainstack.com",
         "p2pify.com",
-        "prod-networks.chainstack.com",
-        "chainstacklabs.com",
-        "docs.chainstack.com"
+        "chainstacklabs.com"
       ]
     },
     {
@@ -2246,7 +2243,7 @@
       "url": "https://hackenproof.com/evaa",
       "bounty": true,
       "domains": [
-        "app.evaa.finance"
+        "evaa.finance"
       ]
     },
     {
@@ -2445,7 +2442,7 @@
       "url": "https://hackenproof.com/filmio"
       "bounty": true,
       "domains": [
-        "app.film.io"
+        "film.io"
       ]
     },
     {
@@ -5830,10 +5827,7 @@
       "url": "https://hackenproof.com/nicehash",
       "bounty": true,
       "domains": [
-        "test.nicehash.com/shop",
-        "test.nicehash.com/my",
-        "test.nicehash.com",
-        "test.nicex.com/my"
+        "nicehash.com"
       ]
     },
     {
@@ -8357,7 +8351,6 @@
       "bounty": true,
       "domains": [
         "tickets.kz",
-        "tickets.kz/my",
         "tickets.ua",
         "kissandfly.com",
         "travelfrom.fr"
