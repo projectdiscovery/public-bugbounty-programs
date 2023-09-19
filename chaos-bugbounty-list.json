@@ -528,13 +528,13 @@
         "asana.biz"
       ]
     },
-     {
+    {
       "name": "AssetMantle",
       "url": "https://hackenproof.com/assetmantle/assetmantle",
       "bounty": true,
       "domains": []
     },
-     {
+    {
       "name": "Asymetrix",
       "url": "https://hackenproof.com/asymetrix",
       "bounty": true,
@@ -792,6 +792,14 @@
       ]
     },
     {
+      "name": "Bitcastle",
+      "url": "https://hackenproof.com/bitcastle/bitcastle-web",
+      "bounty": true,
+      "domains": [
+        "bitcastle.io"
+      ]
+    },
+    {
       "name": "BitDefender",
       "url": "https://bugcrowd.com/bitdefender",
       "bounty": true,
@@ -806,14 +814,6 @@
       "bounty": true,
       "domains": [
         "bitdiscovery.com"
-      ]
-    },
-    {
-      "name": "Bitcastle",
-      "url": "https://hackenproof.com/bitcastle/bitcastle-web",
-      "bounty": true,
-      "domains": [
-        "bitcastle.io"
       ]
     },
     {
