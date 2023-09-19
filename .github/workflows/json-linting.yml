@@ -1,4 +1,4 @@
-name: ✅ json-syntax-check
+name: ✅ JSON Syntax
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  test:
+  json-syntax:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
