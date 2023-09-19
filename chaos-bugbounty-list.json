@@ -1234,19 +1234,6 @@
       "bounty":true,
       "domains":[
         "chainstack.com",
-        "console.chainstack.com",
-        "p2pify.com",
-        "prod-networks.chainstack.com",
-        "chainstacklabs.com",
-        "docs.chainstack.com"
-      ]
-    },
-    {
-      "name":"Chainstack",
-      "url":"https://hackenproof.com/chainstack/chainstack",
-      "bounty":true,
-      "domains":[
-        "chainstack.com",
         "p2pify.com",
         "chainstacklabs.com"
       ]
@@ -5174,14 +5161,6 @@
       ]
     },
     {
-      "name":"LetsExchange",
-      "url":"https://hackenproof.com/letsexchange/letsexchange-web-and-api",
-      "bounty":true,
-      "domains":[
-        "letsexchange.io"
-      ]
-    },
-    {
       "name":"Liberapay",
       "url":"https://hackerone.com/liberapay",
       "bounty":true,
@@ -6849,14 +6828,6 @@
       ]
     },
     {
-      "name":"PUMB.UA",
-      "url":"https://hackenproof.com/pumb-dot-ua",
-      "bounty":true,
-      "domains":[
-        "pumb.ua"
-      ]
-    },
-    {
       "name":"PureVPN",
       "url":"https://www.purevpn.com/vulnerability-disclosure-policy",
       "bounty":true,
@@ -8236,18 +8207,6 @@
       "bounty":true,
       "domains":[
         "threema.ch"
-      ]
-    },
-    {
-      "name":"Tickets Travel Network",
-      "url":"https://gobugfree.com/programs/threema",
-      "bounty":true,
-      "domains":[
-        "tickets.kz",
-        "tickets.kz/my",
-        "tickets.ua",
-        "kissandfly.com",
-        "travelfrom.fr"
       ]
     },
     {
