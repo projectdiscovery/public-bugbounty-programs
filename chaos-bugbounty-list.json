@@ -2439,7 +2439,7 @@
     },
      {
       "name": "Filmio",
-      "url": "https://hackenproof.com/filmio"
+      "url": "https://hackenproof.com/filmio",
       "bounty": true,
       "domains": [
         "film.io"
