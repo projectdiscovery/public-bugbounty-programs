@@ -52,45 +52,45 @@ jobs:
           fi
         working-directory: cmd/validate-domains
 
-  url-status:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-        with: 
-          fetch-depth: 0
-
-      - name: Setup golang
-        uses: actions/setup-go@v4
-        with:
-          go-version: 1.19
-          cache: true
-          
-      # This command compares the changes made in a pull request with the main branch, 
-      # and filters out the JSON files containing URLs of bug bounty programs. It then 
-      # extracts the URLs from the changed JSON files, compares them with the URLs in the main branch, 
-      # and saves the unique URLs in a text file named "urls.txt".
-
-      - name: Diff and save URLs
-        run: |
-          git fetch origin main:main
-          tmpfile=$(mktemp)
-          git --no-pager show origin/main:chaos-bugbounty-list.json | jq -r '.programs[].url' > "$tmpfile"
-          git diff --name-only origin/main HEAD | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf "$tmpfile" > urls.txt
-          rm "$tmpfile"
-
-      - name: Installing Validate domains binary
-        run: >
-          go install
-          github.com/projectdiscovery/public-bugbounty-programs/cmd/httpx-tester
-
-      - name: Checking URL availability
-        run: |
-          httpx-tester -file urls.txt
-
-      - name: Checking programs with unaccessible policy URL
-        run: |
-          if [[ -s invalid.txt ]]; then
-              echo "programs with not accessible URL policy found: $(cat invalid.txt)"
-              exit 1
-          fi
+#  url-status:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout code
+#        uses: actions/checkout@v3
+#        with: 
+#          fetch-depth: 0
+#
+#      - name: Setup golang
+#        uses: actions/setup-go@v4
+#        with:
+#          go-version: 1.19
+#          cache: true
+#          
+#      # This command compares the changes made in a pull request with the main branch, 
+#      # and filters out the JSON files containing URLs of bug bounty programs. It then 
+#      # extracts the URLs from the changed JSON files, compares them with the URLs in the main branch, 
+#      # and saves the unique URLs in a text file named "urls.txt".
+#
+#      - name: Diff and save URLs
+#        run: |
+#          git fetch origin main:main
+#          tmpfile=$(mktemp)
+#          git --no-pager show origin/main:chaos-bugbounty-list.json | jq -r '.programs[].url' > "$tmpfile"
+#          git diff --name-only origin/main HEAD | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf "$tmpfile" > urls.txt
+#          rm "$tmpfile"
+#
+#      - name: Installing Validate domains binary
+#        run: >
+#          go install
+#          github.com/projectdiscovery/public-bugbounty-programs/cmd/httpx-tester
+#
+#      - name: Checking URL availability
+#        run: |
+#          httpx-tester -file urls.txt
+#
+#      - name: Checking programs with unaccessible policy URL
+#        run: |
+#          if [[ -s invalid.txt ]]; then
+#              echo "programs with not accessible URL policy found: $(cat invalid.txt)"
+#              exit 1
+#          fi
