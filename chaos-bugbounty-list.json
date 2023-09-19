@@ -8876,14 +8876,6 @@
         "varonis.io"
       ]
     },
-     {
-      "name": "VeChain",
-      "url": "https://hackenproof.com/vechain",
-      "bounty": true,
-      "domains": [
-        "vechain.org"
-      ]
-    },
     {
       "name": "Veeam",
       "url": "https://hackerone.com/veeam",
