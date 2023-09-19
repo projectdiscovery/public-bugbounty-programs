@@ -800,6 +800,14 @@
       ]
     },
     {
+      "name": "Bitcastle",
+      "url": "https://hackenproof.com/bitcastle/bitcastle-web",
+      "bounty": true,
+      "domains": [
+        "bitcastle.io/en"
+      ]
+    },
+    {
       "name": "BitDefender",
       "url": "https://bugcrowd.com/bitdefender",
       "bounty": true,
@@ -814,14 +822,6 @@
       "bounty": true,
       "domains": [
         "bitdiscovery.com"
-      ]
-    },
-    {
-      "name": "Bitcastle",
-      "url": "https://hackenproof.com/bitcastle/bitcastle-web",
-      "bounty": true,
-      "domains": [
-        "bitcastle.io/en"
       ]
     },
     {
@@ -1100,7 +1100,7 @@
         "caffeine.tv"
       ]
     },
-      {
+    {
       "name": "Camino Network",
       "url": "https://hackenproof.com/camino-network/camino-protocol",
       "bounty": true,
@@ -1222,7 +1222,7 @@
         "smartcontract.com"
       ]
     },
-     {
+    {
       "name": "Chainstack",
       "url": "https://hackenproof.com/chainstack/chainstack",
       "bounty": true,
@@ -2049,12 +2049,11 @@
         "doctolib.net"
       ]
     },
-      {
+    {
       "name": "DODOEX",
       "url": "https://hackenproof.com/dodoex",
       "bounty": true,
-      "domains": [
-      ]
+      "domains": []
     },
     {
       "name": "DODOEX",
@@ -5148,7 +5147,7 @@
         "lemlist.com"
       ]
     },
-     {
+    {
       "name": "LetsExchange",
       "url": "https://hackenproof.com/letsexchange/letsexchange-web-and-api",
       "bounty": true,
@@ -5262,6 +5261,12 @@
       "domains": []
     },
     {
+      "name": "Local Traders",
+      "url": "https://hackenproof.com/local-traders/local-traders-smart-contracts",
+      "bounty": true,
+      "domains": []
+    },
+    {
       "name": "Localize",
       "url": "https://hackerone.com/localizejs",
       "bounty": true,
@@ -5320,12 +5325,6 @@
       "domains": [
         "logmeonce.com"
       ]
-    },
-     {
-      "name": "Local Traders",
-      "url": "https://hackenproof.com/local-traders/local-traders-smart-contracts",
-      "bounty": true,
-      "domains": []
     },
     {
       "name": "Lululemon",
@@ -6011,13 +6010,6 @@
       ]
     },
     {
-      "name": "NXT Technologies",
-      "url": "https://hackenproof.com/nxt-technologies/nxt-permission-smart-contract",
-      "bounty": true,
-      "domains": [
-      ]
-    },
-    {
       "name": "Nubank",
       "url": "https://hackerone.com/nubank",
       "bounty": true,
@@ -6032,6 +6024,12 @@
       "domains": [
         "nutanix.com"
       ]
+    },
+    {
+      "name": "NXT Technologies",
+      "url": "https://hackenproof.com/nxt-technologies/nxt-permission-smart-contract",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "NXT Technologies",
@@ -6810,12 +6808,12 @@
         "pubgesports.com"
       ]
     },
-        {
+    {
       "name": "PUMB.UA",
       "url": "https://hackenproof.com/pumb-dot-ua",
       "bounty": true,
       "domains": [
-        "pumb.ua",
+        "pumb.ua"
       ]
     },
     {
@@ -8202,7 +8200,7 @@
         "threema.ch"
       ]
     },
-     {
+    {
       "name": "Tickets Travel Network",
       "url": "https://gobugfree.com/programs/threema",
       "bounty": true,
