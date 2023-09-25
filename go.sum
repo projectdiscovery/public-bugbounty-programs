@@ -231,8 +231,8 @@ github.com/projectdiscovery/cdncheck v1.0.9 h1:BS15gzj9gb5AVSKqTDzPamfSgStu7nJQO
 github.com/projectdiscovery/cdncheck v1.0.9/go.mod h1:18SSl1w7rMj53CGeRIZTbDoa286a6xZIxGbaiEo4Fxs=
 github.com/projectdiscovery/clistats v0.0.19 h1:SA/qRHbmS9VEbVEPzX/ka01hZDYATL9ZjAnDatybhLw=
 github.com/projectdiscovery/clistats v0.0.19/go.mod h1:NQDAW/O7cK9xBIgk46kJjwGRkjSg5JkB8E4DvuxXr+c=
-github.com/projectdiscovery/dsl v0.0.22 h1:tT+s+Bz4L21NOtPM8nHS9p9gPwaOI8uz/KMqbBpMCz0=
-github.com/projectdiscovery/dsl v0.0.22/go.mod h1:k39cUvYjFWRJUa7ayOBRJ5EzAawJKo7XGibPub3DZEA=
+github.com/projectdiscovery/dsl v0.0.23 h1:EOtxePni7nczwPzs8T9kl3KSCD/T8uWI1XReH54ZuGs=
+github.com/projectdiscovery/dsl v0.0.23/go.mod h1:H+vNGZKrswFoTF4wgKMFgEQpgg3jXHYQafehz193GTg=
 github.com/projectdiscovery/fastdialer v0.0.37 h1:GEn0VYD/Q+KWiUlQDPP5stvIauN8+gE/eooPzrwidic=
 github.com/projectdiscovery/fastdialer v0.0.37/go.mod h1:e4Rg9mQ5mNCDFV37njgGCognM0PdLq5f8CcljBqTkRw=
 github.com/projectdiscovery/fdmax v0.0.4 h1:K9tIl5MUZrEMzjvwn/G4drsHms2aufTn1xUdeVcmhmc=
@@ -266,8 +266,8 @@ github.com/projectdiscovery/retryablehttp-go v1.0.27/go.mod h1:Lh55kA8fEJlmy4n6m
 github.com/projectdiscovery/stringsutil v0.0.2 h1:uzmw3IVLJSMW1kEg8eCStG/cGbYYZAja8BH3LqqJXMA=
 github.com/projectdiscovery/tlsx v1.1.4 h1:jXRvichO/ZfhYERch1CbNS1PRbS2KgSBj7JoWslEpIw=
 github.com/projectdiscovery/tlsx v1.1.4/go.mod h1:crzMlxOokVQDwGVm51JPZi1ZAgzxhNl1KVRmbff6pkI=
-github.com/projectdiscovery/utils v0.0.54 h1:qwTIalrK8pKYaxFObdeSfCtwDmVCN9qswc8+7jIpnBM=
-github.com/projectdiscovery/utils v0.0.54/go.mod h1:WhzbWSyGkTDn4Jvw+7jM2yP675/RARegNjoA6S7zYcc=
+github.com/projectdiscovery/utils v0.0.55 h1:QcJhedFVr13ZIJwr81fdXVxylhrub6oQCTFqweDjxe8=
+github.com/projectdiscovery/utils v0.0.55/go.mod h1:WhzbWSyGkTDn4Jvw+7jM2yP675/RARegNjoA6S7zYcc=
 github.com/projectdiscovery/wappalyzergo v0.0.109 h1:BERfwTRn1dvB1tbhyc5m67R8VkC9zbVuPsEq4VEm07k=
 github.com/projectdiscovery/wappalyzergo v0.0.109/go.mod h1:4Z3DKhi75zIPMuA+qSDDWxZvnhL4qTLmDx4dxNMu7MA=
 github.com/quic-go/quic-go v0.37.4 h1:ke8B73yMCWGq9MfrCCAw0Uzdm7GaViC3i39dsIdDlH4=
