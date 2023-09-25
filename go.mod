@@ -13,7 +13,7 @@ require (
 	github.com/projectdiscovery/utils v0.0.54
 	github.com/stretchr/testify v1.8.4
 	github.com/tidwall/gjson v1.16.0
-	golang.org/x/net v0.14.0
+	golang.org/x/net v0.15.0
 )
 
 require (
@@ -105,8 +105,8 @@ require (
 	github.com/projectdiscovery/mapcidr v1.1.2 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.6 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.9 // indirect
-	github.com/projectdiscovery/rawhttp v0.1.18 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.26 // indirect
+	github.com/projectdiscovery/rawhttp v0.1.19 // indirect
+	github.com/projectdiscovery/retryablehttp-go v1.0.27 // indirect
 	github.com/projectdiscovery/tlsx v1.1.4 // indirect
 	github.com/projectdiscovery/wappalyzergo v0.0.109 // indirect
 	github.com/quic-go/quic-go v0.37.4 // indirect
@@ -150,12 +150,12 @@ require (
 	github.com/zmap/zcrypto v0.0.0-20230422215203-9a665e1e9968 // indirect
 	go.etcd.io/bbolt v1.3.7 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/crypto v0.12.0 // indirect
+	golang.org/x/crypto v0.13.0 // indirect
 	golang.org/x/exp v0.0.0-20230810033253-352e893a4cad // indirect
 	golang.org/x/mod v0.12.0 // indirect
 	golang.org/x/oauth2 v0.11.0 // indirect
-	golang.org/x/sys v0.11.0 // indirect
-	golang.org/x/text v0.12.0 // indirect
+	golang.org/x/sys v0.12.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/tools v0.12.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
