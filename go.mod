@@ -92,7 +92,7 @@ require (
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
-	github.com/projectdiscovery/asnmap v1.0.4 // indirect
+	github.com/projectdiscovery/asnmap v1.0.5 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
 	github.com/projectdiscovery/cdncheck v1.0.9 // indirect
 	github.com/projectdiscovery/clistats v0.0.19 // indirect
@@ -103,7 +103,7 @@ require (
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
 	github.com/projectdiscovery/gostruct v0.0.1 // indirect
 	github.com/projectdiscovery/hmap v0.0.21 // indirect
-	github.com/projectdiscovery/mapcidr v1.1.2 // indirect
+	github.com/projectdiscovery/mapcidr v1.1.9 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.6 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.10 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.20 // indirect
