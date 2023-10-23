@@ -10,7 +10,7 @@ require (
 	github.com/projectdiscovery/gologger v1.1.11
 	github.com/projectdiscovery/httpx v1.3.5
 	github.com/projectdiscovery/retryabledns v1.0.39
-	github.com/projectdiscovery/utils v0.0.57
+	github.com/projectdiscovery/utils v0.0.58
 	github.com/stretchr/testify v1.8.4
 	github.com/tidwall/gjson v1.16.0
 	golang.org/x/net v0.17.0
@@ -105,7 +105,7 @@ require (
 	github.com/projectdiscovery/hmap v0.0.22 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.10 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.6 // indirect
-	github.com/projectdiscovery/ratelimit v0.0.12 // indirect
+	github.com/projectdiscovery/ratelimit v0.0.13 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.22 // indirect
 	github.com/projectdiscovery/retryablehttp-go v1.0.30 // indirect
 	github.com/projectdiscovery/tlsx v1.1.5 // indirect
