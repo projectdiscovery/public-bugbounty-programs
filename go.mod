@@ -6,11 +6,11 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/go-git/go-git/v5 v5.7.0
 	github.com/pkg/errors v0.9.1
-	github.com/projectdiscovery/goflags v0.1.25
+	github.com/projectdiscovery/goflags v0.1.26
 	github.com/projectdiscovery/gologger v1.1.11
 	github.com/projectdiscovery/httpx v1.3.6
 	github.com/projectdiscovery/retryabledns v1.0.41
-	github.com/projectdiscovery/utils v0.0.60
+	github.com/projectdiscovery/utils v0.0.62
 	github.com/stretchr/testify v1.8.4
 	github.com/tidwall/gjson v1.16.0
 	golang.org/x/net v0.17.0
@@ -81,7 +81,7 @@ require (
 	github.com/mholt/archiver v3.1.1+incompatible // indirect
 	github.com/microcosm-cc/bluemonday v1.0.25 // indirect
 	github.com/miekg/dns v1.1.56 // indirect
-	github.com/minio/selfupdate v0.6.0 // indirect
+	github.com/minio/selfupdate v0.6.1-0.20230907112617-f11e74f84ca7 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
@@ -94,7 +94,7 @@ require (
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
-	github.com/projectdiscovery/asnmap v1.0.5 // indirect
+	github.com/projectdiscovery/asnmap v1.0.6 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
 	github.com/projectdiscovery/cdncheck v1.0.9 // indirect
 	github.com/projectdiscovery/clistats v0.0.19 // indirect
@@ -105,7 +105,7 @@ require (
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
 	github.com/projectdiscovery/gostruct v0.0.2 // indirect
 	github.com/projectdiscovery/hmap v0.0.24 // indirect
-	github.com/projectdiscovery/mapcidr v1.1.14 // indirect
+	github.com/projectdiscovery/mapcidr v1.1.15 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.6 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.14 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.24 // indirect
