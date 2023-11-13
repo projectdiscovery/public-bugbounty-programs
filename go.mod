@@ -96,7 +96,7 @@ require (
 	github.com/projectdiscovery/cdncheck v1.0.9 // indirect
 	github.com/projectdiscovery/clistats v0.0.19 // indirect
 	github.com/projectdiscovery/dsl v0.0.29 // indirect
-	github.com/projectdiscovery/fastdialer v0.0.43 // indirect
+	github.com/projectdiscovery/fastdialer v0.0.44 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.5 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
