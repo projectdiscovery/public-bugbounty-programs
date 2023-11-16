@@ -1260,6 +1260,18 @@
       ]
     },
     {
+      "name": "Chime",
+      "url": "https://hackerone.com/chime",
+      "bounty": true,
+      "domains": [
+        "chime.com",
+        "chimecard.com",
+        "chimebank.com",
+        "chimepayments.com",
+        "1debit.com",
+        "chmfin.com"
+    },
+    {
       "name": "Circle",
       "url": "https://hackerone.com/circle",
       "bounty": false,
@@ -5396,7 +5408,8 @@
         "mb-cosmos.com",
         "mwbsys.com",
         "mbamupdates.com",
-        "mwb-threatintel.com"
+        "mwb-threatintel.com",
+        "threatdown.com"
       ]
     },
     {
