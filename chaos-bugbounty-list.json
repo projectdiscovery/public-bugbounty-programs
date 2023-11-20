@@ -5472,7 +5472,7 @@
     },
     {
       "name": "McDelivery",
-      "url": "https://www.mcdelivery.co.in/bug-bounty",
+      "url": "https://mcdelivery.co.in/bug-bounty",
       "bounty": true,
       "domains": [
         "mcdelivery.co.in"
