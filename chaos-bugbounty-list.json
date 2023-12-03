@@ -8324,7 +8324,10 @@
       "url": "https://www.traveloka.com/en-id/bugs",
       "bounty": true,
       "domains": [
-        "traveloka.com"
+        "traveloka.com",
+        "tvlk-data.com",
+        "travelokapay.com",
+        "tvlk-pay.com"
       ]
     },
     {
