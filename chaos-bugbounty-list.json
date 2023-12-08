@@ -809,6 +809,14 @@
       ]
     },
     {
+      "name": "BitDelta",
+      "url": "https://hackenproof.com/bitdelta/bitdelta-web",
+      "bounty": true,
+      "domains": [
+        "bitdelta.com"
+      ]
+    },
+    {
       "name": "BitDiscovery",
       "url": "https://bugcrowd.com/bitdiscovery",
       "bounty": true,
@@ -878,6 +886,14 @@
       "bounty": true,
       "domains": [
         "bitrue.com"
+      ]
+    },
+    {
+      "name": "BitStorage",
+      "url": "https://hackenproof.com/bitstorage-finance/bitstorage-web-and-api",
+      "bounty": true,
+      "domains": [
+        "bitstorage.finance"
       ]
     },
     {
@@ -1303,6 +1319,12 @@
       ]
     },
     {
+      "name": "Civic",
+      "url": "https://hackenproof.com/civic/civic-smart-contracts",
+      "bounty": true,
+      "domains": []
+    },
+    {
       "name": "cLabs",
       "url": "https://app.intigriti.com/programs/clabs/clabs/detail",
       "bounty": true,
@@ -1528,6 +1550,15 @@
       "bounty": true,
       "domains": [
         "coinstore.com"
+      ]
+    },
+    {
+      "name": "CoinTR Pro",
+      "url": "https://hackenproof.com/cointr-pro/cointr-pro-mobile-and-api",
+      "bounty": true,
+      "domains": [
+        "cointr.pro",
+        "cointr.com"
       ]
     },
     {
@@ -2443,6 +2474,12 @@
         "fanduel.com",
         "fanduel.design"
       ]
+    },
+    {
+      "name": "Fastex",
+      "url": "https://hackenproof.com/fastex/fastex-web",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Fastly VDP",
@@ -4946,6 +4983,12 @@
       ]
     },
     {
+      "name": "KINZA",
+      "url": "https://hackenproof.com/kinza/kinza-smart-contracts",
+      "bounty": true,
+      "domains": []
+    },
+    {
       "name": "KIWI.KI GmbH",
       "url": "https://hackerone.com/kiwi-ki",
       "bounty": false,
@@ -4961,6 +5004,12 @@
         "koho.ca",
         "koho.app"
       ]
+    },
+    {
+      "name": "Kolibrio",
+      "url": "https://hackenproof.com/kolibrio/alfred-telegram-trading-bot",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Kopikas Entertainment",
@@ -5360,6 +5409,12 @@
       "domains": [
         "makerdao.com"
       ]
+    },
+    {
+      "name": "Metis",
+      "url": "https://hackenproof.com/metis/metis-smart-contracts",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Mapbox",
@@ -6579,6 +6634,14 @@
       ]
     },
     {
+      "name": "Pionex",
+      "url": "https://hackenproof.com/pionex/pionex-app-and-api",
+      "bounty": true,
+      "domains": [
+        "pionex.com"
+      ]
+    },
+    {
       "name": "Pixabay",
       "url": "https://bugcrowd.com/pixabay",
       "bounty": true,
@@ -6639,6 +6702,14 @@
       "bounty": true,
       "domains": [
         "plisio.net"
+      ]
+    },
+    {
+      "name": "PointPay",
+      "url": "https://hackenproof.com/pointpay/pointpay-web-and-mobile",
+      "bounty": true,
+      "domains": [
+        "pointpay.io"
       ]
     },
     {
@@ -6735,6 +6806,14 @@
         "rezserver.com",
         "priceline.com",
         "bookingholdings.com"
+      ]
+    },
+    {
+      "name": "ProBit",
+      "url": "https://hackenproof.com/probit-global/probit-web-and-mobile",
+      "bounty": true,
+      "domains": [
+        "probit.com"
       ]
     },
     {
@@ -7488,6 +7567,12 @@
       ]
     },
     {
+      "name": "SmarDex",
+      "url": "https://hackenproof.com/smardex/smardex-smart-contracts",
+      "bounty": true,
+      "domains": []
+    },
+    {
       "name": "Smartling",
       "url": "https://help.smartling.com/hc/en-us/articles/360008147833-Bug-Bounty-Policy",
       "bounty": true,
@@ -7875,6 +7960,12 @@
       ]
     },
     {
+      "name": "Sui",
+      "url": "https://hackenproof.com/sui/sui-protocol",
+      "bounty": true,
+      "domains": []
+    },
+    {
       "name": "Superbet",
       "url": "https://hackerone.com/superbet",
       "bounty": true,
@@ -8086,7 +8177,7 @@
     },
     {
       "name": "Ternoa",
-      "url": "https://hackenproof.com/ternoa/ternoa-web-and-apps",
+      "url": "https://hackenproof.com/ternoa",
       "bounty": true,
       "domains": [
         "ternoa.network"
@@ -8204,6 +8295,14 @@
       ]
     },
     {
+      "name": "Toobit",
+      "url": "https://hackenproof.com/toobit/toobit-web-and-mobile",
+      "bounty": true,
+      "domains": [
+        "toobit.com"
+      ]
+    },
+    {
       "name": "Top Coder",
       "url": "https://hackerone.com/topcoder",
       "bounty": false,
@@ -8257,6 +8356,12 @@
       "domains": [
         "traderepublic.com"
       ]
+    },
+    {
+      "name": "Trustee",
+      "url": "https://hackenproof.com/trustee/trustee-plus-mobile",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Traveloka",
@@ -8830,6 +8935,12 @@
         "varonis.com",
         "varonis.io"
       ]
+    },
+    {
+      "name": "Vaultka",
+      "url": "https://hackenproof.com/vaultka/vaultka-smart-contracts",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "VeChain",
