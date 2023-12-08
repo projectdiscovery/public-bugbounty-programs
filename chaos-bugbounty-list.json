@@ -7989,7 +7989,7 @@
     {
       "name": "TD Bank",
       "url": "https://www.td.com/ca/en/about-td/privacy-and-security/report-vulnerability",
-      "bounty": true,
+      "bounty": false,
       "domains": [
         "td.com"
       ]
