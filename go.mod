@@ -70,7 +70,7 @@ require (
 	github.com/projectdiscovery/fileutil v0.0.0-20220609150212-453ac591c36c // indirect
 	github.com/projectdiscovery/freeport v0.0.5 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
-	github.com/projectdiscovery/hmap v0.0.29 // indirect
+	github.com/projectdiscovery/hmap v0.0.30 // indirect
 	github.com/projectdiscovery/httputil v0.0.0-20210816170244-86fd46bc09f5 // indirect
 	github.com/projectdiscovery/iputil v0.0.0-20220613112553-9b6873b2c619 // indirect
 	github.com/projectdiscovery/mapcidr v1.0.1 // indirect
