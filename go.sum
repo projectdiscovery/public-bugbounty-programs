@@ -197,8 +197,8 @@ github.com/projectdiscovery/gologger v1.1.4/go.mod h1:Bhb6Bdx2PV1nMaFLoXNBmHIU85
 github.com/projectdiscovery/gologger v1.1.12 h1:uX/QkQdip4PubJjjG0+uk5DtyAi1ANPJUvpmimXqv4A=
 github.com/projectdiscovery/gologger v1.1.12/go.mod h1:DI8nywPLERS5mo8QEA9E7gd5HZ3Je14SjJBH3F5/kLw=
 github.com/projectdiscovery/hmap v0.0.1/go.mod h1:VDEfgzkKQdq7iGTKz8Ooul0NuYHQ8qiDs6r8bPD1Sb0=
-github.com/projectdiscovery/hmap v0.0.29 h1:YPnwrvyeF0jxWloRq45rG3GZrUTu5gZYizEIn2EVp50=
-github.com/projectdiscovery/hmap v0.0.29/go.mod h1:08/3+VcqLg9W/RViplkbIiYXDNltCDlF+P7oCQblprA=
+github.com/projectdiscovery/hmap v0.0.30 h1:aGwEXDB3ZulP/RX4QGMl1yJqQtJHYJipBtnsNWiMidk=
+github.com/projectdiscovery/hmap v0.0.30/go.mod h1:7t6/O2SUexXeKwbpSy7zD2bweaEJ9mn8nu0haeVICGQ=
 github.com/projectdiscovery/httputil v0.0.0-20210816170244-86fd46bc09f5 h1:GzruqQhb+sj1rEuHRFLhWX8gH/tJ+sj1udRjOy9VCJo=
 github.com/projectdiscovery/httputil v0.0.0-20210816170244-86fd46bc09f5/go.mod h1:BueJPSPWAX11IFS6bdAqTkekiIz5Fgco5LVc1kqO9L4=
 github.com/projectdiscovery/httpx v1.2.4 h1:hLx8Rj/oI1ntwv2Q29q5VbDNiffzXY9HqbOcwGyebFo=
