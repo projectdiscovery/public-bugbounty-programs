@@ -96,17 +96,17 @@ require (
 	github.com/projectdiscovery/cdncheck v1.0.9 // indirect
 	github.com/projectdiscovery/clistats v0.0.20 // indirect
 	github.com/projectdiscovery/dsl v0.0.34 // indirect
-	github.com/projectdiscovery/fastdialer v0.0.47 // indirect
+	github.com/projectdiscovery/fastdialer v0.0.48 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.5 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
 	github.com/projectdiscovery/gostruct v0.0.2 // indirect
-	github.com/projectdiscovery/hmap v0.0.28 // indirect
+	github.com/projectdiscovery/hmap v0.0.29 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.16 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.6 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.19 // indirect
-	github.com/projectdiscovery/rawhttp v0.1.29 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.38 // indirect
+	github.com/projectdiscovery/rawhttp v0.1.30 // indirect
+	github.com/projectdiscovery/retryablehttp-go v1.0.39 // indirect
 	github.com/projectdiscovery/tlsx v1.1.5 // indirect
 	github.com/projectdiscovery/wappalyzergo v0.0.109 // indirect
 	github.com/quic-go/quic-go v0.37.4 // indirect
