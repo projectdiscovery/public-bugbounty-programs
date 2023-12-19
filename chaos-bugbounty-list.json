@@ -2240,10 +2240,12 @@
     },
     {
       "name": "EPAM",
-      "url": "https://hackerone.com/epam-bbp",
-      "bounty": true,
+      "url": "https://www.epam.com/.well-known/SecurityPolicy.html",
+      "bounty": false,
       "domains": [
-        "epam.com"
+        "epam.com",
+        "infongen.com",
+        "telescopeai.com"
       ]
     },
     {
