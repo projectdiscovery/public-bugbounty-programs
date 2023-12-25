@@ -79,7 +79,7 @@ require (
 	github.com/projectdiscovery/retryablehttp-go v1.0.39 // indirect
 	github.com/projectdiscovery/sliceutil v0.0.0-20220617151003-15892688e1d6 // indirect
 	github.com/projectdiscovery/stringsutil v0.0.2 // indirect
-	github.com/projectdiscovery/urlutil v0.0.0-20220603144104-f4c60e5107b2 // indirect
+	github.com/projectdiscovery/urlutil v0.0.1 // indirect
 	github.com/projectdiscovery/wappalyzergo v0.0.109 // indirect
 	github.com/quic-go/quic-go v0.37.4 // indirect
 	github.com/refraction-networking/utls v1.5.4 // indirect
