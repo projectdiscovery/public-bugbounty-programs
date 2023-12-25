@@ -62,7 +62,7 @@ require (
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
-	github.com/projectdiscovery/cdncheck v0.0.4-0.20220413175814-b47bc2d578b1 // indirect
+	github.com/projectdiscovery/cdncheck v1.0.9 // indirect
 	github.com/projectdiscovery/clistats v0.0.20 // indirect
 	github.com/projectdiscovery/cryptoutil v0.0.0-20210805184155-b5d2512f9345 // indirect
 	github.com/projectdiscovery/fastdialer v0.0.48 // indirect
@@ -73,7 +73,7 @@ require (
 	github.com/projectdiscovery/hmap v0.0.30 // indirect
 	github.com/projectdiscovery/httputil v0.0.0-20210816170244-86fd46bc09f5 // indirect
 	github.com/projectdiscovery/iputil v0.0.0-20220613112553-9b6873b2c619 // indirect
-	github.com/projectdiscovery/mapcidr v1.0.1 // indirect
+	github.com/projectdiscovery/mapcidr v1.1.2 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.6 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.30 // indirect
 	github.com/projectdiscovery/retryablehttp-go v1.0.39 // indirect
@@ -84,7 +84,6 @@ require (
 	github.com/quic-go/quic-go v0.37.4 // indirect
 	github.com/refraction-networking/utls v1.5.4 // indirect
 	github.com/remeh/sizedwaitgroup v1.0.0 // indirect
-	github.com/rogpeppe/go-internal v1.8.0 // indirect
 	github.com/rs/xid v1.5.0 // indirect
 	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d // indirect
 	github.com/sergi/go-diff v1.2.0 // indirect
