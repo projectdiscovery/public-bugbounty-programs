@@ -101,7 +101,7 @@ require (
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.5 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
-	github.com/projectdiscovery/gostruct v0.0.1 // indirect
+	github.com/projectdiscovery/gostruct v0.0.2 // indirect
 	github.com/projectdiscovery/hmap v0.0.31 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.15 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.6 // indirect
