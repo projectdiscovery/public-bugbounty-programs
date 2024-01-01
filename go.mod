@@ -103,7 +103,7 @@ require (
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
 	github.com/projectdiscovery/gostruct v0.0.1 // indirect
 	github.com/projectdiscovery/hmap v0.0.31 // indirect
-	github.com/projectdiscovery/mapcidr v1.1.15 // indirect
+	github.com/projectdiscovery/mapcidr v1.1.16 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.6 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.14 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.30 // indirect
