@@ -1556,6 +1556,15 @@
       ]
     },
     {
+      "name": "Compass Security",
+      "utl": "https://bugbounty.compass-security.com/bug-bounties/compass-bug-bounty",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "compass-security.com"
+      ]
+    },
+    {
       "name": "Conclusion",
       "url": "https://www.conclusion.nl/kleine-lettertjes/coordinated-vulnerability-disclosure",
       "bounty": false,
