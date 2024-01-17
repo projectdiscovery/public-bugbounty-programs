@@ -4353,6 +4353,15 @@
       ]
     },
     {
+      "name": "Hacking-Lab",
+      "url": "https://bugbounty.compass-security.com/bug-bounties/hacking-lab-bug-bounty",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "hacking-lab.com"
+      ]
+    },
+    {
       "name": "Hake Finance",
       "url": "https://immunefi.com/bounty/hakkafinance/",
       "bounty": true,
