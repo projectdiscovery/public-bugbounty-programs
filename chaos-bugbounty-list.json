@@ -6758,11 +6758,18 @@
     },
     {
       "name": "Pornhub",
-      "url": "https://hackerone.com/pornhub",
+      "url": "https://bugcrowd.com/aylo-mbb-og",
       "bounty": true,
       "domains": [
         "pornhub.com",
-        "pornhubpremium.com"
+        "pornhubpremium.com",
+        "tube8.com",
+        "redtube.com",
+        "redtubepremium.com",
+        "youporn.com",
+        "youpornpremium.com",
+        "pornmd.com",
+        "thumbzilla.com"
       ]
     },
     {
