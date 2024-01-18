@@ -28,7 +28,6 @@
       "domains": [
         "8x8.com",
         "dxi.eu",
-        "callstats.io",
         "jit.si",
         "wavecell.com",
         "ucverse.com",
@@ -39,7 +38,12 @@
         "8x8.vc",
         "easycontactnow.com",
         "8x8.spot",
-        "sameroom.io"
+        "sameroom.io",
+        "8x8cloud.net",
+        "p8t.us",
+        "8x8pilot.com",
+        "8x8staging.com",
+        "jitsi.net"
       ]
     },
     {
@@ -1256,6 +1260,19 @@
       ]
     },
     {
+      "name": "Chime",
+      "url": "https://hackerone.com/chime",
+      "bounty": true,
+      "domains": [
+        "chime.com",
+        "chimecard.com",
+        "chimebank.com",
+        "chimepayments.com",
+        "1debit.com",
+        "chmfin.com"
+      ]
+    },
+    {
       "name": "Circle",
       "url": "https://hackerone.com/circle",
       "bounty": false,
@@ -2232,10 +2249,12 @@
     },
     {
       "name": "EPAM",
-      "url": "https://hackerone.com/epam-bbp",
-      "bounty": true,
+      "url": "https://www.epam.com/.well-known/SecurityPolicy.html",
+      "bounty": false,
       "domains": [
-        "epam.com"
+        "epam.com",
+        "infongen.com",
+        "telescopeai.com"
       ]
     },
     {
@@ -4551,6 +4570,14 @@
       ]
     },
     {
+      "name": "HYPR",
+      "url": "https://hackerone.com/hypr-corp",
+      "bounty": true,
+      "domains": [
+        "hypr.com"
+      ]
+    },
+    {
       "name": "IBM",
       "url": "https://hackerone.com/ibm",
       "bounty": false,
@@ -4623,7 +4650,12 @@
       "url": "https://hackerone.com/indrive",
       "bounty": true,
       "domains": [
-        "indriver.com"
+        "indriver.com",
+        "indriver.io",
+        "indrive.com",
+        "indriverapp.com",
+        "indriverjob.com",
+        "volans.tech"
       ]
     },
     {
@@ -4979,6 +5011,15 @@
       "bounty": false,
       "domains": [
         "kiwi.ki"
+      ]
+    },
+    {
+      "name": "Kiwi.com",
+      "url": "https://hackerone.com/kiwicom",
+      "bounty": true,
+      "domains": [
+        "kiwi.com",
+        "skypicker.com"
       ]
     },
     {
@@ -5387,6 +5428,19 @@
       "bounty": true,
       "domains": [
         "makerdao.com"
+      ]
+    },
+    {
+      "name": "Malwarebytes",
+      "url": "https://hackerone.com/malwarebytes",
+      "bounty": true,
+      "domains": [
+        "malwarebytes.com",
+        "mb-cosmos.com",
+        "mwbsys.com",
+        "mbamupdates.com",
+        "mwb-threatintel.com",
+        "threatdown.com"
       ]
     },
     {
@@ -7248,6 +7302,15 @@
       ]
     },
     {
+      "name": "Say Technologies",
+      "url": "https://hackerone.com/saytechnologies",
+      "bounty": true,
+      "domains": [
+        "say.rocks",
+        "saytechnologies.com"
+      ]
+    },
+    {
       "name": "santos",
       "url": "https://bugcrowd.com/santos-vdp",
       "bounty": false,
@@ -8291,7 +8354,10 @@
       "url": "https://www.traveloka.com/en-id/bugs",
       "bounty": true,
       "domains": [
-        "traveloka.com"
+        "traveloka.com",
+        "tvlk-data.com",
+        "travelokapay.com",
+        "tvlk-pay.com"
       ]
     },
     {
