@@ -4416,6 +4416,16 @@
       ]
     },
     {
+      "name": "Hike",
+      "url": "https://bugbase.in/programs/hike-bugbounty",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "getrushapp.com",
+        "hike.in"
+      ]
+    },
+    {
       "name": "Hilton Bounty",
       "url": "https://hackerone.com/hilton",
       "bounty": true,
@@ -9458,16 +9468,6 @@
         "zynga.com",
         "zyngagames.com"
       ]
-    },
-    {
-   "name":"Hike",
-   "url":"https://bugbase.in/programs/hike-bugbounty",
-   "bounty": true,
-   "swag": false,
-   "domains":[
-      "getrushapp.com",
-      "hike.in"
-   ]
-}
+    }
   ]
 }
