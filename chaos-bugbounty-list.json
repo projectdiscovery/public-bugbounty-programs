@@ -1557,7 +1557,7 @@
     },
     {
       "name": "Compass Security",
-      "utl": "https://bugbounty.compass-security.com/bug-bounties/compass-bug-bounty",
+      "url": "https://bugbounty.compass-security.com/bug-bounties/compass-bug-bounty",
       "bounty": true,
       "swag": false,
       "domains": [
