@@ -5006,20 +5006,20 @@
       ]
     },
     {
-      "name": "KIWI.KI GmbH",
-      "url": "https://hackerone.com/kiwi-ki",
-      "bounty": false,
-      "domains": [
-        "kiwi.ki"
-      ]
-    },
-    {
       "name": "Kiwi.com",
       "url": "https://hackerone.com/kiwicom",
       "bounty": true,
       "domains": [
         "kiwi.com",
         "skypicker.com"
+      ]
+    },
+    {
+      "name": "KIWI.KI GmbH",
+      "url": "https://hackerone.com/kiwi-ki",
+      "bounty": false,
+      "domains": [
+        "kiwi.ki"
       ]
     },
     {
@@ -7302,15 +7302,6 @@
       ]
     },
     {
-      "name": "Say Technologies",
-      "url": "https://hackerone.com/saytechnologies",
-      "bounty": true,
-      "domains": [
-        "say.rocks",
-        "saytechnologies.com"
-      ]
-    },
-    {
       "name": "santos",
       "url": "https://bugcrowd.com/santos-vdp",
       "bounty": false,
@@ -7332,6 +7323,15 @@
       "bounty": true,
       "domains": [
         "savedroid.com"
+      ]
+    },
+    {
+      "name": "Say Technologies",
+      "url": "https://hackerone.com/saytechnologies",
+      "bounty": true,
+      "domains": [
+        "say.rocks",
+        "saytechnologies.com"
       ]
     },
     {
