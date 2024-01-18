@@ -6793,11 +6793,25 @@
     },
     {
       "name": "Pornhub",
-      "url": "https://hackerone.com/pornhub",
+      "url": "https://bugcrowd.com/aylo-mbb-og",
       "bounty": true,
       "domains": [
+        "tube8.com",
         "pornhub.com",
-        "pornhubpremium.com"
+        "pornhubpremium.com",
+        "redtube.com",
+        "redtubepremium.com",
+        "youporn.com",
+        "youpornpremium.com",
+        "pornmd.com",
+        "thumbzilla.com",
+        "modelhub.com",
+        "pronstore.com",
+        "tube8vip.com",
+        "pornhub.org",
+        "pornhubapparel.com",
+        "tube8.fr",
+        "tube8.es"
       ]
     },
     {
@@ -7098,14 +7112,6 @@
       "bounty": true,
       "domains": [
         "redoxengine.com"
-      ]
-    },
-    {
-      "name": "Redtube",
-      "url": "https://hackerone.com/redtube",
-      "bounty": true,
-      "domains": [
-        "redtube.com"
       ]
     },
     {
@@ -8460,16 +8466,6 @@
       "bounty": false,
       "domains": [
         "tu-chemniz.de"
-      ]
-    },
-    {
-      "name": "Tube8",
-      "url": "https://hackerone.com/tube8",
-      "bounty": true,
-      "domains": [
-        "tube8.com",
-        "tube8.es",
-        "tube8.fr"
       ]
     },
     {
