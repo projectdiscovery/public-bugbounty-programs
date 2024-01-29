@@ -245,8 +245,8 @@ github.com/projectdiscovery/freeport v0.0.5 h1:jnd3Oqsl4S8n0KuFkE5Hm8WGDP24ITBvm
 github.com/projectdiscovery/freeport v0.0.5/go.mod h1:PY0bxSJ34HVy67LHIeF3uIutiCSDwOqKD8ruBkdiCwE=
 github.com/projectdiscovery/goconfig v0.0.1 h1:36m3QjohZvemqh9bkJAakaHsm9iEZ2AcQSS18+0QX/s=
 github.com/projectdiscovery/goconfig v0.0.1/go.mod h1:CPO25zR+mzTtyBrsygqsHse0sp/4vB/PjaHi9upXlDw=
-github.com/projectdiscovery/goflags v0.1.36 h1:gElwVU9BJsUbxjyHqDTmlGsB8Br2DDxbfMQMXLYvYhg=
-github.com/projectdiscovery/goflags v0.1.36/go.mod h1:A+MLWJgGKZ2WUED0ZlW5EQ4mmJ/s71VnvY6KF5ThLaM=
+github.com/projectdiscovery/goflags v0.1.37 h1:R/8HLSLlFgShKKn8BO/uHTdnTq7D1igqszgTzK5ro7s=
+github.com/projectdiscovery/goflags v0.1.37/go.mod h1:Cnm8ezMwXsEbMjAB+p2/DnVr9e4SQ3kVl6iEm7fqzoQ=
 github.com/projectdiscovery/gologger v1.1.12 h1:uX/QkQdip4PubJjjG0+uk5DtyAi1ANPJUvpmimXqv4A=
 github.com/projectdiscovery/gologger v1.1.12/go.mod h1:DI8nywPLERS5mo8QEA9E7gd5HZ3Je14SjJBH3F5/kLw=
 github.com/projectdiscovery/gostruct v0.0.2 h1:s8gP8ApugGM4go1pA+sVlPDXaWqNP5BBDDSv7VEdG1M=
@@ -270,8 +270,8 @@ github.com/projectdiscovery/retryablehttp-go v1.0.43/go.mod h1:3z8cxmhwXyVrvHGqO
 github.com/projectdiscovery/stringsutil v0.0.2 h1:uzmw3IVLJSMW1kEg8eCStG/cGbYYZAja8BH3LqqJXMA=
 github.com/projectdiscovery/tlsx v1.1.5 h1:S8KV2ckcjW3hDBa/REmDdsZfHwYJ9eKoZ7rtgETkwkM=
 github.com/projectdiscovery/tlsx v1.1.5/go.mod h1:0a0TdWb3fYeVpuPsJuf5AGtwZIKwkY0kxdO9lojU6S4=
-github.com/projectdiscovery/utils v0.0.74 h1:mrjRm1eF3ZLIikIpWF3Nzbar/twHHqhz9WSi9fqGQeA=
-github.com/projectdiscovery/utils v0.0.74/go.mod h1:4MBUFfZ9Mm96PiWUj2zJ99sx2AVOpZkGukC6O16+p+o=
+github.com/projectdiscovery/utils v0.0.75 h1:VroGyPBTyFARP7HYa2lbmZvt40/bCaXu1q+NIhkKEmk=
+github.com/projectdiscovery/utils v0.0.75/go.mod h1:4MBUFfZ9Mm96PiWUj2zJ99sx2AVOpZkGukC6O16+p+o=
 github.com/projectdiscovery/wappalyzergo v0.0.109 h1:BERfwTRn1dvB1tbhyc5m67R8VkC9zbVuPsEq4VEm07k=
 github.com/projectdiscovery/wappalyzergo v0.0.109/go.mod h1:4Z3DKhi75zIPMuA+qSDDWxZvnhL4qTLmDx4dxNMu7MA=
 github.com/quic-go/quic-go v0.37.7 h1:AgKsQLZ1+YCwZd2GYhBUsJDYZwEkA5gENtAjb+MxONU=
