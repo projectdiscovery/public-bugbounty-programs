@@ -106,7 +106,7 @@ require (
 	github.com/projectdiscovery/hmap v0.0.37 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.16 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.7 // indirect
-	github.com/projectdiscovery/ratelimit v0.0.27 // indirect
+	github.com/projectdiscovery/ratelimit v0.0.28 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.37 // indirect
 	github.com/projectdiscovery/retryablehttp-go v1.0.46 // indirect
 	github.com/projectdiscovery/tlsx v1.1.6 // indirect
