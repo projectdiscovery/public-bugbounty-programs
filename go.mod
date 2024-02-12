@@ -108,7 +108,7 @@ require (
 	github.com/projectdiscovery/networkpolicy v0.0.7 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.28 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.37 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.46 // indirect
+	github.com/projectdiscovery/retryablehttp-go v1.0.47 // indirect
 	github.com/projectdiscovery/tlsx v1.1.6 // indirect
 	github.com/projectdiscovery/wappalyzergo v0.0.109 // indirect
 	github.com/quic-go/quic-go v0.37.7 // indirect
