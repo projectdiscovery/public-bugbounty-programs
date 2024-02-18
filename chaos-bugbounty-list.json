@@ -28,7 +28,6 @@
       "domains": [
         "8x8.com",
         "dxi.eu",
-        "callstats.io",
         "jit.si",
         "wavecell.com",
         "ucverse.com",
@@ -39,7 +38,12 @@
         "8x8.vc",
         "easycontactnow.com",
         "8x8.spot",
-        "sameroom.io"
+        "sameroom.io",
+        "8x8cloud.net",
+        "p8t.us",
+        "8x8pilot.com",
+        "8x8staging.com",
+        "jitsi.net"
       ]
     },
     {
@@ -1256,6 +1260,19 @@
       ]
     },
     {
+      "name": "Chime",
+      "url": "https://hackerone.com/chime",
+      "bounty": true,
+      "domains": [
+        "chime.com",
+        "chimecard.com",
+        "chimebank.com",
+        "chimepayments.com",
+        "1debit.com",
+        "chmfin.com"
+      ]
+    },
+    {
       "name": "Circle",
       "url": "https://hackerone.com/circle",
       "bounty": false,
@@ -1553,6 +1570,15 @@
       "bounty": false,
       "domains": [
         "companyhub.com"
+      ]
+    },
+    {
+      "name": "Compass Security",
+      "url": "https://bugbounty.compass-security.com/bug-bounties/compass-bug-bounty",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "compass-security.com"
       ]
     },
     {
@@ -2223,10 +2249,12 @@
     },
     {
       "name": "EPAM",
-      "url": "https://hackerone.com/epam-bbp",
-      "bounty": true,
+      "url": "https://www.epam.com/.well-known/SecurityPolicy.html",
+      "bounty": false,
       "domains": [
-        "epam.com"
+        "epam.com",
+        "infongen.com",
+        "telescopeai.com"
       ]
     },
     {
@@ -4344,6 +4372,15 @@
       ]
     },
     {
+      "name": "Hacking-Lab",
+      "url": "https://bugbounty.compass-security.com/bug-bounties/hacking-lab-bug-bounty",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "hacking-lab.com"
+      ]
+    },
+    {
       "name": "Hake Finance",
       "url": "https://immunefi.com/bounty/hakkafinance/",
       "bounty": true,
@@ -4395,6 +4432,16 @@
       "domains": [
         "helium.systems",
         "helium.com"
+      ]
+    },
+    {
+      "name": "Hike",
+      "url": "https://bugbase.in/programs/hike-bugbounty",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "getrushapp.com",
+        "hike.in"
       ]
     },
     {
@@ -4523,6 +4570,14 @@
       ]
     },
     {
+      "name": "HYPR",
+      "url": "https://hackerone.com/hypr-corp",
+      "bounty": true,
+      "domains": [
+        "hypr.com"
+      ]
+    },
+    {
       "name": "IBM",
       "url": "https://hackerone.com/ibm",
       "bounty": false,
@@ -4595,7 +4650,12 @@
       "url": "https://hackerone.com/indrive",
       "bounty": true,
       "domains": [
-        "indriver.com"
+        "indriver.com",
+        "indriver.io",
+        "indrive.com",
+        "indriverapp.com",
+        "indriverjob.com",
+        "volans.tech"
       ]
     },
     {
@@ -4683,7 +4743,7 @@
     },
     {
       "name": "Intuit",
-      "url": "https://hackerone.com/intuitinc",
+      "url": "https://hackerone.com/intuit_rdp",
       "bounty": false,
       "swag": false,
       "domains": [
@@ -4866,6 +4926,41 @@
       ]
     },
     {
+      "name": "Just Eat Takeaway.com",
+      "url": "https://bugcrowd.com/justeattakeaway",
+      "bounty": true,
+      "domains": [
+        "lieferando.de",
+        "yourdelivery.de",
+        "takeaway.com",
+        "thuisbezorgd.nl",
+        "pyszne.pl",
+        "lieferando.at",
+        "scoober.com",
+        "citymeal.com",
+        "just-eat.fr",
+        "eat.ch",
+        "just-eat.no",
+        "just-eat.dk",
+        "bistro.sk",
+        "10bis.co.il",
+        "justeattakeaway.com",
+        "takeawayriders.com",
+        "je-apis.com",
+        "just-data.io",
+        "just-eat.co.uk",
+        "just-eat.com",
+        "just-eat.es",
+        "just-eat.ie",
+        "just-eat.io",
+        "just-eat.it",
+        "justeat-int.com",
+        "menulog.co.nz",
+        "menulog.com.au",
+        "skipthedishes.com"
+      ]
+    },
+    {
       "name": "Kaleido",
       "url": "https://bugcrowd.com/kaleido",
       "bounty": true,
@@ -4943,6 +5038,15 @@
         "unibet.me",
         "vladcazino.ro",
         "igame.com"
+      ]
+    },
+    {
+      "name": "Kiwi.com",
+      "url": "https://hackerone.com/kiwicom",
+      "bounty": true,
+      "domains": [
+        "kiwi.com",
+        "skypicker.com"
       ]
     },
     {
@@ -5362,6 +5466,19 @@
       ]
     },
     {
+      "name": "Malwarebytes",
+      "url": "https://hackerone.com/malwarebytes",
+      "bounty": true,
+      "domains": [
+        "malwarebytes.com",
+        "mb-cosmos.com",
+        "mwbsys.com",
+        "mbamupdates.com",
+        "mwb-threatintel.com",
+        "threatdown.com"
+      ]
+    },
+    {
       "name": "Mapbox",
       "url": "https://hackerone.com/mapbox",
       "bounty": true,
@@ -5472,7 +5589,7 @@
     },
     {
       "name": "McDelivery",
-      "url": "https://www.mcdelivery.co.in/bug-bounty",
+      "url": "https://mcdelivery.co.in/bug-bounty",
       "bounty": true,
       "domains": [
         "mcdelivery.co.in"
@@ -6676,11 +6793,25 @@
     },
     {
       "name": "Pornhub",
-      "url": "https://hackerone.com/pornhub",
+      "url": "https://bugcrowd.com/aylo-mbb-og",
       "bounty": true,
       "domains": [
+        "tube8.com",
         "pornhub.com",
-        "pornhubpremium.com"
+        "pornhubpremium.com",
+        "redtube.com",
+        "redtubepremium.com",
+        "youporn.com",
+        "youpornpremium.com",
+        "pornmd.com",
+        "thumbzilla.com",
+        "modelhub.com",
+        "pronstore.com",
+        "tube8vip.com",
+        "pornhub.org",
+        "pornhubapparel.com",
+        "tube8.fr",
+        "tube8.es"
       ]
     },
     {
@@ -6739,7 +6870,7 @@
     },
     {
       "name": "ProtonMail",
-      "url": "https://protonmail.com/blog/protonmail-bug-bounty-program/",
+      "url": "https://proton.me/security/bug-bounty",
       "bounty": true,
       "swag": false,
       "domains": [
@@ -6981,14 +7112,6 @@
       "bounty": true,
       "domains": [
         "redoxengine.com"
-      ]
-    },
-    {
-      "name": "Redtube",
-      "url": "https://hackerone.com/redtube",
-      "bounty": true,
-      "domains": [
-        "redtube.com"
       ]
     },
     {
@@ -7241,6 +7364,15 @@
       "bounty": true,
       "domains": [
         "savedroid.com"
+      ]
+    },
+    {
+      "name": "Say Technologies",
+      "url": "https://hackerone.com/saytechnologies",
+      "bounty": true,
+      "domains": [
+        "say.rocks",
+        "saytechnologies.com"
       ]
     },
     {
@@ -7964,32 +8096,9 @@
       ]
     },
     {
-      "name": "Takeaway",
-      "url": "https://bugcrowd.com/takeaway",
-      "bounty": true,
-      "domains": [
-        "lieferando.de",
-        "yourdelivery.de",
-        "takeaway.com",
-        "thuisbezorgd.nl",
-        "pyszne.pl",
-        "lieferando.at",
-        "scoober.com",
-        "citymeal.com",
-        "just-eat.fr",
-        "eat.ch",
-        "just-eat.no",
-        "just-eat.dk",
-        "bistro.sk",
-        "10bis.co.il",
-        "justeattakeaway.com",
-        "takeawayriders.com"
-      ]
-    },
-    {
       "name": "TD Bank",
       "url": "https://www.td.com/ca/en/about-td/privacy-and-security/report-vulnerability",
-      "bounty": true,
+      "bounty": false,
       "domains": [
         "td.com"
       ]
@@ -8143,7 +8252,7 @@
     },
     {
       "name": "Threema",
-      "url": "https://hackenproof.com/tickets-travel-network/tickets-travel-network-slash-updated-ui",
+      "url": "https://app.gobugfree.com/programs/threema",
       "bounty": true,
       "domains": [
         "threema.ch"
@@ -8346,16 +8455,6 @@
       "bounty": false,
       "domains": [
         "tu-chemniz.de"
-      ]
-    },
-    {
-      "name": "Tube8",
-      "url": "https://hackerone.com/tube8",
-      "bounty": true,
-      "domains": [
-        "tube8.com",
-        "tube8.es",
-        "tube8.fr"
       ]
     },
     {
