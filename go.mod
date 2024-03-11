@@ -9,8 +9,8 @@ require (
 	github.com/projectdiscovery/goflags v0.1.41
 	github.com/projectdiscovery/gologger v1.1.12
 	github.com/projectdiscovery/httpx v1.5.0
-	github.com/projectdiscovery/retryabledns v1.0.57
-	github.com/projectdiscovery/utils v0.0.81
+	github.com/projectdiscovery/retryabledns v1.0.58
+	github.com/projectdiscovery/utils v0.0.82
 	github.com/stretchr/testify v1.8.4
 	github.com/tidwall/gjson v1.16.0
 	golang.org/x/net v0.21.0
@@ -104,12 +104,12 @@ require (
 	github.com/projectdiscovery/freeport v0.0.5 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
 	github.com/projectdiscovery/gostruct v0.0.2 // indirect
-	github.com/projectdiscovery/hmap v0.0.40 // indirect
+	github.com/projectdiscovery/hmap v0.0.41 // indirect
 	github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.16 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.7 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.31 // indirect
-	github.com/projectdiscovery/rawhttp v0.1.39 // indirect
+	github.com/projectdiscovery/rawhttp v0.1.40 // indirect
 	github.com/projectdiscovery/retryablehttp-go v1.0.50 // indirect
 	github.com/projectdiscovery/stringsutil v0.0.2 // indirect
 	github.com/projectdiscovery/tlsx v1.1.6 // indirect
