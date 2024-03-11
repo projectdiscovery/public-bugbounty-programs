@@ -6,7 +6,7 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/go-git/go-git/v5 v5.7.0
 	github.com/pkg/errors v0.9.1
-	github.com/projectdiscovery/goflags v0.1.41
+	github.com/projectdiscovery/goflags v0.1.42
 	github.com/projectdiscovery/gologger v1.1.12
 	github.com/projectdiscovery/httpx v1.5.0
 	github.com/projectdiscovery/retryabledns v1.0.58
@@ -113,7 +113,7 @@ require (
 	github.com/projectdiscovery/retryablehttp-go v1.0.50 // indirect
 	github.com/projectdiscovery/stringsutil v0.0.2 // indirect
 	github.com/projectdiscovery/tlsx v1.1.6 // indirect
-	github.com/projectdiscovery/useragent v0.0.38 // indirect
+	github.com/projectdiscovery/useragent v0.0.41 // indirect
 	github.com/projectdiscovery/wappalyzergo v0.0.112 // indirect
 	github.com/quic-go/quic-go v0.37.7 // indirect
 	github.com/refraction-networking/utls v1.5.4 // indirect
