@@ -494,8 +494,8 @@
     {
       "name": "Arrival",
       "url": "https://arrival.com/legal/security#purpose",
-      "bounty": true,
-      "swag": false,
+      "bounty": false,
+      "swag": true,
       "domains": [
         "arrival.com",
         "arrival.co"
