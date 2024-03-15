@@ -5515,12 +5515,6 @@
       ]
     },
     {
-      "name": "Metis",
-      "url": "https://hackenproof.com/metis/metis-smart-contracts",
-      "bounty": true,
-      "domains": []
-    },
-    {
       "name": "Malwarebytes",
       "url": "https://hackerone.com/malwarebytes",
       "bounty": true,
@@ -5699,6 +5693,12 @@
       "domains": [
         "mercadolibre.com"
       ]
+    },
+    {
+      "name": "Metis",
+      "url": "https://hackenproof.com/metis/metis-smart-contracts",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Microsoft Online Services",
@@ -8467,12 +8467,6 @@
       ]
     },
     {
-      "name": "Trustee",
-      "url": "https://hackenproof.com/trustee/trustee-plus-mobile",
-      "bounty": true,
-      "domains": []
-    },
-    {
       "name": "Traveloka",
       "url": "https://www.traveloka.com/en-id/bugs",
       "bounty": true,
@@ -8530,6 +8524,12 @@
       "domains": [
         "trint.com"
       ]
+    },
+    {
+      "name": "Trustee",
+      "url": "https://hackenproof.com/trustee/trustee-plus-mobile",
+      "bounty": true,
+      "domains": []
     },
     {
       "name": "Trustpilot",
