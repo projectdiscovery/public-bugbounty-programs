@@ -5083,6 +5083,7 @@
       "bounty": true,
       "domains": []
     },
+    {
       "name": "Kiwi.com",
       "url": "https://hackerone.com/kiwicom",
       "bounty": true,
