@@ -2769,6 +2769,31 @@
       ]
     },
     {
+      "name": "Global Media Services",
+      "url": "https://global.com/bug-bounty-policy/",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "global.com",
+        "dax.global.com",
+        "heart.co.uk",
+        "smoothradio.com",
+        "capitalfm.com",
+        "capitaldance.com",
+        "capitalxtra.com",
+        "radiox.co.uk",
+        "classicfm.com",
+        "lbc.co.uk",
+        "goldradiouk.com",
+        "bigtop40.com",
+        "globalplayer.com",
+        "popbuzz.com",
+        "makesomenoise.com",
+        "jobs.global.com",
+        "remixd.com"
+      ]
+    },
+    {
       "name": "Gmelius",
       "url": "https://hackerone.com/gmelius",
       "bounty": false,
@@ -9652,31 +9677,6 @@
       "domains": [
         "zynga.com",
         "zyngagames.com"
-      ]
-    },
-    {
-      "name": "Global Media Services",
-      "url": "https://global.com/bug-bounty-policy/",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "global.com",
-        "dax.global.com",
-        "heart.co.uk",
-        "smoothradio.com",
-        "capitalfm.com",
-        "capitaldance.com",
-        "capitalxtra.com",
-        "radiox.co.uk",
-        "classicfm.com",
-        "lbc.co.uk",
-        "goldradiouk.com",
-        "bigtop40.com",
-        "globalplayer.com",
-        "popbuzz.com",
-        "makesomenoise.com",
-        "jobs.global.com",
-        "remixd.com"
       ]
     }
   ]
