@@ -2,9 +2,8 @@
   "programs": [
     {
       "name": "1inch",
-      "url": "https://hackenproof.com/1inch",
+      "url": "https://hackenproof.com/1inch/1inch-smart-contract",
       "bounty": true,
-      "swag": true,
       "domains": []
     },
     {
@@ -244,7 +243,7 @@
     },
     {
       "name": "AlphaX",
-      "url": "https://hackenproof.com/alphax",
+      "url": "https://hackenproof.com/alphax/alphax-exchange",
       "bounty": true,
       "domains": [
         "https://alphax.com/",
@@ -787,7 +786,7 @@
     },
     {
       "name": "BingX Exchange",
-      "url": "https://hackenproof.com/bingx",
+      "url": "https://hackenproof.com/bingx/bingx-exchange",
       "bounty": true,
       "domains": [
         "bingx.com",
@@ -796,7 +795,7 @@
     },
     {
       "name": "Bit.com",
-      "url": "https://hackenproof.com/bit-dot-com",
+      "url": "https://hackenproof.com/bit-dot-com/bit-dot-com",
       "bounty": true,
       "domains": [
         "bit.com"
@@ -813,7 +812,7 @@
     },
     {
       "name": "Bitcastle",
-      "url": "https://hackenproof.com/bitcastle",
+      "url": "https://hackenproof.com/bitcastle/bitcastle-web",
       "bounty": true,
       "domains": [
         "bitcastle.io"
@@ -830,7 +829,7 @@
     },
     {
       "name": "BitDelta",
-      "url": "https://hackenproof.com/bitdelta",
+      "url": "https://hackenproof.com/bitdelta/bitdelta-web",
       "bounty": true,
       "domains": [
         "bitdelta.com"
@@ -862,7 +861,7 @@
     },
     {
       "name": "BitForex",
-      "url": "https://hackenproof.com/bitforex",
+      "url": "https://hackenproof.com/bitforex/bitforex",
       "bounty": true,
       "domains": [
         "bitforex.com"
@@ -878,7 +877,7 @@
     },
     {
       "name": "Bitkub",
-      "url": "https://hackenproof.com/bitkub",
+      "url": "https://hackenproof.com/bitkub/bitkub",
       "bounty": true,
       "domains": [
         "bitkub.com"
@@ -902,7 +901,7 @@
     },
     {
       "name": "Bitrue",
-      "url": "https://hackenproof.com/bitrue",
+      "url": "https://hackenproof.com/bitrue/bitrue",
       "bounty": true,
       "domains": [
         "bitrue.com"
@@ -910,7 +909,7 @@
     },
     {
       "name": "BitStorage",
-      "url": "https://hackenproof.com/bitstorage-finance",
+      "url": "https://hackenproof.com/bitstorage-finance/bitstorage-web-and-api",
       "bounty": true,
       "domains": [
         "bitstorage.finance"
@@ -934,7 +933,7 @@
     },
     {
       "name": "BKEX",
-      "url": "https://hackenproof.com/bkex",
+      "url": "https://hackenproof.com/bkex/bkex",
       "bounty": true,
       "domains": [
         "bkk.fun",
@@ -989,7 +988,7 @@
     },
     {
       "name": "BloFin",
-      "url": "https://hackenproof.com/blofin",
+      "url": "https://hackenproof.com/blofin/blofin-web-and-mobile",
       "bounty": true,
       "domains": [
         "https://blofin.com/",
@@ -1005,7 +1004,7 @@
     },
     {
       "name": "Blueberry Protocol Foundation",
-      "url": "https://hackenproof.com/blueberry-protocol-foundation",
+      "url": "https://hackenproof.com/blueberry-protocol-foundation/blueberry-protocol-smart-contracts",
       "bounty": true,
       "domains": []
     },
@@ -1350,7 +1349,7 @@
     },
     {
       "name": "CITEX Exchange",
-      "url": "https://hackenproof.com/citex-exchange",
+      "url": "https://hackenproof.com/citex-exchange/citex-web-and-api",
       "bounty": true,
       "domains": [
         "citex.info",
@@ -1368,7 +1367,7 @@
     },
     {
       "name": "Civic",
-      "url": "https://hackenproof.com/civic",
+      "url": "https://hackenproof.com/civic/civic-smart-contracts",
       "bounty": true,
       "domains": []
     },
@@ -1928,7 +1927,7 @@
     },
     {
       "name": "Deepcoin",
-      "url": "https://hackenproof.com/deepcoin",
+      "url": "https://hackenproof.com/deepcoin/deepcoin-web-and-mobile",
       "bounty": true,
       "domains": [
         "https://www.deepcoin.com/",
@@ -2050,7 +2049,7 @@
     },
     {
       "name": "DeXe Protocol",
-      "url": "https://hackenproof.com/dexe-protocol",
+      "url": "https://hackenproof.com/dexe-protocol/dexe-protocol-smart-contracts",
       "bounty": true,
       "domains": []
     },
@@ -2306,7 +2305,7 @@
     },
     {
       "name": "ENVELOP",
-      "url": "https://hackenproof.com/envelop",
+      "url": "https://hackenproof.com/envelop/envelop-smart-contracts",
       "bounty": true,
       "domains": []
     },
@@ -2514,7 +2513,7 @@
     },
     {
       "name": "Exzi",
-      "url": "https://hackenproof.com/exzi/",
+      "url": "https://hackenproof.com/exzi/exzi-web-and-mobile",
       "bounty": true,
       "domains": [
         "https://exzi.com/"
@@ -4554,7 +4553,7 @@
     },
     {
       "name": "Horizon Protocol",
-      "url": "https://hackenproof.com/horizon-protocol",
+      "url": "https://hackenproof.com/horizon-protocol/horizon-protocol-smart-contracts",
       "bounty": true,
       "domains": []
     },
@@ -4719,7 +4718,7 @@
     },
     {
       "name": "Impermax Finance",
-      "url": "https://hackenproof.com/impermax-finance",
+      "url": "https://hackenproof.com/impermax-finance/impermax-finance-smart-contracts",
       "bounty": true,
       "domains": []
     },
@@ -5756,13 +5755,13 @@
     },
     {
       "name": "Metamask",
-      "url": "https://hackenproof.com/metamask",
+      "url": "https://hackenproof.com/metamask/metamask-validator-staking-smart-contracts",
       "bounty": true,
       "domains": []
     },
     {
       "name": "Metis",
-      "url": "https://hackenproof.com/metis",
+      "url": "https://hackenproof.com/metis/metis-smart-contracts",
       "bounty": true,
       "domains": []
     },
@@ -6008,7 +6007,7 @@
     },
     {
       "name": "Mysten Labs",
-      "url": "https://hackenproof.com/mysten-labs",
+      "url": "https://hackenproof.com/mysten-labs/sui-wallet",
       "bounty": true,
       "domains": []
     },
@@ -6413,7 +6412,7 @@
     },
     {
       "name": "OORT",
-      "url": "https://hackenproof.com/oort",
+      "url": "https://hackenproof.com/oort/oort-protocol",
       "bounty": false,
       "domains": []
     },
@@ -6909,7 +6908,7 @@
     },
     {
       "name": "Polkalokr",
-      "url": "https://hackenproof.com/polkalokr",
+      "url": "https://hackenproof.com/polkalokr/polkalokr-1",
       "bounty": true,
       "domains": [
         "polkalokr.com"
@@ -6925,7 +6924,7 @@
     },
     {
       "name": "Poloniex",
-      "url": "https://hackenproof.com/poloniex",
+      "url": "https://hackenproof.com/poloniex/poloniex-web-and-api",
       "bounty": true,
       "domains": [
         "poloniex.com",
@@ -6943,7 +6942,7 @@
     },
     {
       "name": "Polygon Technology",
-      "url": "https://hackenproof.com/polygon-technology",
+      "url": "https://hackenproof.com/polygon-technology/polygon-pos",
       "bounty": true,
       "domains": []
     },
@@ -7684,7 +7683,7 @@
     },
     {
       "name": "Shido",
-      "url": "https://hackenproof.com/shido",
+      "url": "https://hackenproof.com/shido/shido-network-protocol",
       "bounty": true,
       "domains": []
     },
@@ -7808,7 +7807,7 @@
     },
     {
       "name": "SmarDex",
-      "url": "https://hackenproof.com/smardex",
+      "url": "https://hackenproof.com/smardex/smardex-smart-contracts",
       "bounty": true,
       "domains": []
     },
@@ -7839,7 +7838,7 @@
     },
     {
       "name": "Smilee",
-      "url": "https://hackenproof.com/smilee",
+      "url": "https://hackenproof.com/smilee/smilee-smart-contracts",
       "bounty": true,
       "domains": []
     },
@@ -8207,7 +8206,7 @@
     },
     {
       "name": "Sui",
-      "url": "https://hackenproof.com/sui",
+      "url": "https://hackenproof.com/sui/sui-protocol",
       "bounty": true,
       "domains": []
     },
@@ -8222,7 +8221,7 @@
     },
     {
       "name": "Superfluid",
-      "url": "https://hackenproof.com/superfluid",
+      "url": "https://hackenproof.com/superfluid/superfluid-super-token-smart-contracts",
       "bounty": true,
       "domains": []
     },
@@ -8421,7 +8420,7 @@
     },
     {
       "name": "TETU",
-      "url": "https://hackenproof.com/tetu",
+      "url": "https://hackenproof.com/tetu/tetu-smart-contracts",
       "bounty": true,
       "domains": []
     },
@@ -8465,7 +8464,7 @@
     },
     {
       "name": "Tickets Travel Network",
-      "url": "https://hackenproof.com/tickets-travel-network",
+      "url": "https://hackenproof.com/tickets-travel-network/tickets-travel-network-slash-updated-ui",
       "bounty": true,
       "domains": [
         "tickets.kz",
@@ -8498,7 +8497,7 @@
     },
     {
       "name": "Tokenize Xchange",
-      "url": "https://hackenproof.com/tokenize-xchange",
+      "url": "https://hackenproof.com/tokenize-xchange/tokenize-xchange-web-and-mobile",
       "bounty": true,
       "domains": [
         "https://tokenize.exchange/"
@@ -8527,7 +8526,7 @@
     },
     {
       "name": "TON Diamonds",
-      "url": "https://hackenproof.com/ton-diamonds",
+      "url": "https://hackenproof.com/ton-diamonds/ton-diamonds-web",
       "bounty": true,
       "domains": [
         "https://ton.diamonds/"
@@ -9012,7 +9011,7 @@
     },
     {
       "name": "Unicorn Ultra",
-      "url": "https://hackenproof.com/unicorn-ultra/",
+      "url": "https://hackenproof.com/unicorn-ultra/u2staking-web",
       "bounty": true,
       "domains": [
         "https://staking.uniultra.xyz/"
