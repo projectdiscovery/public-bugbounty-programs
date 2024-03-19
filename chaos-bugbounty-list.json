@@ -242,15 +242,6 @@
       ]
     },
     {
-      "name": "AlphaX",
-      "url": "https://hackenproof.com/alphax/alphax-exchange",
-      "bounty": true,
-      "domains": [
-        "https://alphax.com/",
-        "https://agent.alphax.com"
-      ]
-    },
-    {
       "name": "Algolia",
       "url": "https://hackerone.com/algolia",
       "bounty": true,
@@ -349,6 +340,15 @@
         "fax.plus",
         "sign.plus",
         "alohi.com"
+      ]
+    },
+    {
+      "name": "AlphaX",
+      "url": "https://hackenproof.com/alphax/alphax-exchange",
+      "bounty": true,
+      "domains": [
+        "https://alphax.com/",
+        "https://agent.alphax.com"
       ]
     },
     {
@@ -1008,7 +1008,6 @@
       "bounty": true,
       "domains": []
     },
-    
     {
       "name": "Bluehost",
       "url": "https://bugcrowd.com/newfold-bluehostindia-vdp",
@@ -1926,15 +1925,6 @@
       ]
     },
     {
-      "name": "Deepcoin",
-      "url": "https://hackenproof.com/deepcoin/deepcoin-web-and-mobile",
-      "bounty": true,
-      "domains": [
-        "https://www.deepcoin.com/",
-        "https://www.deepcoin.com/en/apiPage"
-      ]
-    },
-    {
       "name": "De Rechtspraak",
       "url": "https://www.rechtspraak.nl/English/Contact/Pages/Contact-point-vulnerabilities-responsible-disclosure.aspx",
       "bounty": false,
@@ -1952,6 +1942,15 @@
         "asnbank.nl",
         "blgwonen.nl",
         "regiobank.nl"
+      ]
+    },
+    {
+      "name": "Deepcoin",
+      "url": "https://hackenproof.com/deepcoin/deepcoin-web-and-mobile",
+      "bounty": true,
+      "domains": [
+        "https://www.deepcoin.com/",
+        "https://www.deepcoin.com/en/apiPage"
       ]
     },
     {
