@@ -2177,8 +2177,9 @@
     },
     {
       "name": "Dutch Tax Office",
-      "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/standaard_functies/prive/contact/fraude_misdaad_en_misstanden_melden/datalek-beveiligingslek-misbruik-computersystemen/datalek-beveiligingslek-misbruik-computersystemen",
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/standaard_functies/individuals/contact/data-leak-vulnerability-abuse-computer-systems/coordinated-vulnerability-disclosure",
       "bounty": false,
+      "swag": true,
       "domains": [
         "belastingdienst.nl"
       ]
