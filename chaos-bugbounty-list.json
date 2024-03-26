@@ -9827,6 +9827,28 @@
         "zynga.com",
         "zyngagames.com"
       ]
+    },
+    {
+      "name": "Nintendo Server",
+      "url": "https://hackerone.com/nintendo-server/",
+      "bounty": true,
+      "domains": [
+        "nintendo.nl",
+        "nintendo.be",
+        "nintendo.lu",
+        "nintendo-europe.com",
+        "nintendo.it",
+        "nintendo.de",
+        "paymentweb.nintendo.com",
+        "nintendo.ch",
+        "nintendo.es",
+        "nintendo.fr",
+        "nintendo.pt",
+        "nintendo.at",
+        "nintendo.es",
+        "nintendo.eu",
+        "nintendo.co.uk"
+      ]
     }
   ]
 }
