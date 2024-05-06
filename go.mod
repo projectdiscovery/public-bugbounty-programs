@@ -11,8 +11,8 @@ require (
 	github.com/projectdiscovery/goflags v0.1.51
 	github.com/projectdiscovery/gologger v1.1.12
 	github.com/projectdiscovery/httpx v1.6.0
-	github.com/projectdiscovery/retryabledns v1.0.58
-	github.com/projectdiscovery/utils v0.0.91
+	github.com/projectdiscovery/retryabledns v1.0.59
+	github.com/projectdiscovery/utils v0.0.92
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/gjson v1.16.0
 	golang.org/x/net v0.24.0
