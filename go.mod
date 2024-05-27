@@ -111,7 +111,7 @@ require (
 	github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.34 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.8 // indirect
-	github.com/projectdiscovery/ratelimit v0.0.39 // indirect
+	github.com/projectdiscovery/ratelimit v0.0.43 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.44 // indirect
 	github.com/projectdiscovery/retryablehttp-go v1.0.61 // indirect
 	github.com/projectdiscovery/tlsx v1.1.6 // indirect
@@ -166,6 +166,7 @@ require (
 	golang.org/x/sys v0.19.0 // indirect
 	golang.org/x/term v0.19.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/time v0.5.0 // indirect
 	golang.org/x/tools v0.13.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
