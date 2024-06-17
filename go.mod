@@ -11,8 +11,8 @@ require (
 	github.com/projectdiscovery/goflags v0.1.55
 	github.com/projectdiscovery/gologger v1.1.12
 	github.com/projectdiscovery/httpx v1.6.3
-	github.com/projectdiscovery/retryabledns v1.0.62
-	github.com/projectdiscovery/utils v0.1.1
+	github.com/projectdiscovery/retryabledns v1.0.63
+	github.com/projectdiscovery/utils v0.1.4
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/gjson v1.16.0
 	golang.org/x/net v0.25.0
@@ -103,18 +103,18 @@ require (
 	github.com/projectdiscovery/cdncheck v1.0.9 // indirect
 	github.com/projectdiscovery/clistats v0.0.20 // indirect
 	github.com/projectdiscovery/dsl v0.1.2 // indirect
-	github.com/projectdiscovery/fastdialer v0.1.1 // indirect
+	github.com/projectdiscovery/fastdialer v0.1.3 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.5 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
 	github.com/projectdiscovery/gostruct v0.0.2 // indirect
-	github.com/projectdiscovery/hmap v0.0.45 // indirect
+	github.com/projectdiscovery/hmap v0.0.46 // indirect
 	github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.34 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.8 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.45 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.53 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.63 // indirect
+	github.com/projectdiscovery/retryablehttp-go v1.0.64 // indirect
 	github.com/projectdiscovery/tlsx v1.1.6 // indirect
 	github.com/projectdiscovery/useragent v0.0.55 // indirect
 	github.com/projectdiscovery/wappalyzergo v0.1.1 // indirect
