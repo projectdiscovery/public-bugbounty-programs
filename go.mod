@@ -117,7 +117,7 @@ require (
 	github.com/projectdiscovery/retryablehttp-go v1.0.64 // indirect
 	github.com/projectdiscovery/tlsx v1.1.6 // indirect
 	github.com/projectdiscovery/useragent v0.0.55 // indirect
-	github.com/projectdiscovery/wappalyzergo v0.1.1 // indirect
+	github.com/projectdiscovery/wappalyzergo v0.1.6 // indirect
 	github.com/quic-go/quic-go v0.42.0 // indirect
 	github.com/refraction-networking/utls v1.5.4 // indirect
 	github.com/remeh/sizedwaitgroup v1.0.0 // indirect
