@@ -102,7 +102,7 @@ require (
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/projectdiscovery/asnmap v1.1.0 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
-	github.com/projectdiscovery/cdncheck v1.0.11 // indirect
+	github.com/projectdiscovery/cdncheck v1.1.0 // indirect
 	github.com/projectdiscovery/clistats v0.0.20 // indirect
 	github.com/projectdiscovery/dsl v0.1.4 // indirect
 	github.com/projectdiscovery/fastdialer v0.1.5 // indirect
@@ -148,7 +148,6 @@ require (
 	github.com/weppos/publicsuffix-go v0.30.1 // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
-	github.com/yl2chen/cidranger v1.0.2 // indirect
 	github.com/ysmood/fetchup v0.2.3 // indirect
 	github.com/ysmood/goob v0.4.0 // indirect
 	github.com/ysmood/got v0.34.1 // indirect
