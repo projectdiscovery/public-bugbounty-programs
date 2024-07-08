@@ -10,7 +10,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/goflags v0.1.58
 	github.com/projectdiscovery/gologger v1.1.13
-	github.com/projectdiscovery/httpx v1.6.3
+	github.com/projectdiscovery/httpx v1.6.5
 	github.com/projectdiscovery/retryabledns v1.0.65
 	github.com/projectdiscovery/utils v0.1.6
 	github.com/stretchr/testify v1.9.0
@@ -122,9 +122,7 @@ require (
 	github.com/projectdiscovery/wappalyzergo v0.1.8 // indirect
 	github.com/quic-go/quic-go v0.42.0 // indirect
 	github.com/refraction-networking/utls v1.5.4 // indirect
-	github.com/remeh/sizedwaitgroup v1.0.0 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
-	github.com/rogpeppe/go-internal v1.12.0 // indirect
 	github.com/rs/xid v1.5.0 // indirect
 	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d // indirect
 	github.com/sashabaranov/go-openai v1.14.2 // indirect
