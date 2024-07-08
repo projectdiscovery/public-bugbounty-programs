@@ -114,7 +114,7 @@ require (
 	github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.34 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.9 // indirect
-	github.com/projectdiscovery/ratelimit v0.0.45 // indirect
+	github.com/projectdiscovery/ratelimit v0.0.46 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.55 // indirect
 	github.com/projectdiscovery/retryablehttp-go v1.0.68 // indirect
 	github.com/projectdiscovery/tlsx v1.1.6 // indirect
