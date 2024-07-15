@@ -9,10 +9,10 @@ require (
 	github.com/go-git/go-git/v5 v5.7.0
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/goflags v0.1.58
-	github.com/projectdiscovery/gologger v1.1.13
+	github.com/projectdiscovery/gologger v1.1.15
 	github.com/projectdiscovery/httpx v1.6.5
 	github.com/projectdiscovery/retryabledns v1.0.65
-	github.com/projectdiscovery/utils v0.1.6
+	github.com/projectdiscovery/utils v0.2.0
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/gjson v1.16.0
 	golang.org/x/net v0.26.0
