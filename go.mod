@@ -11,8 +11,8 @@ require (
 	github.com/projectdiscovery/goflags v0.1.58
 	github.com/projectdiscovery/gologger v1.1.15
 	github.com/projectdiscovery/httpx v1.6.6
-	github.com/projectdiscovery/retryabledns v1.0.66
-	github.com/projectdiscovery/utils v0.2.1
+	github.com/projectdiscovery/retryabledns v1.0.67
+	github.com/projectdiscovery/utils v0.2.2
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/gjson v1.16.0
 	golang.org/x/net v0.26.0
@@ -50,7 +50,6 @@ require (
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/fatih/color v1.15.0 // indirect
 	github.com/gaissmai/bart v0.9.5 // indirect
-	github.com/gaukas/godicttls v0.0.4 // indirect
 	github.com/go-faker/faker/v4 v4.1.1 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
 	github.com/go-git/go-billy/v5 v5.4.1 // indirect
@@ -74,7 +73,7 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kataras/jwt v0.1.8 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
-	github.com/klauspost/compress v1.16.7 // indirect
+	github.com/klauspost/compress v1.17.4 // indirect
 	github.com/klauspost/pgzip v1.2.5 // indirect
 	github.com/kljensen/snowball v0.8.0 // indirect
 	github.com/logrusorgru/aurora v2.0.3+incompatible // indirect
@@ -105,7 +104,7 @@ require (
 	github.com/projectdiscovery/cdncheck v1.1.0 // indirect
 	github.com/projectdiscovery/clistats v0.0.20 // indirect
 	github.com/projectdiscovery/dsl v0.1.6 // indirect
-	github.com/projectdiscovery/fastdialer v0.1.6 // indirect
+	github.com/projectdiscovery/fastdialer v0.2.0 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.5 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
@@ -116,12 +115,11 @@ require (
 	github.com/projectdiscovery/networkpolicy v0.0.9 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.46 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.55 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.68 // indirect
+	github.com/projectdiscovery/retryablehttp-go v1.0.69 // indirect
 	github.com/projectdiscovery/tlsx v1.1.6 // indirect
 	github.com/projectdiscovery/useragent v0.0.57 // indirect
 	github.com/projectdiscovery/wappalyzergo v0.1.8 // indirect
-	github.com/quic-go/quic-go v0.42.0 // indirect
-	github.com/refraction-networking/utls v1.5.4 // indirect
+	github.com/refraction-networking/utls v1.6.7 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
 	github.com/rs/xid v1.5.0 // indirect
 	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d // indirect
