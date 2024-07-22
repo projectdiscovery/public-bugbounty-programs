@@ -8,7 +8,7 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/go-git/go-git/v5 v5.7.0
 	github.com/pkg/errors v0.9.1
-	github.com/projectdiscovery/goflags v0.1.58
+	github.com/projectdiscovery/goflags v0.1.60
 	github.com/projectdiscovery/gologger v1.1.15
 	github.com/projectdiscovery/httpx v1.6.6
 	github.com/projectdiscovery/retryabledns v1.0.67
