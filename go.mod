@@ -9,9 +9,9 @@ require (
 	github.com/go-git/go-git/v5 v5.7.0
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/goflags v0.1.60
-	github.com/projectdiscovery/gologger v1.1.15
+	github.com/projectdiscovery/gologger v1.1.16
 	github.com/projectdiscovery/httpx v1.6.6
-	github.com/projectdiscovery/retryabledns v1.0.67
+	github.com/projectdiscovery/retryabledns v1.0.68
 	github.com/projectdiscovery/utils v0.2.2
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/gjson v1.16.0
@@ -104,7 +104,7 @@ require (
 	github.com/projectdiscovery/cdncheck v1.1.0 // indirect
 	github.com/projectdiscovery/clistats v0.0.20 // indirect
 	github.com/projectdiscovery/dsl v0.1.6 // indirect
-	github.com/projectdiscovery/fastdialer v0.2.0 // indirect
+	github.com/projectdiscovery/fastdialer v0.2.1 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.5 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
@@ -114,7 +114,7 @@ require (
 	github.com/projectdiscovery/mapcidr v1.1.34 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.9 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.46 // indirect
-	github.com/projectdiscovery/rawhttp v0.1.55 // indirect
+	github.com/projectdiscovery/rawhttp v0.1.59 // indirect
 	github.com/projectdiscovery/retryablehttp-go v1.0.70 // indirect
 	github.com/projectdiscovery/tlsx v1.1.6 // indirect
 	github.com/projectdiscovery/useragent v0.0.61 // indirect
