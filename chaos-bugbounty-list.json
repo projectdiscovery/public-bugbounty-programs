@@ -1895,7 +1895,7 @@
       "bounty": true,
       "domains": [
         "datadome.co",
-        "captcha-delivery.com",
+        "captcha-delivery.com"
       ]
     },
     {
@@ -9835,40 +9835,40 @@
       ]
     },
     {
-   "name":"YesWeHack",
-   "url":"https://yeswehack.com/programs/vfs-global-bug-bounty-program",
-   "bounty": true,
-   "domains":[
-      "vfsglobal.com",
-      "vfsglobalco.uk",
-      "vfsglobal.ca",
-      "vfsevisa.com",
+      "name": "YesWeHack",
+      "url": "https://yeswehack.com/programs/vfs-global-bug-bounty-program",
+      "bounty": true,
+      "domains": [
+        "vfsglobal.com",
+        "vfsglobalco.uk",
+        "vfsglobal.ca",
+        "vfsevisa.com"
       ]
     },
     {
-     "name":"YesWeHack",
-     "url":"https://yeswehack.com/programs/infomaniak-bug-bounty-program",
-     "bounty": true,
-     "domains":[
+      "name": "YesWeHack",
+      "url": "https://yeswehack.com/programs/infomaniak-bug-bounty-program",
+      "bounty": true,
+      "domains": [
         "kdrive.infomaniak.com",
         "kchat.infomaniak.com",
         "vod2.infomaniak.com",
-        "vfsevisa.com",
+        "vfsevisa.com"
       ]
     },
     {
-     "name":"YesWeHack",
-     "url":"https://yeswehack.com/programs/okto-bug-bounty-program",
-     "bounty": true,
-     "domains":[
+      "name": "YesWeHack",
+      "url": "https://yeswehack.com/programs/okto-bug-bounty-program",
+      "bounty": true,
+      "domains": [
         "okto.tech"
       ]
     },
     {
-     "name":"YesWeHack",
-     "url":"https://yeswehack.com/programs/harman-international-web-applications",
-     "bounty": true,
-     "domains":[
+      "name": "YesWeHack",
+      "url": "https://yeswehack.com/programs/harman-international-web-applications",
+      "bounty": true,
+      "domains": [
         "jbl.com",
         "harmanaudio.com",
         "harmankardon.com",
@@ -9885,34 +9885,34 @@
       ]
     },
     {
-     "name":"YesWeHack",
-     "url":"https://yeswehack.com/programs/spacelift-io-bug-bounty-program",
-     "bounty": true,
-     "domains":[
+      "name": "YesWeHack",
+      "url": "https://yeswehack.com/programs/spacelift-io-bug-bounty-program",
+      "bounty": true,
+      "domains": [
         "app.spacelift.dev"
       ]
     },
     {
-     "name":"YesWeHack",
-     "url":"https://yeswehack.com/programs/govtech-vulnerability-disclosure-programme-policy",
-     "bounty": true,
-     "domains":[
+      "name": "YesWeHack",
+      "url": "https://yeswehack.com/programs/govtech-vulnerability-disclosure-programme-policy",
+      "bounty": true,
+      "domains": [
         "gov.sg"
       ]
     },
     {
-     "name":"YesWeHack",
-     "url":"https://yeswehack.com/programs/ezviz-bug-bounty-program#program-description",
-     "bounty": true,
-     "domains":[
+      "name": "YesWeHack",
+      "url": "https://yeswehack.com/programs/ezviz-bug-bounty-program#program-description",
+      "bounty": true,
+      "domains": [
         "ys7.com"
       ]
     },
     {
-     "name":"YesWeHack",
-     "url":"https://yeswehack.com/programs/coindcx-bug-bounty-program#program-description",
-     "bounty": true,
-     "domains":[
+      "name": "YesWeHack",
+      "url": "https://yeswehack.com/programs/coindcx-bug-bounty-program#program-description",
+      "bounty": true,
+      "domains": [
         "coindcx.com"
       ]
     }
