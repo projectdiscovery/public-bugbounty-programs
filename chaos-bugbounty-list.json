@@ -1548,12 +1548,10 @@
     },
     {
       "name": "Coindcx",
-      "url": "https://bugcrowd.com/coindcx-og",
+      "url": "https://yeswehack.com/programs/coindcx-bug-bounty-program#program-description",
       "bounty": true,
       "domains": [
-        "coindcx.com",
-        "dcxstage.com",
-        "dcxlearn.com"
+        "coindcx.com"
       ]
     },
     {
@@ -2519,6 +2517,14 @@
       "bounty": true,
       "domains": [
         "https://exzi.com/"
+      ]
+    },
+    {
+      "name": "Ezviz",
+      "url": "https://yeswehack.com/programs/ezviz-bug-bounty-program#program-description",
+      "bounty": true,
+      "domains": [
+        "ys7.com"
       ]
     },
     {
@@ -4386,6 +4392,14 @@
       ]
     },
     {
+      "name": "Govtech",
+      "url": "https://yeswehack.com/programs/govtech-vulnerability-disclosure-programme-policy",
+      "bounty": true,
+      "domains": [
+        "gov.sg"
+      ]
+    },
+    {
       "name": "Greenhouse.io",
       "url": "https://hackerone.com/greenhouse",
       "bounty": true,
@@ -4508,6 +4522,26 @@
         "betterscience.org",
         "fuzzing-project.org",
         "hboeck.de"
+      ]
+    },
+    {
+      "name": "Harman International",
+      "url": "https://yeswehack.com/programs/harman-international-web-applications",
+      "bounty": true,
+      "domains": [
+        "jbl.com",
+        "harmanaudio.com",
+        "harmankardon.com",
+        "infinitylab.com",
+        "support.jbl.com",
+        "jbl.nl",
+        "jbl.ru",
+        "uk.jbl.com",
+        "uk.harmanaudio.com",
+        "de.jbl.com",
+        "in.jbl.com",
+        "jp.jbl.com",
+        "jbl.com.br"
       ]
     },
     {
@@ -4787,6 +4821,17 @@
       "bounty": false,
       "domains": [
         "infogram.com"
+      ]
+    },
+    {
+      "name": "Infomaniak",
+      "url": "https://yeswehack.com/programs/infomaniak-bug-bounty-program",
+      "bounty": true,
+      "domains": [
+        "kdrive.infomaniak.com",
+        "kchat.infomaniak.com",
+        "vod2.infomaniak.com",
+        "vfsevisa.com"
       ]
     },
     {
@@ -6336,6 +6381,14 @@
       "bounty": true,
       "domains": [
         "oktapreview.com"
+      ]
+    },
+    {
+      "name": "Okto",
+      "url": "https://yeswehack.com/programs/okto-bug-bounty-program",
+      "bounty": true,
+      "domains": [
+        "okto.tech"
       ]
     },
     {
@@ -7966,6 +8019,14 @@
       ]
     },
     {
+      "name": "Spacelift Io",
+      "url": "https://yeswehack.com/programs/spacelift-io-bug-bounty-program",
+      "bounty": true,
+      "domains": [
+        "app.spacelift.dev"
+      ]
+    },
+    {
       "name": "SpaceX",
       "url": "https://bugcrowd.com/spacex",
       "bounty": true,
@@ -9250,6 +9311,17 @@
       ]
     },
     {
+      "name": "Vfs",
+      "url": "https://yeswehack.com/programs/vfs-global-bug-bounty-program",
+      "bounty": true,
+      "domains": [
+        "vfsglobal.com",
+        "vfsglobalco.uk",
+        "vfsglobal.ca",
+        "vfsevisa.com"
+      ]
+    },
+    {
       "name": "VGZ",
       "url": "https://app.zerocopter.com/nl/cvd/bda542d5-c421-49f8-8e9c-5e70f5525673",
       "bounty": false,
@@ -9832,88 +9904,6 @@
       "domains": [
         "zynga.com",
         "zyngagames.com"
-      ]
-    },
-    {
-      "name": "YesWeHack",
-      "url": "https://yeswehack.com/programs/vfs-global-bug-bounty-program",
-      "bounty": true,
-      "domains": [
-        "vfsglobal.com",
-        "vfsglobalco.uk",
-        "vfsglobal.ca",
-        "vfsevisa.com"
-      ]
-    },
-    {
-      "name": "YesWeHack",
-      "url": "https://yeswehack.com/programs/infomaniak-bug-bounty-program",
-      "bounty": true,
-      "domains": [
-        "kdrive.infomaniak.com",
-        "kchat.infomaniak.com",
-        "vod2.infomaniak.com",
-        "vfsevisa.com"
-      ]
-    },
-    {
-      "name": "YesWeHack",
-      "url": "https://yeswehack.com/programs/okto-bug-bounty-program",
-      "bounty": true,
-      "domains": [
-        "okto.tech"
-      ]
-    },
-    {
-      "name": "YesWeHack",
-      "url": "https://yeswehack.com/programs/harman-international-web-applications",
-      "bounty": true,
-      "domains": [
-        "jbl.com",
-        "harmanaudio.com",
-        "harmankardon.com",
-        "infinitylab.com",
-        "support.jbl.com",
-        "jbl.nl",
-        "jbl.ru",
-        "uk.jbl.com",
-        "uk.harmanaudio.com",
-        "de.jbl.com",
-        "in.jbl.com",
-        "jp.jbl.com",
-        "jbl.com.br"
-      ]
-    },
-    {
-      "name": "YesWeHack",
-      "url": "https://yeswehack.com/programs/spacelift-io-bug-bounty-program",
-      "bounty": true,
-      "domains": [
-        "app.spacelift.dev"
-      ]
-    },
-    {
-      "name": "YesWeHack",
-      "url": "https://yeswehack.com/programs/govtech-vulnerability-disclosure-programme-policy",
-      "bounty": true,
-      "domains": [
-        "gov.sg"
-      ]
-    },
-    {
-      "name": "YesWeHack",
-      "url": "https://yeswehack.com/programs/ezviz-bug-bounty-program#program-description",
-      "bounty": true,
-      "domains": [
-        "ys7.com"
-      ]
-    },
-    {
-      "name": "YesWeHack",
-      "url": "https://yeswehack.com/programs/coindcx-bug-bounty-program#program-description",
-      "bounty": true,
-      "domains": [
-        "coindcx.com"
       ]
     }
   ]
