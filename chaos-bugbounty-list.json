@@ -4830,8 +4830,7 @@
       "domains": [
         "kdrive.infomaniak.com",
         "kchat.infomaniak.com",
-        "vod2.infomaniak.com",
-        "vfsevisa.com"
+        "vod2.infomaniak.com"
       ]
     },
     {
@@ -6992,14 +6991,6 @@
       "bounty": true,
       "domains": [
         "polkalokr.com"
-      ]
-    },
-    {
-      "name": "Poloniex",
-      "url": "https://hackerone.com/poloniex",
-      "bounty": true,
-      "domains": [
-        "poloniex.com"
       ]
     },
     {
