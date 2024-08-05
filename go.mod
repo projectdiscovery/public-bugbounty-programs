@@ -11,7 +11,7 @@ require (
 	github.com/projectdiscovery/goflags v0.1.61
 	github.com/projectdiscovery/gologger v1.1.17
 	github.com/projectdiscovery/httpx v1.6.7
-	github.com/projectdiscovery/retryabledns v1.0.68
+	github.com/projectdiscovery/retryabledns v1.0.69
 	github.com/projectdiscovery/utils v0.2.3
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/gjson v1.17.1
@@ -104,7 +104,7 @@ require (
 	github.com/projectdiscovery/cdncheck v1.1.0 // indirect
 	github.com/projectdiscovery/clistats v0.0.20 // indirect
 	github.com/projectdiscovery/dsl v0.1.7 // indirect
-	github.com/projectdiscovery/fastdialer v0.2.1 // indirect
+	github.com/projectdiscovery/fastdialer v0.2.3 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.5 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
