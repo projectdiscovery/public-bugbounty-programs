@@ -4361,6 +4361,14 @@
       ]
     },
     {
+      "name": "GovTech",
+      "url": "https://yeswehack.com/programs/govtech-vulnerability-disclosure-programme-policy",
+      "bounty": true,
+      "domains": [
+        "gov.sg"
+      ]
+    },
+    {
       "name": "Grab",
       "url": "https://hackerone.com/grab",
       "bounty": true,
@@ -4389,14 +4397,6 @@
         "grammarly.ai",
         "grammarly.io",
         "grammarly.net"
-      ]
-    },
-    {
-      "name": "GovTech",
-      "url": "https://yeswehack.com/programs/govtech-vulnerability-disclosure-programme-policy",
-      "bounty": true,
-      "domains": [
-        "gov.sg"
       ]
     },
     {
