@@ -72,7 +72,8 @@
     {
       "name": "Achmea",
       "url": "https://www.achmea.nl/en/responsibledisclosure",
-      "bounty": true,
+      "bounty": false,
+      "swag": true,
       "domains": [
         "achmea.nl",
         "syntrus.com",
@@ -1863,16 +1864,6 @@
       "bounty": true,
       "domains": [
         "dashlane.com"
-      ]
-    },
-    {
-      "name": "Data Processing (IBB)",
-      "url": "https://hackerone.com/ibb-data",
-      "bounty": true,
-      "domains": [
-        "sf.net",
-        "libav.org",
-        "videolan.org"
       ]
     },
     {
