@@ -1548,12 +1548,10 @@
     },
     {
       "name": "Coindcx",
-      "url": "https://bugcrowd.com/coindcx-og",
+      "url": "https://yeswehack.com/programs/coindcx-bug-bounty-program#program-description",
       "bounty": true,
       "domains": [
-        "coindcx.com",
-        "dcxstage.com",
-        "dcxlearn.com"
+        "coindcx.com"
       ]
     },
     {
@@ -1894,7 +1892,8 @@
       "url": "https://yeswehack.com/programs/datadome-bug-bounty",
       "bounty": true,
       "domains": [
-        "datadome.co"
+        "datadome.co",
+        "captcha-delivery.com"
       ]
     },
     {
@@ -2121,7 +2120,8 @@
         "doctolib.de",
         "doctolib.it",
         "doctolib.com",
-        "doctolib.net"
+        "doctolib.net",
+        "siilo.com"
       ]
     },
     {
@@ -2517,6 +2517,14 @@
       "bounty": true,
       "domains": [
         "https://exzi.com/"
+      ]
+    },
+    {
+      "name": "Ezviz",
+      "url": "https://yeswehack.com/programs/ezviz-bug-bounty-program#program-description",
+      "bounty": true,
+      "domains": [
+        "ys7.com"
       ]
     },
     {
@@ -4384,6 +4392,14 @@
       ]
     },
     {
+      "name": "GovTech",
+      "url": "https://yeswehack.com/programs/govtech-vulnerability-disclosure-programme-policy",
+      "bounty": true,
+      "domains": [
+        "gov.sg"
+      ]
+    },
+    {
       "name": "Greenhouse.io",
       "url": "https://hackerone.com/greenhouse",
       "bounty": true,
@@ -4506,6 +4522,26 @@
         "betterscience.org",
         "fuzzing-project.org",
         "hboeck.de"
+      ]
+    },
+    {
+      "name": "HARMAN International",
+      "url": "https://yeswehack.com/programs/harman-international-web-applications",
+      "bounty": true,
+      "domains": [
+        "jbl.com",
+        "harmanaudio.com",
+        "harmankardon.com",
+        "infinitylab.com",
+        "support.jbl.com",
+        "jbl.nl",
+        "jbl.ru",
+        "uk.jbl.com",
+        "uk.harmanaudio.com",
+        "de.jbl.com",
+        "in.jbl.com",
+        "jp.jbl.com",
+        "jbl.com.br"
       ]
     },
     {
@@ -4785,6 +4821,16 @@
       "bounty": false,
       "domains": [
         "infogram.com"
+      ]
+    },
+    {
+      "name": "Infomaniak",
+      "url": "https://yeswehack.com/programs/infomaniak-bug-bounty-program",
+      "bounty": true,
+      "domains": [
+        "kdrive.infomaniak.com",
+        "kchat.infomaniak.com",
+        "vod2.infomaniak.com"
       ]
     },
     {
@@ -6337,6 +6383,14 @@
       ]
     },
     {
+      "name": "Okto",
+      "url": "https://yeswehack.com/programs/okto-bug-bounty-program",
+      "bounty": true,
+      "domains": [
+        "okto.tech"
+      ]
+    },
+    {
       "name": "OKX",
       "url": "https://hackenproof.com/okx-1/okx",
       "bounty": true,
@@ -6937,14 +6991,6 @@
       "bounty": true,
       "domains": [
         "polkalokr.com"
-      ]
-    },
-    {
-      "name": "Poloniex",
-      "url": "https://hackerone.com/poloniex",
-      "bounty": true,
-      "domains": [
-        "poloniex.com"
       ]
     },
     {
@@ -7964,6 +8010,14 @@
       ]
     },
     {
+      "name": "Spacelift.io",
+      "url": "https://yeswehack.com/programs/spacelift-io-bug-bounty-program",
+      "bounty": true,
+      "domains": [
+        "app.spacelift.dev"
+      ]
+    },
+    {
       "name": "SpaceX",
       "url": "https://bugcrowd.com/spacex",
       "bounty": true,
@@ -8394,7 +8448,10 @@
         "telenor.se",
         "bredbandsbolaget.se",
         "europolitan.se",
-        "ownit.se"
+        "ownit.se",
+        "vimla.se",
+        "vimla.work",
+        "vimla.io"
       ]
     },
     {
@@ -9242,6 +9299,17 @@
       "bounty": true,
       "domains": [
         "vertexprotocol.com"
+      ]
+    },
+    {
+      "name": "Vfs",
+      "url": "https://yeswehack.com/programs/vfs-global-bug-bounty-program",
+      "bounty": true,
+      "domains": [
+        "vfsglobal.com",
+        "vfsglobalco.uk",
+        "vfsglobal.ca",
+        "vfsevisa.com"
       ]
     },
     {

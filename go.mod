@@ -2,8 +2,6 @@ module github.com/projectdiscovery/public-bugbounty-programs
 
 go 1.21
 
-toolchain go1.21.8
-
 require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/go-git/go-git/v5 v5.7.0
