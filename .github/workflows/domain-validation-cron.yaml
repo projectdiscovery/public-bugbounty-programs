@@ -10,28 +10,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
           ref: ${{ github.head_ref }}
 
-      - name: Setup golang
-        uses: actions/setup-go@v4
-        with:
-          go-version: 1.19
-          cache: true
+      - name: Setup Go
+        uses: projectdiscovery/actions/setup/go@v1
 
       - name: Get all bbp policy URLs
         run: jq -r '.programs[].url' chaos-bugbounty-list.json > urls.txt
 
       - name: Installing Validate domains binary
-        run: >
-          go install
-          github.com/projectdiscovery/public-bugbounty-programs/cmd/httpx-tester
+        run: go build ./cmd/httpx-tester
 
       - name: Checking URL availability
-        run: |
-          httpx-tester -file urls.txt
+        run: ./httpx-tester -file urls.txt
 
       - name: checking programs with unaccessible policy URL
         run: |

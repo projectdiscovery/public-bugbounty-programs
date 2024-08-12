@@ -1,0 +1,28 @@
+name: ✅ JSON Sorting
+
+on:
+  push:
+    paths:
+      - '*.json'
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:  
+  sorting:
+    name: JSON Sorting
+    runs-on: ubuntu-latest
+    env:
+      LIST_FILE: 'chaos-bugbounty-list.json'
+    steps:
+      - uses: actions/checkout@v4
+      - name: JSON Sorting
+        run: |
+          jq '.programs |= sort_by(.name | ascii_downcase)' ${{ env.LIST_FILE }} > ${{ env.LIST_FILE }}.tmp && mv ${{ env.LIST_FILE }}.tmp ${{ env.LIST_FILE }}
+
+      - uses: projectdiscovery/actions/setup/git@v1
+      - uses: projectdiscovery/actions/commit@v1
+        with:
+          files: '${{ env.LIST_FILE }}'
+          message: 'chore: sorts JSON 🤖'
+      - run: git push origin $GITHUB_REF

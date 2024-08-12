@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Find duplicate domains
         run: >
           set -e
@@ -32,13 +32,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Setup golang
-        uses: actions/setup-go@v4
-        with:
-          go-version: 1.19
-          cache: true
+      - name: Setup Go
+        uses: projectdiscovery/actions/setup/go@v1
 
       - name: Validate domains
         run: go run .
