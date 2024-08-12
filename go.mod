@@ -7,10 +7,10 @@ require (
 	github.com/go-git/go-git/v5 v5.7.0
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/goflags v0.1.61
-	github.com/projectdiscovery/gologger v1.1.17
+	github.com/projectdiscovery/gologger v1.1.18
 	github.com/projectdiscovery/httpx v1.6.7
-	github.com/projectdiscovery/retryabledns v1.0.69
-	github.com/projectdiscovery/utils v0.2.3
+	github.com/projectdiscovery/retryabledns v1.0.70
+	github.com/projectdiscovery/utils v0.2.5
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/gjson v1.17.1
 	golang.org/x/net v0.26.0
@@ -113,7 +113,7 @@ require (
 	github.com/projectdiscovery/networkpolicy v0.0.9 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.50 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.59 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.71 // indirect
+	github.com/projectdiscovery/retryablehttp-go v1.0.72 // indirect
 	github.com/projectdiscovery/tlsx v1.1.6 // indirect
 	github.com/projectdiscovery/useragent v0.0.64 // indirect
 	github.com/projectdiscovery/wappalyzergo v0.1.13 // indirect
