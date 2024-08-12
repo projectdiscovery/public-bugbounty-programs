@@ -100,7 +100,7 @@ require (
 	github.com/projectdiscovery/asnmap v1.1.1 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
 	github.com/projectdiscovery/cdncheck v1.1.0 // indirect
-	github.com/projectdiscovery/clistats v0.0.20 // indirect
+	github.com/projectdiscovery/clistats v0.1.0 // indirect
 	github.com/projectdiscovery/dsl v0.1.7 // indirect
 	github.com/projectdiscovery/fastdialer v0.2.3 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
