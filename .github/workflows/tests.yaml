@@ -1,4 +1,4 @@
-name: ✅ domain validation
+name: 🛠️ Tests
 
 on:
   pull_request:
@@ -8,8 +8,19 @@ on:
       - '**.json'
   workflow_dispatch:
 
+env:
+  LIST_PATH_PREFIX: 'chaos-bugbounty-list'
+
 jobs:
+  validate-list:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: projectdiscovery/actions/setup/ajv@v1
+      - run: ajv test -s "${LIST_PATH_PREFIX}.schema.json" -d "${LIST_PATH_PREFIX}.json" --valid --all-errors --errors text
+
   duplicate-domain:
+    needs: validate-list
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -18,7 +29,7 @@ jobs:
         run: >
           set -e
 
-          jq -r '.programs[].domains[]' chaos-bugbounty-list.json | sort | uniq
+          jq -r '.programs[].domains[]' "${LIST_PATH_PREFIX}.json" | sort | uniq
           -c | awk '$1 > 1 { print $2 }' > duplicates.txt
 
           if [[ -s duplicates.txt ]]; then
@@ -29,6 +40,7 @@ jobs:
           fi
           
   invalid-domain:
+    needs: validate-list
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
