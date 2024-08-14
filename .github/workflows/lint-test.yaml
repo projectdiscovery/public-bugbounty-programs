@@ -1,0 +1,19 @@
+name: 🙏🏻 Lint Test
+
+on:
+  push:
+    paths:
+      - 'cmd/**'
+  pull_request:
+    paths:
+      - 'cmd/**'
+  workflow_dispatch:
+
+jobs:
+  lint:
+    name: Lint Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: projectdiscovery/actions/setup/go@v1
+      - uses: projectdiscovery/actions/golangci-lint@v1
