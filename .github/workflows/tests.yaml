@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - '**.json'
+      - 'chaos-bugbounty-list.json'
   workflow_dispatch:
 
 env:
