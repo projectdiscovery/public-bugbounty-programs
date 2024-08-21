@@ -1,4 +1,4 @@
-name: ✅ domain validation cron
+name: ✅ Policy Checks
 
 on:
   schedule:
