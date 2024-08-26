@@ -102,12 +102,12 @@ require (
 	github.com/projectdiscovery/cdncheck v1.1.0 // indirect
 	github.com/projectdiscovery/clistats v0.1.0 // indirect
 	github.com/projectdiscovery/dsl v0.1.11 // indirect
-	github.com/projectdiscovery/fastdialer v0.2.5 // indirect
+	github.com/projectdiscovery/fastdialer v0.2.6 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.5 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
 	github.com/projectdiscovery/gostruct v0.0.2 // indirect
-	github.com/projectdiscovery/hmap v0.0.54 // indirect
+	github.com/projectdiscovery/hmap v0.0.55 // indirect
 	github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.34 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.9 // indirect
