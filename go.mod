@@ -7,7 +7,7 @@ require (
 	github.com/go-git/go-git/v5 v5.7.0
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/goflags v0.1.64
-	github.com/projectdiscovery/gologger v1.1.20
+	github.com/projectdiscovery/gologger v1.1.21
 	github.com/projectdiscovery/httpx v1.6.8
 	github.com/projectdiscovery/retryabledns v1.0.73
 	github.com/projectdiscovery/utils v0.2.7
@@ -101,7 +101,7 @@ require (
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
 	github.com/projectdiscovery/cdncheck v1.1.0 // indirect
 	github.com/projectdiscovery/clistats v0.1.0 // indirect
-	github.com/projectdiscovery/dsl v0.1.11 // indirect
+	github.com/projectdiscovery/dsl v0.2.1 // indirect
 	github.com/projectdiscovery/fastdialer v0.2.7 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.5 // indirect
