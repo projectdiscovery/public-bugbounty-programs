@@ -9,7 +9,7 @@ require (
 	github.com/projectdiscovery/goflags v0.1.64
 	github.com/projectdiscovery/gologger v1.1.21
 	github.com/projectdiscovery/httpx v1.6.8
-	github.com/projectdiscovery/retryabledns v1.0.73
+	github.com/projectdiscovery/retryabledns v1.0.74
 	github.com/projectdiscovery/utils v0.2.7
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/gjson v1.17.1
