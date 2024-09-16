@@ -104,7 +104,7 @@ require (
 	github.com/projectdiscovery/dsl v0.2.2 // indirect
 	github.com/projectdiscovery/fastdialer v0.2.7 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
-	github.com/projectdiscovery/freeport v0.0.5 // indirect
+	github.com/projectdiscovery/freeport v0.0.7 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
 	github.com/projectdiscovery/gostruct v0.0.2 // indirect
 	github.com/projectdiscovery/hmap v0.0.57 // indirect
