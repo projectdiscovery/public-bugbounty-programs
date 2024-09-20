@@ -2149,13 +2149,16 @@
     },
     {
       "name": "DropBox",
-      "url": "https://hackerone.com/dropbox",
+      "url": "https://bugcrowd.com/dropbox",
       "bounty": true,
       "domains": [
         "dropbox.com",
         "hellosign.com",
         "helloworks.com",
-        "dropboxforum.com"
+        "hellofax.com",
+        "dropboxforum.com",
+        "docsend.com",
+        "dropboxer.net"
       ]
     },
     {
