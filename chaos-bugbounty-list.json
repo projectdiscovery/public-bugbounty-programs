@@ -623,17 +623,6 @@
       ]
     },
     {
-      "name": "Avalanche",
-      "url": "https://hackenproof.com/avalanche",
-      "bounty": true,
-      "domains": [
-        "avalabs.org",
-        "avax.network",
-        "avax-test.network",
-        "avax-dev.network"
-      ]
-    },
-    {
       "name": "Avalara VDP",
       "url": "https://hackerone.com/avalara",
       "bounty": false,
@@ -1086,12 +1075,6 @@
       "domains": [
         "caffeine.tv"
       ]
-    },
-    {
-      "name": "Camino Network",
-      "url": "https://hackenproof.com/camino-network/camino-protocol",
-      "bounty": true,
-      "domains": []
     },
     {
       "name": "Canon",
@@ -1617,14 +1600,6 @@
       "swag": false,
       "domains": [
         "contentsquare.com"
-      ]
-    },
-    {
-      "name": "Core",
-      "url": "https://hackenproof.com/avalanche/core",
-      "bounty": true,
-      "domains": [
-        "core.app"
       ]
     },
     {
@@ -5380,12 +5355,6 @@
         "lob.com",
         "lob-assets.com"
       ]
-    },
-    {
-      "name": "Local Traders",
-      "url": "https://hackenproof.com/local-traders/local-traders-smart-contracts",
-      "bounty": true,
-      "domains": []
     },
     {
       "name": "Localize",
