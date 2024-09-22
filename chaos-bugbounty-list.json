@@ -2717,7 +2717,6 @@
       "swag": false,
       "domains": [
         "global.com",
-        "dax.global.com",
         "heart.co.uk",
         "smoothradio.com",
         "capitalfm.com",
@@ -2731,7 +2730,6 @@
         "globalplayer.com",
         "popbuzz.com",
         "makesomenoise.com",
-        "jobs.global.com",
         "remixd.com"
       ]
     },
@@ -4420,15 +4418,8 @@
         "harmanaudio.com",
         "harmankardon.com",
         "infinitylab.com",
-        "support.jbl.com",
         "jbl.nl",
-        "jbl.ru",
-        "uk.jbl.com",
-        "uk.harmanaudio.com",
-        "de.jbl.com",
-        "in.jbl.com",
-        "jp.jbl.com",
-        "jbl.com.br"
+        "jbl.ru"
       ]
     },
     {
@@ -6797,16 +6788,7 @@
       "bounty": true,
       "domains": [
         "poloniex.com",
-        "tms.polo-static.com",
-        "wgc.polo-static.com",
-        "v3.polo-static.com",
-        "api.poloniex.com",
-        "api2.poloniex.com",
-        "sapi.poloniex.com",
-        "api-docs.poloniex.com",
-        "ws.poloniex.com",
-        "ws-web.poloniex.com",
-        "x-api.poloniex.com"
+        "polo-static.com"
       ]
     },
     {
@@ -7774,7 +7756,7 @@
       "url": "https://yeswehack.com/programs/spacelift-io-bug-bounty-program",
       "bounty": true,
       "domains": [
-        "app.spacelift.dev"
+        "spacelift.dev"
       ]
     },
     {
@@ -8334,7 +8316,7 @@
       "url": "https://hackenproof.com/tokenize-xchange/tokenize-xchange-web-and-mobile",
       "bounty": true,
       "domains": [
-        "https://tokenize.exchange/"
+        "tokenize.exchange"
       ]
     },
     {
@@ -8352,7 +8334,7 @@
       "url": "https://hackenproof.com/ton-diamonds/ton-diamonds-web",
       "bounty": true,
       "domains": [
-        "https://ton.diamonds/"
+        "ton.diamonds"
       ]
     },
     {
@@ -8837,7 +8819,7 @@
       "url": "https://hackenproof.com/unicorn-ultra/u2staking-web",
       "bounty": true,
       "domains": [
-        "https://staking.uniultra.xyz/"
+        "uniultra.xyz"
       ]
     },
     {
@@ -9543,11 +9525,7 @@
       "url": "https://hackenproof.com/zetachain",
       "bounty": true,
       "domains": [
-        "https://www.zetachain.com/",
-        "https://www.zetachain.com/docs",
-        "https://labs.zetachain.com/",
-        "https://explorer.zetachain.com/",
-        "https://www.zetachain.com/ecosystem"
+        "zetachain.com"
       ]
     },
     {
