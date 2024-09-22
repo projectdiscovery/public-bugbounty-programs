@@ -1196,6 +1196,23 @@
       ]
     },
     {
+      "name": "Chargezoom",
+      "url": "https://bugbounty.chargezoom.com/support/tickets/new",
+      "bounty": true,
+      "domains": [
+        "payportal.net"
+      ]
+    },
+    {
+      "name": "Charles Schwab Corporation",
+      "url": "https://www.schwab.com/schwabsafe/report-a-vulnerability",
+      "bounty": false,
+      "swag": false,
+      "domains": [
+        "schwab.com"
+      ]
+    },
+    {
       "name": "Chase",
       "url": "https://responsibledisclosure.jpmorganchase.com",
       "bounty": false,
