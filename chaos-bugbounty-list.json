@@ -332,8 +332,7 @@
       "url": "https://hackenproof.com/alphax/alphax-exchange",
       "bounty": true,
       "domains": [
-        "https://alphax.com/",
-        "https://agent.alphax.com"
+        "alphax.com"
       ]
     },
     {
@@ -931,7 +930,7 @@
       "url": "https://hackenproof.com/blofin/blofin-web-and-mobile",
       "bounty": true,
       "domains": [
-        "https://blofin.com/"
+        "blofin.com"
       ]
     },
     {
@@ -1850,8 +1849,7 @@
       "url": "https://hackenproof.com/deepcoin/deepcoin-web-and-mobile",
       "bounty": true,
       "domains": [
-        "https://www.deepcoin.com/",
-        "https://www.deepcoin.com/en/apiPage"
+        "deepcoin.com"
       ]
     },
     {
@@ -2411,7 +2409,7 @@
       "url": "https://hackenproof.com/exzi/exzi-web-and-mobile",
       "bounty": true,
       "domains": [
-        "https://exzi.com/"
+        "exzi.com"
       ]
     },
     {
@@ -4690,9 +4688,7 @@
       "url": "https://yeswehack.com/programs/infomaniak-bug-bounty-program",
       "bounty": true,
       "domains": [
-        "kdrive.infomaniak.com",
-        "kchat.infomaniak.com",
-        "vod2.infomaniak.com"
+        "infomaniak.com"
       ]
     },
     {
