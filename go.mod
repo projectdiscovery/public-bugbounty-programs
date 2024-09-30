@@ -9,8 +9,8 @@ require (
 	github.com/projectdiscovery/goflags v0.1.64
 	github.com/projectdiscovery/gologger v1.1.24
 	github.com/projectdiscovery/httpx v1.6.8
-	github.com/projectdiscovery/retryabledns v1.0.75
-	github.com/projectdiscovery/utils v0.2.10
+	github.com/projectdiscovery/retryabledns v1.0.77
+	github.com/projectdiscovery/utils v0.2.11
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/gjson v1.17.1
 	golang.org/x/net v0.29.0
@@ -28,13 +28,15 @@ require (
 	github.com/VividCortex/ewma v1.2.0 // indirect
 	github.com/acomagu/bufpipe v1.0.4 // indirect
 	github.com/akrylysov/pogreb v0.10.2 // indirect
-	github.com/alecthomas/chroma v0.10.0 // indirect
+	github.com/alecthomas/chroma/v2 v2.14.0 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/andybalholm/cascadia v1.3.2 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/bits-and-blooms/bitset v1.13.0 // indirect
-	github.com/charmbracelet/glamour v0.6.0 // indirect
+	github.com/charmbracelet/glamour v0.8.0 // indirect
+	github.com/charmbracelet/lipgloss v0.13.0 // indirect
+	github.com/charmbracelet/x/ansi v0.3.2 // indirect
 	github.com/cheggaaa/pb/v3 v3.1.4 // indirect
 	github.com/cloudflare/cfssl v1.6.4 // indirect
 	github.com/cloudflare/circl v1.3.8 // indirect
@@ -42,7 +44,7 @@ require (
 	github.com/corona10/goimagehash v1.1.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dimchansky/utfbom v1.1.1 // indirect
-	github.com/dlclark/regexp2 v1.11.0 // indirect
+	github.com/dlclark/regexp2 v1.11.4 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dsnet/compress v0.0.2-0.20210315054119-f66993602bf5 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
@@ -79,17 +81,17 @@ require (
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/mattn/go-runewidth v0.0.15 // indirect
+	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/mfonda/simhash v0.0.0-20151007195837-79f94a1100d6 // indirect
 	github.com/mholt/archiver/v3 v3.5.1 // indirect
-	github.com/microcosm-cc/bluemonday v1.0.26 // indirect
+	github.com/microcosm-cc/bluemonday v1.0.27 // indirect
 	github.com/miekg/dns v1.1.59 // indirect
 	github.com/minio/selfupdate v0.6.1-0.20230907112617-f11e74f84ca7 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/muesli/reflow v0.3.0 // indirect
-	github.com/muesli/termenv v0.15.1 // indirect
+	github.com/muesli/termenv v0.15.3-0.20240618155329-98d742f6907a // indirect
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 // indirect
 	github.com/nwaples/rardecode v1.1.3 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
@@ -113,12 +115,12 @@ require (
 	github.com/projectdiscovery/networkpolicy v0.0.9 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.56 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.65 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.79 // indirect
+	github.com/projectdiscovery/retryablehttp-go v1.0.80 // indirect
 	github.com/projectdiscovery/tlsx v1.1.7 // indirect
 	github.com/projectdiscovery/useragent v0.0.70 // indirect
 	github.com/projectdiscovery/wappalyzergo v0.1.19 // indirect
 	github.com/refraction-networking/utls v1.6.7 // indirect
-	github.com/rivo/uniseg v0.4.4 // indirect
+	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rs/xid v1.5.0 // indirect
 	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d // indirect
 	github.com/sashabaranov/go-openai v1.15.3 // indirect
@@ -147,8 +149,8 @@ require (
 	github.com/ysmood/got v0.34.1 // indirect
 	github.com/ysmood/gson v0.7.3 // indirect
 	github.com/ysmood/leakless v0.8.0 // indirect
-	github.com/yuin/goldmark v1.5.4 // indirect
-	github.com/yuin/goldmark-emoji v1.0.1 // indirect
+	github.com/yuin/goldmark v1.7.4 // indirect
+	github.com/yuin/goldmark-emoji v1.0.3 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	github.com/zcalusic/sysinfo v1.0.2 // indirect
 	github.com/zmap/rc2 v0.0.0-20190804163417-abaa70531248 // indirect
