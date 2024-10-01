@@ -2166,6 +2166,15 @@
       ]
     },
     {
+      "name": "Einride",
+      "url": "https://www.einride.tech/vulnerability-disclosure-policy",
+      "bounty": false,
+      "swag": false,
+      "domains": [
+        "einride.tech",
+      ]
+    },
+    {
       "name": "Elastic",
       "url": "https://hackerone.com/elastic",
       "bounty": true,
