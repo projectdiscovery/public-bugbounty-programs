@@ -6386,6 +6386,14 @@
       ]
     },
     {
+      "name": "Opire",
+      "url": "https://opire.dev",
+      "bounty": true,
+      "domains": [
+        "opire.dev"
+      ]
+    },
+    {
       "name": "Oppo",
       "url": "https://security.oppo.com/en/",
       "bounty": true,
