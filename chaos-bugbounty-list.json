@@ -66,8 +66,8 @@
       "url": "https://app.bugbounty.ch/public/engagement/details/dd5761e8-104c-408b-8588-365b6b2fb2b5",
       "bounty": false,
       "domains": [
-        "bbt.vo.abraxas-apps.ch",
-        "pre.abraxas-vo.sec.abraxas-apis.ch"
+        "abraxas.ch",
+        "abraxas-apis.ch"
       ]
     },
     {
