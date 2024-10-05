@@ -62,6 +62,15 @@
       ]
     },
     {
+      "name": "Abraxas Informatik AG VDP",
+      "url": "https://app.bugbounty.ch/public/engagement/details/dd5761e8-104c-408b-8588-365b6b2fb2b5",
+      "bounty": false,
+      "domains": [
+        "abraxas.ch",
+        "abraxas-apis.ch"
+      ]
+    },
+    {
       "name": "Achmea",
       "url": "https://www.achmea.nl/en/responsibledisclosure",
       "bounty": false,
@@ -694,6 +703,14 @@
       ]
     },
     {
+      "name": "bexio VDP",
+      "url": "https://app.bugbounty.ch/public/engagement/details/fdd8a99f-b6ae-403a-9811-80a03e5542e3",
+      "bounty": false,
+      "domains": [
+        "bexio.com"
+      ]
+    },
+    {
       "name": "Bigbank",
       "url": "https://ca.bigbank.eu/security",
       "bounty": false,
@@ -1027,6 +1044,15 @@
       ]
     },
     {
+      "name": "Bug Bounty Switzerland VDP",
+      "url": "https://app.bugbounty.ch/public/engagement/details/de64822a-60a2-45be-96ba-cd24a48bca24",
+      "bounty": false,
+      "domains": [
+        "bugbounty.ch",
+        "bugbounty.fail"
+      ]
+    },
+    {
       "name": "Bugcrowd",
       "url": "https://bugcrowd.com/bugcrowd",
       "bounty": true,
@@ -1081,6 +1107,23 @@
       "bounty": false,
       "domains": [
         "canon.com"
+      ]
+    },
+    {
+      "name": "Canton du Jura VDP",
+      "url": "https://app.bugbounty.ch/public/engagement/details/e9d09507-886e-4a6d-8808-883033d824e9",
+      "bounty": false,
+      "domains": [
+        "jura.ch"
+      ]
+    },
+    {
+      "name": "Canton of Aargau VDP",
+      "url": "https://app.bugbounty.ch/public/engagement/details/c1788598-bb0b-4e93-8812-27f5712d7aaf",
+      "bounty": false,
+      "domains": [
+        "ag.ch",
+        "ktag.ch"
       ]
     },
     {
@@ -1581,6 +1624,14 @@
       "bounty": false,
       "domains": [
         "conclusion.nl"
+      ]
+    },
+    {
+      "name": "Coop VDP",
+      "url": "https://app.bugbounty.ch/public/engagement/details/d44c4224-b92d-49ad-8312-104a8e2aaad2",
+      "bounty": false,
+      "domains": [
+        "coop.ch"
       ]
     },
     {
@@ -2172,6 +2223,15 @@
       "swag": false,
       "domains": [
         "einride.tech"
+      ]
+    },
+    {
+      "name": "EKT VDP",
+      "url": "https://app.bugbounty.ch/public/engagement/details/7c6f9d41-44eb-4fdb-a046-dd742cfb661c",
+      "bounty": false,
+      "domains": [
+        "ekt-energie.ch",
+        "ekt.ch"
       ]
     },
     {
@@ -5138,6 +5198,14 @@
       ]
     },
     {
+      "name": "KPT VDP",
+      "url": "https://app.bugbounty.ch/public/engagement/details/291c747e-d690-45bd-9aa3-54990d75e265",
+      "bounty": false,
+      "domains": [
+        "kpt.ch"
+      ]
+    },
+    {
       "name": "Kraden",
       "url": "https://hackerone.com/kraden",
       "bounty": true,
@@ -6974,6 +7042,14 @@
       ]
     },
     {
+      "name": "Puzzle ITC VDP",
+      "url": "https://app.bugbounty.ch/public/engagement/details/2d63f8dd-fc5f-482a-bc3e-c4c4ee60f624",
+      "bounty": false,
+      "domains": [
+        "puzzle.ch"
+      ]
+    },
+    {
       "name": "Python Cryptographic",
       "url": "https://hackerone.com/pyca",
       "bounty": false,
@@ -7427,6 +7503,15 @@
       "domains": [
         "scholarfundwa.org",
         "scholarfund.io"
+      ]
+    },
+    {
+      "name": "Schwyzer Kantonalbank & Pensionskasse des Kantons Schwyz VDP",
+      "url": "https://app.bugbounty.ch/public/engagement/details/8e0b15d5-9916-497d-ae1f-639e78a772fd",
+      "bounty": false,
+      "domains": [
+        "szkb.ch",
+        "pksz.ch"
       ]
     },
     {
@@ -8140,6 +8225,14 @@
       "bounty": false,
       "domains": [
         "takealot.com"
+      ]
+    },
+    {
+      "name": "Talus Informatik AG VDP",
+      "url": "https://app.bugbounty.ch/public/engagement/details/4311aa09-78ed-44f4-8005-f4dc6a0e4e3d",
+      "bounty": false,
+      "domains": [
+        "talus.ch"
       ]
     },
     {
@@ -8972,6 +9065,14 @@
       "bounty": true,
       "domains": [
         "usaa.com"
+      ]
+    },
+    {
+      "name": "Valiant VDP",
+      "url": "https://app.bugbounty.ch/public/engagement/details/26ed354b-a1b8-4180-9668-71c58f419812",
+      "bounty": true,
+      "domains": [
+        "valiant.ch"
       ]
     },
     {
