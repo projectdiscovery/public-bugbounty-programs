@@ -1035,21 +1035,21 @@
       ]
     },
     {
-      "name": "BugBase",
-      "url": "https://bugbase.in/programs/bugbase",
-      "bounty": true,
-      "swag": true,
-      "domains": [
-        "bugbase.in"
-      ]
-    },
-    {
       "name": "Bug Bounty Switzerland VDP",
       "url": "https://app.bugbounty.ch/public/engagement/details/de64822a-60a2-45be-96ba-cd24a48bca24",
       "bounty": false,
       "domains": [
         "bugbounty.ch",
         "bugbounty.fail"
+      ]
+    },
+    {
+      "name": "BugBase",
+      "url": "https://bugbase.in/programs/bugbase",
+      "bounty": true,
+      "swag": true,
+      "domains": [
+        "bugbase.in"
       ]
     },
     {
@@ -1627,14 +1627,6 @@
       ]
     },
     {
-      "name": "Coop VDP",
-      "url": "https://app.bugbounty.ch/public/engagement/details/d44c4224-b92d-49ad-8312-104a8e2aaad2",
-      "bounty": false,
-      "domains": [
-        "coop.ch"
-      ]
-    },
-    {
       "name": "Consensys",
       "url": "https://hackerone.com/consensys",
       "bounty": true,
@@ -1667,6 +1659,14 @@
       "swag": false,
       "domains": [
         "contentsquare.com"
+      ]
+    },
+    {
+      "name": "Coop VDP",
+      "url": "https://app.bugbounty.ch/public/engagement/details/d44c4224-b92d-49ad-8312-104a8e2aaad2",
+      "bounty": false,
+      "domains": [
+        "coop.ch"
       ]
     },
     {
