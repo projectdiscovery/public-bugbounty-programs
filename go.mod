@@ -114,7 +114,7 @@ require (
 	github.com/projectdiscovery/mapcidr v1.1.34 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.9 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.59 // indirect
-	github.com/projectdiscovery/rawhttp v0.1.68 // indirect
+	github.com/projectdiscovery/rawhttp v0.1.69 // indirect
 	github.com/projectdiscovery/retryablehttp-go v1.0.81 // indirect
 	github.com/projectdiscovery/tlsx v1.1.7 // indirect
 	github.com/projectdiscovery/useragent v0.0.73 // indirect
