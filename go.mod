@@ -8,7 +8,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/goflags v0.1.64
 	github.com/projectdiscovery/gologger v1.1.27
-	github.com/projectdiscovery/httpx v1.6.8
+	github.com/projectdiscovery/httpx v1.6.9
 	github.com/projectdiscovery/retryabledns v1.0.80
 	github.com/projectdiscovery/utils v0.2.14
 	github.com/stretchr/testify v1.9.0
@@ -55,6 +55,7 @@ require (
 	github.com/go-git/go-billy/v5 v5.4.1 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/go-rod/rod v0.114.0 // indirect
+	github.com/go-viper/mapstructure/v2 v2.1.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
@@ -87,7 +88,6 @@ require (
 	github.com/microcosm-cc/bluemonday v1.0.27 // indirect
 	github.com/miekg/dns v1.1.59 // indirect
 	github.com/minio/selfupdate v0.6.1-0.20230907112617-f11e74f84ca7 // indirect
-	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/muesli/reflow v0.3.0 // indirect
@@ -102,7 +102,7 @@ require (
 	github.com/projectdiscovery/asnmap v1.1.1 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
 	github.com/projectdiscovery/cdncheck v1.1.0 // indirect
-	github.com/projectdiscovery/clistats v0.1.0 // indirect
+	github.com/projectdiscovery/clistats v0.1.1 // indirect
 	github.com/projectdiscovery/dsl v0.2.6 // indirect
 	github.com/projectdiscovery/fastdialer v0.2.9 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
