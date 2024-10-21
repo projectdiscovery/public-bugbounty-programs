@@ -9,7 +9,7 @@ require (
 	github.com/projectdiscovery/goflags v0.1.64
 	github.com/projectdiscovery/gologger v1.1.27
 	github.com/projectdiscovery/httpx v1.6.8
-	github.com/projectdiscovery/retryabledns v1.0.79
+	github.com/projectdiscovery/retryabledns v1.0.80
 	github.com/projectdiscovery/utils v0.2.14
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/gjson v1.17.1
@@ -109,13 +109,13 @@ require (
 	github.com/projectdiscovery/freeport v0.0.7 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
 	github.com/projectdiscovery/gostruct v0.0.2 // indirect
-	github.com/projectdiscovery/hmap v0.0.61 // indirect
+	github.com/projectdiscovery/hmap v0.0.62 // indirect
 	github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.34 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.9 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.59 // indirect
-	github.com/projectdiscovery/rawhttp v0.1.69 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.81 // indirect
+	github.com/projectdiscovery/rawhttp v0.1.70 // indirect
+	github.com/projectdiscovery/retryablehttp-go v1.0.82 // indirect
 	github.com/projectdiscovery/tlsx v1.1.7 // indirect
 	github.com/projectdiscovery/useragent v0.0.73 // indirect
 	github.com/projectdiscovery/wappalyzergo v0.1.19 // indirect
