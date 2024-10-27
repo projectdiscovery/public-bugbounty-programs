@@ -464,6 +464,14 @@
         "schiphol.com"
       ]
     },
+      {
+      "name": "Apna",
+      "url": "https://apna.co/vulnerability-disclosure-policy",
+      "bounty": false,
+      "domains": [
+        "apna.co"
+      ]
+    },
     {
       "name": "Apple",
       "url": "https://security.apple.com",
