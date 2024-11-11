@@ -109,13 +109,13 @@ require (
 	github.com/projectdiscovery/freeport v0.0.7 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
 	github.com/projectdiscovery/gostruct v0.0.2 // indirect
-	github.com/projectdiscovery/hmap v0.0.64 // indirect
+	github.com/projectdiscovery/hmap v0.0.65 // indirect
 	github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.34 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.9 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.61 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.72 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.85 // indirect
+	github.com/projectdiscovery/retryablehttp-go v1.0.86 // indirect
 	github.com/projectdiscovery/tlsx v1.1.7 // indirect
 	github.com/projectdiscovery/useragent v0.0.77 // indirect
 	github.com/projectdiscovery/wappalyzergo v0.1.25 // indirect
