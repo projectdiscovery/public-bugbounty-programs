@@ -10,7 +10,7 @@ require (
 	github.com/projectdiscovery/gologger v1.1.31
 	github.com/projectdiscovery/httpx v1.6.9
 	github.com/projectdiscovery/retryabledns v1.0.84
-	github.com/projectdiscovery/utils v0.2.18
+	github.com/projectdiscovery/utils v0.2.19
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/gjson v1.17.1
 	golang.org/x/net v0.29.0
