@@ -8420,6 +8420,14 @@
       ]
     },
     {
+      "name": "Tide",
+      "url": "https://hackerone.com/tide",
+      "bounty": true,
+      "domains": [
+        "tide.co"
+      ]
+    },
+    {
       "name": "TikTok",
       "url": "https://hackerone.com/tiktok",
       "bounty": true,
