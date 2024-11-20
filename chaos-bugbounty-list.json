@@ -1527,10 +1527,9 @@
       "url": "https://hackerone.com/coinbase",
       "bounty": true,
       "domains": [
-        "coinbase.pro",
         "coinbase.com",
         "cbhq.net",
-        "paradex.io"
+        "base.org"
       ]
     },
     {
@@ -8418,6 +8417,14 @@
         "tickets.ua",
         "kissandfly.com",
         "travelfrom.fr"
+      ]
+    },
+    {
+      "name": "Tide",
+      "url": "https://hackerone.com/tide",
+      "bounty": true,
+      "domains": [
+        "tide.co"
       ]
     },
     {
