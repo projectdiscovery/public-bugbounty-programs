@@ -118,7 +118,7 @@ require (
 	github.com/projectdiscovery/retryablehttp-go v1.0.87 // indirect
 	github.com/projectdiscovery/tlsx v1.1.7 // indirect
 	github.com/projectdiscovery/useragent v0.0.80 // indirect
-	github.com/projectdiscovery/wappalyzergo v0.2.3 // indirect
+	github.com/projectdiscovery/wappalyzergo v0.2.4 // indirect
 	github.com/refraction-networking/utls v1.6.7 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rs/xid v1.5.0 // indirect
