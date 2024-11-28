@@ -9083,6 +9083,14 @@
       ]
     },
     {
+      "name": "UXCam",
+      "url": "https://uxcam.com/bug-bounty",
+      "bounty": true,
+      "domains": [
+        "uxcam.com"
+      ]
+    },
+    {
       "name": "Valiant VDP",
       "url": "https://app.bugbounty.ch/public/engagement/details/26ed354b-a1b8-4180-9668-71c58f419812",
       "bounty": true,
