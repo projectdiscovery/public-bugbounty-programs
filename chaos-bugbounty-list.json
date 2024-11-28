@@ -7503,6 +7503,19 @@
       ]
     },
     {
+      "name": "SBB - Swiss Federal Railways",
+      "url": "https://app.intigriti.com/programs/sbb/sbbglobal/detail",
+      "bounty": true,
+      "domains": [
+        "sbb.ch",
+        "sbbmobile.ch",
+        "swisspass.ch",
+        "elvetino.ch",
+        "sbbcargo.com",
+        "transsicura.ch"
+      ]
+    },
+    {
       "name": "Scholar Fund",
       "url": "https://www.scholarfundwa.org/bug-bounty",
       "bounty": true,
