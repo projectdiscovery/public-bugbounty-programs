@@ -8992,6 +8992,21 @@
       ]
     },
     {
+      "name": "UnionPay",
+      "url": "https://security.unionpay.com/",
+      "bounty": true,
+      "swag": true,
+      "domains": [
+        "unionpay.com",
+        "unionpay.net",
+        "unionpayadvisors.com",
+        "unionpayintl.cn",
+        "unionpayintl.com",
+        "unionpaysecure.com",
+        "unionpaysmart.com"
+      ]
+    },
+    {
       "name": "United Airlines",
       "url": "https://bugcrowd.com/united-vdp",
       "bounty": true,
@@ -9768,21 +9783,6 @@
         "zynga.com",
         "zyngagames.com"
       ]
-    },
-      {
-       "name":"UnionPay",
-       "url":"https://security.unionpay.com/",
-       "bounty": true,
-       "swag": true,
-       "domains":[
-          "unionpay.com",
-          "unionpay.net",
-          "unionpayadvisors.com",
-          "unionpayintl.cn",
-          "unionpayintl.com",
-          "unionpaysecure.com",
-          "unionpaysmart.com"
-       ]
     }
   ]
 }
