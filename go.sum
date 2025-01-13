@@ -287,8 +287,8 @@ github.com/projectdiscovery/gologger v1.1.39 h1:cbfiGZa3p7A2Y6vFQtghnTWaAcTeGVjT
 github.com/projectdiscovery/gologger v1.1.39/go.mod h1:2jMe+L21KAtciArmPFqvWsS0dySDUhCSV8KK/D3W+GU=
 github.com/projectdiscovery/gostruct v0.0.2 h1:s8gP8ApugGM4go1pA+sVlPDXaWqNP5BBDDSv7VEdG1M=
 github.com/projectdiscovery/gostruct v0.0.2/go.mod h1:H86peL4HKwMXcQQtEa6lmC8FuD9XFt6gkNR0B/Mu5PE=
-github.com/projectdiscovery/hmap v0.0.73 h1:lo7TrYVuNKYVFoXeOyo0pl6kA3IfGXhkFhlrsQ4uIwA=
-github.com/projectdiscovery/hmap v0.0.73/go.mod h1:rTeJt3xg0gRo5txS4pdgdzh5MNNTRe2hYls3NwB/sXo=
+github.com/projectdiscovery/hmap v0.0.74 h1:j0TpS9fJxisfdGcIRjaZ3qgyjP3pBkRJf12ZWv64rOI=
+github.com/projectdiscovery/hmap v0.0.74/go.mod h1:qEPAdq/gWQU/IEI+QMzSyL+HYdqayR64V9vGTI/W38c=
 github.com/projectdiscovery/httpx v1.6.9 h1:ihyFclesLjvQpiJpRIlAYeebapyIbOI/arDAvvy1ES8=
 github.com/projectdiscovery/httpx v1.6.9/go.mod h1:zQtX5CtcDYXzIRWne1ztCVtqG0sXCnx84tFwfMHoB8Q=
 github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 h1:ZScLodGSezQVwsQDtBSMFp72WDq0nNN+KE/5DHKY5QE=
@@ -311,8 +311,8 @@ github.com/projectdiscovery/tlsx v1.1.8 h1:Y+VkOp6JmUBb4tci1Fbz9U7ELEQ2irFhm+HS5
 github.com/projectdiscovery/tlsx v1.1.8/go.mod h1:6u/dbLuMsLzmux58AWnAB24qh2+Trk0auCK2I9B17Vo=
 github.com/projectdiscovery/useragent v0.0.83 h1:rSSdwi0QyCr3qYtohLtOQm+UuTWR9P5YTnnWz/f+oMg=
 github.com/projectdiscovery/useragent v0.0.83/go.mod h1:rqt7/rrhuREVBkhbnpoI1mvtiQv2AIXMJcjYbkhOndQ=
-github.com/projectdiscovery/utils v0.4.5 h1:ZlY4b5b3Jl8F/KFb+S/I9eMoYRFioI+NBzdIP4AK2io=
-github.com/projectdiscovery/utils v0.4.5/go.mod h1:IFTIlRwqzZLmCaNYNVo/nNdhsuRfgij4kuZcNbrd7hM=
+github.com/projectdiscovery/utils v0.4.6 h1:lwbS5d/f70wyDwuwF6lAVkn390hEI/0LOtqyqJEI+qE=
+github.com/projectdiscovery/utils v0.4.6/go.mod h1:eevtW7+x7ydrBdmOenmHdqqJKRv3VqY2QUR7vs4qRfU=
 github.com/projectdiscovery/wappalyzergo v0.2.9 h1:V42606qdDF5KY/2+KO4HQwCH/tlXF7mw3M5uU4jCIOU=
 github.com/projectdiscovery/wappalyzergo v0.2.9/go.mod h1:Ic16RbUvVJF0EooqIjrbRMpICDlnvfR+OrJkzYrqM2E=
 github.com/refraction-networking/utls v1.6.7 h1:zVJ7sP1dJx/WtVuITug3qYUq034cDq9B2MR1K67ULZM=
