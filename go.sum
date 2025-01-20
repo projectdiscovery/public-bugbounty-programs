@@ -273,8 +273,8 @@ github.com/projectdiscovery/clistats v0.1.1 h1:8mwbdbwTU4aT88TJvwIzTpiNeow3XnAB7
 github.com/projectdiscovery/clistats v0.1.1/go.mod h1:4LtTC9Oy//RiuT1+76MfTg8Hqs7FQp1JIGBM3nHK6a0=
 github.com/projectdiscovery/dsl v0.3.11 h1:O3d8nKOYU+ube7U9Dc2v+Z/duahg47tYllXqY8PmWyw=
 github.com/projectdiscovery/dsl v0.3.11/go.mod h1:hgRZyghtLG7nkT75yHPl6214kQm5D9Q2UG85ok6+BHE=
-github.com/projectdiscovery/fastdialer v0.2.14 h1:/cndy+5celjoYzbk4LksHYOCTpFGIJY8RF/EK31Opjs=
-github.com/projectdiscovery/fastdialer v0.2.14/go.mod h1:z5yKQ/YWaVrBMfdL6f5J7VytUx9wxc5vs/Lf51QelCw=
+github.com/projectdiscovery/fastdialer v0.2.15 h1:mq79KOx+XXvXfid2FyRy7vYzFT9uWZbCwJ9XxrHiytA=
+github.com/projectdiscovery/fastdialer v0.2.15/go.mod h1:Q0YLArvpx9GAfY/NcTPMCA9qZuVOGnuVoNYWzKBwxdQ=
 github.com/projectdiscovery/fdmax v0.0.4 h1:K9tIl5MUZrEMzjvwn/G4drsHms2aufTn1xUdeVcmhmc=
 github.com/projectdiscovery/fdmax v0.0.4/go.mod h1:oZLqbhMuJ5FmcoaalOm31B1P4Vka/CqP50nWjgtSz+I=
 github.com/projectdiscovery/freeport v0.0.7 h1:Q6uXo/j8SaV/GlAHkEYQi8WQoPXyJWxyspx+aFmz9Qk=
@@ -295,8 +295,8 @@ github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 h1:ZScL
 github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983/go.mod h1:3G3BRKui7nMuDFAZKR/M2hiOLtaOmyukT20g88qRQjI=
 github.com/projectdiscovery/mapcidr v1.1.34 h1:udr83vQ7oz3kEOwlsU6NC6o08leJzSDQtls1wmXN/kM=
 github.com/projectdiscovery/mapcidr v1.1.34/go.mod h1:1+1R6OkKSAKtWDXE9RvxXtXPoajXTYX0eiEdkqlhQqQ=
-github.com/projectdiscovery/networkpolicy v0.0.9 h1:IrlDoYZagNNO8y+7iZeHT8k5izE+nek7TdtvEBwCxqk=
-github.com/projectdiscovery/networkpolicy v0.0.9/go.mod h1:XFJ2Lnv8BE/ziQCFjBHMsH1w6VmkPiQtk+NlBpdMU7M=
+github.com/projectdiscovery/networkpolicy v0.1.1 h1:iv9gECukD5KAZp98KVh+T3TEPTkY6dr3sKsdbh9XyZU=
+github.com/projectdiscovery/networkpolicy v0.1.1/go.mod h1:/Hg2ieLewSe/BagFF+UYXAQo3NwmVMq16MSAl492XkU=
 github.com/projectdiscovery/ratelimit v0.0.69 h1:co8QoB/hyIW9HwT/oA5aa1ENAdg8CCasMzBb9cbfxY8=
 github.com/projectdiscovery/ratelimit v0.0.69/go.mod h1:5inCjvHaTFMVlS2ac6FHJa0XGGRmF1p+GWdyGrJzSkI=
 github.com/projectdiscovery/rawhttp v0.1.81 h1:SGJ5WCGfk6djQTrutzB1xro2wF5Bqirn/eP2efOtbhA=
