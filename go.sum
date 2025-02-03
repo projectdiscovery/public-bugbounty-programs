@@ -271,8 +271,8 @@ github.com/projectdiscovery/cdncheck v1.1.0 h1:qDITidmJsejzpk3rMkauCh6sjI2GH9hW/
 github.com/projectdiscovery/cdncheck v1.1.0/go.mod h1:sZ8U4MjHSsyaTVjBbYWHT1cwUVvUYwDX1W+WvWRicIc=
 github.com/projectdiscovery/clistats v0.1.1 h1:8mwbdbwTU4aT88TJvwIzTpiNeow3XnAB72JIg66c8wE=
 github.com/projectdiscovery/clistats v0.1.1/go.mod h1:4LtTC9Oy//RiuT1+76MfTg8Hqs7FQp1JIGBM3nHK6a0=
-github.com/projectdiscovery/dsl v0.3.11 h1:O3d8nKOYU+ube7U9Dc2v+Z/duahg47tYllXqY8PmWyw=
-github.com/projectdiscovery/dsl v0.3.11/go.mod h1:hgRZyghtLG7nkT75yHPl6214kQm5D9Q2UG85ok6+BHE=
+github.com/projectdiscovery/dsl v0.3.14 h1:JG/r3xW/znvUzG0o0tsQU6vcxS9M/GPlKlDHjz8gTkQ=
+github.com/projectdiscovery/dsl v0.3.14/go.mod h1:cJ4rfvGxIg3RTr4ebIuJYXnOK26eEQKda5tv2uoBQJk=
 github.com/projectdiscovery/fastdialer v0.3.0 h1:/wMptjdsrAU/wiaA/U3lSgYGaYCGJH6xm0mLei6oMxk=
 github.com/projectdiscovery/fastdialer v0.3.0/go.mod h1:Q0YLArvpx9GAfY/NcTPMCA9qZuVOGnuVoNYWzKBwxdQ=
 github.com/projectdiscovery/fdmax v0.0.4 h1:K9tIl5MUZrEMzjvwn/G4drsHms2aufTn1xUdeVcmhmc=
@@ -311,8 +311,8 @@ github.com/projectdiscovery/tlsx v1.1.9 h1:DhErhHCO2+toF5DEX7qe3pkwrIrYlex3F/mzH
 github.com/projectdiscovery/tlsx v1.1.9/go.mod h1:Jy+r38WyYjapQWaffiKGdYm4Ksdrt8BWtsqA2rUospU=
 github.com/projectdiscovery/useragent v0.0.87 h1:XkFxYqwvFaA7Aw3/tnDmXyMuQpBXplTrm0GvrM+aaHY=
 github.com/projectdiscovery/useragent v0.0.87/go.mod h1:lsKq3LoUWXnn0+Iir8hv+vS3zfMOrKn/aNb33Ik/9CI=
-github.com/projectdiscovery/utils v0.4.7 h1:kw0BCox/G4eCaz5MW0U4HP6z/n0K4X7qv7v1wNuXSLA=
-github.com/projectdiscovery/utils v0.4.7/go.mod h1:B4k3whXzeBD+HrlvlqCv+KNgcAuzrTIL+OADkk0z8Bw=
+github.com/projectdiscovery/utils v0.4.8 h1:/Xd38fP8xc6kifZayjrhcYALenJrjO3sHO7lg+I8ZGk=
+github.com/projectdiscovery/utils v0.4.8/go.mod h1:S314NzLcXVCbLbwYCoorAJYcnZEwv7Uhw2d3aF5fJ4s=
 github.com/projectdiscovery/wappalyzergo v0.2.14 h1:+7IMZvFFrwFiKKj8g6A0kirAKTjtECB+X1v2sOS/vFI=
 github.com/projectdiscovery/wappalyzergo v0.2.14/go.mod h1:3vtvQCSYpU+Ilk0qy09WYT9BH0Stut5Qon7KJJ78GKw=
 github.com/refraction-networking/utls v1.6.7 h1:zVJ7sP1dJx/WtVuITug3qYUq034cDq9B2MR1K67ULZM=
