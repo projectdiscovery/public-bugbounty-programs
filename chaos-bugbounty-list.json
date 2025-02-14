@@ -1,5 +1,15 @@
+
 {
   "programs": [
+   {
+   "name":"TECNO",
+   "url":"https://security.tecno.com/dashboard",
+   "bounty": true,
+   "swag": true,
+   "domains":[
+      "security.tecno.com",
+   ]
+}
     {
       "name": "1inch",
       "url": "https://hackenproof.com/1inch/1inch-smart-contract",
