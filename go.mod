@@ -8,7 +8,7 @@ require (
 	github.com/go-git/go-git/v5 v5.7.0
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/goflags v0.1.67
-	github.com/projectdiscovery/gologger v1.1.43
+	github.com/projectdiscovery/gologger v1.1.45
 	github.com/projectdiscovery/httpx v1.6.10
 	github.com/projectdiscovery/retryabledns v1.0.94
 	github.com/projectdiscovery/utils v0.4.10
