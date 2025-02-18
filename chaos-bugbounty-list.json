@@ -5,24 +5,17 @@
    "bounty": true,
    "swag": true,
    "domains":[
-       "www.tecno-mobile.com",
-       "www.boomplay.com",
-       "www.mobile-phantom.com",
-       "account.palm.tech",
-       "api-cloud.palm.tech",
-       "auth-account.palm.tech",
-       "cloud.palm.tech",
-       "page.palm.tech",
-       "tecno-find.palm.tech",
-       "security.tecno.com",
-       "tspot.tecno.com",
-       "www.carlcare.com",
+       "tecno-mobile.com",
+       "boomplay.com",
+       "mobile-phantom.com",
+       "palm.tech",
+       "tecno.com",
+       "carlcare.com",
        "pcconnection.online",
        "nebulalive.com",
        "transsion-os.com",
        "transsion-message.com",
-       "vishavideo.com",
-       "palm.tech"
+       "vishavideo.com"
    ]
 },
     {
