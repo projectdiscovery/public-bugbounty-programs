@@ -1,6 +1,25 @@
 {
   "programs": [
     {
+    "name": "TECNO",
+    "url": "https://security.tecno.com/dashboard",
+    "bounty": true,
+    "swag": true,
+    "domains": [
+        "tecno-mobile.com",
+        "boomplay.com",
+        "mobile-phantom.com",
+        "palm.tech",
+        "tecno.com",
+        "carlcare.com",
+        "pcconnection.online",
+        "nebulalive.com",
+        "transsion-os.com",
+        "transsion-message.com",
+        "vishavideo.com"
+      ]
+    },
+    {
       "name": "1inch",
       "url": "https://hackenproof.com/1inch/1inch-smart-contract",
       "bounty": true,
