@@ -299,12 +299,12 @@ github.com/projectdiscovery/networkpolicy v0.1.3 h1:jciJTciz43pbqNsO9x+oeSJ4HZrG
 github.com/projectdiscovery/networkpolicy v0.1.3/go.mod h1:/4Qb6ODf0vddCMjFx4MEjxLruuRbH9UXUWJGRzVGbOs=
 github.com/projectdiscovery/ratelimit v0.0.73 h1:1/X48+bCeA03Rr0B8mKu6N2MuQxhwTDhszXSfqG5FiU=
 github.com/projectdiscovery/ratelimit v0.0.73/go.mod h1:bcTgsuXyRPnxrCI5AYUGplUVPFNXY0riBM8m6Ah0QNU=
-github.com/projectdiscovery/rawhttp v0.1.84 h1:91ctBCABSR2dIMj+hoQz3E0EsmPDNv2YmsjMOwjyJnk=
-github.com/projectdiscovery/rawhttp v0.1.84/go.mod h1:F3mb+qlkh/pI+CiaoddmMmgeD2TSPM7WUMcm9DU9KBY=
+github.com/projectdiscovery/rawhttp v0.1.88 h1:ThXATSi8o/8sNxW1r8d8XC9IZ2kXfIt1YufcM+66tYA=
+github.com/projectdiscovery/rawhttp v0.1.88/go.mod h1:CLAcrI1cJhoAHFP5wJIsW+EcSd4cmTF1G4frsD7cjCI=
 github.com/projectdiscovery/retryabledns v1.0.94 h1:MvxtRcmvxhxikxT7p/E40hcYRWRiL5fg/JQ8bpBaz+0=
 github.com/projectdiscovery/retryabledns v1.0.94/go.mod h1:croGTyMM4yNlrSWA/X7xNe3c0c7mDmCdbm8goLd8Bak=
-github.com/projectdiscovery/retryablehttp-go v1.0.99 h1:S+lQqo1ZnO5aoWsBV8HapGslJSaYVUII954SnH1RSjw=
-github.com/projectdiscovery/retryablehttp-go v1.0.99/go.mod h1:8Mv9L9vjmam16garE6/dqLFkT0ZcfLNSo9O1zFBiPlE=
+github.com/projectdiscovery/retryablehttp-go v1.0.100 h1:p2q0gcLgBLXXeUsSyyoPfdZxc80uZppX9o6g8c7Xups=
+github.com/projectdiscovery/retryablehttp-go v1.0.100/go.mod h1:/KWt2Bap75do56dtkBQX2zN/cQSMAMiDSqeNdy0G+q4=
 github.com/projectdiscovery/stringsutil v0.0.2 h1:uzmw3IVLJSMW1kEg8eCStG/cGbYYZAja8BH3LqqJXMA=
 github.com/projectdiscovery/stringsutil v0.0.2/go.mod h1:EJ3w6bC5fBYjVou6ryzodQq37D5c6qbAYQpGmAy+DC0=
 github.com/projectdiscovery/tlsx v1.1.9 h1:DhErhHCO2+toF5DEX7qe3pkwrIrYlex3F/mzHEUiZHg=
