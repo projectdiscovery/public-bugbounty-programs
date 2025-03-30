@@ -4601,16 +4601,6 @@
       ]
     },
     {
-      "name": "Hostinger",
-      "url": "https://www.hostinger.in/responsible-disclosure-policy",
-      "bounty": true,
-      "domains": [
-        "hostinger.com",
-        "zyro.com",
-        "hosting24.com"
-      ]
-    },
-    {
       "name": "HTC",
       "url": "https://www.htc.com/in/terms/product-security/",
       "bounty": true,
@@ -5284,43 +5274,6 @@
       ]
     },
     {
-      "name": "Lazada",
-      "url": "https://yeswehack.com/programs/lazada",
-      "bounty": true,
-      "swag": true,
-      "domains": [
-        "lazada.sg",
-        "lazada.vn",
-        "lazada.co.id",
-        "lazada.co.th",
-        "lazada.com",
-        "lazada.com.ph",
-        "lazada.com.my",
-        "lazada-seller.cn",
-        "redmart.com",
-        "lel.asia",
-        "lex.co.id",
-        "lex.com.my",
-        "lex.in.th",
-        "lex.ph",
-        "lex.vn",
-        "supertms.com",
-        "lel.global",
-        "pickmee.vn",
-        "pickmee.id",
-        "pickmee.in.th",
-        "pickmee.ph",
-        "pickmee.my",
-        "pickmee.sg",
-        "lazlogistics.co.id",
-        "lazlogistics.in.th",
-        "lazlogistics.sg",
-        "lazlogistics.vn",
-        "lazlogistics.my",
-        "lazlogistics.ph"
-      ]
-    },
-    {
       "name": "LCX",
       "url": "https://hackenproof.com/lcx/lcx",
       "bounty": true,
@@ -5982,14 +5935,6 @@
       ]
     },
     {
-      "name": "Muslim Pro",
-      "url": "https://yeswehack.com/programs/muslim-pro",
-      "bounty": true,
-      "domains": [
-        "muslimpro.com"
-      ]
-    },
-    {
       "name": "MyEtherWallet",
       "url": "https://hackenproof.com/myetherwallet",
       "bounty": true,
@@ -6565,16 +6510,6 @@
       "bounty": true,
       "domains": [
         "ovh.com"
-      ]
-    },
-    {
-      "name": "OVO",
-      "url": "https://yeswehack.com/programs/ovo-bug-bounty-program",
-      "bounty": true,
-      "swag": false,
-      "domains": [
-        "ovo.id",
-        "taralite.com"
       ]
     },
     {
@@ -8579,15 +8514,6 @@
         "tvlk-data.com",
         "travelokapay.com",
         "tvlk-pay.com"
-      ]
-    },
-    {
-      "name": "Treebal",
-      "url": "https://yeswehack.com/programs/treebal-the-eco-responsible-messaging",
-      "bounty": true,
-      "swag": true,
-      "domains": [
-        "treebal.green"
       ]
     },
     {
