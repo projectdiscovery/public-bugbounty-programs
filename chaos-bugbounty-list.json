@@ -2282,7 +2282,7 @@
       ]
     },
     {
-      "name": "Engel & Völkers",
+      "name": "Engel & V\u00f6lkers",
       "url": "https://hackerone.com/engel_volkers",
       "bounty": false,
       "domains": [
@@ -5778,7 +5778,7 @@
       ]
     },
     {
-      "name": "MON ESPACE SANTÉ",
+      "name": "MON ESPACE SANT\u00c9",
       "url": "https://yeswehack.com/programs/mon-espace-sante-mes",
       "bounty": true,
       "swag": false,
