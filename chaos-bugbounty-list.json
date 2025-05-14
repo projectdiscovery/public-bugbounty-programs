@@ -2797,7 +2797,6 @@
       "url": "https://hackerone.com/glassdoor",
       "bounty": true,
       "domains": [
-        "glassdoor.app",
         "glassdoor.com"
       ]
     },
