@@ -9679,6 +9679,7 @@
       "url": "https://hackerone.com/zomato",
       "bounty": true,
       "domains": [
+        "eternal.com",
         "zomato.com",
         "blinkit.com",
         "district.in",
