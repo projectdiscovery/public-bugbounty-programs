@@ -2,40 +2,53 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Public Bug Bounty Programs",
   "type": "object",
+
+  "definitions": {
+    "ipv4": { "type": "string", "format": "ipv4" },
+    "ipv6": { "type": "string", "format": "ipv6" },
+    "cidrv4": {
+      "type": "string",
+      "pattern": "^((25[0-5]|2[0-4]\\d|[01]?\\d?\\d)\\.){3}(25[0-5]|2[0-4]\\d|[01]?\\d?\\d)\\/(3[0-2]|[12]?\\d)$"
+    },
+    "cidrv6": {
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f:]+\\/(12[0-8]|1[01]\\d|\\d?\\d)$"
+    },
+    "networkItem": {
+      "oneOf": [
+        { "$ref": "#/definitions/ipv4" },
+        { "$ref": "#/definitions/ipv6" },
+        { "$ref": "#/definitions/cidrv4" },
+        { "$ref": "#/definitions/cidrv6" }
+      ]
+    }
+  },
+
   "properties": {
     "programs": {
       "type": "array",
       "items": {
         "type": "object",
         "properties": {
-          "name": {
-            "type": "string"
-          },
-          "url": {
-            "type": "string",
-            "pattern": "^https?://"
-          },
-          "bounty": {
-            "type": "boolean"
-          },
+          "name":   { "type": "string" },
+          "url":    { "type": "string", "pattern": "^https?://" },
+          "bounty": { "type": "boolean" },
           "domains": {
             "type": "array",
             "uniqueItems": true,
-            "items": {
-              "type": "string"
-            }
+            "items": { "type": "string" }
+          },
+          "network": {
+            "type": "array",
+            "description": "Optional IPv4/IPv6 addresses or CIDR ranges in scope for this program.",
+            "uniqueItems": true,
+            "items": { "$ref": "#/definitions/networkItem" }
           }
         },
-        "required": [
-          "name",
-          "url",
-          "bounty",
-          "domains"
-        ]
+        "required": ["name", "url", "bounty", "domains"]
       }
     }
   },
-  "required": [
-    "programs"
-  ]
+
+  "required": ["programs"]
 }

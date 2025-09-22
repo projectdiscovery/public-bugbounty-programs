@@ -25,7 +25,13 @@ We are currently accepting submissions in JSON format. Here's an example of the 
       "hackerone.net",
       "hacker101.com",
       "hackerone-ext-content.com"
+   ],
+   "network": [
+  "66.232.20.1",
+  "66.232.20.0/23",
+  "2001:db8::/32"
    ]
+
 }
 ```
 

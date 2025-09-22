@@ -61,6 +61,29 @@ jobs:
           fi
         working-directory: cmd/validate-domains
 
+    network-scope:
+    name: Validate network (IP/CIDR)
+    needs: [validate-list, duplicate-domain, invalid-domain]  # you can reduce to [validate-list] if you prefer
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: projectdiscovery/actions/setup/go@v1  # keep consistent with your other jobs
+        # (Alternatively: actions/setup-go@v5 with go-version: '1.22.x')
+
+      - name: Build network validator
+        run: go build ./cmd/network-validate
+
+      - name: Validate network entries
+        run: ./network-validate
+
+      # Optional: run unit tests if you added network_validate_test.go
+      - name: Run validator unit tests
+        run: go test ./cmd/network-validate -v
+
+
 #  url-status:
 #    runs-on: ubuntu-latest
 #    steps:
