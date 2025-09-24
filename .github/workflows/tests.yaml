@@ -61,7 +61,7 @@ jobs:
           fi
         working-directory: cmd/validate-domains
 
-    network-scope:
+  network-scope:
     name: Validate network (IP/CIDR)
     needs: [validate-list, duplicate-domain, invalid-domain]  # you can reduce to [validate-list] if you prefer
     runs-on: ubuntu-latest
