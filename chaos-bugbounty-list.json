@@ -2760,6 +2760,25 @@
       ]
     },
     {
+      "name": "Genetec",
+      "url": "https://www.genetec.com/trust-cybersecurity/bug-bounty",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "clearance.network",
+        "clearid.io",
+        "genetec.cloud",
+        "genetec.com",
+        "genetec.one",
+        "geneteccloud.com",
+        "q2c.eu",
+        "autovu.com",
+        "curbsense.com",
+        "autovu.cloud",
+        "ops.center"
+      ]
+    },
+    {
       "name": "Geotab",
       "url": "https://community.geotab.com/s/article/How-to-report-security-vulnerabilities?language=en_US",
       "bounty": true,
