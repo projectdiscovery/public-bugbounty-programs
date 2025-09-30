@@ -61,7 +61,9 @@ func ReadExcludeList() {
 		log.Printf("[WARN] Could not read exclude.txt: %s\n", err)
 		return
 	}
-	defer f.Close()
+	defer func() {
+		_ = f.Close()
+	}()
 
 	scanner := bufio.NewScanner(f)
 	for scanner.Scan() {
@@ -82,7 +84,9 @@ func Process() error {
 	if err != nil {
 		return errors.Wrap(err, "could not create temporary directory")
 	}
-	defer os.RemoveAll(tempdir)
+	defer func() {
+		_ = os.RemoveAll(tempdir)
+	}()
 
 	log.Printf("[INFO] Cloning arkadiyt/bounty-targets-data repository\n")
 
@@ -108,13 +112,14 @@ func Process() error {
 			log.Printf("[WARN] Could not read %s file: %s\n", file, err)
 			continue
 		}
+		defer func() {
+			_ = f.Close()
+		}()
 		var data []Program
 		if err := json.NewDecoder(f).Decode(&data); err != nil {
 			log.Printf("[WARN] Could not decode %s file: %s\n", file, err)
-			f.Close()
 			continue
 		}
-		f.Close()
 
 		for _, item := range data {
 			// Fix for blank yeswehack url field
@@ -184,7 +189,9 @@ func Process() error {
 	if err != nil {
 		return errors.Wrap(err, "could not create new bbp file")
 	}
-	defer newFile.Close()
+	defer func() {
+		_ = newFile.Close()
+	}()
 
 	chaosData := dns.ChaosList{
 		Programs: chaosSlice,
@@ -239,7 +246,9 @@ func ReadChaosBountyPrograms() (map[string]dns.ChaosProgram, error) {
 	if err != nil {
 		return nil, errors.Wrap(err, "could not read chaos list")
 	}
-	defer file.Close()
+	defer func() {
+		_ = file.Close()
+	}()
 
 	var list dns.ChaosList
 	if err := json.NewDecoder(file).Decode(&list); err != nil {
