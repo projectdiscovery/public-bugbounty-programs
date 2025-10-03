@@ -660,7 +660,8 @@
     {
       "name": "AVROTROS",
       "url": "https://www.avrotros.nl/privacy/responsible-disclosure/",
-      "bounty": true,
+      "bounty": false,
+      "swag": true,
       "domains": [
         "avrotros.nl"
       ]
