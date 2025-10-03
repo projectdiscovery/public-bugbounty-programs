@@ -9222,7 +9222,7 @@
     },
     {
       "name": "Visma Public",
-      "url": "https://hackerone.com/visma",
+      "url": "https://app.intigriti.com/researcher/programs/visma/visma/detail",
       "bounty": true,
       "domains": [
         "visma.com",
