@@ -9097,7 +9097,7 @@
     {
       "name": "Valiant VDP",
       "url": "https://app.bugbounty.ch/public/engagement/details/26ed354b-a1b8-4180-9668-71c58f419812",
-      "bounty": true,
+      "bounty": false,
       "domains": [
         "valiant.ch"
       ]
