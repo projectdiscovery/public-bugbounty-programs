@@ -9,7 +9,7 @@ require (
 	github.com/go-git/go-git/v5 v5.7.0
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/goflags v0.1.74
-	github.com/projectdiscovery/gologger v1.1.57
+	github.com/projectdiscovery/gologger v1.1.58
 	github.com/projectdiscovery/httpx v1.7.1
 	github.com/projectdiscovery/retryabledns v1.0.108
 	github.com/projectdiscovery/utils v0.6.0
@@ -39,6 +39,7 @@ require (
 	github.com/bodgit/plumbing v1.3.0 // indirect
 	github.com/bodgit/sevenzip v1.6.0 // indirect
 	github.com/bodgit/windows v1.0.1 // indirect
+	github.com/brianvoe/gofakeit/v7 v7.2.1 // indirect
 	github.com/charmbracelet/glamour v0.8.0 // indirect
 	github.com/charmbracelet/lipgloss v0.13.0 // indirect
 	github.com/charmbracelet/x/ansi v0.3.2 // indirect
@@ -70,6 +71,8 @@ require (
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/css v1.0.1 // indirect
+	github.com/gosimple/slug v1.15.0 // indirect
+	github.com/gosimple/unidecode v1.0.1 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/go-version v1.6.0 // indirect
@@ -110,24 +113,24 @@ require (
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/projectdiscovery/asnmap v1.1.1 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
-	github.com/projectdiscovery/cdncheck v1.2.4 // indirect
+	github.com/projectdiscovery/cdncheck v1.2.5 // indirect
 	github.com/projectdiscovery/clistats v0.1.1 // indirect
-	github.com/projectdiscovery/dsl v0.7.2 // indirect
-	github.com/projectdiscovery/fastdialer v0.4.12 // indirect
+	github.com/projectdiscovery/dsl v0.8.0 // indirect
+	github.com/projectdiscovery/fastdialer v0.4.13 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.7 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
 	github.com/projectdiscovery/gostruct v0.0.2 // indirect
 	github.com/projectdiscovery/hmap v0.0.95 // indirect
 	github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 // indirect
-	github.com/projectdiscovery/mapcidr v1.1.95 // indirect
+	github.com/projectdiscovery/mapcidr v1.1.96 // indirect
 	github.com/projectdiscovery/networkpolicy v0.1.26 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.82 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.90 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.127 // indirect
+	github.com/projectdiscovery/retryablehttp-go v1.0.128 // indirect
 	github.com/projectdiscovery/tlsx v1.2.1 // indirect
 	github.com/projectdiscovery/useragent v0.0.102 // indirect
-	github.com/projectdiscovery/wappalyzergo v0.2.49 // indirect
+	github.com/projectdiscovery/wappalyzergo v0.2.50 // indirect
 	github.com/refraction-networking/utls v1.7.1 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rs/xid v1.6.0 // indirect
