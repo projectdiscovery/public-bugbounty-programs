@@ -9,13 +9,13 @@ require (
 	github.com/go-git/go-git/v5 v5.7.0
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/goflags v0.1.74
-	github.com/projectdiscovery/gologger v1.1.58
+	github.com/projectdiscovery/gologger v1.1.59
 	github.com/projectdiscovery/httpx v1.7.1
 	github.com/projectdiscovery/retryabledns v1.0.108
 	github.com/projectdiscovery/utils v0.6.0
 	github.com/stretchr/testify v1.11.1
 	github.com/tidwall/gjson v1.18.0
-	golang.org/x/net v0.44.0
+	golang.org/x/net v0.46.0
 )
 
 require (
@@ -113,9 +113,9 @@ require (
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/projectdiscovery/asnmap v1.1.1 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
-	github.com/projectdiscovery/cdncheck v1.2.5 // indirect
+	github.com/projectdiscovery/cdncheck v1.2.6 // indirect
 	github.com/projectdiscovery/clistats v0.1.1 // indirect
-	github.com/projectdiscovery/dsl v0.8.0 // indirect
+	github.com/projectdiscovery/dsl v0.8.1 // indirect
 	github.com/projectdiscovery/fastdialer v0.4.13 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.7 // indirect
@@ -127,10 +127,10 @@ require (
 	github.com/projectdiscovery/networkpolicy v0.1.26 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.82 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.90 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.128 // indirect
+	github.com/projectdiscovery/retryablehttp-go v1.0.129 // indirect
 	github.com/projectdiscovery/tlsx v1.2.1 // indirect
 	github.com/projectdiscovery/useragent v0.0.102 // indirect
-	github.com/projectdiscovery/wappalyzergo v0.2.50 // indirect
+	github.com/projectdiscovery/wappalyzergo v0.2.51 // indirect
 	github.com/refraction-networking/utls v1.7.1 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rs/xid v1.6.0 // indirect
@@ -172,14 +172,14 @@ require (
 	go.etcd.io/bbolt v1.4.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go4.org v0.0.0-20230225012048-214862532bf5 // indirect
-	golang.org/x/crypto v0.42.0 // indirect
+	golang.org/x/crypto v0.43.0 // indirect
 	golang.org/x/exp v0.0.0-20250911091902-df9299821621 // indirect
 	golang.org/x/mod v0.28.0 // indirect
 	golang.org/x/oauth2 v0.28.0 // indirect
 	golang.org/x/sync v0.17.0 // indirect
-	golang.org/x/sys v0.36.0 // indirect
-	golang.org/x/term v0.35.0 // indirect
-	golang.org/x/text v0.29.0 // indirect
+	golang.org/x/sys v0.37.0 // indirect
+	golang.org/x/term v0.36.0 // indirect
+	golang.org/x/text v0.30.0 // indirect
 	golang.org/x/time v0.11.0 // indirect
 	golang.org/x/tools v0.37.0 // indirect
 	gopkg.in/djherbis/times.v1 v1.3.0 // indirect
