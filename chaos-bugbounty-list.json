@@ -9747,6 +9747,45 @@
         "zynga.com",
         "zyngagames.com"
       ]
+    },
+    {
+      "name": "DoorDash",
+      "url": "https://hackerone.com/doordash",
+      "bounty": true,
+      "domains": [
+        "doordash.com"
+      ]
+    },
+    {
+      "name": "Adevinta",
+      "url": "https://hackerone.com/adevinta_vdp",
+      "bounty": false,
+      "domains": [
+        "mobile.de",
+        "milanuncios.com",
+        "kleinanzeigen.de",
+        "infojobs.net",
+        "fotocasa.es",
+        "coches.net",
+        "automobile.it",
+        "subito.it",
+        "null-leasing.com",
+        "epreselec.com",
+        "multigestionale.com",
+        "motos.net",
+        "marktplaats.nl",
+        "kijijiautos.ca",
+        "kijiji.ca",
+        "jobmarketinsights.com",
+        "jobisjob.es",
+        "infojobs.it",
+        "habitaclia.com",
+        "fotocasa.pro",
+        "datavenues.com",
+        "adevinta.com",
+        "2ememain.be",
+        "2dehands.be"
+      ]
     }
   ]
 }
