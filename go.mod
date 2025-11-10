@@ -113,10 +113,10 @@ require (
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/projectdiscovery/asnmap v1.1.1 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
-	github.com/projectdiscovery/cdncheck v1.2.8 // indirect
+	github.com/projectdiscovery/cdncheck v1.2.9 // indirect
 	github.com/projectdiscovery/clistats v0.1.1 // indirect
-	github.com/projectdiscovery/dsl v0.8.3 // indirect
-	github.com/projectdiscovery/fastdialer v0.4.14 // indirect
+	github.com/projectdiscovery/dsl v0.8.4 // indirect
+	github.com/projectdiscovery/fastdialer v0.4.15 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.7 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
@@ -127,10 +127,10 @@ require (
 	github.com/projectdiscovery/networkpolicy v0.1.27 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.82 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.90 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.129 // indirect
+	github.com/projectdiscovery/retryablehttp-go v1.0.131 // indirect
 	github.com/projectdiscovery/tlsx v1.2.1 // indirect
 	github.com/projectdiscovery/useragent v0.0.102 // indirect
-	github.com/projectdiscovery/wappalyzergo v0.2.53 // indirect
+	github.com/projectdiscovery/wappalyzergo v0.2.54 // indirect
 	github.com/refraction-networking/utls v1.7.1 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rs/xid v1.6.0 // indirect
