@@ -9717,13 +9717,24 @@
       ]
     },
     {
-      "name": "Zomato",
-      "url": "https://hackerone.com/zomato",
+      "name": "Eternal (Zomato)",
+      "url": "https://hackerone.com/Eternal",
       "bounty": true,
       "domains": [
+        "eternal.com",
         "zomato.com",
+        "blinkit.com",
+        "district.in",
+        "hyperpure.com",
         "zdev.net",
-        "zomatobook.com"
+        "zomans.com",
+        "grofers.com",
+        "grofer.io",
+        "tktnew.com",
+        "ticketnew.com",
+        "insider.in",
+        "edition.in",
+        "runnr.in"
       ]
     },
     {
