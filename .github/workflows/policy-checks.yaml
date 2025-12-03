@@ -5,6 +5,10 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   daily-job:
     runs-on: ubuntu-latest
@@ -26,9 +30,85 @@ jobs:
       - name: Checking URL availability
         run: ./httpx-tester -file urls.txt
 
-      - name: checking programs with unaccessible policy URL
+      - name: Process invalid URLs and update JSON
+        if: always()
         run: |
           if [[ -s invalid.txt ]]; then
-              echo "programs with not accessible URL policy found: $(cat invalid.txt)"
-              exit 1
+            echo "Programs with inaccessible policy URLs found: $(cat invalid.txt)"
+            
+            # Create a new branch
+            BRANCH_NAME="auto-remove-invalid-urls-$(date +%Y%m%d-%H%M%S)"
+            git checkout -b $BRANCH_NAME
+            
+            # Create a script to remove invalid entries
+            cat > remove_invalid.py << 'EOF'
+          import json
+          import sys
+          
+          # Read the invalid URLs
+          with open('invalid.txt', 'r') as f:
+              invalid_urls = [line.strip() for line in f.readlines()]
+          
+          print(f"Found {len(invalid_urls)} invalid URLs")
+          
+          # Read the JSON file
+          with open('chaos-bugbounty-list.json', 'r') as f:
+              data = json.load(f)
+          
+          # Count before removal
+          count_before = len(data['programs'])
+          print(f"Programs before removal: {count_before}")
+          
+          # Create a list of removed program names for the PR description
+          removed_programs = []
+          for program in data['programs']:
+              if program['url'] in invalid_urls:
+                  removed_programs.append(f"{program['name']} ({program['url']})")
+          
+          # Write removed programs to file
+          with open('removed_programs.txt', 'w') as f:
+              for name in removed_programs:
+                  f.write(f"- {name}\n")
+          
+          print(f"Programs to be removed: {len(removed_programs)}")
+          
+          # Filter out programs with invalid URLs
+          data['programs'] = [program for program in data['programs'] if program['url'] not in invalid_urls]
+          
+          # Count after removal
+          count_after = len(data['programs'])
+          removed = count_before - count_after
+          
+          # Write the updated JSON back to the file
+          with open('chaos-bugbounty-list.json', 'w') as f:
+              json.dump(data, f, indent=2)
+          
+          print(f"Removed {removed} programs with invalid URLs")
+          print(f"Programs after removal: {count_after}")
+          EOF
+            
+            # Run the script to remove invalid entries
+            python3 remove_invalid.py
+            
+            # Commit and push changes
+            git config --global user.name "GitHub Actions Bot"
+            git config --global user.email "actions@github.com"
+            git add chaos-bugbounty-list.json
+            git commit -m "Remove programs with invalid policy URLs"
+            git push origin $BRANCH_NAME
+            
+            # Create PR with a simple description
+            gh auth login --with-token <<< "${{ secrets.GITHUB_TOKEN }}"
+            
+            TOTAL_REMOVED=$(grep -c "^-" removed_programs.txt || echo "0")
+            DATE_CHECK=$(date +'%Y-%m-%d')
+            
+            PR_TITLE="Remove programs with invalid policy URLs"
+            PR_BODY="Automatic removal of $TOTAL_REMOVED programs with invalid policy URLs (checked on $DATE_CHECK)"
+            
+            gh pr create --title "$PR_TITLE" --body "$PR_BODY" --base main --head $BRANCH_NAME
+            
+            echo "Created PR to remove invalid entries"
+          else
+            echo "All policy URLs are accessible"
           fi
