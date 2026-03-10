@@ -3,36 +3,48 @@ package main
 import (
 	"flag"
 	"log"
+	"os"
 
+	"github.com/projectdiscovery/public-bugbounty-programs/internal/data"
+
+	"github.com/bytedance/sonic"
 	"github.com/projectdiscovery/goflags"
 	"github.com/projectdiscovery/httpx/runner"
-	fileutil "github.com/projectdiscovery/utils/file"
 )
 
-var bbListFile = flag.String("file", "../../urls.txt", "Chaos bugbounty list json file")
+var (
+	bbListFile = flag.String("file", "dist/data.json", "Chaos bugbounty list json file")
+	outputFile = flag.String("output", "invalid.txt", "Output file for invalid URLs")
+	d          data.Data
+)
 
 func main() {
 	flag.Parse()
 
-	urlFile, err := fileutil.ReadFile(*bbListFile)
+	bbList, err := os.ReadFile(*bbListFile)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	allUrls := goflags.StringSlice{}
+	err = sonic.Unmarshal(bbList, &d)
+	if err != nil {
+		log.Fatal(err)
+	}
 
-	for url := range urlFile {
-		allUrls = append(allUrls, url)
+	urls := goflags.StringSlice{}
+	for _, program := range d.Programs {
+		urls = append(urls, program.URL)
 	}
 
 	options := runner.Options{
 		Methods:               "GET",
-		InputTargetHost:       allUrls,
-		Output:                "invalid.txt",
+		InputTargetHost:       urls,
+		Output:                *outputFile,
 		OutputMatchStatusCode: "404",
 		StatusCode:            true,
 		NoColor:               true,
 		Timeout:               10,
+		DisableStdout:         true,
 	}
 
 	if err := options.ValidateOptions(); err != nil {

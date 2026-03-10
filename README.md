@@ -10,27 +10,35 @@
 <a href="https://discord.gg/projectdiscovery"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
 </p>
 
-The [chaos-bugbounty-list.json](chaos-bugbounty-list.json) file serves as the central management system for the public bug bounty programs displayed on [chaos.projectdiscovery.io](https://chaos.projectdiscovery.io/). We welcome your contributions to this list. If there are specific programs for which you'd like to see reconnaissance data, please submit a pull request.
+This repo serves as the central management system for the public bug bounty programs used on [Chaos](https://chaos.projectdiscovery.io/) by ProjectDiscovery.
 
-We are currently accepting submissions in JSON format. Here's an example of the structure we require:
+## Data Model
 
-```json
-{
-   "name":"HackerOne",
-   "url":"https://hackerone.com/security",
-   "bounty": true,
-   "swag": true,
-   "domains":[
-      "hackerone.com",
-      "hackerone.net",
-      "hacker101.com",
-      "hackerone-ext-content.com"
-   ]
-}
+- Source file: [`src/data.yaml`](src/data.yaml)
+- Generated output: [`dist/data.json`](dist/data.json)
+- Schema: [`src/data.schema.json`](src/data.schema.json)
+
+Each program entry includes:
+
+- `name` (string)
+- `url` (`http`/`https` URL)
+- `bounty` (boolean)
+- `domains` (array of root/apex domains)
+
+Example entry in [`src/data.yaml`](src/data.yaml):
+
+```yaml
+- name: Example Bug Bounty Program
+  url: https://example.com/bugbounty
+  bounty: true
+  domains:
+    - example.com
+    - example.org
 ```
 
-Your contributions will help us to continually improve and expand the range of public bug bounty programs we feature.
+We welcome your contributions to this list. If there are specific programs for which you'd like to see reconnaissance data, please submit a pull request. Make sure to give the [contributing guidelines](/.github/CONTRIBUTING.md) a quick read first so everything runs smoothly.
 
+Your contributions will help us to continually improve and expand the range of public bug bounty programs we feature.
 
 💬 Discussions
 -----
@@ -46,10 +54,7 @@ For direct communication, feel free to reach us at [contact@projectdiscovery.io]
 
 📋 Guidelines
 -----
-- Please note that only domain name values are accepted in the `domains` field.
-- We do not support wildcard inputs such as `*.tld` or `*.tld.*`.
-- The **domains** field should include TLD names associated with the target program, not necessarily based on the scope of the program.
-- Subdomains are populated using our dataset **Passive API**
+- Refer to [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md) for complete contributor guidelines.
 
 📌 References
 -----
