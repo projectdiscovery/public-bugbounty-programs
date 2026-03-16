@@ -5,101 +5,115 @@ on:
     branches:
       - main
     paths:
-      - 'chaos-bugbounty-list.json'
-  workflow_dispatch:
+      - "src/data.yaml"
+      - "src/data.schema.json"
+      - "dist/data.json"
+  workflow_dispatch: {}
 
-env:
-  LIST_PATH_PREFIX: 'chaos-bugbounty-list'
+permissions:
+  contents: read
+  pull-requests: write
 
 jobs:
-  validate-list:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: projectdiscovery/actions/setup/ajv@v1
-      - run: ajv test -s "${LIST_PATH_PREFIX}.schema.json" -d "${LIST_PATH_PREFIX}.json" --valid --all-errors --errors text
+      - run: make compile
+      - run: make test
 
-  duplicate-domain:
-    needs: validate-list
+  duplicate-domains:
+    needs: test
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Find duplicate domains
-        run: >
-          set -e
-
-          jq -r '.programs[].domains[]' "${LIST_PATH_PREFIX}.json" | sort | uniq
-          -c | awk '$1 > 1 { print $2 }' > duplicates.txt
-
-          if [[ -s duplicates.txt ]]; then
-              echo "Duplicate domains found: $(cat duplicates.txt)"
-              exit 1
-          else
-              echo "No duplicate domains found."
-          fi
-          
-  invalid-domain:
-    needs: validate-list
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Go
-        uses: projectdiscovery/actions/setup/go@v1
-
-      - name: Validate domains
-        run: go run .
-        working-directory: cmd/validate-domains
-
-      - name: Check if invalid domains found
+      - uses: actions/checkout@v4
+      - name: Run duplicate domains check
+        id: duplicate_check
+        continue-on-error: true
+        shell: bash
         run: |
-          if [[ -s invalid_domains.txt ]]; then
-              echo "Invalid domains found: $(cat invalid_domains.txt)"
-              exit 1
+          set -o pipefail
+          make duplicate-domains | tee duplicate-domains.log
+          echo "exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+          if [ -s duplicate-domains.log ]; then
+            echo "has_output=true" >> "$GITHUB_OUTPUT"
+            {
+              echo "body<<EOF"
+              echo "## Duplicate Domain Check"
+              echo
+              echo "Duplicate domains were found during the check:"
+              echo
+              echo '```text'
+              head -c 60000 duplicate-domains.log
+              echo
+              echo '```'
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
+          else
+            echo "has_output=false" >> "$GITHUB_OUTPUT"
           fi
-        working-directory: cmd/validate-domains
+      - name: Comment on PR for duplicate domains
+        if: github.event_name == 'pull_request' && steps.duplicate_check.outputs.has_output == 'true'
+        uses: actions/github-script@v7
+        env:
+          COMMENT_BODY: ${{ steps.duplicate_check.outputs.body }}
+        with:
+          script: |
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: process.env.COMMENT_BODY
+            })
+      - name: Fail when duplicate check fails
+        if: steps.duplicate_check.outputs.exit_code != '0'
+        run: exit 1
 
-#  url-status:
-#    runs-on: ubuntu-latest
-#    steps:
-#      - name: Checkout code
-#        uses: actions/checkout@v3
-#        with: 
-#          fetch-depth: 0
-#
-#      - name: Setup golang
-#        uses: actions/setup-go@v4
-#        with:
-#          go-version: 1.19
-#          cache: true
-#          
-#      # This command compares the changes made in a pull request with the main branch, 
-#      # and filters out the JSON files containing URLs of bug bounty programs. It then 
-#      # extracts the URLs from the changed JSON files, compares them with the URLs in the main branch, 
-#      # and saves the unique URLs in a text file named "urls.txt".
-#
-#      - name: Diff and save URLs
-#        run: |
-#          git fetch origin main:main
-#          tmpfile=$(mktemp)
-#          git --no-pager show origin/main:chaos-bugbounty-list.json | jq -r '.programs[].url' > "$tmpfile"
-#          git diff --name-only origin/main HEAD | grep '.json$' | xargs cat | jq -r '.programs[].url' | grep -vf "$tmpfile" > urls.txt
-#          rm "$tmpfile"
-#
-#      - name: Installing Validate domains binary
-#        run: >
-#          go install
-#          github.com/projectdiscovery/public-bugbounty-programs/cmd/httpx-tester
-#
-#      - name: Checking URL availability
-#        run: |
-#          httpx-tester -file urls.txt
-#
-#      - name: Checking programs with unaccessible policy URL
-#        run: |
-#          if [[ -s invalid.txt ]]; then
-#              echo "programs with not accessible URL policy found: $(cat invalid.txt)"
-#              exit 1
-#          fi
+  validate-domains:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: projectdiscovery/actions/setup/go@v1
+      - name: Run validate domains check
+        id: validate_check
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          make validate-domains | tee validate-domains.log
+          echo "exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+          if [ -s validate-domains.log ]; then
+            echo "has_output=true" >> "$GITHUB_OUTPUT"
+            {
+              echo "body<<EOF"
+              echo "## Validate Domains Check"
+              echo
+              echo "Invalid domains were found during the check:"
+              echo
+              echo '```text'
+              head -c 60000 validate-domains.log
+              echo
+              echo '```'
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
+          else
+            echo "has_output=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Comment on PR for invalid domains
+        if: github.event_name == 'pull_request' && steps.validate_check.outputs.has_output == 'true'
+        uses: actions/github-script@v7
+        env:
+          COMMENT_BODY: ${{ steps.validate_check.outputs.body }}
+        with:
+          script: |
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: process.env.COMMENT_BODY
+            })
+      - name: Fail when validate check fails
+        if: steps.validate_check.outputs.exit_code != '0'
+        run: exit 1

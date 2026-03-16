@@ -2,43 +2,46 @@ package main
 
 import (
 	"bufio"
+	"context"
 	"encoding/json"
+	"flag"
 	"fmt"
+	"io"
 	"log"
+	"net/http"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 
-	"github.com/go-git/go-git/v5"
-	"github.com/go-git/go-git/v5/plumbing"
+	"github.com/projectdiscovery/public-bugbounty-programs/internal/data"
+	"github.com/projectdiscovery/public-bugbounty-programs/internal/dns"
+
 	"github.com/pkg/errors"
-	"github.com/projectdiscovery/public-bugbounty-programs/pkg/dns"
+	"gopkg.in/yaml.v3"
 )
 
-// Program structure for arkadiyt public bbp Program data
-type Program struct {
-	ID string `json:"id"` // yeswehack ID
+var (
+	outData         = flag.String("out", "src/data.yaml", "Output file path for generated bounty-targets data")
+	excludeFilePath = flag.String("exclude", "src/exclude.txt", "Path to newline-delimited program exclusion list")
+	repoURL         = flag.String("repo", "https://github.com/arkadiyt/bounty-targets-data", "Source repository URL for bounty target data")
+)
 
-	Name    string `json:"name"`
-	URL     string `json:"url"`
-	Targets struct {
-		InScope []ProgramAsset `json:"in_scope"`
-	} `json:"targets"`
-
-	MaxPayout int         `json:"max_payout"` // bugcrowd payout
-	MaxBounty interface{} `json:"max_bounty"` // intigriti,yeswehack payout
-
-	OffersBounties bool `json:"offers_bounties"` // hackerone payout
-	OffersSwag     bool `json:"offers_swag"`     // hackerone payout
+var srcDataFiles = []string{
+	"bugcrowd_data.json",
+	"hackerone_data.json",
+	"federacy_data.json",
+	// "hackenproof_data.json", // NOTE(dwisiswant0): hackenproof data file is currently unavailable.
+	"intigriti_data.json",
+	"yeswehack_data.json",
 }
 
-type ProgramAsset struct {
-	AssetType       string `json:"asset_type"`       // hackerone (URL)
-	AssetIdentifier string `json:"asset_identifier"` // hackerone
-
-	Type     string `json:"type"`     // bugcrowd,federacy,hackenproof,intigriti,yeswehack (website,api,Web,url,web-application)
-	Target   string `json:"target"`   // bugcrowd,federacy,hackenproof,yeswehack
-	Endpoint string `json:"endpoint"` // intigriti
+var webAssetTypes = map[string]struct{}{
+	"website":         {},
+	"api":             {},
+	"web":             {},
+	"url":             {},
+	"web-application": {},
 }
 
 type IntigritiMaxBounty struct {
@@ -46,158 +49,283 @@ type IntigritiMaxBounty struct {
 }
 
 func main() {
-	ReadExcludeList()
+	flag.Parse()
 
-	if err := Process(); err != nil {
-		log.Fatalf("[FAIL] %s\n", err)
+	if err := run(); err != nil {
+		log.Fatalf("Error: %s\n", err)
 	}
 }
 
-func ReadExcludeList() {
+func run() error {
+	loadExcludeList(*excludeFilePath)
+
+	chaosPrograms, err := readBBPrograms(*outData)
+	if err != nil {
+		return err
+	}
+
+	mergedPrograms, err := buildProgramList(chaosPrograms)
+	if err != nil {
+		return err
+	}
+
+	return writeBBPrograms(*outData, mergedPrograms)
+}
+
+func loadExcludeList(path string) {
 	dns.ExcludeMap = make(map[string]struct{})
 
-	f, err := os.Open("exclude.txt")
+	f, err := os.Open(path)
 	if err != nil {
-		log.Printf("[WARN] Could not read exclude.txt: %s\n", err)
+		log.Printf("Could not read %s: %s\n", path, err)
 		return
 	}
 	defer f.Close()
 
 	scanner := bufio.NewScanner(f)
 	for scanner.Scan() {
-		text := scanner.Text()
+		text := strings.TrimSpace(scanner.Text())
 		if text != "" {
 			dns.ExcludeMap[strings.ToLower(text)] = struct{}{}
 		}
 	}
 }
 
-func Process() error {
-	chaosPrograms, err := ReadChaosBountyPrograms()
+func buildProgramList(existing map[string]data.Program) ([]data.Program, error) {
+	tempDir, err := os.MkdirTemp("", "bbp-*")
+	if err != nil {
+		return nil, errors.Wrap(err, "could not create temporary directory")
+	}
+	defer os.RemoveAll(tempDir)
+
+	if err := dlDataFiles(tempDir); err != nil {
+		return nil, err
+	}
+
+	var merged []data.Program
+	for _, file := range srcDataFiles {
+		log.Printf("Reading %s data file\n", file)
+
+		dataPath := filepath.Join(tempDir, "data", file)
+		items, err := readSourcePrograms(dataPath)
+		if err != nil {
+			log.Printf("Could not parse %s file: %s\n", file, err)
+			continue
+		}
+
+		for _, item := range items {
+			normalizeProgramURL(&item, file)
+			if isExcludedProgram(item.Name) {
+				continue
+			}
+
+			domains := extractDomainsFromItem(item)
+
+			if program, ok := existing[item.Name]; ok {
+				if updated := mergeProgramDomains(&program, domains); updated {
+					log.Printf("Updated program %s (%s): %v\n", item.Name, file, program.Domains)
+					merged = append(merged, program)
+					delete(existing, item.Name)
+				}
+				continue
+			}
+
+			chaosItem := data.Program{
+				Name:    item.Name,
+				URL:     item.URL,
+				Domains: domains,
+			}
+			setProgramRewards(&chaosItem, item, file)
+
+			if len(chaosItem.Domains) == 0 {
+				continue
+			}
+
+			log.Printf("Added program %s [%s]\n", chaosItem.Name, file)
+			merged = append(merged, chaosItem)
+		}
+	}
+
+	for _, program := range existing {
+		merged = append(merged, program)
+	}
+
+	sort.Slice(merged, func(i, j int) bool {
+		return strings.ToLower(merged[i].Name) < strings.ToLower(merged[j].Name)
+	})
+
+	return merged, nil
+}
+
+func dlDataFiles(tempDir string) error {
+	log.Printf("Downloading bounty-targets-data source files\n")
+
+	dataDir := filepath.Join(tempDir, "data")
+	if err := os.MkdirAll(dataDir, 0o755); err != nil {
+		return errors.Wrap(err, "could not create temporary data directory")
+	}
+
+	downloaded := 0
+	for _, file := range srcDataFiles {
+		if err := dlSrcDataFile(dataDir, file); err != nil {
+			log.Printf("Could not download %s: %s\n", file, err)
+			continue
+		}
+		downloaded++
+	}
+
+	if downloaded == 0 {
+		return errors.New("could not download any source data file")
+	}
+
+	return nil
+}
+
+func dlSrcDataFile(destDir, file string) error {
+	rawURL, err := buildGitHubRawURL(*repoURL, "main", "data/"+file)
 	if err != nil {
 		return err
 	}
 
-	tempdir, err := os.MkdirTemp("", "bbp-*")
+	if err := dlFile(rawURL, filepath.Join(destDir, file)); err != nil {
+		return errors.Wrapf(err, "could not download %s", file)
+	}
+
+	log.Printf("Downloaded %s (main)\n", file)
+	return nil
+}
+
+func buildGitHubRawURL(repo, branch, path string) (string, error) {
+	trimmed := strings.TrimSpace(repo)
+	trimmed = strings.TrimSuffix(trimmed, ".git")
+	trimmed = strings.TrimPrefix(trimmed, "https://github.com/")
+	trimmed = strings.TrimPrefix(trimmed, "http://github.com/")
+	trimmed = strings.TrimPrefix(trimmed, "github.com/")
+	trimmed = strings.Trim(trimmed, "/")
+
+	parts := strings.Split(trimmed, "/")
+	if len(parts) < 2 || parts[0] == "" || parts[1] == "" {
+		return "", errors.Errorf("unsupported repository URL %q; expected github owner/repo", repo)
+	}
+
+	owner, repoName := parts[0], parts[1]
+	return fmt.Sprintf("https://raw.githubusercontent.com/%s/%s/%s/%s", owner, repoName, branch, path), nil
+}
+
+func dlFile(url, destPath string) error {
+	req, err := http.NewRequestWithContext(context.Background(), http.MethodGet, url, nil)
 	if err != nil {
-		return errors.Wrap(err, "could not create temporary directory")
+		return err
 	}
-	defer os.RemoveAll(tempdir)
 
-	log.Printf("[INFO] Cloning arkadiyt/bounty-targets-data repository\n")
-
-	_, err = git.PlainClone(tempdir, false, &git.CloneOptions{
-		URL:           "https://github.com/arkadiyt/bounty-targets-data",
-		Progress:      os.Stdout,
-		Depth:         1,
-		SingleBranch:  true,
-		ReferenceName: plumbing.HEAD,
-	})
+	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
-		return errors.Wrap(err, "could not clone bounty targets data")
+		return err
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return errors.Errorf("request failed: %s", resp.Status)
 	}
 
-	var chaosSlice []dns.ChaosProgram
-	dataFiles := []string{"bugcrowd_data.json", "hackerone_data.json", "federacy_data.json", "hackenproof_data.json", "intigriti_data.json", "yeswehack_data.json"}
-	for _, file := range dataFiles {
-		log.Printf("[INFO] Reading %s data file\n", file)
+	f, err := os.Create(destPath)
+	if err != nil {
+		return err
+	}
+	defer f.Close()
 
-		finalPath := filepath.Join(tempdir, "data", file)
-		f, err := os.Open(finalPath)
-		if err != nil {
-			log.Printf("[WARN] Could not read %s file: %s\n", file, err)
-			continue
+	if _, err := io.Copy(f, resp.Body); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func readSourcePrograms(path string) ([]data.SourceProgram, error) {
+	f, err := os.Open(path)
+	if err != nil {
+		return nil, err
+	}
+	defer f.Close()
+
+	var data []data.SourceProgram
+	if err := json.NewDecoder(f).Decode(&data); err != nil {
+		return nil, err
+	}
+	return data, nil
+}
+
+func normalizeProgramURL(item *data.SourceProgram, file string) {
+	if item.URL == "" && file == "yeswehack_data.json" {
+		item.URL = fmt.Sprintf("https://yeswehack.com/programs/%s", item.ID)
+	}
+}
+
+func isExcludedProgram(name string) bool {
+	_, ok := dns.ExcludeMap[strings.ToLower(name)]
+	return ok
+}
+
+func mergeProgramDomains(program *data.Program, domains []string) bool {
+	newDomains := dns.GetUniqueDomains(program.Domains, domains)
+	if len(newDomains) == 0 {
+		return false
+	}
+	program.Domains = append(program.Domains, newDomains...)
+	return true
+}
+
+func setProgramRewards(program *data.Program, item data.SourceProgram, sourceFile string) {
+	switch sourceFile {
+	case "hackerone_data.json":
+		program.Bounty = item.OffersBounties
+		program.Swag = item.OffersSwag
+	case "bugcrowd_data.json", "federacy_data.json", "hackenproof_data.json":
+		program.Bounty = item.MaxPayout > 0
+	case "yeswehack_data.json":
+		if value, ok := item.MaxBounty.(float64); ok {
+			program.Bounty = value > 0
 		}
-		var data []Program
-		if err := json.NewDecoder(f).Decode(&data); err != nil {
-			log.Printf("[WARN] Could not decode %s file: %s\n", file, err)
-			f.Close()
-			continue
-		}
-		f.Close()
+	case "intigriti_data.json":
+		program.Bounty = parseIntigritiBounty(item.MaxBounty) > 0
+	}
+}
 
-		for _, item := range data {
-			// Fix for blank yeswehack url field
-			if item.URL == "" && file == "yeswehack_data.json" {
-				item.URL = fmt.Sprintf("https://yeswehack.com/programs/%s", item.ID)
-			}
-
-			// Exclude if program name is in exclude.txt
-			if _, ok := dns.ExcludeMap[strings.ToLower(item.Name)]; ok {
-				continue
-			}
-			// Only update if we get new domains from list if the program is already
-			// in our list.
-			if program, ok := chaosPrograms[item.Name]; ok {
-				domains := ExtractDomainsFromItem(item)
-				// Dedupe and update the program if we get new domains
-				new := dns.GetUniqueDomains(program.Domains, domains)
-				if len(new) > len(program.Domains) {
-					program.Domains = append(program.Domains, new...)
-					log.Printf("[INFO] Updated program %s (%s): %v\n", item.Name, file, new)
-					chaosSlice = append(chaosSlice, program)
-					delete(chaosPrograms, item.Name)
-				}
-				continue
-			}
-
-			chaosItem := dns.ChaosProgram{
-				Name: item.Name,
-				URL:  item.URL,
-			}
-
-			// Parse the bounty and swag data from item
-			switch file {
-			case "hackerone_data.json":
-				if item.OffersBounties {
-					chaosItem.Bounty = true
-				}
-				if item.OffersSwag {
-					chaosItem.Swag = true
-				}
-			case "bugcrowd_data.json", "federacy_data.json", "hackenproof_data.json":
-				if item.MaxPayout > 0 {
-					chaosItem.Bounty = true
-				}
-			case "yeswehack_data.json":
-				if value, ok := item.MaxBounty.(float64); ok && value > 0 {
-					chaosItem.Bounty = true
-				}
-			case "intigriti_data.json":
-				if value, ok := item.MaxBounty.(IntigritiMaxBounty); ok && value.Value > 0.0 {
-					chaosItem.Bounty = true
-				}
-			}
-
-			chaosItem.Domains = ExtractDomainsFromItem(item)
-			if len(chaosItem.Domains) > 0 {
-				log.Printf("[INFO] Added program %s [%s]\n", chaosItem.Name, file)
-				chaosSlice = append(chaosSlice, chaosItem)
+func parseIntigritiBounty(value interface{}) float64 {
+	switch v := value.(type) {
+	case IntigritiMaxBounty:
+		return v.Value
+	case map[string]interface{}:
+		if raw, ok := v["value"]; ok {
+			if amount, ok := raw.(float64); ok {
+				return amount
 			}
 		}
 	}
+	return 0
+}
 
-	for _, v := range chaosPrograms {
-		chaosSlice = append(chaosSlice, v)
-	}
-	newFile, err := os.Create("../chaos-bugbounty-list.json")
+func writeBBPrograms(path string, programs []data.Program) error {
+	newFile, err := os.Create(path)
 	if err != nil {
 		return errors.Wrap(err, "could not create new bbp file")
 	}
 	defer newFile.Close()
 
-	chaosData := dns.ChaosList{
-		Programs: chaosSlice,
+	chaosData := data.Data{
+		Programs: programs,
 	}
-	marshalled, err := json.MarshalIndent(chaosData, " ", "  ")
-	if err != nil {
+
+	encoder := yaml.NewEncoder(newFile)
+	encoder.SetIndent(2)
+	if err := encoder.Encode(chaosData); err != nil {
 		return errors.Wrap(err, "could not marshal chaos bbp data")
 	}
-	_, err = newFile.Write(marshalled)
-	return err
+
+	return encoder.Close()
 }
 
-func ExtractDomainsFromItem(item Program) []string {
+func extractDomainsFromItem(item data.SourceProgram) []string {
 	uniqMap := make(map[string]struct{})
 	var domains []string
 
@@ -222,7 +350,7 @@ func ExtractDomainsFromItem(item Program) []string {
 			extractDomain(asset.AssetIdentifier)
 		}
 		if asset.Type != "" {
-			if asset.Type != "website" && asset.Type != "api" && asset.Type != "Web" && asset.Type != "url" && asset.Type != "web-application" {
+			if _, ok := webAssetTypes[strings.ToLower(asset.Type)]; !ok {
 				continue
 			}
 			extractDomain(asset.Target)
@@ -232,24 +360,24 @@ func ExtractDomainsFromItem(item Program) []string {
 	return domains
 }
 
-func ReadChaosBountyPrograms() (map[string]dns.ChaosProgram, error) {
-	log.Printf("[INFO] Reading chaos-bugbounty-list.json\n")
+func readBBPrograms(path string) (map[string]data.Program, error) {
+	log.Printf("Reading %s\n", path)
 
-	file, err := os.Open("../chaos-bugbounty-list.json")
+	file, err := os.Open(path)
 	if err != nil {
 		return nil, errors.Wrap(err, "could not read chaos list")
 	}
 	defer file.Close()
 
-	var list dns.ChaosList
-	if err := json.NewDecoder(file).Decode(&list); err != nil {
+	var list data.Data
+	if err := yaml.NewDecoder(file).Decode(&list); err != nil {
 		return nil, errors.Wrap(err, "could not decode chaos list")
 	}
 
-	chaosMap := make(map[string]dns.ChaosProgram)
+	chaosMap := make(map[string]data.Program)
 	for _, value := range list.Programs {
 		chaosMap[value.Name] = value
 	}
-	log.Printf("[INFO] Read %d programs from chaos list\n", len(chaosMap))
+	log.Printf("Read %d programs from chaos list\n", len(chaosMap))
 	return chaosMap, nil
 }

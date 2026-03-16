@@ -6,29 +6,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  daily-job:
+  checks:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
-
-      - name: Setup Go
-        uses: projectdiscovery/actions/setup/go@v1
-
-      - name: Get all bbp policy URLs
-        run: jq -r '.programs[].url' chaos-bugbounty-list.json > urls.txt
-
-      - name: Installing Validate domains binary
-        run: go build ./cmd/httpx-tester
-
-      - name: Checking URL availability
-        run: ./httpx-tester -file urls.txt
-
-      - name: checking programs with unaccessible policy URL
-        run: |
-          if [[ -s invalid.txt ]]; then
-              echo "programs with not accessible URL policy found: $(cat invalid.txt)"
-              exit 1
-          fi
+      - uses: actions/checkout@v6
+      - uses: projectdiscovery/actions/setup/go@v1
+      - run: make policy-checks

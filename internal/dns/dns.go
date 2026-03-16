@@ -31,19 +31,6 @@ var (
 	client *retryabledns.Client
 )
 
-// ChaosProgram json data item struct
-type ChaosProgram struct {
-	Name    string   `json:"name"`
-	URL     string   `json:"url"`
-	Bounty  bool     `json:"bounty"`
-	Swag    bool     `json:"swag"`
-	Domains []string `json:"domains"`
-}
-
-type ChaosList struct {
-	Programs []ChaosProgram `json:"programs"`
-}
-
 func ValidateFQDN(value string) bool {
 	// check if domain can can be parsed
 	tld, err := publicsuffix.EffectiveTLDPlusOne(value)
