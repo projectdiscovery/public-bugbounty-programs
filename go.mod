@@ -105,7 +105,7 @@ require (
 	github.com/projectdiscovery/asnmap v1.1.1 // indirect
 	github.com/projectdiscovery/awesome-search-queries v0.0.0-20260104120501-961ef30f7193 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
-	github.com/projectdiscovery/cdncheck v1.2.26 // indirect
+	github.com/projectdiscovery/cdncheck v1.2.27 // indirect
 	github.com/projectdiscovery/clistats v0.1.1 // indirect
 	github.com/projectdiscovery/dsl v0.8.13 // indirect
 	github.com/projectdiscovery/fastdialer v0.5.4 // indirect
@@ -122,7 +122,7 @@ require (
 	github.com/projectdiscovery/retryablehttp-go v1.3.6 // indirect
 	github.com/projectdiscovery/tlsx v1.2.2 // indirect
 	github.com/projectdiscovery/useragent v0.0.107 // indirect
-	github.com/projectdiscovery/wappalyzergo v0.2.71 // indirect
+	github.com/projectdiscovery/wappalyzergo v0.2.72 // indirect
 	github.com/refraction-networking/utls v1.8.2 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rs/xid v1.6.0 // indirect
