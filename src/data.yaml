@@ -5935,6 +5935,11 @@ programs:
     bounty: true
     domains:
       - test-socrata.com
+  - name: Soldera
+    url: https://www.soldera.org/terms/vdp
+    bounty: false
+    domains:
+      - soldera.org
   - name: Sony
     url: https://hackerone.com/sony
     bounty: false
