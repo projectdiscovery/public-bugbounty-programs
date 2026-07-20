@@ -14,9 +14,8 @@ This repo serves as the central management system for the public bug bounty prog
 
 ## Data Model
 
-- Source file: [`src/data.yaml`](src/data.yaml)
-- Generated output: [`dist/data.json`](dist/data.json)
-- Schema: [`src/data.schema.json`](src/data.schema.json)
+- Source file: [`src/data.yaml`](src/data.yaml).
+- Schema: [`src/data.schema.json`](src/data.schema.json).
 
 Each program entry includes:
 
@@ -35,6 +34,8 @@ Example entry in [`src/data.yaml`](src/data.yaml):
     - example.com
     - example.org
 ```
+
+Data is generated in JSON format and can be found in [`dist/data.json`](dist/data.json).
 
 We welcome your contributions to this list. If there are specific programs for which you'd like to see reconnaissance data, please submit a pull request. Make sure to give the [contributing guidelines](/.github/CONTRIBUTING.md) a quick read first so everything runs smoothly.
 

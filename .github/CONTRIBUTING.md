@@ -13,7 +13,7 @@ Most contributions change:
 
 Generated output:
 
-- `dist/data.json` is generated from `src/data.yaml`
+- `dist/data.json` is generated automatically from `src/data.yaml` after changes are merged
 
 ## Requirements
 
@@ -36,7 +36,10 @@ Domain rules:
 
 Run checks before opening a pull request.
 
-1. Build generated JSON from YAML:
+> [!NOTE]
+> Only edit `src/data.yaml` for data changes. DO NOT edit or commit `dist/data.json`; automation regenerates it after the change is merged.
+
+1. Build generated JSON locally for validation:
 
 ```bash
 make compile

@@ -1,0 +1,52 @@
+name: 🛠️ Generate Data
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/data.yaml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: generate-data
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: projectdiscovery/actions/setup/ajv@v1
+      - run: make compile
+      - run: make test
+      - uses: actions/upload-artifact@v4
+        with:
+          name: generated-data
+          path: dist/data.json
+
+  commit:
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: projectdiscovery/actions/setup/git@v1
+      - uses: actions/download-artifact@v5
+        with:
+          name: generated-data
+          path: dist
+      - name: Commit generated JSON
+        shell: bash
+        run: |
+          if git diff --quiet -- dist/data.json; then
+            exit 0
+          fi
+
+          git add dist/data.json
+          git commit -m "build: generate data.json :robot:"
+          git push
