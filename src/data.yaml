@@ -5694,6 +5694,11 @@ programs:
     bounty: false
     domains:
       - tripit.com
+  - name: Sardine
+    url: https://bugcrowd.com/engagements/sardine-vdp-ess
+    bounty: false
+    domains:
+      - sardine.ai
   - name: Savedroid
     url: https://hackerone.com/savedroid
     bounty: true
