@@ -7321,6 +7321,11 @@ programs:
       - meebits.app
       - cryptopunks.app
       - mdvmm.xyz
+  - name: Zabbix
+    url: https://hackerone.com/zabbix
+    bounty: true
+    domains:
+      - zabbix.com
   - name: Zapier
     url: https://zapier.com/engineering/bug-bounty-program/
     bounty: true
