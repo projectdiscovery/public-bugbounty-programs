@@ -7411,3 +7411,10 @@ programs:
     domains:
       - zynga.com
       - zyngagames.com
+  - name: 1win
+    url: https://hackerone.com/1win_com
+    bounty: true
+    domains:
+      - 1win.com
+      - 1w.run
+      - 1w.cash
