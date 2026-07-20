@@ -94,10 +94,10 @@ require (
 	github.com/projectdiscovery/asnmap v1.1.1 // indirect
 	github.com/projectdiscovery/awesome-search-queries v0.0.0-20260104120501-961ef30f7193 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
-	github.com/projectdiscovery/cdncheck v1.2.42 // indirect
+	github.com/projectdiscovery/cdncheck v1.2.45 // indirect
 	github.com/projectdiscovery/clistats v0.1.4 // indirect
 	github.com/projectdiscovery/dsl v0.8.20 // indirect
-	github.com/projectdiscovery/fastdialer v0.5.11 // indirect
+	github.com/projectdiscovery/fastdialer v0.5.13 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
 	github.com/projectdiscovery/freeport v0.0.7 // indirect
 	github.com/projectdiscovery/goconfig v0.0.1 // indirect
@@ -106,13 +106,13 @@ require (
 	github.com/projectdiscovery/hmap v0.0.101 // indirect
 	github.com/projectdiscovery/machineid v0.0.0-20250715113114-c77eb3567582 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.97 // indirect
-	github.com/projectdiscovery/networkpolicy v0.1.41 // indirect
+	github.com/projectdiscovery/networkpolicy v0.1.42 // indirect
 	github.com/projectdiscovery/ratelimit v0.0.88 // indirect
 	github.com/projectdiscovery/rawhttp v0.1.90 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.3.16 // indirect
+	github.com/projectdiscovery/retryablehttp-go v1.3.19 // indirect
 	github.com/projectdiscovery/tlsx v1.2.2 // indirect
 	github.com/projectdiscovery/useragent v0.0.108 // indirect
-	github.com/projectdiscovery/wappalyzergo v0.2.87 // indirect
+	github.com/projectdiscovery/wappalyzergo v0.2.90 // indirect
 	github.com/refraction-networking/utls v1.8.2 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rs/xid v1.6.0 // indirect
