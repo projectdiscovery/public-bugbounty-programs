@@ -10,14 +10,6 @@ programs:
     domains:
       - 4chan.org
       - 4cdn.org
-  - name: 84codes
-    url: https://www.84codes.com/security
-    bounty: true
-    domains:
-      - cloudamqp.com
-      - cloudkarafka.com
-      - elephantsql.com
-      - cloudmqtt.com
   - name: 8x8
     url: https://hackerone.com/8x8
     bounty: false
