@@ -3951,6 +3951,11 @@ programs:
     bounty: false
     domains:
       - jetblue.com
+  - name: Jetton Games
+    url: https://jetton.games/security/policy
+    bounty: true
+    domains:
+      - jetton.games
   - name: Jfrog
     url: https://hackerone.com/jfrog
     bounty: false
