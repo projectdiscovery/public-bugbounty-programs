@@ -6533,6 +6533,11 @@ programs:
     bounty: false
     domains:
       - trint.com
+  - name: TrueProxies
+    url: https://trueproxies.com/security/
+    bounty: false
+    domains:
+      - trueproxies.com
   - name: Trustee
     url: https://hackenproof.com/trustee/trustee-plus-mobile
     bounty: true
