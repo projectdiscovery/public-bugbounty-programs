@@ -1040,7 +1040,7 @@ programs:
       - cobinhood.exchange
       - cobinhood.com
   - name: Coca-Cola
-    url: https://bugcrowd.com/coca-cola
+    url: https://app.intigriti.com/programs/tccc/coca-cola/detail
     bounty: false
     domains:
       - coca-cola.com
