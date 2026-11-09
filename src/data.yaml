@@ -6469,6 +6469,11 @@ programs:
     bounty: false
     domains:
       - topechelon.com
+  - name: TopX
+    url: https://topx.one/security/policy
+    bounty: true
+    domains:
+      - topx.one
   - name: Torfs
     url: https://app.intigriti.com/programs/torfs/torfs/detail
     bounty: true
