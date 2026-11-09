@@ -12,7 +12,7 @@ programs:
       - 4cdn.org
   - name: 84codes
     url: https://www.84codes.com/security
-    bounty: true
+    bounty: false
     domains:
       - cloudamqp.com
       - cloudkarafka.com
