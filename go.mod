@@ -110,7 +110,7 @@ require (
 	github.com/projectdiscovery/ratelimit v0.0.95 // indirect
 	github.com/projectdiscovery/rawhttp v0.3.1 // indirect
 	github.com/projectdiscovery/retryablehttp-go v1.3.34 // indirect
-	github.com/projectdiscovery/tlsx v1.4.5 // indirect
+	github.com/projectdiscovery/tlsx v1.4.3-0.20261020052910-acb80c2c7c75 // indirect
 	github.com/projectdiscovery/useragent v0.0.110 // indirect
 	github.com/projectdiscovery/wappalyzergo v0.3.8 // indirect
 	github.com/refraction-networking/utls v1.8.2 // indirect
